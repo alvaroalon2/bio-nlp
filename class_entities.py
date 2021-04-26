@@ -1,7 +1,6 @@
-
 class Entities:
 
-    def __init__(self,text, diseases, chemicals, genes):
+    def __init__(self, text, diseases, chemicals, genes):
         self.text = text
         self.diseases = diseases
         self.chemicals = chemicals
@@ -19,12 +18,35 @@ class Entities:
 
     def get_genes_entities(self):
         return self.genes
-    
+
     def append_new_entities(self, entities):
         self.ents += entities
-        
+
     def sort_entities(self):
         self.ents_sorted = sorted(self.ents, key=lambda k: k['start'])
+
+    def remove_non_entities(self):
+        for ent in self.ents:
+            if ent['entity_group'] == '0':
+                self.ents.remove(ent)
+
+    def correct_boundaries(self):
+        last_ent = {'entity_group': '0', 'score': 1, 'word': '', 'start': 0, 'end': 0}
+        for ent in self.ents:
+            if ent['entity_group'] == last_ent['entity_group']:
+                if ent['start'] == last_ent['end']:
+                    # print(last_ent)
+                    # print(ent)
+                    ent['start'] = last_ent['start']
+                    if ent['word'].startswith('##'):
+                        ent['word'] = ent['word'].replace('##', '')
+                    ent['word'] = last_ent['word'] + ent['word']
+                    # print('NEW BOUNDARIES:')
+                    # print(ent)
+                    self.ents.remove(last_ent)
+                    # print('------------------')
+            last_ent = ent
+
 
     def parse_ner_spacy(self):
         self.sort_entities()

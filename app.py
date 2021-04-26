@@ -6,18 +6,23 @@ from flaskext.markdown import Markdown
 # import bioprocessor
 import diseaseprocessor
 import chemicalprocessor
+import geneprocessor
 import class_entities
+import generaldataprocessor
 
 from spacy import displacy
 
 colors = {"DISEASE":"linear-gradient(90deg, #aa9cfc, #fc9ce7)",
-          "CHEMICAL":"linear-gradient(90deg, #43C6AC, ##F8FFAE)"}
+          "CHEMICAL":"linear-gradient(90deg, #ffa17f, #3575ad)"}
 
 disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
 print('Disease Model Loaded')
 
 chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
 print('Chemical Model Loaded')
+
+# gene_service = geneprocessor.GeneProcessor('./models/Gene')
+# print('Gene Model Loaded')
 
 # article_service = articleprocessor.ArticleProcessor()
 # paragraph_service = paragraphprocessor.ParagraphProcessor()
@@ -72,17 +77,26 @@ def post_search_entities():
 
     chemical_service.sentence_to_process(sequence)
     chemical_results = chemical_service.predict()
-    print('Chemical Model results:')
-    print(chemical_results)
+    # print('Chemical Model results:')
+    # print(chemical_results)
 
     disease_service.sentence_to_process(sequence)
     disease_results = disease_service.predict()
-    print('Disease Model results:')
-    print(disease_results)
+    # print('Disease Model results:')
+    # print(disease_results)
 
-    gene_results = []
+    # gene_service.sentence_to_process(sequence)
+    # gene_results = gene_service.predict()
+    # print('Gene Model results:')
+    # print(gene_results)
 
-    entities = class_entities.Entities(sequence, disease_results, chemical_results, gene_results)
+    entities = class_entities.Entities(sequence, disease_results, chemical_results, [])
+
+    entities.remove_non_entities()
+
+    entities.correct_boundaries()
+
+    print(entities.ents)
 
     entities_parsed = entities.parse_ner_spacy()
 

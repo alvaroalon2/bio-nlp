@@ -9,6 +9,7 @@ __pycache__/
 # Models data
 models/Disease/pytorch_model.bin
 models/Chemical/pytorch_model.bin
+models/Gene/pytorch_model.bin
 
 # Distribution / packaging
 .Python
