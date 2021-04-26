@@ -1,0 +1,5 @@
+embeddings {
+  tensor_name: "pubmed_entity_2048.tsv"
+  metadata_path: "pubmed_entity_2048.txt"
+  tensor_path: "pubmed_entity_2048.tsv"
+}

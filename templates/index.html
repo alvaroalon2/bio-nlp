@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>librAIry Bio-NLP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <!--<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animate/animate.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="{{ url_for('static', filename='vendor/css-hamburgers/hamburgers.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/util.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <!--===============================================================================================-->
+</head>
+<body>
+
+<div class="contact1">
+    <header class="header" style="margin-bottom: 30px">
+        <h1 style="font-weight: bold; font-size:500%; text-align:center;">Bio-NLP</h1>
+        <p style="color:black; font-size:100%; text-align:center;">BioNER tool which aims to apply
+            last state of the art models for the recognition of Biomedical Entities</p>
+    </header>
+    <div class="container-contact1" style="flex-direction:column; align-items: center">
+        <div class="contact1-pic js-tilt" data-tilt>
+            <img src="{{ url_for('static', filename='images/ner_icon.png') }}" alt="IMG">
+        </div>
+
+        <span class="contact1-form-title">
+					Find the biomedical entities hidden in text.
+				</span>
+
+
+        <div class="wrap-input1 validate-input">
+            <textarea id="myTextarea" class="input1"></textarea>
+            <span class="shadow-input1"></span>
+        </div>
+
+        <div>
+            <button onclick="doRequest()" class="contact1-form-btn">
+						<span>
+							Analyze
+						</span>
+            </button>
+        </div>
+
+        <div>
+            <h1 style="margin-top:40px"> Results </h1>
+        </div>
+
+        <div id="ner_visual" ; style="overflow-x: auto; solid #e6e9ef; border-radius: 0.25rem; margin-top:20px;
+				font-size:75%; background:rgba(255, 255, 255, 0.39)">
+
+        </div>
+
+        <div style="margin-top:30px;">
+            <div style="width: 50%; float:left; align:left; position:relative; right:20%">
+                <h2 style="text-align:center; margin-bottom:15px">Diseases</h2>
+                <table id="drugs_table" class="table">
+                    <tbody>
+                    <tr>
+                        <th>Text Entity</th>
+                        <th>Normalized</th>
+                        <th>Parent</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="width: 50%; float:right; align:left; position:relative; left:20%">
+                <h2 style="text-align:center; margin-bottom:15px">Drugs/Chemicals</h2>
+                <table id="drugs_table" class="table">
+                    <tbody>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div>
+        <p> Work implemented by: </p>
+
+    </div>
+
+</footer>
+
+
+<!--===============================================================================================-->
+<script src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+<!--===============================================================================================-->
+<!--<script src="vendor/bootstrap/js/popper.js"></script>-->
+<!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+<!--===============================================================================================-->
+<script src="{{ url_for('static', filename='vendor/select2/select2.min.js') }}"></script>
+<!--===============================================================================================-->
+<script src="{{ url_for('static', filename='vendor/tilt/tilt.jquery.min.js') }}"></script>
+<script>
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+		function doRequest() {
+			var message = {
+			            text: document.getElementById("myTextarea").value
+			        }
+			var message_data = JSON.stringify(message)
+      //console.log(message_data)
+			jQuery.ajax ({
+			    url: "/bio-nlp/entities",
+			    type: "POST",
+					data: message_data,
+			    contentType: "application/json; charset=utf-8",
+			    dataType: "html",
+			    success: function(response){
+					$('#ner_visual').html(response);
+			    },
+			    error: function(error){
+			        console.log('Error' + error)
+			    }
+			});
+		}
+
+
+
+</script>
+
+</body>
+</html>

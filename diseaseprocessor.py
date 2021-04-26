@@ -1,4 +1,3 @@
-from run_model import *
 from bioprocessor import BioProcessor
 
 

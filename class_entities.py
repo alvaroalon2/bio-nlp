@@ -6,9 +6,10 @@ class Entities:
         self.diseases = diseases
         self.chemicals = chemicals
         self.genes = genes
+
         self.ents = self.diseases + self.chemicals + self.genes
 
-        self.ents_sorted = sorted(self.ents, key=lambda k: k['start'])
+        self.ents_sorted = []
 
     def get_diseases_entities(self):
         return self.diseases
@@ -18,8 +19,15 @@ class Entities:
 
     def get_genes_entities(self):
         return self.genes
+    
+    def append_new_entities(self, entities):
+        self.ents += entities
+        
+    def sort_entities(self):
+        self.ents_sorted = sorted(self.ents, key=lambda k: k['start'])
 
     def parse_ner_spacy(self):
+        self.sort_entities()
         dict_results = {
             "text": self.text,
             "ents": [{"start": ent['start'],

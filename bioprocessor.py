@@ -21,11 +21,19 @@ class BioProcessor:
                                                     grouped_entities=True)
 
         self.sequence = ''
+        self.offset = 0
         self.results = {}
 
     def sentence_to_process(self, sequence):
         self.sequence = sequence
+    
+    def set_offset(self, offset):
+        self.offset += offset
 
     def predict(self):
         self.results = self.pipeline(self.sequence)
+        if self.offset > 0:
+            for result in self.results:
+                result['start'] += self.offset
+                result['end'] += self.offset
         return self.results

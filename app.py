@@ -1,32 +1,41 @@
 import flask
 from flask import request, jsonify, abort
-# from flask_cors import CORS, cross_origin
+from flask import render_template
+from flask_cors import CORS, cross_origin
+from flaskext.markdown import Markdown
 # import bioprocessor
 import diseaseprocessor
 import chemicalprocessor
 import class_entities
-# import drugprocessor
-# import articleprocessor
-# import paragraphprocessor
-# import json
 
+from spacy import displacy
 
-disease_service = diseaseprocessor.DiseaseProcessor('models/Disease')
+colors = {"DISEASE":"linear-gradient(90deg, #aa9cfc, #fc9ce7)",
+          "CHEMICAL":"linear-gradient(90deg, #43C6AC, ##F8FFAE)"}
 
-chemical_service = chemicalprocessor.ChemicalProcessor('models/Chemicals')
+disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
+print('Disease Model Loaded')
 
+chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
+print('Chemical Model Loaded')
 
 # article_service = articleprocessor.ArticleProcessor()
 # paragraph_service = paragraphprocessor.ParagraphProcessor()
 
-
 app = flask.Flask(__name__)
-# CORS(app)
+Markdown(app)
+CORS(app, support_credentials=True, resources={r"/*": {"origins": "*"}})
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 @app.route('/', methods=['GET'])
+@cross_origin()
 def home():
-    return '''<h1>librAIry Bio-NLP</h1>
-<p>A prototype API for NLP tasks in biomedical domain.</p>'''
+    return render_template('index.html')
+
+
+#     return '''<h1>librAIry Bio-NLP</h1>
+# <p>A prototype API for NLP tasks in biomedical domain.</p>'''
 
 
 @app.route('/bio-nlp', methods=['GET'])
@@ -54,32 +63,33 @@ def biohome():
 ######
 ##################################################################################################
 
-
 @app.route('/bio-nlp/entities', methods=['POST'])
+@cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def post_search_entities():
     if not request.json or not 'text' in request.json:
         abort(400)
     sequence = request.json['text']
 
+    chemical_service.sentence_to_process(sequence)
+    chemical_results = chemical_service.predict()
+    print('Chemical Model results:')
+    print(chemical_results)
+
     disease_service.sentence_to_process(sequence)
     disease_results = disease_service.predict()
-
-    chemical_service.sentence_to_process(sequence)
-    chemical_results = disease_service.predict()
+    print('Disease Model results:')
+    print(disease_results)
 
     gene_results = []
 
-    entities = class_entities.Entities(sequence,disease_results, chemical_results,gene_results)
+    entities = class_entities.Entities(sequence, disease_results, chemical_results, gene_results)
 
-    return jsonify(entities_parsed)
+    entities_parsed = entities.parse_ner_spacy()
 
+    entities_html = displacy.render(entities_parsed, style="ent", manual=True,
+                                    options={"ents": ["DISEASE", "CHEMICAL"], "colors": colors})
 
-# @app.route('/bio-nlp/diseases', methods=['POST'])
-# def post_diseases():
-#     if not request.json or not 'text' in request.json:
-#         abort(400)
-#     diseases = bio_service.get_diseases(request.json['text'])
-#     return jsonify(diseases)
+    return entities_html
 
 
 # ##################################################################################################
