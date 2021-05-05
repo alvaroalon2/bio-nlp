@@ -1,2 +1,6 @@
 transformers==4.5.0
 spacy
+pysolr
+flask
+flask-cors
+Flask-Markdown

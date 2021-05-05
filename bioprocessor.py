@@ -1,5 +1,7 @@
 from transformers import AutoTokenizer, AutoModel, AutoConfig, AutoModelForTokenClassification, \
     TokenClassificationPipeline
+import pysolr
+
 
 
 class BioProcessor:
@@ -27,13 +29,19 @@ class BioProcessor:
     def sentence_to_process(self, sequence):
         self.sequence = sequence
     
-    def set_offset(self, offset):
-        self.offset += offset
+    def set_offset(self, offset, restart = False):
+        if restart:
+            self.offset = 0
+        else:
+            self.offset = offset
+            
+        
 
     def predict(self):
-        self.results = self.pipeline(self.sequence)
+        results = self.pipeline(self.sequence)
         if self.offset > 0:
-            for result in self.results:
+            for result in results:
                 result['start'] += self.offset
                 result['end'] += self.offset
+        self.results = results
         return self.results
