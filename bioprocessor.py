@@ -3,7 +3,6 @@ from transformers import AutoTokenizer, AutoModel, AutoConfig, AutoModelForToken
 import pysolr
 
 
-
 class BioProcessor:
     def __init__(self, model_name):
         self.model_name = model_name
@@ -28,14 +27,12 @@ class BioProcessor:
 
     def sentence_to_process(self, sequence):
         self.sequence = sequence
-    
-    def set_offset(self, offset, restart = False):
+
+    def set_offset(self, offset, restart=False):
         if restart:
             self.offset = 0
         else:
             self.offset = offset
-            
-        
 
     def predict(self):
         results = self.pipeline(self.sequence)
@@ -45,3 +42,4 @@ class BioProcessor:
                 result['end'] += self.offset
         self.results = results
         return self.results
+

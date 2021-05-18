@@ -6,3 +6,13 @@ def paragraphs(document):
             yield document[start:token.i]
             start = token.i
     yield document[start:]
+
+def unique_terms(entities):
+    seen = set()
+    ents = []
+    for item in entities:
+        if item.lower() not in seen:
+            if len(item)>1:
+                seen.add(item.lower())
+                ents.append(item)
+    return ents

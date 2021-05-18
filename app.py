@@ -3,12 +3,9 @@ from flask import request, jsonify, abort
 from flask import render_template
 from flask_cors import CORS, cross_origin
 from flaskext.markdown import Markdown
-# import bioprocessor
-import diseaseprocessor
-import chemicalprocessor
-import geneprocessor
-import class_entities
-from utils import paragraphs
+
+from NER_processing import nlp, disease_service, chemical_service, genetic_service
+
 import spacy
 from spacy import displacy
 
@@ -16,16 +13,6 @@ colors = {"DISEASE": "linear-gradient(90deg, #aa9cfc, #fc9ce7)",
           "CHEMICAL": "linear-gradient(90deg, #ffa17f, #3575ad)",
           "GENETIC": "linear-gradient(90deg, #c21500, #ffc500)"}
 
-disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
-print('Disease Model Loaded')
-
-chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
-print('Chemical Model Loaded')
-
-genetic_service = geneprocessor.GeneProcessor('./models/Gene')
-print('Genetic Model Loaded')
-
-nlp = spacy.load("en_core_web_sm")
 
 # article_service = articleprocessor.ArticleProcessor()
 # paragraph_service = paragraphprocessor.ParagraphProcessor()
@@ -70,30 +57,6 @@ def biohome():
 ######          Bio NLP
 ######
 ##################################################################################################
-def process_by_paragraph(doc, entities):
-    offset = 0
-    for paragraph in paragraphs(doc):
-        # print(len(str(paragraph)))
-        disease_service.sentence_to_process(str(paragraph))
-        disease_results = disease_service.predict()
-        entities.append_new_entities(disease_results)
-        chemical_service.sentence_to_process(str(paragraph))
-        chemical_results = chemical_service.predict()
-        entities.append_new_entities(chemical_results)
-        genetic_service.sentence_to_process(str(paragraph))
-        genetic_results = genetic_service.predict()
-        entities.append_new_entities(genetic_results)
-
-        entities.remove_non_entities()
-
-        offset += len(str(paragraph))
-        disease_service.set_offset(offset)
-        chemical_service.set_offset(offset)
-        genetic_service.set_offset(offset)
-
-    disease_service.set_offset(0, restart=True)
-    chemical_service.set_offset(0, restart=True)
-    genetic_service.set_offset(0, restart=True)
 
 
 @app.route('/bio-nlp/entities', methods=['POST'])
@@ -101,19 +64,24 @@ def process_by_paragraph(doc, entities):
 def post_search_entities():
     if not request.json or not 'text' in request.json:
         abort(400)
-
     sequence = request.json['text']
     doc = nlp(sequence)
 
-    entities = class_entities.Entities(doc)
-    process_by_paragraph(doc, entities)
-    entities.postprocessing()
-    print((len(entities)))
+    entities_html = displacy.render(doc, style="ent",
+                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC","GPE","ORG","DATE","CARDINAL"], "colors": colors})
 
-    entities_html = displacy.render(entities.doc, style="ent",
-                                    options={"ents": ["DISEASE", "CHEMICAL","GENETIC"], "colors": colors})
+    chemicals = [f.text for f in doc.ents if f.label_ == 'CHEMICAL']
+    diseases = [f.text for f in doc.ents if f.label_ == 'DISEASE']
+    genetics = [f.text for f in doc.ents if f.label_ == 'GENETIC']
 
-    return entities_html
+    normalized_chems = chemical_service.normalize_chemical_entities(chemicals)
+    normalized_dis = disease_service.normalize_disease_entities(diseases)
+    normalized_gen = genetic_service.normalize_genetic_entities(genetics)
+
+    normalized_ents = {'diseases': normalized_dis, 'chemicals': normalized_chems, 'genetics': normalized_gen}
+
+
+    return jsonify(html=entities_html, entities=normalized_ents)
 
 
 # ##################################################################################################

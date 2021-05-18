@@ -1,4 +1,5 @@
 from spacy import util
+from spacy.language import Language
 
 class Entities:
 
@@ -8,35 +9,33 @@ class Entities:
 
     def __len__(self):
         return len(self.doc.ents)
-    
-    def get_diseases_entities(self):
-        diseases = [f for f in self.ents if f['entity_group']=='DISEASE'] 
-        return diseases
-    
-    def get_chemicals_entities(self):
-        chemicals = [f for f in self.ents if f['entity_group']=='CHEMICAL'] 
-        return chemicals
-    
-    def get_genes_entities(self):
-        genetic = [f for f in self.ents if f['entity_group']=='GENETIC'] 
-        return genetic
-    
-    # DEPRECATED
-    #
-    # def sort_entities(self):
-    #     self.ents_sorted = sorted(self.ents, key=lambda k: k['start'])
 
-    # def parse_ner_spacy(self):
-    #     self.sort_entities()
-    #     dict_results = {
-    #         "text": self.text,
-    #         "ents": [{"start": ent['start'],
-    #                   "end": ent['end'],
-    #                   "label": ent['entity_group']
-    #                   } for ent in self.ents_sorted if ent['entity_group'] != '0'],
-    #         "title": None
-    #     }
-    #     return dict_results
+    # def get_diseases_entities(self):
+    #     try:
+    #         diseases = [f.text for f in self.doc.ents if f.label_ == 'DISEASE']
+    #         return diseases
+    #     except:
+    #         print('Spacy doc entities were not already set')
+    #         return []
+    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
+    #
+    # def get_chemicals_entities(self):
+    #     try:
+    #         chemicals = [f.text for f in self.doc.ents if f.label_ == 'CHEMICAL']
+    #         return chemicals
+    #     except:
+    #         print('Spacy doc entities were not already set')
+    #         return []
+    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
+    #
+    # def get_genes_entities(self):
+    #      try:
+    #         genetic = [f.text for f in self.doc.ents if f.label_ == 'GENETIC']
+    #         return genetic
+    #      except:
+    #         print('Spacy doc entities were not already set')
+    #         return []
+    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
 
     def append_new_entities(self, entities):
         self.ents += entities
@@ -45,7 +44,6 @@ class Entities:
         for ent in self.ents:
             if ent['entity_group'] == '0':
                 self.ents.remove(ent)
-
 
     def postprocessing(self):
         def correct_boundaries():
@@ -77,10 +75,9 @@ class Entities:
                 if ent['word'].startswith('##') and (proposed_ents[i - 1]['entity_group'] == ent['entity_group']) and (
                         (ent['start'] - proposed_ents[i - 1]['end']) < 10):
                     new_ent = self.doc.char_span(proposed_ents[i - 1]['start'], ent['end'], ent['entity_group'])
-                    #print(new_ent)
+                    # print(new_ent)
                     ent_spans.append(new_ent)
             return ent_spans
-
 
         self.remove_non_entities()
         correct_boundaries()
@@ -92,4 +89,5 @@ class Entities:
             self.doc.set_ents(filtered_spans)
         except ValueError:
             print('An error happened')
-        #print(self.doc.ents)
+        # print(self.doc.ents)
+
