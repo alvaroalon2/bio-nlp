@@ -36,7 +36,7 @@
     <header class="header" style="margin-bottom: 30px">
         <h1 style="font-weight: bold; font-size:500%; text-align:center;">Bio-NLP</h1>
         <p style="color:black; font-size:100%; text-align:center;">BioNER tool which aims to apply
-            last state of the art models for the recognition of Biomedical Entities</p>
+            last state of the art models for the recognition of Biomedical Entities: Diseases, Chemicals and Genetical ents.</p>
     </header>
     <div class="container-contact1" style="flex-direction:column; align-items: center">
         <div class="contact1-pic js-tilt" data-tilt>
@@ -112,6 +112,15 @@
                 </table>
             </div>
 
+             <div>
+                <h2 style="text-align:center; margin-bottom:15px; margin-top:30px">
+                    COVID-19
+                </h2>
+                <table id="covid_table" class="table">
+
+                </table>
+            </div>
+
         </div>
     </div>
 
@@ -163,42 +172,46 @@
 			        var trHTML_dis = '';
 					$('#ner_visual').html(response.html);
 					$('#diseases_table tr').remove();
-					$('#diseases_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CUI</th><th>ICD10</th><th>Semantic type</th></tr>');
+					$('#diseases_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CUI</th><th>ICD10</th><th>Other Ids</th><th>Semantic type</th></tr>');
                     $.each(response.entities.diseases, function(i, item) {
-                        console.log(item,i);
                         var text_term = item.text_term;
-                        console.log(text_term);
                         var found_term = "-";
                         if (item.found_term != null){
                             found_term = item.found_term;
                         }
                         var cui  = "-";
                         if (item.cui != null){
-                            cui = item.cui;
+                            if (item.cui.length == 1){
+                                cui = '<a href=https://uts.nlm.nih.gov/uts/umls/concept/' + item.cui + '>' + item.cui + '</a>';
+                            }
+                            cuis = item.cui.slice(0,2);
+                            cui = cuis.join(', ');
                         }
                         var mesh_id = "-";
                         if (item.mesh_id != null){
-                            mesh_id = item.mesh_id;
+                            mesh_id = '<a href=https://meshb.nlm.nih.gov/record/ui?ui=' + item.mesh_id + '>' + item.mesh_id + '</a>';
                         }
                         var icd10 = "-";
                         if (item.ICD10_id != null){
-                            icd10 = item.ICD10_id;
+                            icd10 = '<a href=https://icd.who.int/browse10/2019/en#/' + item.ICD10_id + '>' + item.ICD10_id + '</a>';
                         }
                         var type = "-";
                         if (item.semantic_type != null){
                             type = item.semantic_type;
                         }
-                        console.log(type)
-                        trHTML_dis += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + cui + '</td><td>' + icd10 +'</td><td>' + type + '</td></tr>';
+                        var cross_references = "-";
+                        if (item.cross_references != null){
+                            others = item.cross_references.slice(0,3);
+                            cross_references = others.join(', ')
+                            }
+                        trHTML_dis += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + cui + '</td><td>' + icd10 +'</td><td>' + cross_references +'</td><td>' + type + '</td></tr>';
                     });
                     $('#diseases_table').append(trHTML_dis);
                     var trHTML_chem = '';
 					$('#drugs_table tr').remove();
-					$('#drugs_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CHEBI ID</th><th>Other IDs</th></tr>');
+					$('#drugs_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CHEBI ID</th><th>ATC</th><th>ATC level</th></tr>');
                     $.each(response.entities.chemicals, function(i, item) {
-                        console.log(item,i);
                         var text_term = item.text_term;
-                        console.log(text_term);
                         var found_term = "-";
                         if (item.found_term != null){
                             found_term = item.found_term;
@@ -218,45 +231,84 @@
                         }
                         var ATC = "-";
                         if (item.ATC != null){
-                            ATC = item.ATC;
+                            ATC = '<a href=https://www.whocc.no/atc_ddd_index/?code=' + item.ATC + '>' + item.ATC + '</a>';
                         }
-                        console.log(ATC)
-                        trHTML_chem += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + chebi_id + '</td><td>' + ATC +'</td></tr>';
+                        var ATC_level = "-";
+                        if (item.ATC_level != null){
+                            ATC_level =  item.ATC_level;
+                        }
+                        trHTML_chem += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + chebi_id + '</td><td>' + ATC +'</td><td>' + ATC_level +'</td></tr>';
                     });
                     $('#drugs_table').append(trHTML_chem);
                     var trHTML_gen = '';
                     $('#genetic_table tr').remove();
-					$('#genetic_table').append('<tr><th>Term</th><th>Found Term</th><th>NCBIgene ID</th><th>UniProt ID</th><th>NCBItaxon</th><th>Type</th><th>Other IDs</th></tr>');
+					$('#genetic_table').append('<tr><th>Term</th><th>Found Term</th><th>NCBIgene ID</th><th>UniProt ID</th><th>NCBItaxon</th><th>Other IDs</th></tr>');
                     $.each(response.entities.genetics, function(i, item) {
-                        console.log(item,i);
                         var text_term = item.text_term;
-                        console.log(text_term);
                         var found_term = "-";
                         if (item.found_term != null){
                             found_term = item.found_term;
                         }
                         var ncbi_gene_id  = "-";
                         if (item.ncbi_gene_id != null){
-                            ncbi_gene_id = item.ncbi_gene_id;
+                            ncbi_gene_id = '<a href=https://www.ncbi.nlm.nih.gov/gene/' + item.ncbi_gene_id + '>' + item.ncbi_gene_id + '</a>';
                         }
                         var ncbi_taxon_id = "-";
                         if (item.ncbi_taxon_id != null){
-                            ncbi_taxon_id = item.ncbi_taxon_id;
+                            ncbi_taxon_id = '<a href=https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=' + item.ncbi_taxon_id + '>' + item.ncbi_taxon_id + '</a>';
                         }
                         var uniprot = "-";
                         if (item.uniprot_id != null){
-                            uniprot = item.uniprot_id;
+                            uniprots = item.uniprot_id.slice(0,2);
+                            uniprot = uniprots.join(', ');
                         }
-                        var type = "-";
-                        if (item.type != null){
-                            type = item.type;
-                        }
+                        //var type = "-";
+                        // if (item.type != null){
+                        //    type = item.type;
+                        // }
+                        var cross_references = "-";
+                        if (item.cross_reference != null){
+                            others = item.cross_reference;
+                            cross_references = others.join(', ')
+                            }
 
-                        var others = "-";
-                        console.log(type)
-                        trHTML_gen += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + ncbi_gene_id + '</td><td>' + uniprot + '</td><td>' + ncbi_taxon_id +'</td><td>' + type + '</td><td>' + others + '</td></tr>';
+                        trHTML_gen += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + ncbi_gene_id + '</td><td>' + uniprot + '</td><td>' + ncbi_taxon_id +'</td><td>' + cross_references + '</td></tr>';
                     });
                     $('#genetic_table').append(trHTML_gen);
+                    var trHTML_covid = '';
+                    $('#covid_table tr').remove();
+					$('#covid_table').append('<tr><th>Term</th><th>Found Term</th><th>Evidence</th><th>Target</th><th>COVID-19 association score</th><th>PR id</th></tr>');
+                    $.each(response.entities.covid, function(i, item) {
+                        var text_term = item.text_term;
+                        var found_term = "-";
+                        if (item.found_term != null){
+                            if (item.ebi_reference != null){
+                                found_term = '<a href=' + item.ebi_reference + '>' + item.found_term + '</a>';
+                            }
+                            found_term = item.found_term;
+                        }
+                        var evidence  = "-";
+                        if (item.evidence_url != null){
+                            evidence = '<a href=' + item.evidence_url + '>' + item.found_term + '</a>';
+                        }
+                        var target = "-";
+                        if (item.target_url != null){
+                            target = '<a href=' + item.target_url + '>' + item.found_term + '</a>';
+                        }
+                        var score = "-";
+                        if (item.association_score != null){
+                            score = item.association_score;
+                        }
+                        var PR_id = "-";
+                        if (item.PR_id != null){
+                            PR_id = '<a href=https://proconsortium.org/app/entry/' + item.PR_id + '>' + item.PR_id + '</a>';
+                        }
+
+                        if (item.found_term != null){
+                            trHTML_covid += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + evidence + '</td><td>' + target + '</td><td>' + score +'</td><td>' + PR_id + '</td></tr>';
+                        }
+                    });
+                $('#covid_table').append(trHTML_covid);
                 $("#loader").hide();
 			    },
 			    error: function(error){

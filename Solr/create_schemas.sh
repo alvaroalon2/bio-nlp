@@ -67,7 +67,8 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "name":"uniprot_id",
      "type":"string",
      "indexed":false,
-     "stored":true},
+     "stored":true,
+     "multiValued":true },
   "add-field":{
      "name":"ncbi_gene_id",
      "type":"pint",
@@ -113,7 +114,8 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "name":"cui",
      "type":"string",
      "indexed":false,
-     "stored":true },
+     "stored":true,
+     "multiValued":true },
   "add-field":{
      "name":"cross_references",
      "type":"string",
@@ -142,3 +144,36 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "indexed":true,
      "stored":true },
 }' http://localhost:8983/solr/diseases/schema
+
+curl -X POST -H 'Content-type:application/json' --data-binary '{
+  "add-field":{
+     "name":"association_score",
+     "type":"pfloat",
+     "indexed":false,
+     "stored":true},
+  "add-field":{
+     "name":"evidence_url",
+     "type":"string",
+     "indexed":false,
+     "stored":true },
+  "add-field":{
+     "name":"target_url",
+     "type":"string",
+     "indexed":false,
+     "stored":true },
+  "add-field":{
+     "name":"ebi_reference",
+     "type":"string",
+     "indexed":false,
+     "stored":true },
+  "add-field":{
+     "name":"PR_id",
+     "type":"string",
+     "indexed":false,
+     "stored":true },
+  "add-field":{
+     "name":"term",
+     "type":"text_general",
+     "indexed":true,
+     "stored":true },
+}' http://localhost:8983/solr/covid/schema

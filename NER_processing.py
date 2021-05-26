@@ -62,7 +62,6 @@ class NERComponent:
         self.entities = class_entities.Entities(doc)
         process_by_paragraph(doc, self.entities)
         self.entities.postprocessing()
-        print((len(self.entities)))
         return doc
 
 
@@ -83,7 +82,6 @@ def expand_covid_ents(doc):
 
     new_ents = []
     doc_ents = list(doc.ents)
-    print(len(doc.ents))
     for pattern in patterns_covid:
         for match in re.finditer(pattern['pattern'], doc.text, re.IGNORECASE):
             start, end = match.span()
@@ -100,3 +98,29 @@ def expand_covid_ents(doc):
 
 
 nlp.add_pipe('postprocessing_covid', before='ner')
+
+@Language.component("postprocessing_chems")
+def expand_suffix_chems(doc):
+    pattern_chem1 = r"(\b\S{0,10}umab\S{0,10}?\b)"
+    pattern_chem2 = r"(\b\S{0,10}(feron|floxacin|zepam|prazole|triptyline|vudine)\b)"
+
+    new_ents = []
+    doc_ents = list(doc.ents)
+    for match in re.finditer(pattern_chem1, doc.text, re.IGNORECASE):
+        start, end = match.span()
+        span = doc.char_span(start, end, label='CHEMICAL', alignment_mode='expand')
+        # This is a Span object or None if match doesn't map to valid token sequence
+        if span is not None:
+            new_ents.append(span)
+    for match in re.finditer(pattern_chem2, doc.text, re.IGNORECASE):
+        start, end = match.span()
+        span = doc.char_span(start, end, label='CHEMICAL', alignment_mode='expand')
+        # This is a Span object or None if match doesn't map to valid token sequence
+        if span is not None:
+            new_ents.append(span)
+    ents = doc_ents + new_ents
+    filtered_spans = util.filter_spans(ents)
+    doc.set_ents(filtered_spans)
+    return doc
+
+nlp.add_pipe('postprocessing_chems', before='postprocessing_covid')

@@ -13,7 +13,6 @@ colors = {"DISEASE": "linear-gradient(90deg, #aa9cfc, #fc9ce7)",
           "CHEMICAL": "linear-gradient(90deg, #ffa17f, #3575ad)",
           "GENETIC": "linear-gradient(90deg, #c21500, #ffc500)"}
 
-
 # article_service = articleprocessor.ArticleProcessor()
 # paragraph_service = paragraphprocessor.ParagraphProcessor()
 
@@ -68,18 +67,20 @@ def post_search_entities():
     doc = nlp(sequence)
 
     entities_html = displacy.render(doc, style="ent",
-                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC","GPE","ORG","DATE","CARDINAL"], "colors": colors})
+                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC", "GPE", "DATE"],
+                                             "colors": colors})
 
     chemicals = [f.text for f in doc.ents if f.label_ == 'CHEMICAL']
-    diseases = [f.text for f in doc.ents if f.label_ == 'DISEASE']
-    genetics = [f.text for f in doc.ents if f.label_ == 'GENETIC']
+    diseases = [f.lemma_ for f in doc.ents if f.label_ == 'DISEASE']
+    genetics = [f.lemma_ for f in doc.ents if f.label_ == 'GENETIC']
 
     normalized_chems = chemical_service.normalize_chemical_entities(chemicals)
     normalized_dis = disease_service.normalize_disease_entities(diseases)
     normalized_gen = genetic_service.normalize_genetic_entities(genetics)
+    normalized_covid = genetic_service.normalize_covid_entities(genetics+chemicals)
 
-    normalized_ents = {'diseases': normalized_dis, 'chemicals': normalized_chems, 'genetics': normalized_gen}
-
+    normalized_ents = {'diseases': normalized_dis, 'chemicals': normalized_chems, 'genetics': normalized_gen,
+                       'covid': normalized_covid}
 
     return jsonify(html=entities_html, entities=normalized_ents)
 

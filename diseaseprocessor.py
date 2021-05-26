@@ -17,11 +17,12 @@ class DiseaseProcessor(BioProcessor):
         normalized_dis = []
         diseases = unique_terms(disease_ents)
         for dis in diseases:
-            label = re.sub(r'\W+', ' ', str(dis))
-            solr_query = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10"
+            #label = re.sub(r'\W+', ' ', str(dis))
+            label = str(dis)
+            solr_query = 'term:'+ label +'^2' + 'or synonyms:' + label
             results = self.solr_engine.search(solr_query)
             if len(results) < 1:
-                disease = {'text_term': dis}
+                disease = {'text_term': label}
                 normalized_dis.append(disease)
             for result in results:
                 disease = {}

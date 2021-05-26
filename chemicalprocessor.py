@@ -17,13 +17,14 @@ class ChemicalProcessor(BioProcessor):
         normalized_chems = []
         chems = unique_terms(chemical_ents)
         for chem in chems:
-            label = re.sub(r'\W+', ' ', str(chem))
+            #label = re.sub(r'\W+', ' ', str(chem))
+            label = str(chem)
             # print(label)
             solr_query = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
             results = self.solr_engine.search(solr_query)
             if len(results) < 1:
                 # print('Non results for:', chem)
-                chemical = {'text_term': chem}
+                chemical = {'text_term': label}
                 normalized_chems.append(chemical)
             for result in results:
                 chemical = {}

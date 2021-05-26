@@ -36,6 +36,9 @@ class Entities:
     #         print('Spacy doc entities were not already set')
     #         return []
     #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
+    
+    def sort_entities(self):
+        self.ents = sorted(self.ents, key=lambda k: k['start'])
 
     def append_new_entities(self, entities):
         self.ents += entities
@@ -73,18 +76,19 @@ class Entities:
                     proposed_ents.append(ent)
             for i, ent in enumerate(proposed_ents):
                 if ent['word'].startswith('##') and (proposed_ents[i - 1]['entity_group'] == ent['entity_group']) and (
-                        (ent['start'] - proposed_ents[i - 1]['end']) < 10):
+                        (ent['start'] - proposed_ents[i - 1]['end']) < 10) and (proposed_ents[i - 1]['start'] < ent['end']):
                     new_ent = self.doc.char_span(proposed_ents[i - 1]['start'], ent['end'], ent['entity_group'])
                     # print(new_ent)
                     ent_spans.append(new_ent)
             return ent_spans
 
-        self.remove_non_entities()
-        correct_boundaries()
-        ent_spans = ents_spans_spacy_doc()
-        ent_spans = solve_split_words(ent_spans)
-        ent_spans = list(filter(None, ent_spans))
         try:
+            self.remove_non_entities()
+            self.sort_entities()
+            correct_boundaries()
+            ent_spans = ents_spans_spacy_doc()
+            ent_spans = solve_split_words(ent_spans)
+            ent_spans = list(filter(None, ent_spans))
             filtered_spans = util.filter_spans(ent_spans)
             self.doc.set_ents(filtered_spans)
         except ValueError:
