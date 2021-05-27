@@ -6,7 +6,6 @@ from flaskext.markdown import Markdown
 
 from NER_processing import nlp, disease_service, chemical_service, genetic_service
 
-import spacy
 from spacy import displacy
 
 colors = {"DISEASE": "linear-gradient(90deg, #aa9cfc, #fc9ce7)",

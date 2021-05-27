@@ -11,7 +11,7 @@ import re
 disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
 chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
 genetic_service = geneprocessor.GeneProcessor('./models/Gene')
-nlp = spacy.load("en_core_web_sm", exclude=["tok2vec"])
+nlp = spacy.load("en_core_web_sm", exclude=["tok2vec","lemmatizer"])
 
 
 def paragraphs(document):
