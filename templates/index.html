@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>librAIry Bio-NLP</title>
+    <title>Bio-NLP</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -9,6 +9,8 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="icon" href="{{ url_for('static', filename='/images/icons/favicon.ico') }}">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css"
           href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
@@ -28,7 +30,9 @@
       display: none;
     }
 
+
     </style>
+
 </head>
 <body>
 
@@ -36,7 +40,8 @@
     <header class="header" style="margin-bottom: 30px">
         <h1 style="font-weight: bold; font-size:500%; text-align:center;">Bio-NLP</h1>
         <p style="color:black; font-size:100%; text-align:center;">BioNER tool which aims to apply
-            last state of the art models for the recognition of Biomedical Entities: Diseases, Chemicals and Genetical ents.</p>
+            last state of the art models for the recognition of Biomedical Entities: Diseases, Chemicals and Genetical
+            ents.</p>
     </header>
     <div class="container-contact1" style="flex-direction:column; align-items: center">
         <div class="contact1-pic js-tilt" data-tilt>
@@ -67,11 +72,13 @@
         </div>
         <!-- Image loader -->
 
-        <div id="error"; style="display: none; margin-top:40px">
+        <div id="error" ; style="display: none; margin-top:40px">
         </div>
 
         <div class="results">
-            <h1 style="margin-top:40px"> Results </h1>
+            <h1 style="margin-top:40px">
+                <b>Results</b>
+            </h1>
         </div>
 
         <div class="results" ; id="ner_visual" ; style="overflow-x: auto; solid #e6e9ef; border-radius: 0.25rem; margin-top:20px;
@@ -80,14 +87,16 @@
         </div>
 
         <div class="results">
-            <h1 style="margin-top:30px; margin-bottom:20px"> Normalized found terms </h1>
+            <h1 style="margin-top:60px; margin-bottom:20px">
+                <b>Normalized found terms </b>
+            </h1>
         </div>
 
         <div class="results" ; style="margin-top:30px; width:100%">
 
             <div>
-                <h2 style="text-align:center; margin-bottom:15px">
-                    Diseases
+                <h2 style="text-align:center; margin-bottom:40px">
+                    <b>Diseases</b>
                 </h2>
                 <table id="diseases_table" class="table">
 
@@ -95,8 +104,8 @@
             </div>
 
             <div>
-                <h2 style="text-align:center; margin-bottom:15px; margin-top:30px">
-                    Drugs/Chemicals
+                <h2 style="text-align:center; margin-bottom:30px; margin-top:40px">
+                    <b>Drugs/Chemicals</b>
                 </h2>
                 <table id="drugs_table" class="table">
 
@@ -104,23 +113,32 @@
             </div>
 
             <div>
-                <h2 style="text-align:center; margin-bottom:15px; margin-top:30px">
-                    Genetical
+                <h2 style="text-align:center; margin-bottom:30px; margin-top:40px">
+                    <b>Genetical</b>
                 </h2>
                 <table id="genetic_table" class="table">
 
                 </table>
             </div>
 
-             <div>
-                <h2 style="text-align:center; margin-bottom:15px; margin-top:30px">
-                    COVID-19
+            <div>
+                <h2 style="text-align:center; margin-bottom:30px; margin-top:30px">
+                    <b>COVID-19</b>
                 </h2>
                 <table id="covid_table" class="table">
 
                 </table>
             </div>
 
+        </div>
+
+        <div class="results">
+            <h2 style="text-align:center; margin-bottom:30px; margin-top:30px">
+                <b>Results JSON</b>
+            </h2>
+            <textarea id="result-json" cols="85" rows="45" readonly style="background:#e6e6e6; font-family: 'Montserrat-Regular'; color: #666666;">
+
+            </textarea>
         </div>
     </div>
 
@@ -197,12 +215,14 @@
                         }
                         var type = "-";
                         if (item.semantic_type != null){
-                            type = item.semantic_type;
+                            type = item.semantic_type.replaceAll('|',' | ');
                         }
                         var cross_references = "-";
                         if (item.cross_references != null){
                             others = item.cross_references.slice(0,3);
-                            cross_references = others.join(', ')
+                            cross_references = others.join(', ');
+                            cross_references = cross_references.replaceAll(':',': ');
+                            cross_references = cross_references.replaceAll(/(SNOMEDCT)\w+/g,'SNOMEDCT');
                             }
                         trHTML_dis += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + cui + '</td><td>' + icd10 +'</td><td>' + cross_references +'</td><td>' + type + '</td></tr>';
                     });
@@ -308,8 +328,11 @@
                             trHTML_covid += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + evidence + '</td><td>' + target + '</td><td>' + score +'</td><td>' + PR_id + '</td></tr>';
                         }
                     });
-                $('#covid_table').append(trHTML_covid);
-                $("#loader").hide();
+                    $('#covid_table').append(trHTML_covid);
+                    console.log(response.entities);
+                    var ents = response.entities;
+                    document.getElementById("result-json").value = JSON.stringify(ents, null, 2);
+                    $("#loader").hide();
 			    },
 			    error: function(error){
 			        console.log('Error' + error)
@@ -321,6 +344,9 @@
 			    }
 			});
 		}
+
+
+
 
 
 

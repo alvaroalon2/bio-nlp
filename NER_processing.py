@@ -78,7 +78,7 @@ def expand_covid_ents(doc):
     patterns_covid = [{"label": "DISEASE", "pattern": pattern_sars, "id": "covid"},
                       {"label": "DISEASE", "pattern": pattern_covid, "id": "covid"},
                       {"label": "DISEASE", "pattern": pattern_coronavirus, "id": "covid"},
-                      {"label": "VAR LINEAGE", "pattern": pattern_variant_lineage, "id": "covid"}]
+                      {"label": "COVID LINEAGE", "pattern": pattern_variant_lineage, "id": "covid"}]
 
     new_ents = []
     doc_ents = list(doc.ents)

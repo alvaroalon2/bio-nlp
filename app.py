@@ -67,12 +67,12 @@ def post_search_entities():
     doc = nlp(sequence)
 
     entities_html = displacy.render(doc, style="ent",
-                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC", "GPE", "DATE"],
+                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC", "DATE", "COVID LINEAGE"],
                                              "colors": colors})
 
     chemicals = [f.text for f in doc.ents if f.label_ == 'CHEMICAL']
-    diseases = [f.lemma_ for f in doc.ents if f.label_ == 'DISEASE']
-    genetics = [f.lemma_ for f in doc.ents if f.label_ == 'GENETIC']
+    diseases = [f.text for f in doc.ents if f.label_ == 'DISEASE']
+    genetics = [f.text for f in doc.ents if f.label_ == 'GENETIC']
 
     normalized_chems = chemical_service.normalize_chemical_entities(chemicals)
     normalized_dis = disease_service.normalize_disease_entities(diseases)

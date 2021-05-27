@@ -16,3 +16,4 @@ def unique_terms(entities):
                 seen.add(item.lower())
                 ents.append(item)
     return ents
+

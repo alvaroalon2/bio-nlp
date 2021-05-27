@@ -18,14 +18,48 @@ class ChemicalProcessor(BioProcessor):
         chems = unique_terms(chemical_ents)
         for chem in chems:
             #label = re.sub(r'\W+', ' ', str(chem))
-            label = str(chem)
-            # print(label)
-            solr_query = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
-            results = self.solr_engine.search(solr_query)
-            if len(results) < 1:
-                # print('Non results for:', chem)
+            label = str(chem).replace('(','').replace(')','')
+            solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
+            solr_query_lax = "term:" + label + "^100 or synonyms:" + label + "^10 or mesh_headings:" + label + "^5"
+            solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100 or mesh_headings:\"" + label + "\"^5"
+            solr_query_lax_syn = "term:" + label + "^10 or synonyms:" + label + "^100 or mesh_headings:" + label + "^5"
+            results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+            results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+            results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+            results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            if len(results_lax) < 1 and len(results_strict) < 1:
                 chemical = {'text_term': label}
                 normalized_chems.append(chemical)
+            else:
+                print(label)
+                score_lax = 0
+                score_strict = 0
+                score_lax_syn = 0
+                score_strict_syn = 0
+                for result in results_lax:
+                    print(result['term'])
+                    score_lax = result['score']
+                    print(score_lax)
+                    break
+                for result in results_strict:
+                    print(result['term'])
+                    score_strict = result['score']
+                    print(score_strict)
+                    break
+                for result in results_strict_synonyms:
+                    print(result['term'])
+                    score_strict_syn = result['score']
+                    print(score_strict_syn)
+                    break
+                for result in results_lax_synonyms:
+                    print(result['term'])
+                    score_lax_syn = result['score']
+                    print(score_lax_syn)
+                    break
+                results_scores = {results_lax: score_lax, results_strict: score_strict,
+                                  results_strict_synonyms: 0.8*score_strict_syn, results_lax_synonyms: 0.8*score_lax_syn}
+                results = max(results_scores, key=results_scores.get)
+                print('----------')
             for result in results:
                 chemical = {}
                 chemical["text_term"] = label

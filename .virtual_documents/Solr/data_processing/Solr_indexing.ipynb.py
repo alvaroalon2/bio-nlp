@@ -146,10 +146,13 @@ print(len(covid),'files added')
 
 
 
-label = 'TMPRSS2'
+label = 'SARS (CoV) 2'
 
 
-results = solr.search('term:'+ label +'^100' + 'or synonyms:' + label+'^10',**{'fl':'*,score'})
+label = label.replace('(','').replace(')','')
+
+
+results = solr.search('term:'+ label +'^10' + 'or synonyms:' + label+'^100',**{'fl':'*,score'})
 
 
 print("Saw {0} result(s).".format(len(results)))

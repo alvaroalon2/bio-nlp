@@ -152,7 +152,7 @@ important_columns_doid = {
     'Synonyms',
     'Obsolete',
     'database_cross_reference',
-    'id'
+    'Class ID'
 }
 
 
@@ -165,6 +165,13 @@ doid_df = pd.read_csv(
 
 print(doid_df.shape)
 doid_df.head()
+
+
+doid_df['id'] = doid_df['Class ID'].apply(lambda x: x.split('/')[-1].replace('_',':'))
+doid_df = doid_df.drop()
+
+
+doid_df.loc[doid_df['Preferred Label'] == 'Severe acute respiratory syndrome coronavirus 2']
 
 
 doid_df = doid_df[doid_df['Obsolete']=='false']
