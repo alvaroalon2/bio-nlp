@@ -1,0 +1,9 @@
+eval_loss = 2.040952722381917e-06
+eval_precision = 1.0
+eval_recall = 1.0
+eval_f1 = 1.0
+eval_runtime = 2640.5406
+eval_samples_per_second = 1.743
+epoch = 30.0
+eval_mem_cpu_alloc_delta = 3325325312
+eval_mem_cpu_peaked_delta = 2076672

@@ -66,7 +66,7 @@ def post_search_entities():
     doc = nlp(sequence)
 
     entities_html = displacy.render(doc, style="ent",
-                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC", "DATE", "COVID LINEAGE"],
+                                    options={"ents": ["DISEASE", "CHEMICAL", "GENETIC", "DATE","GPE", "COVID LINEAGE"],
                                              "colors": colors})
 
     chemicals = [f.text for f in doc.ents if f.label_ == 'CHEMICAL']

@@ -1,0 +1,8 @@
+test_loss = 0.126627117395401
+test_precision = 0.843034663178548
+test_recall = 0.8740958408679927
+test_f1 = 0.8582843191654643
+test_runtime = 170.3768
+test_samples_per_second = 28.243
+test_mem_cpu_alloc_delta = 224477184
+test_mem_cpu_peaked_delta = 2105344

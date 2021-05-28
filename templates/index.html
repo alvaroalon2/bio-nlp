@@ -136,7 +136,7 @@
             <h2 style="text-align:center; margin-bottom:30px; margin-top:30px">
                 <b>Results JSON</b>
             </h2>
-            <textarea id="result-json" cols="85" rows="45" readonly style="background:#e6e6e6; font-family: 'Montserrat-Regular'; color: #666666;">
+            <textarea id="result-json" cols="85" rows="35" readonly style="background:#e6e6e6; font-family: 'Montserrat-Regular'; color: #666666;">
 
             </textarea>
         </div>
@@ -229,7 +229,7 @@
                     $('#diseases_table').append(trHTML_dis);
                     var trHTML_chem = '';
 					$('#drugs_table tr').remove();
-					$('#drugs_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CHEBI ID</th><th>ATC</th><th>ATC level</th></tr>');
+					$('#drugs_table').append('<tr><th>Term</th><th>Found Term</th><th>Mesh ID</th><th>CHEBI ID</th><th>ATC</th><th>ATC level</th><th>Other IDs</th></tr>');
                     $.each(response.entities.chemicals, function(i, item) {
                         var text_term = item.text_term;
                         var found_term = "-";
@@ -257,7 +257,22 @@
                         if (item.ATC_level != null){
                             ATC_level =  item.ATC_level;
                         }
-                        trHTML_chem += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + chebi_id + '</td><td>' + ATC +'</td><td>' + ATC_level +'</td></tr>';
+                        var cross_references = "-";
+                        if (item.cross_references != null){
+                            others = item.cross_references.slice(0,3);
+                            if (item.cid != null){
+                                others.push('cid:' + item.cid);
+                                console.log(others);
+                            }
+                            cross_references = others.join(', ');
+                            }
+                        if (item.cross_references == null){
+                            if (item.cid != null){
+                                cross_references = 'cid:' + item.cid;
+                            }
+                        }
+
+                        trHTML_chem += '<tr><td>' + text_term + '</td><td>' + found_term + '</td><td>' + mesh_id + '</td><td>' + chebi_id + '</td><td>' + ATC +'</td><td>' + ATC_level +'</td><td>' + cross_references +'</td></tr>';
                     });
                     $('#drugs_table').append(trHTML_chem);
                     var trHTML_gen = '';

@@ -7,11 +7,7 @@ import chemicalprocessor
 import geneprocessor
 from spacy import util
 import re
-
-disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
-chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
-genetic_service = geneprocessor.GeneProcessor('./models/Gene')
-nlp = spacy.load("en_core_web_sm", exclude=["tok2vec","lemmatizer"])
+from utils import check_existant_model
 
 
 def paragraphs(document):
@@ -65,9 +61,6 @@ class NERComponent:
         return doc
 
 
-nlp.add_pipe('ner_custom', before='ner')
-
-
 @Language.component("postprocessing_covid")
 def expand_covid_ents(doc):
     pattern_sars = r"((sarsr?|mers)(\s?\-?\s?(covs?))?(\s?\-?\s?2)?(\s?\binfe.{1,10}?\b)?)"
@@ -97,8 +90,6 @@ def expand_covid_ents(doc):
     return doc
 
 
-nlp.add_pipe('postprocessing_covid', before='ner')
-
 @Language.component("postprocessing_chems")
 def expand_suffix_chems(doc):
     pattern_chem1 = r"(\b\S{0,10}umab\S{0,10}?\b)"
@@ -123,4 +114,28 @@ def expand_suffix_chems(doc):
     doc.set_ents(filtered_spans)
     return doc
 
-nlp.add_pipe('postprocessing_chems', before='postprocessing_covid')
+
+try:
+    if check_existant_model('Disease'):
+        disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
+    else:
+        disease_service = diseaseprocessor.DiseaseProcessor('alvaroalon2/biobert_diseases_ner')
+    if check_existant_model('Chemical'):
+        chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
+    else:
+        chemical_service = chemicalprocessor.ChemicalProcessor('alvaroalon2/biobert_chemical_ner')
+    if check_existant_model('Gene'):
+        genetic_service = geneprocessor.GeneProcessor('./models/Gene')
+    else:
+        genetic_service = geneprocessor.GeneProcessor('alvaroalon2/biobert_genetic_ner')
+
+    nlp = spacy.load("en_core_web_sm", exclude=["tok2vec", "lemmatizer"])
+
+    nlp.add_pipe('ner_custom', before='ner')
+
+    nlp.add_pipe('postprocessing_covid', before='ner')
+
+    nlp.add_pipe('postprocessing_chems', before='postprocessing_covid')
+
+except:
+    print('Error loading system components')

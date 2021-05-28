@@ -60,22 +60,22 @@ class ChemicalProcessor(BioProcessor):
                                   results_strict_synonyms: 0.8*score_strict_syn, results_lax_synonyms: 0.8*score_lax_syn}
                 results = max(results_scores, key=results_scores.get)
                 print('----------')
-            for result in results:
-                chemical = {}
-                chemical["text_term"] = label
-                chemical["found_term"] = "".join(result["term"])
-                if 'cid' in result:
-                    chemical['cid'] = result["cid"]
-                if 'mesh_id' in result:
-                    chemical['mesh_id'] = result["mesh_id"]
-                if 'chebi_id' in result:
-                    chemical['chebi_id'] = result["chebi_id"]
-                if 'cross_references' in result:
-                    chemical['cross_references'] = result["cross_references"]
-                if 'ATC' in result:
-                    chemical['ATC'] = "".join(result["ATC"])
-                if 'ATC_level' in result:
-                    chemical['ATC_level'] = result["ATC_level"]
-                normalized_chems.append(chemical)
-                break
+                for result in results:
+                    chemical = {}
+                    chemical["text_term"] = label
+                    chemical["found_term"] = "".join(result["term"])
+                    if 'cid' in result:
+                        chemical['cid'] = result["cid"]
+                    if 'mesh_id' in result:
+                        chemical['mesh_id'] = result["mesh_id"]
+                    if 'chebi_id' in result:
+                        chemical['chebi_id'] = result["chebi_id"]
+                    if 'cross_references' in result:
+                        chemical['cross_references'] = result["cross_references"]
+                    if 'ATC' in result:
+                        chemical['ATC'] = "".join(result["ATC"])
+                    if 'ATC_level' in result:
+                        chemical['ATC_level'] = result["ATC_level"]
+                    normalized_chems.append(chemical)
+                    break
         return normalized_chems
