@@ -7,6 +7,7 @@ LABEL description="Bio-NLP"
 RUN pip install -r requirements.txt
 
 COPY *.py /app/
+COPY models/ /app/
 WORKDIR /app
 ENTRYPOINT ["python"]
 CMD ["app.py"]

@@ -1,10 +1,26 @@
 from transformers import AutoTokenizer, AutoModel, AutoConfig, AutoModelForTokenClassification, \
     TokenClassificationPipeline
-import pysolr
+import torch
 
 
 class BioProcessor:
     def __init__(self, model_name):
+        # If there's a GPU available...
+        if torch.cuda.is_available():
+
+            # Tell PyTorch to use the GPU.
+            device = torch.device("cuda")
+            self.gpu_flag = True
+            print('There are %d GPU(s) available.' % torch.cuda.device_count())
+
+            print('We will use the GPU:', torch.cuda.get_device_name(0))
+
+        # If not...
+        else:
+            print('No GPU available, using the CPU instead.')
+            self.gpu_flag = False
+            device = torch.device("cpu")
+
         self.model_name = model_name
         self.config = AutoConfig.from_pretrained(self.model_name)
         self.tokenizer = AutoTokenizer.from_pretrained(
@@ -17,10 +33,16 @@ class BioProcessor:
             config=self.config
         )
 
-        self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
+        if self.gpu_flag:
+            self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
                                                     task='ner',
-                                                    grouped_entities=True)
-
+                                                    grouped_entities=True,
+                                                    device=0)
+        else:
+            self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
+                                                    task='ner',
+                                                    grouped_entities=True,
+                                                        )
         self.sequence = ''
         self.offset = 0
         self.results = {}

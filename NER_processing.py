@@ -8,6 +8,7 @@ import geneprocessor
 from spacy import util
 import re
 from utils import check_existant_model
+import torch
 
 
 def paragraphs(document):

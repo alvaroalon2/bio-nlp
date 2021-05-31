@@ -21,8 +21,8 @@ class GeneProcessor(BioProcessor):
         normalized_gen = []
         genetics = unique_terms(genetic_ents)
         for gen in genetics:
-            #label = re.sub(r'\W+', ' ', str(gen))
-            label = str(gen).replace('(','').replace(')','')
+            label = re.sub(r'\W+', ' ', str(gen))
+            #label = str(gen).replace('(','').replace(')','')
             solr_query_strict = 'term:\"' + label + '\"^100 or synonyms:\"' + label + '\"^10'
             solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
             solr_query_strict_syn = 'term:\"' + label + '\"^10 or synonyms:\"' + label + '\"^100'
@@ -35,30 +35,30 @@ class GeneProcessor(BioProcessor):
                 genetic = {'text_term': label}
                 normalized_gen.append(genetic)
             else:
-                print(label)
+                # print(label)
                 score_lax = 0
                 score_strict = 0
                 score_lax_syn = 0
                 score_strict_syn = 0
                 for result in results_lax:
-                    print(result['term'])
+                    # print(result['term'])
                     score_lax = result['score']
-                    print(score_lax)
+                    # print(score_lax)
                     break
                 for result in results_strict:
-                    print(result['term'])
+                    # print(result['term'])
                     score_strict = result['score']
-                    print(score_strict)
+                    # print(score_strict)
                     break
                 for result in results_strict_synonyms:
-                    print(result['term'])
+                    # print(result['term'])
                     score_strict_syn = result['score']
-                    print(score_strict_syn)
+                    # print(score_strict_syn)
                     break
                 for result in results_lax_synonyms:
-                    print(result['term'])
+                    # print(result['term'])
                     score_lax_syn = result['score']
-                    print(score_lax_syn)
+                    # print(score_lax_syn)
                     break
                 results_scores = {results_lax: score_lax, results_strict: score_strict,
                                   results_strict_synonyms: 0.8*score_strict_syn, results_lax_synonyms: 0.8*score_lax_syn}
@@ -86,11 +86,11 @@ class GeneProcessor(BioProcessor):
         covid = unique_terms(covid_ents)
         for cov in covid:
             label = re.sub(r'\W+', ' ', str(cov))
-            # print(label)
+#             # print(label)
             solr_query = "term:\"" + label + "\""
             results = self.solr_engine_covid.search(solr_query)
             if len(results) < 1:
-                # print('Non results for:', chem)
+#                 # print('Non results for:', chem)
                 covid_dict = {'text_term': label}
                 normalized_covid.append(covid_dict)
             for result in results:
