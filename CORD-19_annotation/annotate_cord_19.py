@@ -3,8 +3,8 @@ import time
 from os import path
 import sys
 from utils import group_in_dict
-
-import sys, os, inspect
+import os
+import inspect
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
@@ -45,8 +45,8 @@ fieldupdates = {'biobert_chemical_normalized_term': 'add',
                 'biobert_covid_PR_id': 'add'
                 }
 
-if path.isfile('counter.txt'):
-    with open('counter.txt', 'r') as f:
+if path.isfile('CORD-19_annotation/counter.txt'):
+    with open('CORD-19_annotation/counter.txt', 'r') as f:
         counter = int(f.read())
 else:
     counter = 0
@@ -155,9 +155,9 @@ if __name__ == '__main__':
                 solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
                 print(counter, 'paragraphs annotated')
                 paragraphs_processed = []
-                with open('counter.txt', 'w') as f:
+                with open('CORD-19_annotation/counter.txt', 'w') as f:
                     f.write(str(counter))
-                time.sleep(2.0)
+                time.sleep(1.0)
 
             if (old_counter == counter):
                 print("done!")
