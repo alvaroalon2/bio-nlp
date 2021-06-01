@@ -1,5 +1,4 @@
 from spacy import util
-from spacy.language import Language
 
 class Entities:
 
@@ -9,33 +8,6 @@ class Entities:
 
     def __len__(self):
         return len(self.doc.ents)
-
-    # def get_diseases_entities(self):
-    #     try:
-    #         diseases = [f.text for f in self.doc.ents if f.label_ == 'DISEASE']
-    #         return diseases
-    #     except:
-    #         print('Spacy doc entities were not already set')
-    #         return []
-    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
-    #
-    # def get_chemicals_entities(self):
-    #     try:
-    #         chemicals = [f.text for f in self.doc.ents if f.label_ == 'CHEMICAL']
-    #         return chemicals
-    #     except:
-    #         print('Spacy doc entities were not already set')
-    #         return []
-    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
-    #
-    # def get_genes_entities(self):
-    #      try:
-    #         genetic = [f.text for f in self.doc.ents if f.label_ == 'GENETIC']
-    #         return genetic
-    #      except:
-    #         print('Spacy doc entities were not already set')
-    #         return []
-    #     # diseases = [f for f in self.ents if f['entity_group']=='DISEASE']
     
     def sort_entities(self):
         self.ents = sorted(self.ents, key=lambda k: k['start'])

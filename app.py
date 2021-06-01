@@ -4,7 +4,7 @@ from flask import render_template
 from flask_cors import CORS, cross_origin
 from flaskext.markdown import Markdown
 
-from NER_processing import nlp, disease_service, chemical_service, genetic_service
+from bionlp import nlp, disease_service, chemical_service, genetic_service
 
 from spacy import displacy
 

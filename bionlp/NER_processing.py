@@ -1,15 +1,10 @@
-from spacy.language import Language
-import class_entities
+from bionlp.processors import Entities, DiseaseProcessor, ChemicalProcessor, GeneProcessor
 import spacy
 from spacy.tokens import Doc
-import diseaseprocessor
-import chemicalprocessor
-import geneprocessor
 from spacy import util
 import re
-from utils import check_existant_model
-import torch
-
+from bionlp.processors.utils import check_existant_model
+from spacy.language import Language
 
 def paragraphs(document):
     start = 0
@@ -56,7 +51,7 @@ class NERComponent:
         self.entities = None
 
     def __call__(self, doc: Doc) -> Doc:
-        self.entities = class_entities.Entities(doc)
+        self.entities = Entities(doc)
         process_by_paragraph(doc, self.entities)
         self.entities.postprocessing()
         return doc
@@ -118,17 +113,17 @@ def expand_suffix_chems(doc):
 
 try:
     if check_existant_model('Disease'):
-        disease_service = diseaseprocessor.DiseaseProcessor('./models/Disease')
+        disease_service = DiseaseProcessor('./models/Disease')
     else:
-        disease_service = diseaseprocessor.DiseaseProcessor('alvaroalon2/biobert_diseases_ner')
+        disease_service = DiseaseProcessor('alvaroalon2/biobert_diseases_ner')
     if check_existant_model('Chemical'):
-        chemical_service = chemicalprocessor.ChemicalProcessor('./models/Chemical')
+        chemical_service = ChemicalProcessor('./models/Chemical')
     else:
-        chemical_service = chemicalprocessor.ChemicalProcessor('alvaroalon2/biobert_chemical_ner')
+        chemical_service = ChemicalProcessor('alvaroalon2/biobert_chemical_ner')
     if check_existant_model('Gene'):
-        genetic_service = geneprocessor.GeneProcessor('./models/Gene')
+        genetic_service = GeneProcessor('./models/Gene')
     else:
-        genetic_service = geneprocessor.GeneProcessor('alvaroalon2/biobert_genetic_ner')
+        genetic_service = GeneProcessor('alvaroalon2/biobert_genetic_ner')
 
     nlp = spacy.load("en_core_web_sm", exclude=["tok2vec", "lemmatizer"])
 

@@ -1,6 +1,6 @@
-from bioprocessor import BioProcessor
+from .bioprocessor import BioProcessor
 import pysolr
-from utils import unique_terms
+from bionlp.processors.utils import unique_terms
 import re
 
 

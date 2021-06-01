@@ -2,14 +2,48 @@ import pysolr
 import time
 from os import path
 import sys
-from NER_processing import nlp, disease_service, chemical_service, genetic_service
 from utils import group_in_dict
+
+import sys, os, inspect
+
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0, parentdir)
+
+os.chdir('..')
+
+from bionlp import nlp, disease_service, chemical_service, genetic_service
 
 solr = pysolr.Solr('http://localhost:8984/solr/covid_paragraphs', always_commit=True, timeout=50)
 completed = False
 window_size = 100
 paragraphs_processed = []
 normalize_flag = False
+fieldupdates = {'biobert_chemical_normalized_term': 'add',
+                'biobert_chemical_meshid': 'add',
+                'biobert_chemical_cid': 'add',
+                'biobert_chemical_chebi_id': 'add',
+                'biobert_chemical_cross_references': 'add',
+                'biobert_chemical_ATC': 'add',
+                'biobert_chemical_ATC_level': 'add',
+                'biobert_disease_normalized_term': 'add',
+                'biobert_disease_meshid': 'add',
+                'biobert_disease_cui': 'add',
+                'biobert_disease_icd10': 'add',
+                'biobert_disease_cross_references': 'add',
+                'biobert_genetic_normalized_term': 'add',
+                'biobert_genetic_ncbi_gene_id': 'add',
+                'biobert_genetic_GO_id': 'add',
+                'biobert_genetic_ncbi_taxon_id': 'add',
+                'biobert_genetic_cross_references': 'add',
+                'biobert_genetic_uniprot_id': 'add',
+                'biobert_covid_normalized_term': 'add',
+                'biobert_covid_evidence_url': 'add',
+                'biobert_covid_target_url': 'add',
+                'biobert_covid_association_score': 'add',
+                'biobert_covid_ebi_reference': 'add',
+                'biobert_covid_PR_id': 'add'
+                }
 
 if path.isfile('counter.txt'):
     with open('counter.txt', 'r') as f:
@@ -27,7 +61,7 @@ if __name__ == '__main__':
     while not completed:
         old_counter = counter
         try:
-            paragraphs = solr.search(q="*:*", rows=window_size, start=counter, sort="id asc")
+            paragraphs = solr.search(q="*:*", rows=window_size, start=counter, sort="id desc")
 
             for p in paragraphs:
                 paragraph = {}
@@ -36,12 +70,12 @@ if __name__ == '__main__':
                     paragraph['section_s'] = p['section_s']
                 if ('id' in p):
                     paragraph['id'] = p['id']
-                if ('article_id_s' in p):
-                    paragraph['article_id_s'] = p['article_id_s']
-                if ('size_i' in p):
-                    paragraph['size_i'] = p['size_i']
-                if ('name_s' in p):
-                    paragraph['name_s'] = p['name_s']
+                # if ('article_id_s' in p):
+                #     paragraph['article_id_s'] = p['article_id_s']
+                # if ('size_i' in p):
+                #     paragraph['size_i'] = p['size_i']
+                # if ('name_s' in p):
+                #     paragraph['name_s'] = p['name_s']
                 if ('text_t' in p):
                     paragraph['text_t'] = p['text_t']
                     doc = nlp(str(paragraph['text_t']))
@@ -115,11 +149,10 @@ if __name__ == '__main__':
                 paragraphs_processed.append(paragraph)
 
             counter += len(paragraphs)
-            print(counter, "docs evaluated")
 
             if counter % window_size == 0:
                 print(paragraphs_processed[0])
-                solr.add(paragraphs_processed)
+                solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
                 print(counter, 'paragraphs annotated')
                 paragraphs_processed = []
                 with open('counter.txt', 'w') as f:
