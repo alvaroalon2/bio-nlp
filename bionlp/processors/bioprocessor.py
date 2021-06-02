@@ -22,27 +22,51 @@ class BioProcessor:
             device = torch.device("cpu")
 
         self.model_name = model_name
+        # print(self.model_name)
         self.config = AutoConfig.from_pretrained(self.model_name)
+        # print('config set')
         self.tokenizer = AutoTokenizer.from_pretrained(
             self.model_name,
             use_fast=True,
             return_offsets_mapping=True
         )
+        # print('tokenizer set')
         self.model = AutoModelForTokenClassification.from_pretrained(
             self.model_name,
             config=self.config
         )
+        # print('model set')
 
         if self.gpu_flag:
-            self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
-                                                    task='ner',
-                                                    grouped_entities=True,
-                                                    device=0)
+            try:
+                self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
+                                                            task='ner',
+                                                            grouped_entities=True,
+                                                            device=0)
+            except:
+                print('It was not possible to allocate model pipeline in GPU, setting it on CPU')
+                self.gpu_flag = False
+                device = torch.device("cpu")
+                self.config = AutoConfig.from_pretrained(self.model_name)
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    self.model_name,
+                    use_fast=True,
+                    return_offsets_mapping=True
+                )
+                self.model = AutoModelForTokenClassification.from_pretrained(
+                    self.model_name,
+                    config=self.config
+                )
+                self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
+                                                            task='ner',
+                                                            grouped_entities=True,
+                                                            )
         else:
             self.pipeline = TokenClassificationPipeline(model=self.model, tokenizer=self.tokenizer, framework='pt',
-                                                    task='ner',
-                                                    grouped_entities=True,
+                                                        task='ner',
+                                                        grouped_entities=True,
                                                         )
+        # print('pipeline set')
         self.sequence = ''
         self.offset = 0
         self.results = {}
@@ -64,4 +88,3 @@ class BioProcessor:
                 result['end'] += self.offset
         self.results = results
         return self.results
-

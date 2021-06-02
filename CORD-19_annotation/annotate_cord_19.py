@@ -151,7 +151,7 @@ if __name__ == '__main__':
             counter += len(paragraphs)
 
             if counter % window_size == 0:
-                print(paragraphs_processed[0])
+                #print(paragraphs_processed[0])
                 solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
                 print(counter, 'paragraphs annotated')
                 paragraphs_processed = []

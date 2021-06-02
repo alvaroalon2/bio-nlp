@@ -112,19 +112,28 @@ def expand_suffix_chems(doc):
 
 
 try:
+
+    print('Loading DISEASE Service')
     if check_existant_model('Disease'):
         disease_service = DiseaseProcessor('./models/Disease')
     else:
         disease_service = DiseaseProcessor('alvaroalon2/biobert_diseases_ner')
+    print('Disease service loaded')
+    print('----------------------------------------------')
+    print('Loading DISEASE Service')
     if check_existant_model('Chemical'):
         chemical_service = ChemicalProcessor('./models/Chemical')
     else:
         chemical_service = ChemicalProcessor('alvaroalon2/biobert_chemical_ner')
+    print('Chemical service loaded')
+    print('----------------------------------------------')
+    print('Loading DISEASE Service')
     if check_existant_model('Gene'):
         genetic_service = GeneProcessor('./models/Gene')
     else:
         genetic_service = GeneProcessor('alvaroalon2/biobert_genetic_ner')
-
+    print('Genetic service loaded')
+    print('----------------------------------------------')
     nlp = spacy.load("en_core_web_sm", exclude=["tok2vec", "lemmatizer"])
 
     nlp.add_pipe('ner_custom', before='ner')
@@ -133,5 +142,9 @@ try:
 
     nlp.add_pipe('postprocessing_chems', before='postprocessing_covid')
 
-except:
+    print('SYSTEM LOADED!!!')
+    print('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+
+except Exception as e:
+    print(repr(e))
     print('Error loading system components')
