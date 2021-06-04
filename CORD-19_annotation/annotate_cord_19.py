@@ -14,12 +14,15 @@ os.chdir('..')
 
 from bionlp import nlp, disease_service, chemical_service, genetic_service
 
-solr = pysolr.Solr('http://librairy.linkeddata.es/solr/cord19-paragraphs', always_commit=True, timeout=50)
+solr = pysolr.Solr('http://librairy.linkeddata.es/data/cord19-paragraphs', always_commit=True, timeout=50)
 completed = False
-window_size = 200
+window_size = 100
 paragraphs_processed = []
 normalize_flag = False
-fieldupdates = {'biobert_chemical_normalized_term': 'add',
+fieldupdates = {'biobert_disease_ents': 'add',
+                'biobert_chemical_ents': 'add',
+                'biobert_genetic_ents': 'add',
+                'biobert_chemical_normalized_term': 'add',
                 'biobert_chemical_meshid': 'add',
                 'biobert_chemical_cid': 'add',
                 'biobert_chemical_chebi_id': 'add',
@@ -50,6 +53,7 @@ if path.isfile('CORD-19_annotation/counter.txt'):
         counter = int(f.read())
     print('Resuming from ' + str(counter))
 else:
+    print('Starting annotation from beginning')
     counter = 0
 
 if len(sys.argv) > 1:
@@ -152,7 +156,7 @@ if __name__ == '__main__':
             counter += len(paragraphs)
 
             if counter % window_size == 0:
-                #print(paragraphs_processed[0])
+                # print(paragraphs_processed[0])
                 solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
                 print(counter, 'paragraphs annotated')
                 paragraphs_processed = []
