@@ -14,9 +14,9 @@ os.chdir('..')
 
 from bionlp import nlp, disease_service, chemical_service, genetic_service
 
-solr = pysolr.Solr('http://localhost:8984/solr/covid_paragraphs', always_commit=True, timeout=50)
+solr = pysolr.Solr('http://librairy.linkeddata.es/solr/cord19-paragraphs', always_commit=True, timeout=50)
 completed = False
-window_size = 100
+window_size = 200
 paragraphs_processed = []
 normalize_flag = False
 fieldupdates = {'biobert_chemical_normalized_term': 'add',
@@ -48,20 +48,21 @@ fieldupdates = {'biobert_chemical_normalized_term': 'add',
 if path.isfile('CORD-19_annotation/counter.txt'):
     with open('CORD-19_annotation/counter.txt', 'r') as f:
         counter = int(f.read())
+    print('Resuming from ' + str(counter))
 else:
     counter = 0
 
 if len(sys.argv) > 1:
     if sys.argv[1] == 'normalize':
         normalize_flag = True
-        print('Normalization step actived')
+        print('Normalization step activated')
 
 if __name__ == '__main__':
     print("Start reading from solr...")
     while not completed:
         old_counter = counter
         try:
-            paragraphs = solr.search(q="*:*", rows=window_size, start=counter, sort="id desc")
+            paragraphs = solr.search(q="*:*", rows=window_size, start=counter, sort="id asc")
 
             for p in paragraphs:
                 paragraph = {}
