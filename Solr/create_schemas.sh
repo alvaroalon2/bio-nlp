@@ -1,10 +1,12 @@
 #!/bin/bash
 
+echo "Initialazing Solr Schemas creation"
+
 
 curl -X POST -H 'Content-type:application/json' --data-binary '{
   "add-field":{
      "name":"ATC",
-     "type":"text_general",
+     "type":"string",
      "indexed":false,
      "stored":true},
   "add-field":{
@@ -177,3 +179,6 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "indexed":true,
      "stored":true },
 }' http://localhost:8983/solr/covid/schema
+
+
+echo "Schemas created!!!"
