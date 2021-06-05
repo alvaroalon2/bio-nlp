@@ -17,16 +17,30 @@ class ChemicalProcessor(BioProcessor):
         normalized_chems = []
         chems = unique_terms(chemical_ents)
         for chem in chems:
-            label = re.sub(r'\W+', ' ', str(chem))
-            #label = str(chem).replace('(','').replace(')','')
-            solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
-            solr_query_lax = "term:" + label + "^100 or synonyms:" + label + "^10 or mesh_headings:" + label + "^5"
-            solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100 or mesh_headings:\"" + label + "\"^5"
-            solr_query_lax_syn = "term:" + label + "^10 or synonyms:" + label + "^100 or mesh_headings:" + label + "^5"
-            results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
-            results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
-            results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
-            results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            try:
+                label = str(chem)
+                solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
+                solr_query_lax = "term:" + label + "^100 or synonyms:" + label + "^10 or mesh_headings:" + label + "^5"
+                solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100 or mesh_headings:\"" + label + "\"^5"
+                solr_query_lax_syn = "term:" + label + "^10 or synonyms:" + label + "^100 or mesh_headings:" + label + "^5"
+                results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            except Exception:
+                label = re.sub(r'\W+', ' ', str(chem))
+                try:
+                    solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10 or mesh_headings:\"" + label + "\"^5"
+                    solr_query_lax = "term:" + label + "^100 or synonyms:" + label + "^10 or mesh_headings:" + label + "^5"
+                    solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100 or mesh_headings:\"" + label + "\"^5"
+                    solr_query_lax_syn = "term:" + label + "^10 or synonyms:" + label + "^100 or mesh_headings:" + label + "^5"
+                    results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                    results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                    results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                    results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+                except Exception:
+                    continue
+
             if len(results_lax) < 1 and len(results_strict) < 1:
                 chemical = {'text_term': label}
                 normalized_chems.append(chemical)

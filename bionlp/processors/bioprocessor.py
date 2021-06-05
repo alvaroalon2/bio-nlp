@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModel, AutoConfig, AutoModelForTokenClassification, \
     TokenClassificationPipeline
 import torch
+import multiprocessing
 
 
 class BioProcessor:
@@ -20,6 +21,7 @@ class BioProcessor:
             print('No GPU available, using the CPU instead.')
             self.gpu_flag = False
             device = torch.device("cpu")
+            torch.set_num_threads(int(multiprocessing.cpu_count()))
 
         self.model_name = model_name
         # print(self.model_name)
@@ -47,6 +49,7 @@ class BioProcessor:
                 print('It was not possible to allocate model pipeline in GPU, setting it on CPU')
                 self.gpu_flag = False
                 device = torch.device("cpu")
+                torch.set_num_threads(int(multiprocessing.cpu_count()))
                 self.config = AutoConfig.from_pretrained(self.model_name)
                 self.tokenizer = AutoTokenizer.from_pretrained(
                     self.model_name,

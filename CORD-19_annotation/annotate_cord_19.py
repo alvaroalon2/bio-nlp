@@ -14,39 +14,39 @@ os.chdir('..')
 
 from bionlp import nlp, disease_service, chemical_service, genetic_service
 
-solr = pysolr.Solr('http://librairy.linkeddata.es/data/cord19-paragraphs', always_commit=True, timeout=50)
+solr = pysolr.Solr('http://librairy.linkeddata.es/solr/cord19-paragraphs', always_commit=True, timeout=50)
 completed = False
 window_size = 100
 paragraphs_processed = []
 normalize_flag = False
-fieldupdates = {'biobert_disease_ents': 'add',
-                'biobert_chemical_ents': 'add',
-                'biobert_genetic_ents': 'add',
-                'biobert_chemical_normalized_term': 'add',
-                'biobert_chemical_meshid': 'add',
-                'biobert_chemical_cid': 'add',
-                'biobert_chemical_chebi_id': 'add',
-                'biobert_chemical_cross_references': 'add',
-                'biobert_chemical_ATC': 'add',
-                'biobert_chemical_ATC_level': 'add',
-                'biobert_disease_normalized_term': 'add',
-                'biobert_disease_meshid': 'add',
-                'biobert_disease_cui': 'add',
-                'biobert_disease_icd10': 'add',
-                'biobert_disease_cross_references': 'add',
-                'biobert_genetic_normalized_term': 'add',
-                'biobert_genetic_ncbi_gene_id': 'add',
-                'biobert_genetic_GO_id': 'add',
-                'biobert_genetic_ncbi_taxon_id': 'add',
-                'biobert_genetic_cross_references': 'add',
-                'biobert_genetic_uniprot_id': 'add',
-                'biobert_covid_normalized_term': 'add',
-                'biobert_covid_evidence_url': 'add',
-                'biobert_covid_target_url': 'add',
-                'biobert_covid_association_score': 'add',
-                'biobert_covid_ebi_reference': 'add',
-                'biobert_covid_PR_id': 'add'
-                }
+# fieldupdates = {'biobert_disease_ents': 'add',
+#                 'biobert_chemical_ents': 'add',
+#                 'biobert_genetic_ents': 'add',
+#                 'biobert_chemical_normalized_term': 'add',
+#                 'biobert_chemical_meshid': 'add',
+#                 'biobert_chemical_cid': 'add',
+#                 'biobert_chemical_chebi_id': 'add',
+#                 'biobert_chemical_cross_references': 'add',
+#                 'biobert_chemical_ATC': 'add',
+#                 'biobert_chemical_ATC_level': 'add',
+#                 'biobert_disease_normalized_term': 'add',
+#                 'biobert_disease_meshid': 'add',
+#                 'biobert_disease_cui': 'add',
+#                 'biobert_disease_icd10': 'add',
+#                 'biobert_disease_cross_references': 'add',
+#                 'biobert_genetic_normalized_term': 'add',
+#                 'biobert_genetic_ncbi_gene_id': 'add',
+#                 'biobert_genetic_GO_id': 'add',
+#                 'biobert_genetic_ncbi_taxon_id': 'add',
+#                 'biobert_genetic_cross_references': 'add',
+#                 'biobert_genetic_uniprot_id': 'add',
+#                 'biobert_covid_normalized_term': 'add',
+#                 'biobert_covid_evidence_url': 'add',
+#                 'biobert_covid_target_url': 'add',
+#                 'biobert_covid_association_score': 'add',
+#                 'biobert_covid_ebi_reference': 'add',
+#                 'biobert_covid_PR_id': 'add'
+#                 }
 
 if path.isfile('CORD-19_annotation/counter.txt'):
     with open('CORD-19_annotation/counter.txt', 'r') as f:
@@ -73,14 +73,12 @@ if __name__ == '__main__':
                 paragraph['id'] = p['id']
                 if ('section_s' in p):
                     paragraph['section_s'] = p['section_s']
-                if ('id' in p):
-                    paragraph['id'] = p['id']
-                # if ('article_id_s' in p):
-                #     paragraph['article_id_s'] = p['article_id_s']
-                # if ('size_i' in p):
-                #     paragraph['size_i'] = p['size_i']
-                # if ('name_s' in p):
-                #     paragraph['name_s'] = p['name_s']
+                if ('article_id_s' in p):
+                    paragraph['article_id_s'] = p['article_id_s']
+                if ('size_i' in p):
+                    paragraph['size_i'] = p['size_i']
+                if ('name_s' in p):
+                    paragraph['name_s'] = p['name_s']
                 if ('text_t' in p):
                     paragraph['text_t'] = p['text_t']
                     doc = nlp(str(paragraph['text_t']))
@@ -157,12 +155,12 @@ if __name__ == '__main__':
 
             if counter % window_size == 0:
                 # print(paragraphs_processed[0])
-                solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
+                # solr.add(paragraphs_processed, fieldUpdates=fieldupdates)
+                solr.add(paragraphs_processed)
                 print(counter, 'paragraphs annotated')
                 paragraphs_processed = []
                 with open('CORD-19_annotation/counter.txt', 'w') as f:
                     f.write(str(counter))
-                time.sleep(1.0)
 
             if (old_counter == counter):
                 print("done!")

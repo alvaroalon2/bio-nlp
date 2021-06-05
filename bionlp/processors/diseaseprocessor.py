@@ -17,16 +17,29 @@ class DiseaseProcessor(BioProcessor):
         normalized_dis = []
         diseases = unique_terms(disease_ents)
         for dis in diseases:
-            label = re.sub(r'\W+', ' ', str(dis))
-            #label = str(dis).replace('(','').replace(')','')
-            solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10"
-            solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
-            solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100"
-            solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
-            results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
-            results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
-            results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
-            results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            try:
+                label = str(dis)
+                solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10"
+                solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
+                solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100"
+                solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
+                results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            except Exception:
+                label = re.sub(r'\W+', ' ', str(dis))
+                try:
+                    solr_query_strict = "term:\"" + label + "\"^100 or synonyms:\"" + label + "\"^10"
+                    solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
+                    solr_query_strict_syn = "term:\"" + label + "\"^10 or synonyms:\"" + label + "\"^100"
+                    solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
+                    results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                    results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                    results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                    results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+                except Exception:
+                    continue
             if len(results_lax) < 1 and len(results_strict) < 1:
                 disease = {'text_term': label}
                 normalized_dis.append(disease)

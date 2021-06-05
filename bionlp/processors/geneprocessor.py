@@ -21,16 +21,30 @@ class GeneProcessor(BioProcessor):
         normalized_gen = []
         genetics = unique_terms(genetic_ents)
         for gen in genetics:
-            label = re.sub(r'\W+', ' ', str(gen))
-            #label = str(gen).replace('(','').replace(')','')
-            solr_query_strict = 'term:\"' + label + '\"^100 or synonyms:\"' + label + '\"^10'
-            solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
-            solr_query_strict_syn = 'term:\"' + label + '\"^10 or synonyms:\"' + label + '\"^100'
-            solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
-            results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
-            results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
-            results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
-            results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            try:
+                label = str(gen)
+                solr_query_strict = 'term:\"' + label + '\"^100 or synonyms:\"' + label + '\"^10'
+                solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
+                solr_query_strict_syn = 'term:\"' + label + '\"^10 or synonyms:\"' + label + '\"^100'
+                solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
+                results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+            except Exception:
+                label = re.sub(r'\W+', ' ', str(gen))
+                try:
+                    solr_query_strict = 'term:\"' + label + '\"^100 or synonyms:\"' + label + '\"^10'
+                    solr_query_lax = 'term:' + label + '^100 or synonyms:' + label + '^10'
+                    solr_query_strict_syn = 'term:\"' + label + '\"^10 or synonyms:\"' + label + '\"^100'
+                    solr_query_lax_syn = 'term:' + label + '^10 or synonyms:' + label + '^100'
+                    results_lax = self.solr_engine.search(solr_query_lax, **{'fl': '*,score'})
+                    results_strict = self.solr_engine.search(solr_query_strict, **{'fl': '*,score'})
+                    results_lax_synonyms = self.solr_engine.search(solr_query_lax_syn, **{'fl': '*,score'})
+                    results_strict_synonyms = self.solr_engine.search(solr_query_strict_syn, **{'fl': '*,score'})
+                except Exception:
+                    continue
+
             if len(results_lax) < 1 and len(results_strict) < 1:
                 genetic = {'text_term': label}
                 normalized_gen.append(genetic)
@@ -61,7 +75,8 @@ class GeneProcessor(BioProcessor):
                     # print(score_lax_syn)
                     break
                 results_scores = {results_lax: score_lax, results_strict: score_strict,
-                                  results_strict_synonyms: 0.8*score_strict_syn, results_lax_synonyms: 0.8*score_lax_syn}
+                                  results_strict_synonyms: 0.8 * score_strict_syn,
+                                  results_lax_synonyms: 0.8 * score_lax_syn}
                 results = max(results_scores, key=results_scores.get)
                 for result in results:
                     genetic = {}
@@ -86,11 +101,11 @@ class GeneProcessor(BioProcessor):
         covid = unique_terms(covid_ents)
         for cov in covid:
             label = re.sub(r'\W+', ' ', str(cov))
-#             # print(label)
+            #             # print(label)
             solr_query = "term:\"" + label + "\""
             results = self.solr_engine_covid.search(solr_query)
             if len(results) < 1:
-#                 # print('Non results for:', chem)
+                #                 # print('Non results for:', chem)
                 covid_dict = {'text_term': label}
                 normalized_covid.append(covid_dict)
             for result in results:
