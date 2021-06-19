@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 54,
+        "end": 65
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 125,
+        "end": 131
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22948856_4",
+  "text": "To further investigate the pharmacokinetic profile of pridopidine and to establish whether dose adjustment is needed in poor CYP2D6 metabolizers , a single-centre , open-label , multiple-dose study in healthy volunteers was performed ."
+}

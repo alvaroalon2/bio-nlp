@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 19,
+        "end": 22
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 84,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 137,
+        "end": 148
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 37
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12125044_5",
+  "text": "In contrast , more Jun and 35-kDa FRA were expressed in the ventral striatum of the amphetamine -treated group than in the controls when haloperidol was given at w10 ."
+}

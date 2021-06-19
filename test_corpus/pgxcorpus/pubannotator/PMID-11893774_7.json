@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 22
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 76,
+        "end": 78
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11893774_7",
+  "text": "The region of estrogen responsiveness was localized to -1557 / -1175 of the HL promoter by deletion analysis ."
+}

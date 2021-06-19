@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 51,
+        "end": 54
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 96,
+        "end": 106
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 122,
+        "end": 132
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 157,
+        "end": 160
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20878066_6",
+  "text": "In this report , using a cell line with knock-down p53 expression through siRNA , we found that amifostine enhancement of paclitaxel 's anticancer effect is p53 status -dependent ."
+}

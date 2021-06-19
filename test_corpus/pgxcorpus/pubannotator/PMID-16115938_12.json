@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 88,
+        "end": 93
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 132,
+        "end": 138
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 7,
+        "end": 61
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 33,
+        "end": 46
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 88,
+        "end": 116
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 7,
+        "end": 28
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16115938_12",
+  "text": "Thus , antisense PKA RIalpha and CpG immunomer in combination work cooperatively and as tumor -targeted therapeutics to treat human cancer ."
+}

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 28
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 62
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 65,
+        "end": 71
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 103,
+        "end": 116
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15790782_1",
+  "text": "Cytochrome P450 2C9 ( CYP2C9 ) and vitamin K epoxide reductase ( VKORC1 ) genotypes as determinants of acenocoumarol sensitivity ."
+}

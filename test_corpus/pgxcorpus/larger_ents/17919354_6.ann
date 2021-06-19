@@ -1,0 +1,5 @@
+T1	Gene_or_protein 18 21	HFE
+T2	Chemical 34 45	anastrozole
+T3	Chemical 50 59	tamoxifen
+T4	Chemical 76 88	chemotherapy
+T5	Disease 144 157	breast cancer

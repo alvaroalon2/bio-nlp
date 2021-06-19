@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 92
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 107,
+        "end": 111
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 243,
+        "end": 264
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 253,
+        "end": 257
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 85
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 133
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 115
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Disease",
+      "span": {
+        "begin": 186,
+        "end": 190
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21955998_9",
+  "text": "In conclusion , this analysis provides confirmation that , compared with chemotherapy or BSC alone , anti- EGFR mAb with chemotherapy or BSC reduces the risk of progression and death of mCRC and that this benefit is seen only in patients with wild-type KRAS tumors ."
+}

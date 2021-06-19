@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 4,
+        "end": 14
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 32
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 47,
+        "end": 53
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 110,
+        "end": 116
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26325438_9",
+  "text": "For tacrolimus , rs776746 CYP3A5 * 3 / * 3 and CYP3A5 * 3 / * 1 were associated with higher blood levels than CYP3A5 * 1 / * 1 ( P = .002 ) ."
+}

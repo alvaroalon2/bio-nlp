@@ -1,0 +1,79 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 33,
+        "end": 40
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 19,
+        "end": 30
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 43,
+        "end": 54
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 61,
+        "end": 67
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 113,
+        "end": 136
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 141,
+        "end": 170
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 145
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 61,
+        "end": 77
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 100,
+        "end": 109
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26666244_1",
+  "text": "A phase I study of selumetinib ( AZD6244 / ARRY-142866 ) , a MEK1/2 inhibitor , in combination with cetuximab in refractory solid tumors and KRAS mutant colorectal cancer ."
+}

@@ -1,0 +1,95 @@
+T1	sosy-dis 333 338	death
+T2	sosy-dis 565 569	lice
+T3	sosy-dis 937 943	cancer
+T4	sosy-dis 1549 1560	Coronavirus
+T5	sosy-dis 1565 1573	COVID-19
+T6	sosy-dis 1949 1953	cold
+T7	sosy-dis 3197 3206	itchiness
+T8	sosy-dis 3218 3228	irritation
+T9	sosy-dis 3439 3445	asthma
+T10	sosy-dis 3717 3730	heart disease
+T11	sosy-dis 3943 3952	head lice
+T12	sosy-dis 4271 4281	infections
+T13	sosy-dis 4628 4634	injury
+T14	sosy-dis 6374 6388	discrimination
+T15	sosy-dis 6392 6403	work injury
+T16	sosy-dis 6408 6418	harassment
+T17	sosy-dis 7702 7711	customers
+T18	sosy-dis 14894 14903	newcomers
+T19	sosy-dis 20753 20762	newcomers
+T20	sosy-dis 22672 22681	newcomers
+T21	sosy-dis 42173 42182	customers
+T22	sosy-dis 42849 42858	customers
+T23	sosy-dis 44919 44924	death
+T24	sosy-dis 45227 45232	death
+T25	sosy-dis 45552 45557	death
+T26	sosy-dis 46724 46729	death
+T27	sosy-dis 47064 47069	death
+T28	sosy-dis 47215 47220	death
+T29	sosy-dis 47619 47624	death
+T30	sosy-dis 49781 49788	Farmers
+T31	sosy-dis 50510 50518	seizures
+T32	sosy-dis 50523 50531	diabetes
+T33	sosy-dis 51027 51036	blind and
+T34	sosy-dis 54206 54213	anxiety
+T35	sosy-dis 56219 56225	rabies
+T36	sosy-dis 58372 58383	work injury
+T37	sosy-dis 58388 58398	harassment
+T38	sosy-dis 63702 63711	customers
+T39	sosy-dis 81462 81471	newcomers
+T40	sosy-dis 85141 85150	newcomers
+T41	sosy-dis 88632 88649	Sexual harassment
+T42	sosy-dis 89066 89072	sexism
+T43	sosy-dis 89074 89091	sexual harassment
+T44	sosy-dis 90161 90178	sexual harassment
+T45	sosy-dis 90776 90782	sexism
+T46	sosy-dis 90795 90801	sexism
+T47	sosy-dis 90814 90831	sexual harassment
+T48	sosy-dis 91008 91014	sexism
+T49	sosy-dis 95244 95253	newcomers
+T50	sosy-dis 100992 100999	Tardies
+T51	sosy-dis 102316 102323	tardies
+T52	sosy-dis 104865 104874	newcomers
+T53	sosy-dis 107208 107217	Newcomers
+T54	sosy-dis 109842 109847	death
+T55	sosy-dis 111703 111712	newcomers
+T56	sosy-dis 111797 111806	newcomers
+T57	sosy-dis 112043 112052	newcomers
+T58	sosy-dis 112795 112804	newcomers
+T59	sosy-dis 120541 120548	immerse
+T60	sosy-dis 124597 124608	child abuse
+T61	sosy-dis 125031 125042	Child abuse
+T62	sosy-dis 125113 125124	child abuse
+T63	sosy-dis 125134 125145	child abuse
+T64	sosy-dis 125147 125158	Child abuse
+T65	sosy-dis 125195 125206	Child abuse
+T66	sosy-dis 141371 141380	customers
+T67	sosy-dis 148220 148234	cyber-bullying
+T68	sosy-dis 149798 149807	predators
+T69	sosy-dis 156128 156132	with
+T70	sosy-dis 156138 156161	liver, brain, heart, or
+T71	sosy-dis 156318 156340	substance use disorder
+T72	sosy-dis 156478 156500	substance use disorder
+T73	sosy-dis 156966 156988	Substance use disorder
+T74	sosy-dis 157285 157300	Substance abuse
+T75	sosy-dis 157302 157315	alcohol abuse
+T76	sosy-dis 157321 157343	substance use disorder
+T77	sosy-dis 157684 157706	substance use disorder
+T78	sosy-dis 157724 157739	substance abuse
+T79	sosy-dis 157866 157888	substance use disorder
+T80	sosy-dis 157935 157956	mental health illness
+T81	sosy-dis 158242 158257	Substance abuse
+T82	sosy-dis 158334 158357	substance use disorders
+T83	sosy-dis 160028 160037	customers
+T84	sosy-dis 160509 160518	Customers
+T85	sosy-dis 160973 160982	customers
+T86	sosy-dis 161257 161266	customers
+T87	sosy-dis 161883 161892	customers
+T88	sosy-dis 162460 162469	customers
+T89	sosy-dis 163148 163157	customers
+T90	sosy-dis 166165 166172	farmers
+T91	sosy-dis 166768 166777	newcomers
+T92	sosy-dis 167223 167232	newcomers
+T93	sosy-dis 171378 171392	animal cruelty
+T94	sosy-dis 171396 171403	neglect
+T95	sosy-dis 171934 171945	child abuse

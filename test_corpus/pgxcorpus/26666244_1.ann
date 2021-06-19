@@ -1,0 +1,9 @@
+T1	Chemical 33 40	AZD6244
+T2	Chemical 19 30	selumetinib
+T3	Chemical 43 54	ARRY-142866
+T4	Gene_or_protein 61 67	MEK1/2
+T5	Disease 113 136	refractory solid tumors
+T6	Disease 141 170	KRAS mutant colorectal cancer
+T7	Gene_or_protein 141 145	KRAS
+T8	Chemical 61 77	MEK1/2 inhibitor
+T9	Chemical 100 109	cetuximab

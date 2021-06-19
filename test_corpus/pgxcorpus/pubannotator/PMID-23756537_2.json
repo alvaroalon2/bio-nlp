@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 49
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 142
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 145,
+        "end": 148
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 212,
+        "end": 232
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 235,
+        "end": 237
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 91,
+        "end": 107
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23756537_2",
+  "text": "OBJECTIVE : To investigate the occurrence of MDR1 C3435T gene polymorphisms in the Turkish renal transplant patients treated with cyclosporine ( CsA ) , and correlate these findings with prevalence and degree of gingival hyperplasia ( GH ) ."
+}

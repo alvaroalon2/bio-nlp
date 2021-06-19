@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 32
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 73,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 139,
+        "end": 143
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22684019_11",
+  "text": "Our findings suggest that IM3829 could be a promising radiosensitizer in lung cancer patients , particularly those with high expression of Nrf2 ."
+}

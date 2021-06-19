@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 96
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 107,
+        "end": 125
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 107,
+        "end": 114
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15896496_1",
+  "text": "A study of the association of ( Val66Met ) polymorphism in the brain-derived neurotrophic factor gene with alcohol dependence and extreme violence in Chinese males ."
+}

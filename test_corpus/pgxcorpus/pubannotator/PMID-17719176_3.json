@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 25,
+        "end": 29
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 47,
+        "end": 74
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 77,
+        "end": 80
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 87,
+        "end": 113
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 168,
+        "end": 171
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 189,
+        "end": 193
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Disease",
+      "span": {
+        "begin": 137,
+        "end": 150
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17719176_3",
+  "text": "To test the influence of WFS1 polymorphisms on medication overuse headache ( MOH ) , a chronic headache condition related to symptomatic drugs overuse , we analyzed 82 MOH patients for the WFS1 His611Arg polymorphism , and performed a comparison between clinical features of Arg / Arg ( R/R ) and non-R/R individuals ."
+}

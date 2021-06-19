@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 39
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 130,
+        "end": 136
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 147
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22252093_2",
+  "text": "BACKGROUND : The required acenocoumarol dose and the risk of underanticoagulation and overanticoagulation are associated with the CYP2C9 and VKORC1 genotypes ."
+}

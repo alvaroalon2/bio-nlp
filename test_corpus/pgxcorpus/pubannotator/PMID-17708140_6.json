@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 18,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 114
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 29,
+        "end": 44
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 60
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 80
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17708140_6",
+  "text": "Interactions with warfarin , antidepressants , antiepileptic drugs , and statins often involve the cytochrome P450 enzymes ."
+}

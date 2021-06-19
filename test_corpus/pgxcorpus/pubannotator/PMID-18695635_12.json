@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 45
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 96,
+        "end": 103
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 108,
+        "end": 115
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 144
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18695635_12",
+  "text": "In conclusion , our findings showed that MPAG pharmacokinetics were significantly influenced by SLCO1B1 and SLCO1B3 polymorphisms and not by UGT polymorphisms ."
+}

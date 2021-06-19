@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 23,
+        "end": 26
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 37,
+        "end": 41
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 202,
+        "end": 206
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 170
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 173,
+        "end": 176
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12149232_3",
+  "text": "The mechanism by which HFE regulates iron absorption is not known , but the C282Y mutation results in loss of cell surface expression of the human hemachromatosis protein ( HFE ) and hyperabsorption of iron by the duodenal enterocyte ."
+}

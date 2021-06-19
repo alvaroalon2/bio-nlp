@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 52,
+        "end": 58
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 70
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 107,
+        "end": 118
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22842957_3",
+  "text": "Our objective was to assess the association between CYP2C9 and SLCO1B1 polymorphisms and the metabolism of nateglinide in healthy Chinese male volunteers ."
+}

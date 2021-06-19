@@ -1,0 +1,8 @@
+T2	Chemical 105 140	taxane -based adjuvant chemotherapy
+T4	Gene_or_protein 158 167	HER2 /neu
+T5	Disease 196 223	HER2 /neu -positive cancers
+T6	Gene_or_protein 196 205	HER2 /neu
+T7	Disease 277 304	HER2 /neu -negative cancers
+T8	Gene_or_protein 277 286	HER2 /neu
+T11	Chemical 80 93	anthracycline
+T12	Chemical 105 111	taxane

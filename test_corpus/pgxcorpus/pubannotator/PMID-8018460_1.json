@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 11
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 79,
+        "end": 85
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 115,
+        "end": 127
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8018460_1",
+  "text": "Maprotiline metabolism appears to co-segregate with the genetically-determined CYP2D6 polymorphic hydroxylation of debrisoquine ."
+}

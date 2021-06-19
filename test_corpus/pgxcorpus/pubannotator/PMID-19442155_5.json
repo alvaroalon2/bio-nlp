@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 124,
+        "end": 134
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 153,
+        "end": 160
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 94,
+        "end": 102
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19442155_5",
+  "text": "They are all inhibited by lithium at therapeutic concentrations and are representative of the inositol depletion and of the GSK-3 beta based theories of lithium action ."
+}

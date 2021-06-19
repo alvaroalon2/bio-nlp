@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 38,
+        "end": 50
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 97,
+        "end": 104
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22076562_5",
+  "text": "The aim of this study was to evaluate lansoprazole as an in vivo phenotyping probe for assessing CYP2C19 activity in children ."
+}

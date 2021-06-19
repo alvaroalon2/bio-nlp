@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 27,
+        "end": 34
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 55,
+        "end": 58
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 129,
+        "end": 145
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 55,
+        "end": 67
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19183407_9",
+  "text": "These results suggest that AKR-501 is an orally-active TPO receptor agonist that may be useful in the treatment of patients with thrombocytopenia ."
+}

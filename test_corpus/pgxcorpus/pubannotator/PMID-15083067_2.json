@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 9
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 53,
+        "end": 80
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15083067_2",
+  "text": "Bupropion is primarily metabolized in human liver by cytochrome P450 ( CYP ) 2B6 , an isoform that shows high interindividual variability in expression and catalysis ."
+}

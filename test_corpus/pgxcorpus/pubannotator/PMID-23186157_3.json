@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 10,
+        "end": 13
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 95,
+        "end": 104
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 31
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23186157_3",
+  "text": "Selective Abl kinase inhibitors have been successfully established for the treatment of Ph (+) leukemias ."
+}

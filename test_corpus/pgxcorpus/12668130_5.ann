@@ -1,0 +1,6 @@
+T2	Gene_or_protein 27 32	MnSOD
+T3	Gene_or_protein 37 45	Cu/ZnSOD
+T6	Disease 158 165	infarct
+T7	Chemical 173 188	malondialdehyde
+T8	Disease 71 81	I/R injury
+T12	Gene_or_protein 133 148	creatine kinase

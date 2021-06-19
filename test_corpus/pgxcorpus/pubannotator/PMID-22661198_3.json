@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 106
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 114,
+        "end": 119
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 126,
+        "end": 133
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 126,
+        "end": 144
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22661198_3",
+  "text": "In the present study , a potential relationship between T102C polymorphism in the 5-HT receptor subtype 2A gene ( HTR2A ) and alcohol dependence was examined ."
+}

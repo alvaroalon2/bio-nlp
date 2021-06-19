@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 6
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 62,
+        "end": 70
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22528326_10",
+  "text": "CYP4F2 rs2108622 has a small but significant association with warfarin stable dose in Han-Chinese population ."
+}

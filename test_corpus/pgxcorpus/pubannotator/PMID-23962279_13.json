@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 86
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 140
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23962279_13",
+  "text": "TPMT testing is cost-effective and the major role is in the identification of the TPMT deficient individual prior to the start of thiopurine drugs ."
+}

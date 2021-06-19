@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 115,
+        "end": 120
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 233,
+        "end": 240
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19014491_7",
+  "text": "Multivariate regressions analyses with adjustment for relevant covariates were performed to detect associations of SIRT1 variants with the changes in anthropometrics , weight , body fat or metabolic characteristics ( blood glucose , insulin sensitivity , insulin secretion and liver fat , measured by magnetic resonance techniques ) after the 9-month follow-up test in the TULIP study ."
+}

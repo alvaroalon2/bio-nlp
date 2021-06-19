@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 74
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 106,
+        "end": 110
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 6,
+        "end": 16
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 36,
+        "end": 40
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11692082_6",
+  "text": "Since ivermectin is a substrate for P-gp , we hypothesized that ivermectin -sensitive collies had altered mdr1 expression compared with unaffected collies ."
+}

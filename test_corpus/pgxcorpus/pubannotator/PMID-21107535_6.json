@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 33
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 103,
+        "end": 107
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 136,
+        "end": 140
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 148,
+        "end": 152
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 202,
+        "end": 222
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 225,
+        "end": 229
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 202,
+        "end": 206
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21107535_6",
+  "text": "Exposure of PC12 cells to MnCl(2) for 24 h promoted an increased cytosolic and nuclear accumulation of Nrf2 and enhanced the binding of Nrf2 to the HO-1 gene ARE , thereby inducing the expression of an Nrf2 -regulated gene , HO-1 ."
+}

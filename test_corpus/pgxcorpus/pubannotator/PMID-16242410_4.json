@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 7,
+        "end": 11
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 179,
+        "end": 186
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 208,
+        "end": 212
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 77,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 153,
+        "end": 160
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16242410_4",
+  "text": "At the cFos promoter , H4 hyperacetylation is seen within 30 min of a single cocaine injection , whereas no histone modifications were seen with chronic cocaine , consistent with cocaine 's ability to induce cFos acutely , but not chronically ."
+}

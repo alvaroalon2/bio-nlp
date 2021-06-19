@@ -1,0 +1,79 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 24
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 39,
+        "end": 47
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 80,
+        "end": 92
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 142,
+        "end": 147
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 150,
+        "end": 155
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 160,
+        "end": 166
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 4,
+        "end": 36
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 132,
+        "end": 139
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19182535_2",
+  "text": "The tyrosine kinase ( TK ) inhibitor , imatinib , has revolutionized therapy of malignancies that are addicted to one of its target kinases , c-abl , c-kit and PDGF-R ."
+}

@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 51
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25589623_11",
+  "text": "rs11085735 associated with RFS also among tamoxifen -treated cases ( P = 0.003 ; HR , 3.517 ) ."
+}

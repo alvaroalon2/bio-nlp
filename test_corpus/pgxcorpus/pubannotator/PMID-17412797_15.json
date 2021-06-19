@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 134,
+        "end": 145
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 47,
+        "end": 60
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 30
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17412797_15",
+  "text": "The specificity of N Latex CDT for identifying alcohol abuse may be higher than for immunoassays that use column separation , because transferrin genetic variants do not interfere with measurements ."
+}

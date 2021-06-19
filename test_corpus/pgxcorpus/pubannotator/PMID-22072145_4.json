@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 60,
+        "end": 65
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 159,
+        "end": 184
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 187,
+        "end": 192
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 227,
+        "end": 255
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 126,
+        "end": 141
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 227,
+        "end": 235
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22072145_4",
+  "text": "In this study , the authors investigated the association of MMP-2 polymorphisms with treatment efficacy and the occurrence of severe toxicity in patients with nonsmall cell lung cancer ( NSCLC ) who were receiving first-line , platinum -based chemotherapy ."
+}

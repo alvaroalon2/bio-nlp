@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 37
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 42
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 48,
+        "end": 51
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 92
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 128,
+        "end": 132
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27097961_8",
+  "text": "RESULTS : No marked difference in NAA , Cr , or Cho levels was detected before and after MPH administration with respect to the DAT1 gene VNTR polymorphisms ."
+}

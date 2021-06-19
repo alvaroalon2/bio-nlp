@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 5,
+        "end": 17
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 81
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 54
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 84,
+        "end": 88
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 84,
+        "end": 93
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 136,
+        "end": 162
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 165,
+        "end": 170
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26481697_2",
+  "text": "Both chemotherapy and epidermal growth factor receptor tyrosine kinase inhibitors ( EGFR TKIs ) are widely applied for the treatment of non-small cell lung cancer ( NSCLC ) , but the efficacy of these two treatments in combination is not yet clear ."
+}

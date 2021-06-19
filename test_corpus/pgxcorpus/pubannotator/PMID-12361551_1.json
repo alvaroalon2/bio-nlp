@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 55,
+        "end": 64
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 90,
+        "end": 94
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 19,
+        "end": 22
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12361551_1",
+  "text": "[ Mutations in the HFE gene ( C282Y , H63D , S65C ) in alcoholic patients with finding of iron overload ] ."
+}

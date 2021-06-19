@@ -1,0 +1,7 @@
+T1	Chemical 0 7	Codeine
+T2	Chemical 27 35	morphine
+T3	Chemical 47 61	opioid agonist
+T4	Gene_or_protein 79 98	cytochrome P450 2D6
+T5	Gene_or_protein 101 107	CYP2D6
+T6	Chemical 147 154	codeine
+T7	Gene_or_protein 171 177	CYP2D6

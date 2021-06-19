@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 52,
+        "end": 63
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 67,
+        "end": 78
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 111,
+        "end": 124
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 203,
+        "end": 222
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 127,
+        "end": 143
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Disease",
+      "span": {
+        "begin": 147,
+        "end": 172
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18573584_4",
+  "text": "METHODS : In total 56 patients acutely treated with haloperidol or risperidone either for the first episode of schizophrenia , schizophreniform or schizoaffective disorders , or for the relapse of these psychotic disorders after tapering their maintenance treatment , were genotyped for the 5-HTTLPR L and S alleles and for the new A/G functional variant within the L alelle ( La/g ) ."
+}

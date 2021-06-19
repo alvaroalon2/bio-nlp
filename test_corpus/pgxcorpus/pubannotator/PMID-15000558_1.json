@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 88,
+        "end": 96
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 140,
+        "end": 155
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 25
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 28,
+        "end": 30
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 88,
+        "end": 128
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 131,
+        "end": 134
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15000558_1",
+  "text": "The reverse transcriptase ( RT ) mutation V118I is associated with virologic failure on abacavir -based antiretroviral treatment ( ART ) in HIV-1 infection ."
+}

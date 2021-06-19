@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 51,
+        "end": 54
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 104,
+        "end": 110
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 104,
+        "end": 137
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10911933_8",
+  "text": "In human experimental studies , we have shown that CYP phenotype and genotype affect abuse liability of CYP2D6 metabolized drugs of abuse ."
+}

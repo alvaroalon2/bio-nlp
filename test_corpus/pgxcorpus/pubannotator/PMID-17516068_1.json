@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 36,
+        "end": 48
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 67,
+        "end": 112
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 67,
+        "end": 71
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 20,
+        "end": 48
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 20,
+        "end": 31
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 121,
+        "end": 134
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17516068_1",
+  "text": "A phase II study of trastuzumab and capecitabine for patients with HER2 -overexpressing metastatic breast cancer : Japan Breast Cancer Research Network ( JBCRN ) 00 Trial ."
+}

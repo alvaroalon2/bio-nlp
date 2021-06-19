@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 45,
+        "end": 60
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 88
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 204,
+        "end": 208
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 53,
+        "end": 60
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15707696_5",
+  "text": "Therefore , these observations indicate that chronic ethanol causes demethylation in CpG islands in the regions ( 5843-6276 ) and ( 6477-6763 ) , thereby probably resulting in increased expression of the NR2B gene ."
+}

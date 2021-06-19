@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 22,
+        "end": 35
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 52,
+        "end": 55
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 121,
+        "end": 127
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 142,
+        "end": 148
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 156,
+        "end": 162
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 184
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18628428_8",
+  "text": "The increased risk of breast cancer associated with E+P use was greater among women with at least one rare allele of the CYP1A1 Ile(462)Val , CYP1A1 MspI , CYP1B1 Asn(453)Ser , and PGR Val(660)Leu polymorphisms than among women homozygous for the common allele of these polymorphisms ."
+}

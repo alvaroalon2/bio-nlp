@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 15,
+        "end": 26
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 87
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20663035_7",
+  "text": "KEY FINDINGS : Kainic acid treatment significiantly upregulated the expression of c-fos mRNA in the hippocampus and cortex when compared to the control group ."
+}

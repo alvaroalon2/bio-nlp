@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 27,
+        "end": 36
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 56,
+        "end": 82
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 103
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 118,
+        "end": 121
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 21
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 36
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25522765_1",
+  "text": "Combining Onartuzumab with Erlotinib Inhibits Growth of Non-Small Cell Lung Cancer with Activating EGFR Mutations and HGF Overexpression ."
+}

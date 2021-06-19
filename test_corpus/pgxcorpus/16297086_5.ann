@@ -1,0 +1,4 @@
+T1	Chemical 0 9	Tamoxifen
+T2	Disease 30 43	breast cancer
+T3	Gene_or_protein 47 53	BRCA-2
+T4	Gene_or_protein 85 91	BRCA-1

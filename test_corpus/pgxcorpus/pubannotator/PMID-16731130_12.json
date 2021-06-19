@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 18,
+        "end": 23
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 61,
+        "end": 66
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 150,
+        "end": 153
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16731130_12",
+  "text": "The expression of Bcl-2 was also significantly higher in the CoCl2 group ( 0.15 + / - 0.02 ) versus control ( 0.11 + / - 0.01 , p = 0.007 ) , whereas Bax expression was lower ( 0.34 + / - 0.04 versus 0.54 + / - 0.03 for control , p < 0.001 ) ."
+}

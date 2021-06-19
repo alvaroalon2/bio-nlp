@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 32,
+        "end": 38
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 92,
+        "end": 98
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 137,
+        "end": 143
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 187,
+        "end": 197
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 216,
+        "end": 222
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 59,
+        "end": 62
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 102,
+        "end": 105
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26791794_9",
+  "text": "One patient each whose advanced tumors harbored high level MET amplification with wild-type PIK3CA or MET exon 14 skipping mutation with PIK3CA - p.Glu542Lys had significant responses to crizotinib ; suggesting that PIK3CA co-mutation did not affect clinical response ."
+}

@@ -1,0 +1,10 @@
+T1	Chemical 0 12	Itraconazole
+T2	Gene_or_protein 44 50	CYP3A4
+T4	Chemical 101 110	midazolam
+T5	Chemical 113 122	triazolam
+T6	Chemical 125 134	buspirone
+T7	Chemical 137 147	lovastatin
+T8	Chemical 150 161	simvastatin
+T9	Chemical 166 175	oxycodone
+T10	Chemical 186 196	rifampicin
+T16	Chemical 30 50	inhibitors of CYP3A4

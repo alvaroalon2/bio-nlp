@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 31
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 39
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 168,
+        "end": 182
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20079691_13",
+  "text": "In view of the location of HER2 / TOP2A on chromosome 17 , Ch17CEP duplication might explain the inconsistencies in previous studies of factors predicting benefit from anthracyclines ."
+}

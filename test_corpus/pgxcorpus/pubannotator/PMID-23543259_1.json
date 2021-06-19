@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 10,
+        "end": 14
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 32,
+        "end": 42
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23543259_1",
+  "text": "Effect of eNOS polymorphisms on salbutamol evoked endothelium dependent vasodilation in South Indian healthy subjects ."
+}

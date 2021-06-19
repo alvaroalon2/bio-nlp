@@ -1,0 +1,253 @@
+T1	sosy-dis 863 871	COVID-19
+T10	sosy-dis 22445 22453	COVID-19
+T100	sosy-dis 165422 165430	COVID-19
+T101	sosy-dis 165713 165721	COVID-19
+T102	sosy-dis 166976 166984	COVID-19
+T103	sosy-dis 167627 167635	COVID-19
+T104	sosy-dis 167725 167733	COVID-19
+T105	sosy-dis 168884 168892	COVID-19
+T106	sosy-dis 169809 169817	COVID-19
+T107	sosy-dis 172479 172487	COVID-19
+T108	sosy-dis 177589 177597	COVID-19
+T109	sosy-dis 177783 177791	COVID-19
+T11	sosy-dis 24252 24260	COVID-19
+T110	sosy-dis 179764 179772	COVID-19
+T111	sosy-dis 183069 183077	COVID-19
+T112	sosy-dis 183909 183917	COVID-19
+T113	sosy-dis 187207 187215	COVID-19
+T114	sosy-dis 187920 187928	COVID-19
+T115	sosy-dis 187967 187975	COVID-19
+T116	sosy-dis 188723 188731	COVID-19
+T117	sosy-dis 192130 192138	COVID-19
+T118	sosy-dis 192393 192401	COVID-19
+T119	sosy-dis 192463 192471	COVID-19
+T12	sosy-dis 32587 32595	COVID-19
+T120	sosy-dis 192553 192561	COVID-19
+T121	sosy-dis 192853 192861	COVID-19
+T122	sosy-dis 193370 193378	COVID-19
+T123	sosy-dis 193597 193605	COVID-19
+T124	sosy-dis 194097 194105	COVID-19
+T125	sosy-dis 194779 194787	COVID-19
+T126	sosy-dis 195132 195140	COVID-19
+T127	sosy-dis 195400 195408	COVID-19
+T128	sosy-dis 195648 195656	COVID-19
+T129	sosy-dis 195882 195890	COVID-19
+T13	sosy-dis 33480 33488	COVID-19
+T130	sosy-dis 196036 196044	COVID-19
+T131	sosy-dis 1048 1059	Coronavirus
+T132	sosy-dis 83039 83050	Coronavirus
+T133	sosy-dis 95702 95713	Coronavirus
+T134	sosy-dis 110780 110791	Coronavirus
+T135	sosy-dis 122710 122721	Coronavirus
+T136	sosy-dis 128397 128408	Coronavirus
+T137	sosy-dis 129431 129442	Coronavirus
+T138	sosy-dis 167699 167723	Coronavirus Disease 2019
+T139	sosy-dis 196202 196213	Coronavirus
+T14	sosy-dis 33780 33788	COVID-19
+T140	sosy-dis 81 89	Covid-19
+T141	sosy-dis 120857 120865	Covid-19
+T142	sosy-dis 153088 153096	Covid-19
+T143	sosy-dis 178188 178196	Covid-19
+T144	sosy-dis 184822 184830	Covid-19
+T145	sosy-dis 185016 185024	Covid-19
+T146	sosy-dis 34316 34326	SARS-CoV-2
+T147	sosy-dis 34316 34332	SARS-CoV-2 virus
+T148	sosy-dis 33270 33281	coronavirus
+T149	sosy-dis 37542 37553	coronavirus
+T15	sosy-dis 34341 34349	COVID-19
+T150	sosy-dis 44616 44627	coronavirus
+T151	sosy-dis 141393 141404	coronavirus
+T152	sosy-dis 175987 175998	coronavirus
+T153	legal-reg 69876 69905	distance education programmes
+T154	legal-reg 101083 101101	distance education
+T155	legal-reg 123538 123556	distance education
+T156	legal-reg 133396 133414	distance education
+T157	legal-reg 182624 182642	distance education
+T158	legal-reg 188866 188884	distance education
+T159	legal-reg 12614 12631	distance learning
+T16	sosy-dis 35235 35243	COVID-19
+T160	legal-reg 13531 13548	distance learning
+T161	legal-reg 13659 13676	distance learning
+T162	legal-reg 87204 87221	distance learning
+T163	legal-reg 88162 88179	distance learning
+T164	legal-reg 98374 98391	distance learning
+T165	legal-reg 122319 122336	distance learning
+T166	legal-reg 129291 129308	distance learning
+T167	legal-reg 132392 132409	distance learning
+T168	legal-reg 149907 149924	distance learning
+T169	legal-reg 164444 164461	distance learning
+T17	sosy-dis 35606 35614	COVID-19
+T170	legal-reg 164881 164898	distance learning
+T171	legal-reg 195302 195319	distance learning
+T172	drug-trt 45719 45728	isolation
+T173	drug-trt 45733 45743	quarantine
+T174	drug-trt 89263 89273	quarantine
+T175	drug-trt 163954 163964	quarantine
+T176	behavior 117485 117497	self-isolate
+T177	behavior 45714 45728	self-isolation
+T178	behavior 78069 78086	social distancing
+T179	behavior 95917 95934	social distancing
+T18	sosy-dis 36042 36050	COVID-19
+T180	behavior 106532 106549	social distancing
+T181	behavior 114387 114404	social distancing
+T182	behavior 130765 130782	social distancing
+T183	behavior 157622 157639	social distancing
+T184	behavior 157905 157922	social distancing
+T185	behavior 165806 165823	social distancing
+T186	behavior 127314 127323	stay home
+T187	behavior 53162 53173	teleworking
+T19	sosy-dis 36482 36490	COVID-19
+T2	sosy-dis 10144 10152	COVID-19
+T20	sosy-dis 36997 37005	COVID-19
+T21	sosy-dis 37235 37243	COVID-19
+T22	sosy-dis 37533 37541	COVID-19
+T23	sosy-dis 37986 37994	COVID-19
+T24	sosy-dis 38663 38671	COVID-19
+T25	sosy-dis 43320 43328	COVID-19
+T26	sosy-dis 43710 43718	COVID-19
+T27	sosy-dis 44793 44801	COVID-19
+T28	sosy-dis 45660 45668	COVID-19
+T29	sosy-dis 47699 47707	COVID-19
+T3	sosy-dis 11572 11580	COVID-19
+T30	sosy-dis 52010 52018	COVID-19
+T31	sosy-dis 52466 52474	COVID-19
+T32	sosy-dis 53220 53228	COVID-19
+T33	sosy-dis 70399 70407	COVID-19
+T34	sosy-dis 70636 70644	COVID-19
+T35	sosy-dis 70973 70981	COVID-19
+T36	sosy-dis 71828 71836	COVID-19
+T37	sosy-dis 72592 72600	COVID-19
+T38	sosy-dis 73957 73965	COVID-19
+T39	sosy-dis 74200 74208	COVID-19
+T4	sosy-dis 12107 12115	COVID-19
+T40	sosy-dis 74619 74627	COVID-19
+T41	sosy-dis 78657 78665	COVID-19
+T42	sosy-dis 80023 80031	COVID-19
+T43	sosy-dis 86855 86863	COVID-19
+T44	sosy-dis 87869 87877	COVID-19
+T45	sosy-dis 89036 89044	COVID-19
+T46	sosy-dis 89494 89502	COVID-19
+T47	sosy-dis 90477 90485	COVID-19
+T48	sosy-dis 97178 97186	COVID-19
+T49	sosy-dis 99752 99760	COVID-19
+T5	sosy-dis 12708 12716	COVID-19
+T50	sosy-dis 102482 102490	COVID-19
+T51	sosy-dis 103608 103616	COVID-19
+T52	sosy-dis 105410 105418	COVID-19
+T53	sosy-dis 107867 107875	COVID-19
+T54	sosy-dis 110806 110814	COVID-19
+T55	sosy-dis 111546 111554	COVID-19
+T56	sosy-dis 112689 112697	COVID-19
+T57	sosy-dis 112840 112848	COVID-19
+T58	sosy-dis 113111 113119	COVID-19
+T59	sosy-dis 113772 113780	COVID-19
+T6	sosy-dis 13467 13475	COVID-19
+T60	sosy-dis 114823 114831	COVID-19
+T61	sosy-dis 115458 115466	COVID-19
+T62	sosy-dis 116781 116789	COVID-19
+T63	sosy-dis 116843 116851	COVID-19
+T64	sosy-dis 117961 117969	COVID-19
+T65	sosy-dis 119034 119042	COVID-19
+T66	sosy-dis 120362 120370	COVID-19
+T67	sosy-dis 121300 121308	COVID-19
+T68	sosy-dis 121394 121402	COVID-19
+T69	sosy-dis 122736 122744	COVID-19
+T7	sosy-dis 13757 13765	COVID-19
+T70	sosy-dis 124634 124642	COVID-19
+T71	sosy-dis 125866 125874	COVID-19
+T72	sosy-dis 126351 126359	COVID-19
+T73	sosy-dis 126594 126602	COVID-19
+T74	sosy-dis 127122 127130	COVID-19
+T75	sosy-dis 128423 128431	COVID-19
+T76	sosy-dis 128835 128843	COVID-19
+T77	sosy-dis 129121 129129	COVID-19
+T78	sosy-dis 129457 129465	COVID-19
+T79	sosy-dis 130345 130353	COVID-19
+T8	sosy-dis 21243 21251	COVID-19
+T80	sosy-dis 130407 130415	COVID-19
+T81	sosy-dis 131266 131274	COVID-19
+T82	sosy-dis 135023 135031	COVID-19
+T83	sosy-dis 141160 141168	COVID-19
+T84	sosy-dis 149124 149132	COVID-19
+T85	sosy-dis 149583 149591	COVID-19
+T86	sosy-dis 150241 150249	COVID-19
+T87	sosy-dis 152572 152580	COVID-19
+T88	sosy-dis 155487 155495	COVID-19
+T89	sosy-dis 157189 157197	COVID-19
+T9	sosy-dis 22357 22365	COVID-19
+T90	sosy-dis 159399 159407	COVID-19
+T91	sosy-dis 160579 160587	COVID-19
+T92	sosy-dis 161310 161318	COVID-19
+T93	sosy-dis 161699 161707	COVID-19
+T94	sosy-dis 161907 161915	COVID-19
+T95	sosy-dis 162404 162412	COVID-19
+T96	sosy-dis 162533 162541	COVID-19
+T97	sosy-dis 162940 162948	COVID-19
+T98	sosy-dis 163113 163121	COVID-19
+T99	sosy-dis 163809 163817	COVID-19
+T188	legal-reg 12855 12888	making alcohol hydrogel available
+T189	sosy-dis 19302 19309	covid19
+T190	legal-reg 54120 54142	closure of all schools
+T191	behavior 78088 78109	frequent hand washing
+T192	behavior 78114 78130	surface cleaning
+T193	behavior 78132 78144	quarantining
+T194	behavior 78154 78190	use of personal protective equipment
+T195	legal-reg 183222 183261	closure of all schools and universities
+T196	legal-reg 69876 69894	distance education
+T197	legal-reg 101083 101112	distance education programmes
+T198	legal-reg 133396 133425	distance education programmes
+T199	legal-reg 95917 95943	social distancing measures
+T200	behavior 102087 102111	to wear protective masks
+T201	legal-reg 114329 114364	prevention of gender-based violence
+T202	legal-reg 123173 123210	remote teaching platforms and systems
+T203	legal-reg 129597 129612	online learning
+T204	legal-reg 129320 129345	remote teaching platforms
+T205	legal-reg 129853 129887	provision of psycho-social support
+T206	legal-reg 109861 109876	online learning
+T207	legal-reg 116058 116073	online learning
+T208	legal-reg 133435 133450	online learning
+T209	legal-reg 123173 123198	remote teaching platforms
+T210	behavior 130815 130836	wearing of face masks
+T211	sosy-dis 138505 138512	COVID19
+T212	legal-reg 150788 150830	to prepare teachers to give online classes
+T213	legal-reg 150696 150710	online classes
+T214	legal-reg 151639 151672	broadcast and video-based classes
+T215	behavior 159340 159357	Social distancing
+T216	legal-reg 165806 165833	social distancing protocols
+T217	legal-reg 172949 172985	psychosocial support and counselling
+T218	behavior 177414 177456	Banning hugging, kissing and shaking hands
+T219	behavior 179981 179993	stay at home
+T220	legal-reg 187486 187503	Distance learning
+T221	legal-reg 187695 187755	setting up handwashing stations equipped with soap and water
+T222	legal-reg 187667 187690	Encouraging handwashing
+T223	sosy-dis 167699 167710	Coronavirus
+T224	sosy-dis 110780 110804	Coronavirus Disease 2019
+T225	sosy-dis 122710 122734	Coronavirus Disease 2019
+T226	sosy-dis 128397 128421	Coronavirus Disease 2019
+T227	sosy-dis 129431 129455	Coronavirus Disease 2019
+T228	legal-reg 183222 183244	closure of all schools
+T229	legal-reg 150816 150830	online classes
+T230	legal-reg 151331 151345	online classes
+T231	legal-reg 152546 152560	online classes
+T232	legal-reg 152760 152774	online classes
+T233	legal-reg 154843 154857	online classes
+T234	legal-reg 156471 156485	online classes
+T235	legal-reg 196010 196024	online classes
+T236	behavior 117468 117480	stay at home
+T251	sosy-dis 108729 108736	anxiety
+T252	sosy-dis 126783 126790	anxiety
+T253	sosy-dis 170857 170864	anxiety
+T254	sosy-dis 185071 185078	anxiety
+T414	sosy-dis 108759 108769	depression
+T415	sosy-dis 113582 113592	depression
+T571	sosy-dis 113483 113505	mental health problems
+T572	sosy-dis 113993 114015	mental health problems
+T573	drug-trt 94767 94784	mental healthcare
+T695	sosy-dis 5482 5488	trauma
+T696	sosy-dis 5896 5902	trauma
+T697	sosy-dis 28297 28303	trauma
+T698	sosy-dis 120339 120345	trauma
+T699	sosy-dis 171719 171725	trauma
+T700	sosy-dis 32007 32014	anxious
+T701	sosy-dis 184954 184961	worried
+T702	sosy-dis 181769 181781	tuberculosis

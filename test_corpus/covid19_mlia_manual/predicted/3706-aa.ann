@@ -1,0 +1,712 @@
+T1	sosy-dis 43 51	COVID-19
+T2	sosy-dis 582 593	Coronavirus
+T3	sosy-dis 595 603	COVID-19
+T4	sosy-dis 886 894	COVID-19
+T5	sosy-dis 1111 1119	COVID-19
+T6	sosy-dis 1192 1200	COVID-19
+T7	sosy-dis 1262 1270	COVID-19
+T8	sosy-dis 1489 1497	COVID-19
+T9	sosy-dis 1531 1539	COVID-19
+T10	sosy-dis 1652 1668	COVID-19 disease
+T11	sosy-dis 1706 1714	Covid-19
+T12	sosy-dis 1981 1989	COVID-19
+T13	sosy-dis 3993 4011	COVID-19 infection
+T14	sosy-dis 4100 4118	COVID-19 infection
+T15	sosy-dis 4309 4317	COVID-19
+T16	sosy-dis 4502 4510	COVID-19
+T17	sosy-dis 4667 4685	COVID-19 infection
+T18	sosy-dis 5286 5307	respiratory infection
+T19	sosy-dis 5556 5561	acute
+T20	sosy-dis 5562 5583	respiratory infection
+T21	sosy-dis 5931 5941	infections
+T22	sosy-dis 6471 6479	COVID-19
+T23	sosy-dis 6582 6591	infection
+T24	sosy-dis 6593 6598	cough
+T25	sosy-dis 6600 6605	fever
+T26	sosy-dis 6609 6629	respiratory problems
+T27	sosy-dis 6889 6920	www.gouvernement.lu/coronavirus
+T28	sosy-dis 6952 6963	coronavirus
+T29	sosy-dis 8255 8263	COVID-19
+T30	sosy-dis 8828 8836	COVID-19
+T31	sosy-dis 9069 9087	COVID-19 infection
+T32	sosy-dis 9218 9228	SARS-CoV-2
+T33	sosy-dis 9536 9544	COVID-19
+T34	sosy-dis 9910 9918	COVID-19
+T35	sosy-dis 10405 10415	SARS-CoV-2
+T36	sosy-dis 10765 10773	COVID-19
+T37	sosy-dis 10879 10887	COVID-19
+T38	sosy-dis 11689 11699	SARS-CoV-2
+T39	sosy-dis 11864 11874	SARS-CoV-2
+T40	sosy-dis 12862 12870	COVID-19
+T41	sosy-dis 13323 13331	COVID-19
+T42	sosy-dis 13451 13459	COVID-19
+T43	sosy-dis 13608 13616	COVID-19
+T44	sosy-dis 14470 14479	infection
+T45	sosy-dis 14481 14486	cough
+T46	sosy-dis 14488 14493	fever
+T47	sosy-dis 14497 14517	respiratory problems
+T48	sosy-dis 14696 14727	www.gouvernement.lu/coronavirus
+T49	sosy-dis 14759 14770	coronavirus
+T50	sosy-dis 14849 14857	COVID-19
+T51	sosy-dis 16490 16501	coronavirus
+T52	sosy-dis 17292 17305	Coronaviruses
+T53	sosy-dis 17461 17471	COVID-2019
+T54	sosy-dis 17527 17551	www.sante.lu/coronavirus
+T55	sosy-dis 17865 17886	communicable diseases
+T56	sosy-dis 18116 18127	coronavirus
+T57	sosy-dis 18465 18476	coronavirus
+T58	sosy-dis 18569 18590	respiratory infection
+T59	sosy-dis 19434 19445	coronavirus
+T60	sosy-dis 19928 19936	COVID-19
+T61	sosy-dis 20061 20072	coronavirus
+T62	sosy-dis 20383 20394	coronavirus
+T63	sosy-dis 20764 20782	COVID-19 infection
+T64	sosy-dis 20918 20936	COVID-19 infection
+T65	sosy-dis 21223 21234	coronavirus
+T66	sosy-dis 21539 21550	coronavirus
+T67	sosy-dis 21695 21705	SARS-CoV-2
+T68	sosy-dis 21821 21847	infection with coronavirus
+T69	sosy-dis 21893 21906	infected with
+T70	sosy-dis 21907 21918	coronavirus
+T71	sosy-dis 22073 22082	infection
+T72	sosy-dis 22658 22677	infectious diseases
+T73	sosy-dis 22804 22812	COVID-19
+T74	sosy-dis 22813 22824	coronavirus
+T75	sosy-dis 22837 22855	COVID-19 infection
+T76	sosy-dis 23118 23126	COVID-19
+T77	sosy-dis 23134 23152	infectious disease
+T78	sosy-dis 23185 23196	coronavirus
+T79	sosy-dis 23198 23208	SARS-CoV-2
+T80	sosy-dis 23847 23856	infection
+T81	sosy-dis 23939 23944	cough
+T82	sosy-dis 23946 23951	fever
+T83	sosy-dis 24036 24047	coronavirus
+T84	sosy-dis 24074 24085	coronavirus
+T85	sosy-dis 24130 24143	Coronaviruses
+T86	sosy-dis 24224 24228	cold
+T87	sosy-dis 24263 24295	Middle East Respiratory Syndrome
+T88	sosy-dis 24297 24301	MERS
+T89	sosy-dis 24314 24340	Acute Respiratory Syndrome
+T90	sosy-dis 24342 24346	SARS
+T91	sosy-dis 24398 24407	infection
+T92	sosy-dis 24413 24421	COVID-19
+T93	sosy-dis 25131 25136	cough
+T94	sosy-dis 25138 25143	fever
+T95	sosy-dis 25145 25154	breathing
+T96	sosy-dis 25288 25298	SARS-CoV-2
+T97	sosy-dis 25318 25329	coronavirus
+T98	sosy-dis 25369 25377	COVID-19
+T99	sosy-dis 25891 25910	respiratory disease
+T100	sosy-dis 25927 25932	fever
+T101	sosy-dis 25934 25939	cough
+T102	sosy-dis 25944 25967	difficulty of breathing
+T103	sosy-dis 25993 25998	cough
+T104	sosy-dis 26100 26105	fever
+T105	sosy-dis 26107 26112	cough
+T106	sosy-dis 26490 26495	cough
+T107	sosy-dis 26497 26502	fever
+T108	sosy-dis 26504 26524	respiratory problems
+T109	sosy-dis 26577 26588	coronavirus
+T110	sosy-dis 27879 27890	coronavirus
+T111	sosy-dis 28639 28650	coronavirus
+T112	sosy-dis 28651 28659	COVID-19
+T113	sosy-dis 30752 30774	respiratory infections
+T114	sosy-dis 30831 30842	Coronavirus
+T115	sosy-dis 30843 30851	COVID-19
+T116	sosy-dis 31859 31867	COVID-19
+T117	sosy-dis 33704 33712	COVID-19
+T118	sosy-dis 33713 33724	coronavirus
+T119	sosy-dis 34361 34369	COVID-19
+T120	sosy-dis 35697 35705	COVID-19
+T121	sosy-dis 37682 37687	fever
+T122	sosy-dis 37689 37694	cough
+T123	sosy-dis 37696 37716	respiratory problems
+T124	sosy-dis 38212 38220	COVID-19
+T125	sosy-dis 38222 38227	fever
+T126	sosy-dis 38229 38234	cough
+T127	sosy-dis 38236 38256	respiratory problems
+T128	sosy-dis 38436 38447	coronavirus
+T129	sosy-dis 38448 38456	COVID-19
+T130	sosy-dis 38682 38685	the
+T131	sosy-dis 38686 38702	COVID-19 disease
+T132	sosy-dis 38935 38946	coronavirus
+T133	sosy-dis 39124 39132	COVID-19
+T134	sosy-dis 39272 39280	COVID-19
+T135	sosy-dis 39314 39321	anxiety
+T136	sosy-dis 39536 39558	https://suivicovid.lu/
+T137	sosy-dis 40674 40685	coronavirus
+T138	sosy-dis 41090 41098	COVID-19
+T139	sosy-dis 41431 41439	COVID-19
+T140	sosy-dis 41723 41731	COVID-19
+T141	sosy-dis 41900 41908	COVID-19
+T142	sosy-dis 41989 41999	congestion
+T143	sosy-dis 42222 42230	COVID-19
+T144	sosy-dis 42938 42946	COVID-19
+T145	sosy-dis 44279 44290	CORONAVIRUS
+T146	sosy-dis 46513 46521	COVID-19
+T147	sosy-dis 47181 47188	disease
+T148	sosy-dis 47558 47575	www.suivicovid.lu
+T149	sosy-dis 48078 48088	COVID-2019
+T150	sosy-dis 48147 48161	www.covid19.lu
+T151	sosy-dis 49161 49169	COVID-19
+T152	sosy-dis 49222 49233	coronavirus
+T153	sosy-dis 49260 49271	coronavirus
+T154	sosy-dis 49537 49546	infection
+T155	sosy-dis 50179 50190	coronavirus
+T156	sosy-dis 50336 50344	COVID-19
+T157	sosy-dis 50354 50382	sexually transmitted disease
+T158	sosy-dis 50398 50406	COVID-19
+T159	sosy-dis 50744 50755	coronavirus
+T160	sosy-dis 51541 51549	COVID-19
+T161	sosy-dis 51550 51561	coronavirus
+T162	sosy-dis 51570 51583	Coronaviruses
+T163	sosy-dis 51664 51668	cold
+T164	sosy-dis 51705 51737	Middle East Respiratory Syndrome
+T165	sosy-dis 51739 51743	MERS
+T166	sosy-dis 51756 51782	Acute Respiratory Syndrome
+T167	sosy-dis 51784 51788	SARS
+T168	sosy-dis 51979 51988	infection
+T169	sosy-dis 51994 52002	COVID-19
+T170	sosy-dis 52094 52102	COVID-19
+T171	sosy-dis 52131 52139	COVID-19
+T172	sosy-dis 52409 52417	COVID-19
+T173	sosy-dis 53046 53054	COVID-19
+T174	sosy-dis 53601 53611	SARS-CoV-2
+T175	sosy-dis 53765 53776	coronavirus
+T176	sosy-dis 54463 54473	SARS-CoV-2
+T177	sosy-dis 55630 55661	www.gouvernement.lu/coronavirus
+T178	sosy-dis 55693 55704	coronavirus
+T179	sosy-dis 57080 57091	Coronavirus
+T180	sosy-dis 57795 57804	infection
+T181	sosy-dis 58192 58209	immune deficiency
+T182	sosy-dis 58795 58803	COVID-19
+T183	sosy-dis 59650 59655	cough
+T184	sosy-dis 59657 59662	fever
+T185	sosy-dis 59664 59673	breathing
+T186	sosy-dis 60058 60067	infection
+T187	sosy-dis 60250 60270	difficulty breathing
+T188	sosy-dis 61042 61063	respiratory infection
+T189	sosy-dis 61080 61094	SARS infection
+T190	sosy-dis 61867 61877	infections
+T191	sosy-dis 62655 62663	COVID-19
+T192	sosy-dis 62714 62722	COVID-19
+T193	sosy-dis 63999 64007	COVID-19
+T194	sosy-dis 64183 64202	respiratory viruses
+T195	sosy-dis 65100 65118	infection with the
+T196	sosy-dis 65119 65135	SARS-CoV-2 virus
+T197	sosy-dis 65562 65572	SARS-CoV-2
+T198	sosy-dis 65604 65612	COVID-19
+T199	sosy-dis 66275 66283	coughing
+T200	sosy-dis 66288 66296	wheezing
+T201	sosy-dis 66644 66652	COVID-19
+T202	sosy-dis 67241 67249	COVID-19
+T203	sosy-dis 67250 67261	coronavirus
+T204	sosy-dis 67505 67513	COVID-19
+T205	sosy-dis 68264 68272	COVID-19
+T206	sosy-dis 68334 68342	COVID-19
+T207	sosy-dis 68849 68858	infection
+T208	sosy-dis 69857 69867	infections
+T209	sosy-dis 72657 72665	COVID-19
+T210	sosy-dis 73574 73582	COVID-19
+T211	sosy-dis 73738 73749	coronavirus
+T212	sosy-dis 74801 74809	COVID-19
+T213	sosy-dis 75154 75165	Coronavirus
+T214	sosy-dis 75219 75227	COVID-19
+T215	sosy-dis 75510 75518	COVID-19
+T216	sosy-dis 75519 75530	coronavirus
+T217	sosy-dis 75576 75587	coronavirus
+T218	sosy-dis 75588 75596	COVID-19
+T219	sosy-dis 75760 75763	the
+T220	sosy-dis 75764 75780	COVID-19 disease
+T221	sosy-dis 75943 75948	Ebola
+T222	sosy-dis 76127 76135	COVID-19
+T223	sosy-dis 76213 76224	Coronavirus
+T224	sosy-dis 76225 76233	COVID-19
+T225	sosy-dis 76947 76952	Ebola
+T226	sosy-dis 77509 77528	COVID-19 infections
+T227	sosy-dis 77633 77638	Ebola
+T228	sosy-dis 77899 77910	coronavirus
+T229	sosy-dis 77938 77952	www.covid19.lu
+T230	sosy-dis 77992 77997	Ebola
+T231	sosy-dis 78565 78583	COVID-19 infection
+T232	sosy-dis 78845 78850	Ebola
+T233	sosy-dis 79767 79785	COVID-19 infection
+T234	sosy-dis 82012 82020	COVID-19
+T235	sosy-dis 82472 82481	infection
+T236	sosy-dis 82661 82672	coronavirus
+T237	sosy-dis 83613 83623	infections
+T238	sosy-dis 83758 83764	deaths
+T239	sosy-dis 84544 84552	COVID-19
+T240	sosy-dis 85174 85179	panic
+T241	sosy-dis 86155 86166	coronavirus
+T242	sosy-dis 86708 86721	influenza flu
+T243	sosy-dis 86992 87000	COVID-19
+T244	sosy-dis 87317 87325	COVID-19
+T245	sosy-dis 88747 88768	SARS-CoV-2 infections
+T246	sosy-dis 89097 89107	infections
+T247	sosy-dis 89392 89401	infection
+T248	sosy-dis 89735 89743	COVID-19
+T249	sosy-dis 90140 90148	COVID-19
+T250	sosy-dis 90912 90922	infections
+T251	sosy-dis 91244 91254	infections
+T252	sosy-dis 91812 91821	infection
+T253	sosy-dis 91998 92017	contagious diseases
+T254	sosy-dis 92527 92536	infection
+T255	sosy-dis 93598 93606	COVID-19
+T256	sosy-dis 94547 94557	infections
+T257	sosy-dis 94615 94625	infections
+T258	sosy-dis 95175 95183	COVID-19
+T259	sosy-dis 95480 95489	infection
+T260	sosy-dis 95631 95640	infection
+T261	sosy-dis 95759 95768	infection
+T262	sosy-dis 97239 97249	infections
+T263	sosy-dis 97717 97738	SARS-CoV-2 infections
+T264	sosy-dis 97912 97920	COVID-19
+T265	sosy-dis 98392 98402	infections
+T266	sosy-dis 98669 98678	infection
+T267	sosy-dis 98894 98903	infection
+T268	sosy-dis 99241 99250	infection
+T269	sosy-dis 99605 99614	infection
+T270	sosy-dis 99673 99683	infections
+T271	sosy-dis 99877 99887	SARS-CoV-2
+T272	sosy-dis 100294 100304	infections
+T273	sosy-dis 100329 100338	infection
+T274	sosy-dis 100497 100507	SARS-CoV-2
+T275	sosy-dis 100552 100561	infection
+T276	sosy-dis 100823 100832	infection
+T277	sosy-dis 101316 101326	SARS-CoV-2
+T278	sosy-dis 101537 101546	infection
+T279	sosy-dis 102326 102336	infections
+T280	sosy-dis 102425 102434	infection
+T281	sosy-dis 102463 102473	infections
+T282	sosy-dis 102594 102604	SARS-CoV-2
+T283	sosy-dis 102793 102813	SARS-CoV-2 infection
+T284	sosy-dis 103109 103129	SARS-CoV-2 infection
+T285	sosy-dis 103500 103510	SARS-CoV-2
+T286	sosy-dis 103905 103915	SARS-CoV-2
+T287	sosy-dis 104443 104453	infections
+T288	sosy-dis 104552 104566	www.covid19.lu
+T289	sosy-dis 105257 105268	coronavirus
+T290	sosy-dis 105540 105549	Covidtest
+T291	sosy-dis 106138 106152	www.covid19.lu
+T292	sosy-dis 106260 106268	COVID-19
+T293	sosy-dis 106582 106590	COVID-19
+T294	sosy-dis 106630 106644	www.covid19.lu
+T295	sosy-dis 106768 106776	COVID-19
+T296	sosy-dis 106824 106858	covid19@houseofentrepreneurship.lu
+T297	sosy-dis 106890 106898	COVID-19
+T298	sosy-dis 106993 107001	COVID-19
+T299	sosy-dis 107251 107259	COVID-19
+T300	sosy-dis 107440 107451	coronavirus
+T301	sosy-dis 107539 107548	infection
+T302	sosy-dis 107629 107638	infection
+T303	sosy-dis 108158 108166	COVID-19
+T304	sosy-dis 108280 108288	COVID-19
+T305	sosy-dis 108465 108475	infections
+T306	sosy-dis 108532 108542	infections
+T307	sosy-dis 108816 108825	infection
+T308	sosy-dis 108873 108883	infections
+T309	sosy-dis 108973 108979	deaths
+T310	sosy-dis 108991 108999	COVID-19
+T311	sosy-dis 109066 109076	infections
+T312	sosy-dis 109220 109228	COVID-19
+T313	sosy-dis 109346 109354	COVID-19
+T314	sosy-dis 109511 109519	COVID-19
+T315	sosy-dis 109665 109671	COVID+
+T316	sosy-dis 109720 109730	infections
+T317	sosy-dis 109811 109817	COVID+
+T318	sosy-dis 109918 109924	deaths
+T319	sosy-dis 109935 109943	COVID-19
+T320	sosy-dis 110037 110045	COVID-19
+T321	sosy-dis 110112 110120	COVID-19
+T322	sosy-dis 110266 110274	COVID-19
+T323	sosy-dis 110304 110312	COVID-19
+T324	sosy-dis 110322 110327	death
+T325	sosy-dis 110331 110339	COVID-19
+T326	sosy-dis 110367 110375	COVID-19
+T327	sosy-dis 110405 110419	www.covid19.lu
+T328	sosy-dis 110689 110698	customers
+T329	sosy-dis 110702 110711	customers
+T330	sosy-dis 111018 111027	infection
+T331	sosy-dis 111756 111774	COVID-19 infection
+T332	sosy-dis 112316 112324	COVID-19
+T333	sosy-dis 112420 112431	coronavirus
+T334	sosy-dis 112585 112593	COVID-19
+T335	sosy-dis 114116 114123	anxiety
+T336	sosy-dis 114252 114259	anxious
+T337	sosy-dis 114679 114690	Coronavirus
+T338	sosy-dis 115473 115482	customers
+T339	sosy-dis 115660 115667	anxiety
+T340	sosy-dis 116178 116186	COVID-19
+T341	sosy-dis 116224 116233	allergies
+T342	sosy-dis 116707 116714	anxiety
+T343	sosy-dis 119264 119278	Morbid obesity
+T344	sosy-dis 120124 120132	COVID-19
+T345	sosy-dis 120249 120258	infection
+T346	sosy-dis 121445 121456	coronavirus
+T347	sosy-dis 121835 121846	coronavirus
+T348	sosy-dis 122439 122450	coronavirus
+T349	sosy-dis 122566 122574	COVID-19
+T350	sosy-dis 122753 122761	COVID-19
+T351	sosy-dis 123440 123448	COVID-19
+T352	sosy-dis 124000 124011	coronavirus
+T353	sosy-dis 124144 124155	coronavirus
+T354	sosy-dis 124195 124204	infection
+T355	sosy-dis 124428 124436	COVID-19
+T356	sosy-dis 124526 124537	coronavirus
+T357	sosy-dis 124567 124582	fetal anomalies
+T358	sosy-dis 126006 126014	COVID-19
+T359	sosy-dis 127013 127021	COVID-19
+T360	sosy-dis 127644 127660	Kawasaki disease
+T361	sosy-dis 127720 127728	COVID-19
+T362	sosy-dis 128308 128316	COVID-19
+T363	sosy-dis 128810 128818	COVID-19
+T364	sosy-dis 130311 130319	COVID-19
+T365	sosy-dis 130343 130437	https://sante.public.lu/fr/prevention/coronavirus-00/covid-19-bon-usage-des-medicaments-fr.pdf
+T366	sosy-dis 130980 130988	COVID-19
+T367	sosy-dis 131183 131200	Covid19 infection
+T368	sosy-dis 131494 131503	infection
+T369	sosy-dis 131586 131595	infection
+T370	sosy-dis 131980 132002	Loss of sense of smell
+T371	sosy-dis 132004 132011	anosmia
+T372	sosy-dis 132057 132068	skin rashes
+T373	sosy-dis 132148 132162	www.covid19.lu
+T374	sosy-dis 132488 132494	Asthma
+T375	sosy-dis 132534 132539	fever
+T376	sosy-dis 132587 132595	COVID-19
+T377	sosy-dis 132710 132719	infection
+T378	sosy-dis 132931 132950	infectious diseases
+T379	sosy-dis 133013 133032	infectious diseases
+T380	sosy-dis 133158 133176	COVID-19 infection
+T381	sosy-dis 133427 133436	infection
+T382	sosy-dis 134288 134299	coronavirus
+T383	sosy-dis 134824 134843	www.covidtesting.lu
+T384	sosy-dis 135032 135040	COVID-19
+T385	sosy-dis 135271 135280	infection
+T386	sosy-dis 135326 135332	asthma
+T387	sosy-dis 135451 135469	COVID-19 infection
+T388	sosy-dis 135668 135689	respiratory infection
+T389	sosy-dis 135730 135738	COVID-19
+T390	sosy-dis 136654 136662	COVID-19
+T391	sosy-dis 136666 136675	hay fever
+T392	sosy-dis 136744 136752	COVID-19
+T393	sosy-dis 136781 136801	Respiratory troubles
+T394	sosy-dis 136891 136899	coughing
+T395	sosy-dis 137141 137152	coronavirus
+T396	sosy-dis 137460 137468	Covid-19
+T397	sosy-dis 137540 137549	infection
+T398	sosy-dis 137953 137962	infection
+T399	sosy-dis 138307 138315	COVID-19
+T400	sosy-dis 138482 138490	Covid-19
+T401	sosy-dis 138515 138529	heart diseases
+T402	sosy-dis 138592 138600	COVID-19
+T403	sosy-dis 138601 138610	infection
+T404	sosy-dis 138797 138808	coronavirus
+T405	sosy-dis 140327 140345	COVID-19 infection
+T406	sosy-dis 140583 140594	coronavirus
+T407	sosy-dis 141119 141130	coronavirus
+T408	sosy-dis 141176 141184	COVID-19
+T409	sosy-dis 141259 141277	COVID-19 infection
+T410	sosy-dis 141306 141315	allergies
+T411	sosy-dis 141331 141337	asthma
+T412	sosy-dis 141342 141363	respiratory disorders
+T413	sosy-dis 141463 141481	COVID-19 infection
+T414	sosy-dis 141904 141925	respiratory infection
+T415	sosy-dis 141942 141947	fever
+T416	sosy-dis 141986 141993	fatigue
+T417	sosy-dis 142230 142241	coronavirus
+T418	sosy-dis 142431 142452	Respiratory disorders
+T419	sosy-dis 142458 142464	asthma
+T420	sosy-dis 142487 142496	asthmatic
+T421	sosy-dis 142538 142546	wheezing
+T422	sosy-dis 142565 142582	immune deficiency
+T423	sosy-dis 142688 142706	COVID-19 infection
+T424	sosy-dis 142786 142800	www.covid19.lu
+T425	sosy-dis 142892 142897	cough
+T426	sosy-dis 142899 142919	respiratory problems
+T427	sosy-dis 143106 143114	COVID-19
+T428	sosy-dis 143116 143124	COVID-19
+T429	sosy-dis 143305 143323	COVID-19 infection
+T430	sosy-dis 143608 143622	www.covid19.lu
+T431	sosy-dis 143702 143710	COVID-19
+T432	sosy-dis 143881 143889	COVID-19
+T433	sosy-dis 143929 143943	www.covid19.lu
+T434	sosy-dis 144019 144037	COVID-19 infection
+T435	sosy-dis 144118 144126	COVID-19
+T436	sosy-dis 144131 144148	immune deficiency
+T437	sosy-dis 144264 144297	diseases of the respiratory tract
+T438	sosy-dis 144515 144534	COVID-19 infections
+T439	sosy-dis 144847 144880	diseases of the respiratory tract
+T440	sosy-dis 145776 145794	infectious disease
+T441	sosy-dis 146131 146140	infection
+T442	sosy-dis 146996 147005	infection
+T443	sosy-dis 147428 147436	COVID-19
+T444	sosy-dis 148204 148212	COVID-19
+T445	sosy-dis 148977 148985	COVID-19
+T446	sosy-dis 149095 149103	COVID-19
+T447	sosy-dis 149545 149553	COVID-19
+T448	sosy-dis 149898 149907	infection
+T449	sosy-dis 150713 150721	COVID-19
+T450	sosy-dis 150952 150960	COVID-19
+T451	sosy-dis 151245 151256	coronavirus
+T452	sosy-dis 151849 151857	COVID-19
+T453	sosy-dis 152043 152051	COVID-19
+T454	sosy-dis 152231 152239	COVID-19
+T455	sosy-dis 152357 152365	COVID-19
+T456	sosy-dis 153081 153089	COVID 19
+T457	sosy-dis 153286 153294	COVID-19
+T458	sosy-dis 153698 153729	www.gouvernement.lu/coronavirus
+T459	sosy-dis 153963 153968	COVID
+T460	sosy-dis 154083 154091	covid-19
+T461	sosy-dis 154092 154100	covid-19
+T462	sosy-dis 154109 154116	covid19
+T463	sosy-dis 154181 154192	CORONAVIRUS
+T464	sosy-dis 154193 154201	COVID-19
+T465	sosy-dis 154391 154398	obesity
+T466	sosy-dis 154487 154522	Chronic diseases of the respiratory
+T467	sosy-dis 154677 154685	COVID-19
+T468	sosy-dis 154780 154788	COVID-19
+T469	sosy-dis 154789 154797	COVID-19
+T470	sosy-dis 155280 155289	Covidtest
+T471	sosy-dis 155789 155797	COVID-19
+T472	sosy-dis 155913 155921	COVID-19
+T473	sosy-dis 156207 156221	www.covid19.lu
+T474	sosy-dis 156254 156262	COVID-19
+T475	sosy-dis 156378 156386	COVID-19
+T476	sosy-dis 156584 156592	COVID-19
+T477	sosy-dis 156645 156653	COVID-19
+T478	sosy-dis 156785 156793	COVID-19
+T479	sosy-dis 157039 157047	COVID-19
+T480	sosy-dis 157103 157111	COVID-19
+T481	sosy-dis 157226 157234	COVID-19
+T482	sosy-dis 157353 157361	COVID-19
+T483	sosy-dis 157401 157432	www.gouvernement.lu/coronavirus
+T484	sosy-dis 158201 158210	infection
+T485	sosy-dis 159912 159920	COVID-19
+T486	sosy-dis 161481 161489	COVID-19
+T487	sosy-dis 161934 161944	infections
+T488	sosy-dis 162262 162271	infection
+T489	sosy-dis 162624 162632	COVID-19
+T490	sosy-dis 163583 163591	COVID-19
+T491	sosy-dis 164103 164113	infections
+T492	sosy-dis 164219 164227	COVID-19
+T493	sosy-dis 164421 164429	COVID-19
+T494	sosy-dis 164636 164644	COVID-19
+T495	sosy-dis 165559 165567	COVID-19
+T496	sosy-dis 165909 165917	COVID-19
+T497	sosy-dis 165987 165995	COVID-19
+T498	sosy-dis 166403 166421	COVID-19 infection
+T499	sosy-dis 166603 166614	Coronavirus
+T500	sosy-dis 166620 166638	COVID-19 infection
+T501	sosy-dis 166846 166857	Coronavirus
+T502	sosy-dis 166858 166866	COVID-19
+T503	sosy-dis 167219 167227	COVID-19
+T504	sosy-dis 167394 167402	COVID-19
+T505	sosy-dis 168026 168031	Ebola
+T506	sosy-dis 169083 169088	COVID
+T507	sosy-dis 169495 169503	COVID-19
+T508	sosy-dis 169613 169621	COVID-19
+T509	sosy-dis 169841 169859	infectious disease
+T510	sosy-dis 170230 170247	immune deficiency
+T511	sosy-dis 170530 170544	www.covid19.lu
+T512	sosy-dis 170827 170836	infection
+T513	sosy-dis 171598 171608	infections
+T514	sosy-dis 172048 172054	deaths
+T515	sosy-dis 172066 172074	COVID-19
+T516	sosy-dis 172149 172157	COVID-19
+T517	sosy-dis 172239 172249	infections
+T518	sosy-dis 172425 172433	COVID-19
+T519	sosy-dis 172512 172520	COVID-19
+T520	sosy-dis 172637 172645	COVID-19
+T521	sosy-dis 174260 174268	COVID-19
+T522	sosy-dis 174387 174395	COVID-19
+T523	sosy-dis 176502 176511	poisoning
+T524	sosy-dis 176711 176719	poisoned
+T525	sosy-dis 176925 176933	COVID-19
+T526	sosy-dis 177565 177573	Covid-19
+T527	sosy-dis 177936 177944	Covid-19
+T528	sosy-dis 178054 178065	Coronavirus
+T529	sosy-dis 178872 178880	Covid-19
+T530	sosy-dis 178941 178949	COVID-19
+T531	sosy-dis 179090 179101	Coronavirus
+T532	sosy-dis 179102 179110	COVID-19
+T533	sosy-dis 179187 179196	customers
+T534	sosy-dis 179292 179301	customers
+T535	sosy-dis 179813 179822	customers
+T536	sosy-dis 180101 180110	Customers
+T537	sosy-dis 180485 180491	health
+T538	sosy-dis 180851 180859	COVID-19
+T539	sosy-dis 181216 181224	COVID-19
+T540	sosy-dis 181273 181281	COVID-19
+T541	sosy-dis 181515 181526	coronavirus
+T542	sosy-dis 182035 182043	COVID-19
+T543	sosy-dis 182265 182273	COVID-19
+T544	sosy-dis 183318 183332	www.covid19.lu
+T545	sosy-dis 183360 183368	COVID-19
+T546	sosy-dis 183369 183380	coronavirus
+T547	sosy-dis 184139 184147	COVID-19
+T548	sosy-dis 184148 184159	coronavirus
+T549	sosy-dis 186603 186611	Covid-19
+T550	sosy-dis 187298 187306	Covid-19
+T551	sosy-dis 187384 187392	Covid-19
+T552	sosy-dis 189549 189557	Covid-19
+T553	sosy-dis 189600 189611	coronavirus
+T554	sosy-dis 189612 189620	COVID-19
+T555	sosy-dis 190026 190034	COVID-19
+T556	sosy-dis 191166 191177	coronavirus
+T557	sosy-dis 191178 191186	COVID-19
+T558	sosy-dis 192919 192929	disability
+T559	sosy-dis 193513 193522	costumers
+T560	sosy-dis 193641 193652	coronavirus
+T561	sosy-dis 193978 193986	COVID-19
+T562	sosy-dis 196461 196469	COVID-19
+T563	sosy-dis 196724 196733	infection
+T564	sosy-dis 196780 196799	COVID-19 infections
+T565	sosy-dis 197041 197049	COVID-19
+T566	sosy-dis 197211 197219	COVID-19
+T567	sosy-dis 197333 197341	COVID-19
+T568	sosy-dis 197606 197614	COVID-19
+T569	sosy-dis 198250 198258	COVID-19
+T570	sosy-dis 198661 198669	COVID-19
+T571	sosy-dis 199217 199225	COVID-19
+T572	sosy-dis 200997 201005	COVID-19
+T573	sosy-dis 201365 201373	COVID-19
+T574	sosy-dis 203660 203671	Coronavirus
+T575	sosy-dis 203839 203850	Coronavirus
+T576	sosy-dis 204773 204778	COVID
+T577	sosy-dis 204988 205006	COVID-19 infection
+T578	sosy-dis 205770 205778	Covid-19
+T579	sosy-dis 206297 206305	Covid-19
+T580	sosy-dis 206690 206698	COVID-19
+T581	sosy-dis 207503 207511	COVID-19
+T582	sosy-dis 207559 207573	www.covid19.lu
+T583	sosy-dis 207820 207823	ALL
+T584	sosy-dis 207902 207913	Coronavirus
+T585	sosy-dis 209268 209276	Covid-19
+T586	sosy-dis 209434 209442	Covid-19
+T587	sosy-dis 209649 209678	www.covid19.lu/health-at-work
+T588	sosy-dis 210604 210612	COVID-19
+T589	sosy-dis 210649 210657	COVID-19
+T590	sosy-dis 210658 210669	coronavirus
+T591	sosy-dis 210786 210805	coronavirus disease
+T592	sosy-dis 210965 210974	infection
+T593	sosy-dis 211468 211477	customers
+T594	sosy-dis 212149 212167	www.EPI-Covid19.lu
+T595	sosy-dis 212255 212269	EPI-COVID19.lu
+T596	sosy-dis 212368 212376	COVID-19
+T597	sosy-dis 212983 213001	www.EPI-COVID19.lu
+T598	sosy-dis 213208 213216	Covid-19
+T599	sosy-dis 213399 213410	Coronavirus
+T600	sosy-dis 213471 213482	Coronavirus
+T601	sosy-dis 213585 213593	COVID-19
+T602	sosy-dis 213902 213910	COVID-19
+T603	sosy-dis 214195 214203	COVID-19
+T604	sosy-dis 214973 214981	COVID-19
+T605	sosy-dis 215021 215032	Coronavirus
+T606	sosy-dis 215034 215042	COVID-19
+T607	sosy-dis 215560 215568	COVID-19
+T608	sosy-dis 215999 216007	COVID-19
+T609	sosy-dis 216485 216493	COVID-19
+T610	sosy-dis 216634 216642	COVID-19
+T611	sosy-dis 217653 217661	COVID-19
+T612	sosy-dis 218541 218552	coronavirus
+T613	sosy-dis 218553 218561	COVID-19
+T614	sosy-dis 220974 220983	customers
+T615	sosy-dis 221031 221047	reduced mobility
+T616	sosy-dis 221697 221705	COVID-19
+T617	sosy-dis 222485 222496	coronavirus
+T618	sosy-dis 222724 222732	COVID-19
+T619	sosy-dis 224569 224577	COVID-19
+T620	sosy-dis 224926 224934	COVID-19
+T621	sosy-dis 225364 225372	COVID-19
+T622	sosy-dis 226048 226062	EPI-Covid19.lu
+T623	sosy-dis 226298 226306	COVID-19
+T624	sosy-dis 226509 226523	EPI-Covid19.lu
+T625	sosy-dis 226904 226915	coronavirus
+T626	sosy-dis 226947 226963	StartupVsCovid19
+T627	sosy-dis 227251 227259	COVID-19
+T628	sosy-dis 227900 227908	COVID-19
+T629	sosy-dis 230235 230243	COVID-19
+T630	sosy-dis 230820 230828	COVID-19
+T631	sosy-dis 231363 231374	Coronavirus
+T632	sosy-dis 231503 231514	Coronavirus
+T633	sosy-dis 231515 231523	COVID-19
+T634	sosy-dis 231569 231587	COVID-19 infection
+T635	sosy-dis 231971 231979	COVID-19
+T636	sosy-dis 232114 232122	COVID-19
+T637	sosy-dis 232123 232134	coronavirus
+T638	sosy-dis 232204 232215	Coronavirus
+T639	sosy-dis 232715 232723	COVID-19
+T640	sosy-dis 233088 233099	CORONAVIRUS
+T641	sosy-dis 233100 233108	COVID-19
+T642	sosy-dis 233273 233282	infection
+T643	sosy-dis 233920 233931	coronavirus
+T644	sosy-dis 233933 233941	COVID-19
+T645	sosy-dis 234516 234524	Covid-19
+T646	sosy-dis 234716 234724	COVID-19
+T647	sosy-dis 234840 234848	COVID-19
+T648	sosy-dis 235136 235144	COVID-19
+T649	sosy-dis 236068 236076	COVID-19
+T650	sosy-dis 236813 236821	COVID-19
+T651	sosy-dis 237046 237054	Covid-19
+T652	sosy-dis 237859 237868	customers
+T653	sosy-dis 239022 239030	COVID-19
+T654	sosy-dis 239714 239722	COVID-19
+T655	sosy-dis 241910 241918	diabetes
+T656	sosy-dis 241922 241946	cardiovascular condition
+T657	sosy-dis 241950 241990	chronic illness of the respiratory tract
+T658	sosy-dis 242050 242056	cancer
+T659	sosy-dis 242816 242824	COVID-19
+T660	sosy-dis 242825 242836	coronavirus
+T661	sosy-dis 243584 243595	Coronavirus
+T662	sosy-dis 243793 243801	COVID-19
+T663	sosy-dis 247728 247736	Covid-19
+T664	sosy-dis 248909 248917	COVID-19
+T665	sosy-dis 248918 248929	coronavirus
+T666	sosy-dis 249449 249457	COVID-19
+T667	sosy-dis 256334 256345	coronavirus
+T668	sosy-dis 256895 256903	COVID-19
+T669	sosy-dis 256993 257004	Coronavirus
+T670	sosy-dis 257006 257014	COVID-19
+T671	sosy-dis 258142 258150	COVID-19
+T672	sosy-dis 258486 258494	COVID-19
+T673	sosy-dis 258495 258506	coronavirus
+T674	sosy-dis 258572 258580	COVID-19
+T675	sosy-dis 258748 258765	StartupsVsCovid19
+T676	sosy-dis 259678 259686	COVID-19
+T677	sosy-dis 259964 259972	COVID-19
+T678	sosy-dis 261254 261356	https://www.gov.uk/government/publications/coronavirus-covid-19-travellers-exempt-from-uk-border-rules
+T679	sosy-dis 261361 261484	https://www.gov.uk/guidance/coronavirus-covid-19-travel-corridors#travel-corridors-countries-and-territories-exemption-list
+T680	sosy-dis 261716 261721	COVID
+T681	sosy-dis 262737 262755	COVID-19 infection
+T682	sosy-dis 264191 264199	COVID-19
+T683	sosy-dis 264273 264284	Coronavirus
+T684	sosy-dis 264286 264294	COVID-19
+T685	sosy-dis 265348 265356	COVID-19
+T686	sosy-dis 265538 265546	COVID-19
+T687	sosy-dis 265999 266016	StartupsVsCovid19
+T688	sosy-dis 266507 266560	https://www.startupluxembourg.com/startups-vs-covid19
+T689	sosy-dis 267109 267117	Covid-19
+T690	sosy-dis 267942 267989	https://www.fnr.lu/funding-instruments/covid-19
+T691	sosy-dis 268077 268085	COVID-19
+T692	sosy-dis 268097 268120	https://lux-covid19.lu/
+T693	sosy-dis 268361 268372	coronavirus
+T694	sosy-dis 268373 268381	pandemic
+T695	sosy-dis 268430 268438	COVID-19
+T696	sosy-dis 268970 268978	COVID-19
+T697	sosy-dis 269196 269204	COVID-19
+T698	sosy-dis 269369 269377	COVID-19
+T699	sosy-dis 269685 269693	COVID-19
+T700	sosy-dis 270342 270350	COVID-19
+T701	sosy-dis 270384 270392	COVID-19
+T702	sosy-dis 271069 271077	COVID-19
+T703	sosy-dis 271221 271229	COVID-19
+T704	sosy-dis 272555 272563	Covid-19
+T705	sosy-dis 274566 274574	Covid-19
+T706	sosy-dis 275186 275197	Coronavirus
+T707	sosy-dis 275198 275206	COVID-19
+T708	sosy-dis 275649 275657	COVID-19
+T709	sosy-dis 276379 276390	Coronavirus
+T710	sosy-dis 276792 276803	coronavirus
+T711	sosy-dis 276804 276812	COVID-19
+T712	sosy-dis 277091 277098	farmers

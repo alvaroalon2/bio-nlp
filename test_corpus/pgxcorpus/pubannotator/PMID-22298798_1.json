@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 45,
+        "end": 56
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 18,
+        "end": 23
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 77,
+        "end": 93
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 117,
+        "end": 134
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22298798_1",
+  "text": "No association of ABCB1 C3435T genotype with clopidogrel response or risk of stent thrombosis in patients undergoing coronary stenting ."
+}

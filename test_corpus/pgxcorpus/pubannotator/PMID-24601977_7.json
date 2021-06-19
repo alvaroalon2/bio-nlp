@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 6,
+        "end": 12
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 24,
+        "end": 30
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 56
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 91,
+        "end": 99
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24601977_7",
+  "text": "Age , CYP2C9 genotype , VKORC1 genotype and age : VKORC1 interaction accounted for 53 % of warfarin dose variability ."
+}

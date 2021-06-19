@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 205,
+        "end": 208
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 88,
+        "end": 102
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 163,
+        "end": 166
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22892524_4",
+  "text": "To assess the clinical relevance of this cross-resistance , we studied the evolution of HBV polymerase gene variants in patients with genotypic resistance against ADV ( rt N236T and/or rt A181V/T ) during TDF treatment ."
+}

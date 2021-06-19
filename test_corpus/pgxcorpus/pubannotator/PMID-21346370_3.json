@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 37,
+        "end": 44
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 98
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 295,
+        "end": 302
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 34
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 91
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 228,
+        "end": 242
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21346370_3",
+  "text": "Solute carrier family 22, member 2 ( SLC22A2 ) , also known as organic cation transporter 2 ( OCT2 ) , is predominantly expressed in the luminal membrane of airway epithelial cells and has been shown to mediate the transport of prostaglandins on the cyclooxygenase pathway which is regulated by aspirin blockage ."
+}

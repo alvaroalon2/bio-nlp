@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 51,
+        "end": 57
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 163,
+        "end": 168
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 87,
+        "end": 91
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22234350_11",
+  "text": "This is a tagging SNP for one of the five dominant NFATc4 haplotypes , T-T-T-T-G , and CNI- treated recipients with this haplotype had a reduced adjusted risk for NODAT ( hazard ratio : 0.45 ; 95 % confidence interval : 0.19-1 .01 ) ."
+}

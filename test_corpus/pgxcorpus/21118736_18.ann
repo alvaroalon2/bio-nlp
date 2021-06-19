@@ -1,0 +1,5 @@
+T1	Gene_or_protein 14 20	CYP3A5
+T2	Chemical 60 70	tacrolimus
+T3	Disease 125 128	DGF
+T4	Gene_or_protein 140 146	CYP3A5
+T5	Disease 165 168	DGF

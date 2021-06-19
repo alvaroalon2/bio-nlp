@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 39
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 107,
+        "end": 118
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22088980_6",
+  "text": "In total , 247 noncarriers of a CYP2C19 * 2 loss-of-function allele were to receive 75 and 150 mg daily of clopidogrel ( 2 periods each ) , whereas 86 carriers ( 80 heterozygotes , 6 homozygotes ) were to receive 75 , 150 , 225 , and 300 mg daily ."
+}

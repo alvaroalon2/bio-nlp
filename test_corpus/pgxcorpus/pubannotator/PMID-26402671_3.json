@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 182,
+        "end": 185
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 232,
+        "end": 236
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 182,
+        "end": 229
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 188,
+        "end": 191
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 59,
+        "end": 64
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 125,
+        "end": 133
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26402671_3",
+  "text": "Since then , several studies have investigated the role of genes , their variants ( i.e. , polymorphisms ) and their encoded proteins in the pharmacokinetics and pharmacodynamics of BCR - ABL 1 tyrosine kinase activity inhibitors ( TKIs ) ."
+}

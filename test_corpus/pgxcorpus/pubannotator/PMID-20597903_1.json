@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 15,
+        "end": 22
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 37,
+        "end": 44
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 37,
+        "end": 63
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 57,
+        "end": 63
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20597903_1",
+  "text": "Association of SLC6A12 variants with aspirin -intolerant asthma in a Korean population ."
+}

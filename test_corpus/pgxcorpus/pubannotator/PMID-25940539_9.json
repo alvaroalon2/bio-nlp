@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 25,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 78,
+        "end": 81
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 86,
+        "end": 96
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 136,
+        "end": 140
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 152
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 155,
+        "end": 165
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 172,
+        "end": 180
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 125,
+        "end": 133
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25940539_9",
+  "text": "The anticancer effect of CUDC-101 was associated with increased expression of p21 and E-cadherin , and reduced expression of survivin , XIAP , b-catenin , N-cadherin , and Vimentin ."
+}

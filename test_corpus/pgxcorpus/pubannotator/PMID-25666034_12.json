@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 37,
+        "end": 40
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 74,
+        "end": 82
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25666034_12",
+  "text": "This finding supports involvement of TRb signaling in the effect of acute nicotine on hippocampus-dependent memory ."
+}

@@ -1,0 +1,4 @@
+T1	Chemical 0 26	HER2 -related target drugs
+T2	Chemical 27 38	trastuzumab
+T3	Chemical 43 52	lapatinib
+T4	Disease 94 124	HER2 -- positive breast cancer

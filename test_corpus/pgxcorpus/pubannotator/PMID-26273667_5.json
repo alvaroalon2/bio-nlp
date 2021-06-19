@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 103,
+        "end": 117
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 120,
+        "end": 130
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 133,
+        "end": 150
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 168,
+        "end": 186
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 225,
+        "end": 238
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 133,
+        "end": 161
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26273667_5",
+  "text": "Scientific and technological advances have witnessed the development of newer generation of drugs like sulphonylureas , biguanides , alpha glucosidase inhibitors , and thiazolidinediones with significant efficacy in reducing hyperglycemia ."
+}

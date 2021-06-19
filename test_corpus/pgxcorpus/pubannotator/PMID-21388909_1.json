@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 20,
+        "end": 25
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 55,
+        "end": 71
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 95,
+        "end": 103
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21388909_1",
+  "text": "Association between ABCB1 polymorphism and response to sodium valproate treatment in Malaysian epilepsy patients ."
+}

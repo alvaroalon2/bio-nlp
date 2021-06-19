@@ -1,0 +1,5 @@
+T1	Chemical 68 125	cetuximab plus folinic acid / 5-fluorouracil / irinotecan
+T2	Chemical 128 135	FOLFIRI
+T3	Disease 141 160	KRAS wild-type mCRC
+T4	Gene_or_protein 207 211	BRAF
+T5	Gene_or_protein 216 222	PIK3CA

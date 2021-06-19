@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 10,
+        "end": 16
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 54,
+        "end": 69
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 100,
+        "end": 105
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 137,
+        "end": 141
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17555717_6",
+  "text": "RESULTS : DTNBP1 showed significant associations with methamphetamine psychosis at polymorphisms of P1635 ( rs3213207 , p = .00003 ) and SNPA ( rs2619538 , p = .049 ) and the three-locus haplotype of P1655 ( rs2619539 ) - P1635- SNPA ( permutation p = .0005 ) ."
+}

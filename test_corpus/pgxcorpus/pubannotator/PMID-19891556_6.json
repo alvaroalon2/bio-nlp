@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 58
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 113,
+        "end": 120
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 133,
+        "end": 144
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19891556_6",
+  "text": "Consequently , the US FDA has recently changed clopidogrel 's prescribing information to highlight the impact of CYP2C19 genotype on clopidogrel pharmacokinetics , pharmacodynamics and clinical response ."
+}

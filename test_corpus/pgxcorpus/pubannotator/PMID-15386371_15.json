@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 55,
+        "end": 59
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 104,
+        "end": 106
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15386371_15",
+  "text": "The selection of patients who are likely to respond to 5-FU therapy may be considerably improved if the TS genotype were to include both the VNTR and the SNP located within the promoter region of the gene ."
+}

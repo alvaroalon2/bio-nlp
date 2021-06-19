@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 49,
+        "end": 56
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 122,
+        "end": 133
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24088005_4",
+  "text": "We found association between polymorphic variant CYP2C19 * 2 with changes of platelet aggregation after administration of clopidogrel ."
+}

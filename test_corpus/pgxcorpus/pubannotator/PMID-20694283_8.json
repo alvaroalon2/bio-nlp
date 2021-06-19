@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 68
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20694283_8",
+  "text": "GGCX rs11676382 is a statistically significant predictor of warfarin dose , but the clinical relevance is modest ."
+}

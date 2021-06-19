@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 32
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 37,
+        "end": 45
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 158,
+        "end": 165
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 173,
+        "end": 188
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 71,
+        "end": 81
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 133,
+        "end": 148
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12668130_5",
+  "text": "Ectopic expression of both MnSOD and Cu/ZnSOD afforded protection from I/R injury , as evidenced by a significant reduction in serum creatine kinase levels , infarct size , malondialdehyde levels , and apoptotic cell death in comparison to controls ."
+}

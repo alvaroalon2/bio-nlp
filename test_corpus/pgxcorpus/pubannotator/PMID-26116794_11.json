@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 42,
+        "end": 48
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 57,
+        "end": 64
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 57,
+        "end": 75
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26116794_11",
+  "text": "These findings support the involvement of GABRA2 gene in alcohol dependence -related aggressive behavior ."
+}

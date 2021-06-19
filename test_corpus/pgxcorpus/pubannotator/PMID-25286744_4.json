@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 23,
+        "end": 29
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 50
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25286744_4",
+  "text": "To quantify changes of CYP3A4 activity , midazolam ( 3 mg po ) as a probe drug was used ."
+}

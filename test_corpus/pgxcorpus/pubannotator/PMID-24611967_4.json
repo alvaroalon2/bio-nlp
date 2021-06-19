@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 49
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 115,
+        "end": 139
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 187,
+        "end": 196
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 220,
+        "end": 229
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 252,
+        "end": 270
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 67,
+        "end": 90
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 93,
+        "end": 98
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 142,
+        "end": 145
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24611967_4",
+  "text": "METHODS : Fifty-two patients with fasting glucose 100-240 mg/dL or glycosylated hemoglobin ( HbA1c ) > = 6.0 % and alanine aminotransferase ( ALT ) 40-250 IU/L were randomized to receive metformin ( 250 mg t.i.d. ) , or metformin ( 250 mg t.i.d. ) and carnitine -orotate complex ( 300 mg t.i.d. ) for 12 weeks ( n = 26 per group ) ."
+}

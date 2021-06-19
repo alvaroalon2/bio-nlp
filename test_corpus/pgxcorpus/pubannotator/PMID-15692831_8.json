@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 87,
+        "end": 90
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 140,
+        "end": 145
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 169,
+        "end": 180
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 21
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 24,
+        "end": 35
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15692831_8",
+  "text": "Using plasma CBZ-diol / CBZ-epoxide ratios ( diol / epoxide ratios ) indicative of the mEH activity , the effects of the diplotypes in each EPHX1 block were analyzed on CBZ-epoxide metabolism ."
+}

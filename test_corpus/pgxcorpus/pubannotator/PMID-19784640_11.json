@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 28
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 62,
+        "end": 70
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 150,
+        "end": 156
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 200,
+        "end": 206
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19784640_11",
+  "text": "The patients with the CYP3A4 * 1G / * 1G genotype needed less fentanyl ( 227.8 + / - 55.2 microg ) to achieve pain control than patients carrying the CYP3A4 * 1 / * 1 ( 381.6 + / - 163.6 microg ) and CYP3A4 * 1 / * 1G ( 371.9 + / - 180.1 microg ) genotypes ( P < 0.05 ) during the first 24 h postoperatively ."
+}

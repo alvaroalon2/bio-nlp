@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 20
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 38
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 48,
+        "end": 54
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 86,
+        "end": 92
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 104
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 120,
+        "end": 130
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25495407_5",
+  "text": "Regarding paclitaxel toxicity : CYP2C8 HapC and CYP2C8 rs1934951 were associated with anemia ; and ERCC1 Gln504Lys with neuropathy ( p < = 0.01 ) ."
+}

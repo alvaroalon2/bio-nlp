@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 67,
+        "end": 72
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 17,
+        "end": 64
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 121,
+        "end": 132
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 202,
+        "end": 213
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17563401_7",
+  "text": "Polymorphisms in 3-hydroxy-3-methylglutaryl-coenzyme A reductase ( HMGCR ) previously reported to affect the efficacy of pravastatin did not show a similar effect on the reduction of LDL cholesterol by fluvastatin ."
+}

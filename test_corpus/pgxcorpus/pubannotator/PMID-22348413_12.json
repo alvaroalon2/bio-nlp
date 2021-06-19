@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 28,
+        "end": 35
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 46
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 75
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22348413_12",
+  "text": "Many interactions affecting statins are CYP3A4 -mediated , but transporters are important in certain interactions ."
+}

@@ -1,0 +1,6 @@
+T1	Chemical 36 48	capecitabine
+T2	Disease 67 112	HER2 -overexpressing metastatic breast cancer
+T3	Gene_or_protein 67 71	HER2
+T5	Chemical 20 48	trastuzumab and capecitabine
+T6	Chemical 20 31	trastuzumab
+T7	Disease 121 134	Breast Cancer

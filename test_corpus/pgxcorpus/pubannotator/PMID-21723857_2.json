@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 75
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 57,
+        "end": 69
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21723857_2",
+  "text": "BACKGROUND AND AIMS : TPMT deficiency is associated with azathioprine ( AZA ) - induced myelosuppression ( MS ) ."
+}

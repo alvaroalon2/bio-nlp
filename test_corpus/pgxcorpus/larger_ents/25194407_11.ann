@@ -1,0 +1,5 @@
+T1	Gene_or_protein 60 63	PTH
+T2	Gene_or_protein 78 86	fetuin-A
+T3	Chemical 91 100	vitamin D
+T4	Disease 139 154	atherosclerosis
+T5	Gene_or_protein 193 196	VDR

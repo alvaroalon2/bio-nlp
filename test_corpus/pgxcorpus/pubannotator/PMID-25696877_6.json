@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 36,
+        "end": 47
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 122,
+        "end": 129
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 262,
+        "end": 282
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 285,
+        "end": 306
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 312,
+        "end": 318
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 361,
+        "end": 377
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 66,
+        "end": 100
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25696877_6",
+  "text": "Moreover , in patients treated with clopidogrel predominantly for percutaneous coronary intervention , carriers of 1 or 2 CYP2C19 loss-of-function alleles are at increased risk for major adverse cardiovascular outcomes , with an 1.5-fold increase in the risk of cardiovascular death , myocardial infarction , or stroke as well as an 3-fold increase in risk for stent thrombosis ."
+}

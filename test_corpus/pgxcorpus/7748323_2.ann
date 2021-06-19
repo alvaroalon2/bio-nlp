@@ -1,0 +1,9 @@
+T3	Gene_or_protein 18 23	c-fos
+T4	Chemical 98 118	N-methyl-D-aspartate
+T5	Chemical 121 125	NMDA
+T8	Chemical 206 214	caffeine
+T2	Gene_or_protein 179 198	glutamate receptors
+T7	Gene_or_protein 234 253	adenosine receptors
+T10	Chemical 132 143	kainic acid
+T6	Chemical 220 253	antagonist of adenosine receptors
+T11	Chemical 146 198	agonists of different classes of glutamate receptors

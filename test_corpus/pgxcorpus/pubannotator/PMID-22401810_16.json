@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 19,
+        "end": 23
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 223,
+        "end": 226
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22401810_16",
+  "text": "CONCLUSION ( S ) : FSHR gene variations such as Asn680Ser , Ala189Val , Thr449Ile , and Ile160Thr did not seem to be a decisive factor of poor response to fertility treatment , whereas the low ovarian reserve determined by AMH is considered more crucial ."
+}

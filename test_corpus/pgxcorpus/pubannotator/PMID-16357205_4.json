@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 50,
+        "end": 62
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 74,
+        "end": 78
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 109,
+        "end": 113
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 240,
+        "end": 245
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16357205_4",
+  "text": "Using an embryonic stem cell line engineered with tetracycline -inducible Cdx4 , we demonstrate that ectopic Cdx4 expression promotes hematopoietic mesoderm specification , increases hematopoietic progenitor formation , and , together with HoxB4 , enhances multilineage hematopoietic engraftment of lethally irradiated adult mice ."
+}

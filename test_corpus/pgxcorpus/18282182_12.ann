@@ -1,0 +1,10 @@
+T1	Gene_or_protein 0 6	MEK1/2
+T2	Gene_or_protein 34 40	ERK1/2
+T3	Chemical 64 71	PD98059
+T4	Gene_or_protein 49 53	MEK1
+T6	Gene_or_protein 92 97	COX-2
+T7	Chemical 136 141	U0126
+T8	Gene_or_protein 119 125	MEK1/2
+T10	Gene_or_protein 171 176	COX-2
+T11	Chemical 49 63	MEK1 inhibitor
+T12	Chemical 119 135	MEK1/2 inhibitor

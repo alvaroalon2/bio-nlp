@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 76,
+        "end": 86
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19912163_13",
+  "text": "No significant differences were observed in the dose-normalized C ( 12 ) of mizoribine and substitute CL ( MZ ) between the G565A genotypes ."
+}

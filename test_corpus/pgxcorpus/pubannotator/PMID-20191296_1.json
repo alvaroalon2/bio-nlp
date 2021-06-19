@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 23,
+        "end": 27
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 79
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 72,
+        "end": 90
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20191296_1",
+  "text": "DNA methylation of the POMC gene promoter is associated with craving in alcohol dependence ."
+}

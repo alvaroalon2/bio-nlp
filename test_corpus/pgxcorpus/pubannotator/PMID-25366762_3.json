@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 98,
+        "end": 104
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 216,
+        "end": 222
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 216,
+        "end": 232
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 51,
+        "end": 95
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 132,
+        "end": 188
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25366762_3",
+  "text": "Genetic polymorphisms in functional regions of the glutamate receptor , N-methyl D-aspartate 2A ( GRIN2A ) gene , which encodes the 2A subunit of the N-methyl D-aspartate ( NMDA ) receptor , may modulate the risk of heroin addiction ."
+}

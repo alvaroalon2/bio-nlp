@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 21
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 52,
+        "end": 60
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16153394_11",
+  "text": "Long-term terbutaline treatment desensitizes venous beta2-AR in a haplotype-dependent manner , with haplotype A ( Arg 16Gln27Thr164 ) showing greater desensitization than haplotype B ( Gly16Gln27Thr164 ) , which shows greater desensitization than haplotype C ( Gly16Glu27Thr164 ) ."
+}

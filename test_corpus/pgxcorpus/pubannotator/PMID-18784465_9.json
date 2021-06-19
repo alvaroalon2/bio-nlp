@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 49
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 35
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 10,
+        "end": 18
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18784465_9",
+  "text": "RESULTS : Abacavir -based treatment without HLA-B * 5701 testing resulted in a projected 30.93 years life expectancy , 16.23 discounted quality-adjusted life years , and 472,200 discounted lifetime cost per person ."
+}

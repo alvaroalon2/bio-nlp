@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 47
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 55
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 58,
+        "end": 63
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 104,
+        "end": 107
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 149,
+        "end": 183
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 70,
+        "end": 72
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 143,
+        "end": 191
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23337555_13",
+  "text": "CONCLUSIONS : Although specific alleles for CFH , ARMS2 , HTRA1 , and C3 may predict the development of AMD , they did not predict response to anti- vascular endothelial growth factor therapy ."
+}

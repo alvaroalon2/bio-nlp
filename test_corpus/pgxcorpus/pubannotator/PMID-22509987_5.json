@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 59,
+        "end": 63
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 78,
+        "end": 82
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 90
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 153,
+        "end": 160
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 153,
+        "end": 171
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22509987_5",
+  "text": "This study tested the hypothesis that genetic variation in COMT Val158Met and DRD2 / ANKK1 Taq1A interacts with childhood adverse experiences to predict alcohol dependence ."
+}

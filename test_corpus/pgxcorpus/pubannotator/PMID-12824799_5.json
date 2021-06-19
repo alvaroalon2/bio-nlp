@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 42
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 73
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 104,
+        "end": 113
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 88
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12824799_5",
+  "text": "A previously unnoticed role of Y181I /C RT changes selected by nevirapine or other NNRTI in determining stavudine resistance is documented ."
+}

@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 88,
+        "end": 105
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 179,
+        "end": 184
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 206,
+        "end": 211
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 255,
+        "end": 260
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 146,
+        "end": 152
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 124,
+        "end": 160
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17009149_5",
+  "text": "METHODS : Paraffin -embedded tissues from 54 patients with unresectable metastases from colorectal cancer who had undergone chemotherapy with the FOLFOX regimen were analyzed for MTHFR polymorphisms in the MTHFR gene ( 677C-->T , Ala-->Val mutation ) and XRCC1 gene ( Arg-->Gln substitution in exon 10 ) ."
+}

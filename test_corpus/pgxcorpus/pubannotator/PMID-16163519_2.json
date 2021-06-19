@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 12,
+        "end": 37
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 43
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 55,
+        "end": 63
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 74,
+        "end": 88
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 143
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 66,
+        "end": 68
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 91,
+        "end": 93
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16163519_2",
+  "text": "RATIONALE : Dopamine beta-hydroxylase ( DBH ) converts dopamine ( DA ) to norepinephrine ( NE ) , thus playing a critical role in catecholamine metabolism ."
+}

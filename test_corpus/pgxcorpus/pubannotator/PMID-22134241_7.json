@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 33,
+        "end": 40
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 97,
+        "end": 100
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 45,
+        "end": 53
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 18,
+        "end": 53
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 97,
+        "end": 125
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 150,
+        "end": 165
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22134241_7",
+  "text": "We found that the combination of AZD7762 and olaparib produced significant radiosensitization in p53 mutant pancreatic cancer cells and in all of the isogenic cancer cell lines ."
+}

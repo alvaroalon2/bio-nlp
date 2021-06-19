@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 39
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 95,
+        "end": 105
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 169,
+        "end": 197
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 80,
+        "end": 89
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 80,
+        "end": 105
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 122,
+        "end": 134
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21829065_1",
+  "text": "[ Analysis of the correlation with KRAS gene mutation status and the benefit of cetuximab plus irinotecan as third - line chemotherapy for the Treatment of unresectable metastatic colorectal cancer ] ."
+}

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 68,
+        "end": 73
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 120,
+        "end": 140
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 282,
+        "end": 292
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 169,
+        "end": 176
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Disease",
+      "span": {
+        "begin": 244,
+        "end": 260
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17190370_3",
+  "text": "The purpose of this study was to investigate the implication of the ABCB1 C3435Tpolymorphism on the pharmacokinetics of ( R ) - lansoprazole , the major enantiomer , in CYP2C19 extensive metabolizers ( EMs ) and on gastroesophageal symptoms in renal transplant recipients receiving tacrolimus ."
+}

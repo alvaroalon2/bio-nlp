@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 23,
+        "end": 29
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 54,
+        "end": 60
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 155,
+        "end": 165
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 189,
+        "end": 195
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21635144_12",
+  "text": "Although its effect on CYP3A4 activity is not clear , CYP3A4 * 1 / * 1G may be a candidate for a polymorphism affecting the interindividual variability in tacrolimus pharmacokinetics among CYP3A5 expressers ."
+}

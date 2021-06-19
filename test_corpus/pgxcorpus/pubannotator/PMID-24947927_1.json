@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 56,
+        "end": 59
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 70,
+        "end": 79
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 82,
+        "end": 91
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 129,
+        "end": 135
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 149
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 56,
+        "end": 69
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24947927_1",
+  "text": "Phase I expansion and pharmacodynamic study of the oral MEK inhibitor RO4987655 ( CH4987655 ) in selected patients with advanced cancer with RAS- RAF mutations ."
+}

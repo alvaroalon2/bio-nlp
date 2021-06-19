@@ -1,0 +1,103 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 47
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 54
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 61,
+        "end": 91
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 99
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 163,
+        "end": 166
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 143,
+        "end": 160
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 191,
+        "end": 201
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 207,
+        "end": 221
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 224,
+        "end": 234
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Chemical",
+      "span": {
+        "begin": 237,
+        "end": 240
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 191,
+        "end": 221
+      }
+    },
+    {
+      "id": "T15",
+      "obj": "Chemical",
+      "span": {
+        "begin": 224,
+        "end": 240
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20628391_2",
+  "text": "BACKGROUND : The impact of thymidylate synthase ( TYMS ) and UDP-glucoronosyltransferase 1A ( UGT1A ) germline polymorphisms on the outcome of colorectal cancer ( CRC ) patients treated with irinotecan plus 5-fluorouracil ( irinotecan / 5FU ) is still controversial ."
+}

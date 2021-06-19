@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 25
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 90,
+        "end": 94
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19695401_14",
+  "text": "The risk for azathioprine -induced myelosuppression in the patients with the heterozygous TPMT * 1 / * 3C genotype was significantly higher than that in patients with the wild-type genotype ( adjusted OR , 14.18 [ 95 % CI , 3.07-65 .40 ] ; P < 0.005 ) ."
+}

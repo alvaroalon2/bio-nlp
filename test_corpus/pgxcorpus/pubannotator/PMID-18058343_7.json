@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 24,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 112,
+        "end": 116
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18058343_7",
+  "text": "These data suggest that bupropion may be effective for smoking cessation only in a subgroup of smokers with the DRD2 Taq1 A2/A2 genotype ."
+}

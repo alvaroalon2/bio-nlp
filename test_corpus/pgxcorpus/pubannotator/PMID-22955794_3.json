@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 17,
+        "end": 37
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 47
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 70,
+        "end": 77
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 147,
+        "end": 158
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22955794_3",
+  "text": "Variation in the cytochrome P450 2C19 ( CYP2C19 ) gene coding for the CYP2C19 enzyme is one of the major determinants of this variable response to clopidogrel ."
+}

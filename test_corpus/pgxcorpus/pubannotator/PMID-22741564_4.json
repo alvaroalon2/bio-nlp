@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 12,
+        "end": 42
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 49
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 136,
+        "end": 148
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 152,
+        "end": 168
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 216,
+        "end": 231
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 234,
+        "end": 236
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22741564_4",
+  "text": "Currently , thiopurine S-methyltransferase ( TPMT ) deficiency is the only pharmacogenetic factor that is prospectively assessed before azathioprine or 6-mercaptopurine immunomodulation is commenced in patients with Crohn's disease ( CD ) ."
+}

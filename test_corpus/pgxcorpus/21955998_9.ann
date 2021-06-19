@@ -1,0 +1,8 @@
+T1	Chemical 89 92	BSC
+T2	Gene_or_protein 107 111	EGFR
+T4	Disease 243 264	wild-type KRAS tumors
+T5	Gene_or_protein 253 257	KRAS
+T7	Chemical 73 85	chemotherapy
+T8	Chemical 101 133	anti- EGFR mAb with chemotherapy
+T11	Chemical 101 115	anti- EGFR mAb
+T12	Disease 186 190	mCRC

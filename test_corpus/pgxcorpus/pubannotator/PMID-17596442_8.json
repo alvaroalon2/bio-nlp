@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 7
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 53,
+        "end": 73
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 105,
+        "end": 110
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 134,
+        "end": 139
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 17,
+        "end": 22
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17596442_8",
+  "text": "Cocaine -induced c AMP -dependent phosphorylation of glutamate receptor 1 was altered in the striatum of CB1-R mutant mice but not of AM251 -treated mice ."
+}

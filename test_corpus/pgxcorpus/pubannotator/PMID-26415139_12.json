@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 15,
+        "end": 21
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 43,
+        "end": 46
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 90,
+        "end": 100
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26415139_12",
+  "text": "The effects of CYP2B6 g.15582C>T on plasma EFV concentration were further evaluated among HIV / AIDS patients ."
+}

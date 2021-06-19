@@ -1,0 +1,7 @@
+T1	Gene_or_protein 24 30	Ranbp2
+T2	Gene_or_protein 101 122	tyrosine -hydroxylase
+T3	Gene_or_protein 125 133	TH ( + )
+T4	Chemical 221 265	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+T5	Chemical 268 272	MPTP
+T6	Chemical 279 302	parkinsonian neurotoxin
+T7	Disease 328 345	Parkinson disease

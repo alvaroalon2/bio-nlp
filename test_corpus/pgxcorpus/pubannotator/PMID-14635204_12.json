@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 47
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 119,
+        "end": 123
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 150,
+        "end": 153
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 164,
+        "end": 191
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "14635204_12",
+  "text": "We conclude that the presence of recognized HFE coding region mutations do not seem to have an impact on the degree of iron overload in patients with SCD receiving chronic transfusion therapy ."
+}

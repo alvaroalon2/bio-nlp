@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 120,
+        "end": 140
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 150
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 193,
+        "end": 204
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20510210_2",
+  "text": "OBJECTIVES : The aim of this study was to evaluate the relative impact of demographic and clinical variables versus the cytochrome P450 2C19 ( CYP2C19 ) polymorphism on antiplatelet effects of clopidogrel ."
+}

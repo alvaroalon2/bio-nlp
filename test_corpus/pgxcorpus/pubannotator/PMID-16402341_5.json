@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 43,
+        "end": 45
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 61,
+        "end": 74
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 134,
+        "end": 159
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 162,
+        "end": 165
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 216,
+        "end": 229
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 257,
+        "end": 259
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16402341_5",
+  "text": "Cumulatively these findings suggested that TD was related to phenylalanine metabolism and thus that sequence variants in the gene for phenylalanine hydroxylase ( PAH ) , the rate-limiting enzyme in the catabolism of phenylalanine , could be associated with TD susceptibility ."
+}

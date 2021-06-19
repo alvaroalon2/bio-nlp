@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 73,
+        "end": 105
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 109,
+        "end": 113
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 26
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "9259617_1",
+  "text": "The effect of aflatoxin B1 on the expression of early response genes and transforming growth factor-alpha in CCl4 induced rat liver injury ."
+}

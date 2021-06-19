@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 52,
+        "end": 60
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 70,
+        "end": 77
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 116,
+        "end": 122
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 39,
+        "end": 60
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 246,
+        "end": 254
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 233,
+        "end": 254
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12777962_9",
+  "text": "Specifically , Canadian Native Indians dependent on nicotine alone or alcohol alone exhibited significantly greater CYP2E1 * 1D frequencies compared to non-drug dependent controls , while the variant frequency among Southeast Asians dependent on nicotine was greater than their non-drug dependent counterparts ."
+}

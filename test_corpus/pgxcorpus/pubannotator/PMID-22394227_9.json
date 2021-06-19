@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 115,
+        "end": 118
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 234,
+        "end": 244
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 115,
+        "end": 130
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22394227_9",
+  "text": "These results suggest that the Ainu-selected traditional beneficial plants are useful source for findings of novel AhR antagonists , and the antagonistic activity of these plants may be independent on their antioxidative activity and polyphenol content ."
+}

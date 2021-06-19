@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 5,
+        "end": 10
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 39
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 74,
+        "end": 77
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 88
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 159,
+        "end": 163
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15188667_7",
+  "text": "Most GISTs respond to imatinib mesylate , which selectively inhibits both KIT and PDGFRA , and is now considered as the standard systemic therapy for advanced GIST ."
+}

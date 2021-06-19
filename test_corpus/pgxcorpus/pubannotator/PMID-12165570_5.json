@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 68,
+        "end": 72
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 114,
+        "end": 122
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 162,
+        "end": 169
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12165570_5",
+  "text": "Using viral-mediated gene transfer to locally alter the activity of CREB , we show that this manipulation affects morphine reward , as well as the preference for sucrose , a more natural reward ."
+}

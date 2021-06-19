@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 22
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 36,
+        "end": 49
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 53,
+        "end": 57
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 70,
+        "end": 81
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 106,
+        "end": 109
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26313006_9",
+  "text": "Inhibition of CyclinB1 induction by Cycloheximide or CDK1 activity by Roscovitine significantly prevented FQI -induced mitotic arrest ."
+}

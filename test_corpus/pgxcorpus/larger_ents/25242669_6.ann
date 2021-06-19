@@ -1,0 +1,6 @@
+T1	Disease 69 88	EGFR -mutated NSCLC
+T2	Chemical 118 127	EGFR -TKI
+T3	Chemical 319 328	gefitinib
+T4	Disease 344 363	EGFR -mutated NSCLC
+T5	Chemical 408 454	TKI followed by a subsequent line of treatment
+T6	Chemical 467 477	EGFR -TKIs

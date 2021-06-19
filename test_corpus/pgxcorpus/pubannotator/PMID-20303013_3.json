@@ -1,0 +1,87 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 75,
+        "end": 80
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 83,
+        "end": 88
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 95,
+        "end": 100
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 150,
+        "end": 187
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 207,
+        "end": 279
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 207,
+        "end": 216
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 222,
+        "end": 238
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 241,
+        "end": 252
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Chemical",
+      "span": {
+        "begin": 255,
+        "end": 266
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Chemical",
+      "span": {
+        "begin": 269,
+        "end": 279
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20303013_3",
+  "text": "In this study , we investigated the influence of the genetic polymorphisms GSTM1 , GSTT1 , and GSTP1 on treatment response in 94 Korean patients with de novo diffuse large B-cell lymphoma , who had received rituximab plus cyclophosphamide / doxorubicin / vincristine / prednisone ( R- CHOP ) as a front-line regimen ."
+}

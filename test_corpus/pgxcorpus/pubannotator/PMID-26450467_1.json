@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 24,
+        "end": 30
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 40
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 58,
+        "end": 68
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26450467_1",
+  "text": "Combinational Effect of CYP3A5 and MDR-1 Polymorphisms on Tacrolimus Pharmacokinetics in Liver Transplant Patients ."
+}

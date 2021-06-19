@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 18,
+        "end": 25
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 36,
+        "end": 40
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 85,
+        "end": 100
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25539912_1",
+  "text": "WNT activation by lithium abrogates TP53 mutation associated radiation resistance in medulloblastoma ."
+}

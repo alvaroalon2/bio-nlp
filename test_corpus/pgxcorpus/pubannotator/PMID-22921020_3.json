@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 5,
+        "end": 12
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 65,
+        "end": 70
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 75,
+        "end": 80
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22921020_3",
+  "text": "This steroid response appears to be heritable and alleles in the SFRS3 and FKBP4 genes have recently been suggested to play a role ."
+}

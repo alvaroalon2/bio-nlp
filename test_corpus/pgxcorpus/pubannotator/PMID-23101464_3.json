@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 64,
+        "end": 68
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 73,
+        "end": 78
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 99
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 322,
+        "end": 341
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 92,
+        "end": 110
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 286,
+        "end": 296
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23101464_3",
+  "text": "We genotyped 23 single nucleotide polymorphisms ( SNPs ) in the PDYN and OPRK1 genes in 816 alcohol -dependent subjects and investigated their association with : ( 1 ) negative craving measured by a subscale of the Inventory of Drug Taking Situations ; ( 2 ) a self-reported history of depression ; ( 3 ) the intensity of depressive symptoms measured by the Beck Depression Inventory-II ."
+}

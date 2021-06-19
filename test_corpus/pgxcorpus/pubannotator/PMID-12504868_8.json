@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 33
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 184
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 181,
+        "end": 203
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 199,
+        "end": 203
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12504868_8",
+  "text": "Intercellular adhesion molecule-1 gene expression also was upregulated in a synergistic manner in cortical , striatal , and hippocampal regions in mice which received injections of Tat combined with METH compared to the effects of these agents alone ."
+}

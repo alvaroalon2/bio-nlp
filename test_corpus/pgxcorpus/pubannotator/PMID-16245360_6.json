@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 43,
+        "end": 50
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 145,
+        "end": 148
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16245360_6",
+  "text": "In this model we found that treatment with CpG ODN during epicutaneous sensitization in previously i.p.-primed mice prevented the development of Th2 -mediated responses ."
+}

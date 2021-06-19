@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 47,
+        "end": 69
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 72,
+        "end": 79
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 97,
+        "end": 99
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 158,
+        "end": 170
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25523423_4",
+  "text": "We compared learning and spatial memory in the APPswe , PSEN1dE985Dbo ( APP/PS1 ) mouse model of AD and studied the ability of acute intraperitoneal and oral Bryostatin-1 to reverse cognitive deficits in this model ."
+}

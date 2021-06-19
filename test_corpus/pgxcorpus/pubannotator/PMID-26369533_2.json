@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 13,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 59,
+        "end": 65
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 135,
+        "end": 144
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 96,
+        "end": 105
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26369533_2",
+  "text": "UNASSIGNED : Breast cancer patients with absent or reduced CYP2D6 activity and consequently low endoxifen levels may benefit less from tamoxifen treatment ."
+}

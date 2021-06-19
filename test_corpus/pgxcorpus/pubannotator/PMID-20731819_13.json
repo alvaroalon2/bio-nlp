@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 30,
+        "end": 36
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 184,
+        "end": 193
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 202,
+        "end": 211
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20731819_13",
+  "text": "No other variants , including CYP2D6 * 4 ( MAF = 0.20 ) , previously reported to be associated with poorer clinical outcomes , were associated with differences in BCSS , in either the tamoxifen or non- tamoxifen groups ."
+}

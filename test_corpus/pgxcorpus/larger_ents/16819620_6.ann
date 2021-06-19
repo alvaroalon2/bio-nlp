@@ -1,0 +1,6 @@
+T1	Gene_or_protein 63 77	DA D4 receptor
+T2	Gene_or_protein 80 84	DRD4
+T3	Gene_or_protein 95 116	serotonin transporter
+T4	Gene_or_protein 119 124	5-HTT
+T5	Chemical 172 179	alcohol
+T6	Chemical 184 191	tobacco

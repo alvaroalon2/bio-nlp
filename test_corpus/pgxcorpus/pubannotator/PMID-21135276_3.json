@@ -1,0 +1,87 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 71,
+        "end": 75
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 104,
+        "end": 113
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 154,
+        "end": 158
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 223,
+        "end": 227
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 28,
+        "end": 68
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 11
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 119,
+        "end": 151
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 119,
+        "end": 184
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 223,
+        "end": 258
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 28,
+        "end": 97
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21135276_3",
+  "text": "Trastuzumab , the humanized human epidermal growth factor receptor 2 ( HER2 ) monoclonal antibody , and lapatinib , an epidermal growth factor receptor / HER2 tyrosine kinase inhibitor , are both established treatments for HER2 -overexpressing breast cancers ."
+}

@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 3,
+        "end": 7
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 29
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 48,
+        "end": 54
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 75,
+        "end": 79
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21801714_9",
+  "text": "In Nrf2 knock-out cells , Cln could not elevate UGT1A1 activity indicating Nrf2 to be its target ."
+}

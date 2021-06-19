@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 54,
+        "end": 64
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 92,
+        "end": 98
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 105,
+        "end": 111
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 120,
+        "end": 126
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 134,
+        "end": 140
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 174,
+        "end": 184
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17495880_6",
+  "text": "The lack of a time-related increase in dose-corrected tacrolimus exposure observed with the CYP3A4 * 1 / CYP3A5 * 1 and CYP3A4 * 1B / CYP3A5 * 1 genotypes is associated with tacrolimus -related nephrotoxicity , possibly as a result of higher concentrations of toxic metabolites ."
+}

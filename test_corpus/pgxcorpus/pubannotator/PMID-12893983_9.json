@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 36
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 103,
+        "end": 108
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 143,
+        "end": 154
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12893983_9",
+  "text": "CONCLUSION : Genotyping for the GNB3 C825T polymorphism is highly predictive for the identification of obese individuals who will benefit from sibutramine treatment ."
+}

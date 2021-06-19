@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 122,
+        "end": 134
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 296,
+        "end": 316
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 283,
+        "end": 290
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16719540_4",
+  "text": "The reasons why doses are not individualised routinely are difficulties in defining , predicting and achieving an optimal fluorouracil exposure or dose because of a narrow therapeutic index , nonlinear pharmacokinetics , variabilities in administration rates and metabolism , and in targets like thymidylate synthase ."
+}

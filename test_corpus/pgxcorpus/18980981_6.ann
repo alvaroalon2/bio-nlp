@@ -1,0 +1,7 @@
+T1	Chemical 52 61	erlotinib
+T2	Gene_or_protein 73 77	EGFR
+T3	Disease 86 91	NSCLC
+T4	Chemical 152 160	platinum
+T5	Disease 194 199	NSCLC
+T6	Chemical 260 269	erlotinib
+T10	Chemical 194 212	NSCLC chemotherapy

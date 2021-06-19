@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 58,
+        "end": 62
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 100,
+        "end": 109
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18829024_9",
+  "text": "CONCLUSION ( S ) : Pregnancy is feasible in patients with StAR gene mutations , provided that extra estrogens are offered until placental function ensues ."
+}

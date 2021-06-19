@@ -16,5 +16,5 @@ COPY CORD-19_annotation/utils.py /app/CORD-19_annotation/utils.py
 COPY models/ /app/models/
 COPY bionlp/ /app/bionlp/
 WORKDIR /app/CORD-19_annotation
-ENTRYPOINT ["python3"]
-CMD ["annotate_cord_19.py", "normalize"]
+#ENTRYPOINT ["python3"]
+#CMD ["annotate_cord_19.py", "normalize"]

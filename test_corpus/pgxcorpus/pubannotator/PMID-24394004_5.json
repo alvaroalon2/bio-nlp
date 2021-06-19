@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 104
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24394004_5",
+  "text": "The relationship between the MSI status and the efficacy of first - line oxaliplatin -based chemotherapy was retrospectively examined ."
+}

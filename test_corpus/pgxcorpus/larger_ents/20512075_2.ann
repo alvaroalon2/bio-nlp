@@ -1,0 +1,8 @@
+T1	Chemical 14 40	tyrosine kinase inhibitors
+T2	Chemical 43 47	TKIs
+T3	Chemical 50 59	gefitinib
+T4	Chemical 64 73	erlotinib
+T5	Disease 91 118	non-small cell lung cancers
+T6	Disease 121 127	NSCLCs
+T7	Gene_or_protein 135 167	epidermal growth factor receptor
+T8	Gene_or_protein 170 174	EGFR

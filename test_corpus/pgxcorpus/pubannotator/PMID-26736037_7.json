@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 8
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 126,
+        "end": 141
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 188,
+        "end": 192
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 243,
+        "end": 258
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26736037_7",
+  "text": "The CREB signaling pathway is involved in gene expression changes related to chronic use of multiple drugs of abuse including methamphetamine and these results suggest that variability in CREB signaling may influence pretreatment frequency of methamphetamine use as well as outcomes of outpatient treatment ."
+}

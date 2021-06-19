@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 12,
+        "end": 16
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 77
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15813023_1",
+  "text": "[ Effect of MDR1 polymorphic expression on oral disposition of cyclosporine A ] ."
+}

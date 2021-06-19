@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 22
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 49,
+        "end": 54
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22461642_7",
+  "text": "Furthermore , oridonin inhibited the activity of c-Kit ( + ) leukemia -initiating cells ."
+}

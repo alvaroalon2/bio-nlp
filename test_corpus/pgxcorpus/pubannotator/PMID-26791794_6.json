@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 97,
+        "end": 103
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 146,
+        "end": 156
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 53
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26791794_6",
+  "text": "However , a commercially-available cell line with MET exon 14 skipping mutation and co-occurring PIK3CA - p.Glu545Lys mutation did not respond to crizotinib ; suggesting the latter abrogated response ."
+}

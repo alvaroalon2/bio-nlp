@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 120,
+        "end": 126
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 214,
+        "end": 224
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 272,
+        "end": 282
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 310,
+        "end": 327
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24977443_10",
+  "text": "The existence of a French laboratories network performing this test in clinical routine makes it possible to generalize UGT1A1 deficiency screening , so as to guarantee equal access to safe treatment and optimized irinorecan -based therapy for the many patients receiving irinotecan -based therapy in advanced colorectal cancer ."
+}

@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 35,
+        "end": 50
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 88,
+        "end": 95
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8807668_1",
+  "text": "Evidence that poor metabolizers of (S)-mephenytoin could be identified by haplotypes of CYP2C19 in Japanese ."
+}

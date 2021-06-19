@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 3
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 20,
+        "end": 24
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 98
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 103,
+        "end": 107
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21890455_6",
+  "text": "IMO interfered with EGFR -dependent signaling , modulating the functional interaction between TLR9 and EGFR ."
+}

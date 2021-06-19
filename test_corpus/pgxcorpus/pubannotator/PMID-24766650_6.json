@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 66
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 166,
+        "end": 189
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 197,
+        "end": 202
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 224,
+        "end": 229
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 60,
+        "end": 76
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24766650_6",
+  "text": "Fourteen SNPs showed nominally significant association with heroin addiction ( p < 0.05 ) , including the African-specific , missense SNP rs5376 ( Asn334Ser ) in the galanin receptor type 1 gene ( GALR1 ) and the functional FKBP5 intronic SNP rs1360780 ."
+}

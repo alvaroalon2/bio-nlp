@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 75,
+        "end": 82
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 91,
+        "end": 101
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 104,
+        "end": 111
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 203,
+        "end": 224
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 249,
+        "end": 259
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 264,
+        "end": 281
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20101393_3",
+  "text": "OBJECTIVES : The current study aimed to determine the relationship between ecstasy use and depressive / anxiety symptomatology after controlling for known environmental and genetic ( polymorphism of the serotonin transporter gene ) risk factors for depression and anxiety disorders ."
+}

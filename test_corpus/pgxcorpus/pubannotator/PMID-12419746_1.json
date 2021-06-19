@@ -1,0 +1,79 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 75,
+        "end": 85
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 88,
+        "end": 93
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 99,
+        "end": 108
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 111,
+        "end": 119
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 125,
+        "end": 129
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 35,
+        "end": 46
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 49,
+        "end": 58
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 125,
+        "end": 161
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 35,
+        "end": 95
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12419746_1",
+  "text": "In vitro comparative evaluation of trastuzumab ( Herceptin ) combined with paclitaxel ( Taxol ) or docetaxel ( Taxotere ) in HER2 -expressing human breast cancer cell lines ."
+}

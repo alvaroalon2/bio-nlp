@@ -1,0 +1,95 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 46,
+        "end": 57
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 104
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 107,
+        "end": 112
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 124,
+        "end": 129
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 146
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 160,
+        "end": 165
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 168,
+        "end": 173
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Disease",
+      "span": {
+        "begin": 239,
+        "end": 253
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 46,
+        "end": 69
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 72,
+        "end": 75
+      }
+    },
+    {
+      "id": "T17",
+      "obj": "Chemical",
+      "span": {
+        "begin": 291,
+        "end": 303
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24040330_2",
+  "text": "OBJECTIVE : To examine the association of six glutathione transferase ( GST ) gene polymorphisms ( GSTT1 , GSTP1 / rs1695 , GSTO1 / rs4925 , GSTO2 / rs156697 , GSTM1 , GSTA1 / rs3957357 ) with the survival of patients with muscle invasive bladder cancer and the genotype modifying effect on chemotherapy ."
+}

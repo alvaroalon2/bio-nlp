@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 58,
+        "end": 69
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 98,
+        "end": 103
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 124,
+        "end": 128
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20308030_10",
+  "text": "CONCLUSIONS : We found no significant association between oxaliplatin -induced neuropathy and the GSTP1 Ile ( 105 ) Val and AGXT Ile ( 340 ) Met polymorphisms ."
+}

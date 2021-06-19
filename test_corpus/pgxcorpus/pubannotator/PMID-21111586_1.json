@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 2,
+        "end": 20
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 96,
+        "end": 105
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 122,
+        "end": 135
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 33,
+        "end": 51
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21111586_1",
+  "text": "A methylene chloride fraction of Saururus chinensis induces apoptosis through the activation of caspase-3 in prostate and breast cancer cells ."
+}

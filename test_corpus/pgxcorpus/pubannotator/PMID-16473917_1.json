@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 11,
+        "end": 17
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 87,
+        "end": 151
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 154,
+        "end": 162
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 169,
+        "end": 203
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16473917_1",
+  "text": "The canine CYP1A2 deficiency polymorphism dramatically affects the pharmacokinetics of 4-cyclohexyl-1-ethyl-7-methylpyrido[2,3-D]-pyrimidine-2-(1H)-one ( YM-64227 ) , a phosphodiesterase type 4 inhibitor ."
+}

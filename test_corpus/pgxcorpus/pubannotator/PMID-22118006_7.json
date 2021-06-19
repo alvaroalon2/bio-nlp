@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 11
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 140,
+        "end": 163
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 174,
+        "end": 185
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 74,
+        "end": 76
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 87,
+        "end": 111
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22118006_7",
+  "text": "The CYP2C19 * 2 genotype is associated with an increased risk of definite ST following coronary stent placement among Chinese patients with coronary artery disease receiving clopidogrel ."
+}

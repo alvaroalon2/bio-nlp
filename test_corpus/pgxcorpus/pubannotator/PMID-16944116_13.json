@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 20
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 111
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 155,
+        "end": 187
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16944116_13",
+  "text": "CONCLUSIONS : CYP2D6 genotype , even in IMs , as well as body weight , age , sex , and Scr influence flecainide pharmacokinetics in Japanese patients with supraventricular tachyarrhythmia ."
+}

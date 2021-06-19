@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 56,
+        "end": 86
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 175,
+        "end": 179
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 192,
+        "end": 196
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 93
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 34,
+        "end": 86
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 113,
+        "end": 116
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25319571_4",
+  "text": "We found that bath application of group I mGluR agonist (S)-3,5-dihydroxyphenylglycine ( DHPG ) reliably induced LTD in both NAc shell and core MSNs of wild-type , hemizygous Drd1 -eGFP , and Drd2 -eGFP mice ."
+}

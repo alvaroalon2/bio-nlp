@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 163,
+        "end": 170
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 101,
+        "end": 149
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 56,
+        "end": 88
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 174,
+        "end": 181
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11555846_6",
+  "text": "There were no significant associations between Gln27Glu beta ( 2 ) - adrenergic receptor or Pro12Ala peroxisome proliferator-activated receptor gamma variants and glucose or insulin kinetic parameters ."
+}

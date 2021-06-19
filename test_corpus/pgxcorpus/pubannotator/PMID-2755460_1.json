@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 13
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 68,
+        "end": 77
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "2755460_1",
+  "text": "Proenkephalin gene expression in the primate uterus : regulation by estradiol in the endometrium ."
+}

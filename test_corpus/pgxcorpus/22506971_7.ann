@@ -1,0 +1,6 @@
+T3	Gene_or_protein 66 86	dopamine transporter
+T6	Gene_or_protein 89 92	DAT
+T7	Chemical 131 138	alcohol
+T8	Chemical 181 188	alcohol
+T10	Disease 131 149	alcohol dependence
+T11	Disease 181 196	alcohol craving

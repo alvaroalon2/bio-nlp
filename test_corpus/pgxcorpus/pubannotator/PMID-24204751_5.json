@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 106,
+        "end": 110
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 81
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 126,
+        "end": 146
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24204751_5",
+  "text": "CFTR -dependent secretion ( C-sweat ) was stimulated with a b-adrenergic cocktail that elevates cytosolic cAMP while blocking muscarinic receptors ."
+}

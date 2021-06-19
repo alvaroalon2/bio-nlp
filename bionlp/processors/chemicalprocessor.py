@@ -77,7 +77,8 @@ class ChemicalProcessor(BioProcessor):
                 for result in results:
                     chemical = {}
                     chemical["text_term"] = label
-                    chemical["found_term"] = "".join(result["term"])
+                    if "term" in result:
+                        chemical["found_term"] = "".join(result["term"])
                     if 'cid' in result:
                         chemical['cid'] = result["cid"]
                     if 'mesh_id' in result:

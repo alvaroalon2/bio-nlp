@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 215,
+        "end": 224
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21995462_17",
+  "text": "Conditional haplotype analyses revealed that the haplotypic constructs comprising the IVS4+76G>A , 699G>A ( Met233Ile ) , IVS12-5676A>G , and *347_*348insA polymorphisms were critical determinants of variability in docetaxel disposition [ clearance and area under the plasma concentration-time curve ( AUC ( 0 , ) ) : r ( 2 ) = 29 % and 22 % , respectively ] ."
+}

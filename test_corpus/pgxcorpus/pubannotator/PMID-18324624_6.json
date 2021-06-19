@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 39
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 47
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 97,
+        "end": 107
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 144,
+        "end": 147
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 150,
+        "end": 155
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 160,
+        "end": 168
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 215,
+        "end": 226
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18324624_6",
+  "text": "Following transient expression of MDR-1 and MCJ , changes in the sensitivity of Sk-Ov-3 cells to paclitaxel were detected whereas expression of Src , Bcl-2 and Bcl-X(L) decreased the sensitivity of Sk-Ov-3 cells to carboplatin ."
+}

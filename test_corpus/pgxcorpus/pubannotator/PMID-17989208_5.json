@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 135,
+        "end": 139
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 170,
+        "end": 180
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17989208_5",
+  "text": "Here , we systematically introduced cysteine -scanning substitutions into the descending portion of the P loop ( residues 339-345 ) of HCN1 -R ( where R is resistance to sulfhydryl -reactive agents ) channels , in which all endogenous cysteines except C303 have been removed or replaced ."
+}

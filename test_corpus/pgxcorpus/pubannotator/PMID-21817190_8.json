@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 38
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 74,
+        "end": 92
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 97,
+        "end": 100
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 170,
+        "end": 177
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 182,
+        "end": 185
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 275,
+        "end": 280
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 170,
+        "end": 185
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21817190_8",
+  "text": "CONCLUSIONS : The variants of the ITPA gene , which could protect against haemolytic anaemia and RBV dose reduction , were associated with a high rate of SVR by standard PEG-IFN and RBV therapy in a subset of Japanese patients with the favourable TT genotype at rs8099917 of IL28B ."
+}

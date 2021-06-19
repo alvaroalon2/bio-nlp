@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 53,
+        "end": 60
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 117,
+        "end": 130
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 205,
+        "end": 218
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 250,
+        "end": 256
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 315,
+        "end": 322
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 195,
+        "end": 242
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 86,
+        "end": 139
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 284,
+        "end": 302
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15902904_2",
+  "text": "Findings obtained from several studies indicate that ethanol enhances the activity of alpha4beta2 neuronal nicotinic acetylcholine receptor and support the possibility that a polymorphism of the nicotinic acetylcholine receptor alpha4 subunit gene ( CHRNA4 ) modulates enhancement of nicotinic receptor function by ethanol ."
+}

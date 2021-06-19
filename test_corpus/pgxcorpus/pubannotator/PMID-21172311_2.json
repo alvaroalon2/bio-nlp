@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 31
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 80,
+        "end": 89
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 39
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21172311_2",
+  "text": "The human serotonin receptor 1B ( HRT1B ) plays an important role in regulating serotonin release ."
+}

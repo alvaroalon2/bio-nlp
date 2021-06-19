@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 21,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 110
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 123,
+        "end": 142
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 82,
+        "end": 95
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 82,
+        "end": 118
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23918539_1",
+  "text": "Genetic variation in NOS2A is associated with a sustained virological response to peginterferon plus ribavirin therapy for chronic hepatitis C in Taiwanese Chinese ."
+}

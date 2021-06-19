@@ -1,0 +1,5 @@
+T1	Disease 107 113	CN-AML
+T2	Chemical 137 163	cytarabine / anthracycline
+T3	Disease 193 199	Cancer
+T4	Disease 204 212	Leukemia
+T5	Gene_or_protein 259 264	RUNX1

@@ -1,0 +1,7 @@
+T3	Gene_or_protein 59 63	SkM1
+T6	Gene_or_protein 106 112	Nav1.5
+T7	Gene_or_protein 210 216	Nav1.5
+T10	Chemical 229 241	tetrodotoxin
+T11	Chemical 244 247	TTX
+T1	Gene_or_protein 26 56	skeletal Na(+) channel isoform
+T2	Gene_or_protein 74 103	cardiac Na(+) channel isoform

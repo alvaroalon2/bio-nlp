@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 50
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 140
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 156,
+        "end": 172
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17980418_4",
+  "text": "METHODS : We resequenced , then genotyped 10 FCER2 single nucleotide polymorphisms ( SNPs ) in 311 children randomized to inhaled budesonide as part of the Childhood Asthma Management Program ."
+}

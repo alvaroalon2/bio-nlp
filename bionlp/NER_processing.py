@@ -120,14 +120,14 @@ try:
         disease_service = DiseaseProcessor('alvaroalon2/biobert_diseases_ner')
     print('Disease service loaded')
     print('----------------------------------------------')
-    print('Loading DISEASE Service')
+    print('Loading CHEMICAL Service')
     if check_existant_model('Chemical'):
         chemical_service = ChemicalProcessor('./models/Chemical')
     else:
         chemical_service = ChemicalProcessor('alvaroalon2/biobert_chemical_ner')
     print('Chemical service loaded')
     print('----------------------------------------------')
-    print('Loading DISEASE Service')
+    print('Loading GENETIC Service')
     if check_existant_model('Gene'):
         genetic_service = GeneProcessor('./models/Gene')
     else:

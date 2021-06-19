@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 20,
+        "end": 23
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 164,
+        "end": 172
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 83,
+        "end": 89
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16015387_9",
+  "text": "We demonstrate that KIT exon 8 mutations result in constitutive ligand-independent kinase activation that can be inhibited by clinically relevant concentrations of imatinib ."
+}

@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 13,
+        "end": 18
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 23,
+        "end": 28
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 46,
+        "end": 57
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 79,
+        "end": 92
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18377430_1",
+  "text": "Influence of ABCB1 and ABCG2 polymorphisms on doxorubicin disposition in Asian breast cancer patients ."
+}

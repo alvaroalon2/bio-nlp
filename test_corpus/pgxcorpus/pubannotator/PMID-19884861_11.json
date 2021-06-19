@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 25,
+        "end": 29
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 150,
+        "end": 155
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 194,
+        "end": 203
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 166,
+        "end": 175
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 166,
+        "end": 203
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19884861_11",
+  "text": "CONCLUSIONS : Activating EGFR mutations detected in shed DNA in plasma are significantly associated with favorable outcomes in patients with advanced NSCLC receiving docetaxel plus intercalated erlotinib ."
+}

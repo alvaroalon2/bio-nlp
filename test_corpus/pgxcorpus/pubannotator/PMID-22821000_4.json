@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 221,
+        "end": 265
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 268,
+        "end": 272
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 328,
+        "end": 345
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 24,
+        "end": 30
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 125,
+        "end": 133
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 101,
+        "end": 122
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 279,
+        "end": 302
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22821000_4",
+  "text": "We examined the role of Ranbp2 haploinsufficiency on cellular and metabolic manifestations linked to tyrosine -hydroxylase ( TH ( + ) ) dopaminergic neurons and glial cells of the brain and retina upon acute challenge to 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine ( MPTP ) , a parkinsonian neurotoxin , which models facets of Parkinson disease ."
+}

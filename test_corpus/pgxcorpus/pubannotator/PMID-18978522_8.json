@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 6
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 72
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 112,
+        "end": 127
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18978522_8",
+  "text": "CYP3A7 * 1C carriers required a 1.4-fold to 1.6-fold higher cyclosporine daily dose during the first year after transplantation ( P < 0.05 ) ."
+}

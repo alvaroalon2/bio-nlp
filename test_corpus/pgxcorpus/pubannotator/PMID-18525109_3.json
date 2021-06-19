@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 46,
+        "end": 54
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 126,
+        "end": 142
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 145,
+        "end": 149
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 29,
+        "end": 41
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 102,
+        "end": 112
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18525109_3",
+  "text": "We found that the extract of C. sappan L. and brazilin induced antioxidant response element ( ARE ) - luciferase activity and heme oxygenase-1 ( HO-1 ) expression in a concentration-dependent manner ."
+}

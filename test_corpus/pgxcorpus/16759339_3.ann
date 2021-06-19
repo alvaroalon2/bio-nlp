@@ -1,0 +1,5 @@
+T2	Chemical 155 162	alcohol
+T3	Disease 231 241	alcoholism
+T5	Gene_or_protein 74 78	DRD2
+T6	Gene_or_protein 139 143	DRD3
+T7	Disease 155 173	alcohol -dependent

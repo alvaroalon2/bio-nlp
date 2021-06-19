@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 54
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 62,
+        "end": 69
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 164,
+        "end": 172
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 134,
+        "end": 163
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17558310_2",
+  "text": "The 1976C>T polymorphism in the adenosine A2A receptor gene ( ADORA2A ) modulates the psychological response to administration of the adenosine receptor antagonist caffeine ."
+}

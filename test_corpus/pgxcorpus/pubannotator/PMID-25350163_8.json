@@ -1,0 +1,135 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 49,
+        "end": 53
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 39,
+        "end": 67
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 117
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 113,
+        "end": 117
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 127,
+        "end": 132
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 149
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 170,
+        "end": 174
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 253,
+        "end": 261
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 336,
+        "end": 351
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Disease",
+      "span": {
+        "begin": 354,
+        "end": 359
+      }
+    },
+    {
+      "id": "T16",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 390,
+        "end": 422
+      }
+    },
+    {
+      "id": "T20",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 382,
+        "end": 387
+      }
+    },
+    {
+      "id": "T22",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 459,
+        "end": 462
+      }
+    },
+    {
+      "id": "T23",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 467,
+        "end": 472
+      }
+    },
+    {
+      "id": "T25",
+      "obj": "Chemical",
+      "span": {
+        "begin": 98,
+        "end": 108
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 354,
+        "end": 375
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25350163_8",
+  "text": "In a pilot clinical trial involving 10 F508del - CFTR homozygous CF patients , the combination of cysteamine and EGCG restored BECN1 , reduced SQSTM1 levels and improved CFTR function from nasal epithelial cells in vivo , correlating with a decrease of chloride concentrations in sweat , as well as with a reduction of the abundance of TNF / TNF-alpha ( tumor necrosis factor ) and CXCL8 ( chemokine [C-X-C motif] ligand 8 ) transcripts in nasal brushing and TNF and CXCL8 protein levels in the sputum ."
+}

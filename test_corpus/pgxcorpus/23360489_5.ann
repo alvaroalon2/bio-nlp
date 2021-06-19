@@ -1,0 +1,7 @@
+T1	Disease 12 23	lung cancer
+T2	Gene_or_protein 66 71	c-Met
+T3	Chemical 113 120	SU11274
+T4	Gene_or_protein 92 97	c-Met
+T5	Gene_or_protein 132 136	EGFR
+T7	Chemical 132 152	EGFR -targeted drugs
+T10	Chemical 92 112	c-Met -targeted drug

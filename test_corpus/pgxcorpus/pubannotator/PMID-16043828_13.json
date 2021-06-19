@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 18
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 92
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 97,
+        "end": 109
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 109
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 14,
+        "end": 32
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16043828_13",
+  "text": "Patients with KRAS -mutant NSCLC showed poorer clinical outcomes when treated with erlotinib and chemotherapy ."
+}

@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 30
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 93,
+        "end": 97
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 61,
+        "end": 78
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 143,
+        "end": 160
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 61,
+        "end": 67
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 143,
+        "end": 149
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21995595_10",
+  "text": "Our data suggest that the ENO2 gene might be associated with heroin dependence , and reduced ENO2 gene expression may confer increased risk to heroin dependence ."
+}

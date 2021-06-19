@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 96,
+        "end": 102
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 107,
+        "end": 113
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 187,
+        "end": 200
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22486182_10",
+  "text": "A final multivariate regression model that included the target International Normalized Ratio , VKORC1 and CYP2C9 genotypes explained 36 2 % of the overall interindividual variability in acenocoumarol dose requirement ."
+}

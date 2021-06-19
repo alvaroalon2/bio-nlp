@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 37,
+        "end": 40
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17430486_2",
+  "text": "CYP3A enzyme plays a pivotal role in TAC metabolism ."
+}

@@ -1,0 +1,6 @@
+T1	Chemical 23 32	pazopanib
+T2	Chemical 37 47	everolimus
+T3	Gene_or_protein 51 57	PIK3CA
+T4	Gene_or_protein 77 81	PTEN
+T5	Disease 110 122	solid tumors
+T6	Chemical 23 47	pazopanib and everolimus

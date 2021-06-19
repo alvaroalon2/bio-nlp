@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 11
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 30
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 172,
+        "end": 192
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 208,
+        "end": 212
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 33,
+        "end": 81
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 100
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 112,
+        "end": 131
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23909652_2",
+  "text": "Vemurafenib , a selective BRAF ( v-raf murine sarcoma viral oncogene homologue B1 ) kinase inhibitor , is a new targeted biotherapy that improves survival in patients with metastatic melanomas harbouring the BRAF V600E mutation ."
+}

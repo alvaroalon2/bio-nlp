@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 28,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 77,
+        "end": 80
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 179,
+        "end": 184
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 213,
+        "end": 216
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Disease",
+      "span": {
+        "begin": 263,
+        "end": 286
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 289,
+        "end": 292
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24597466_4",
+  "text": "RESULTS : Patients carrying HLA-B * 15:02 are at strongly increased risk for CBZ -induced Stevens-Johnson syndrome / toxic epidermal necrolysis ( SJS / TEN ) in populations where HLA-B * 15:02 is common , but not CBZ -induced hypersensitivity syndrome ( HSS ) or maculopapular exanthema ( MPE ) ."
+}

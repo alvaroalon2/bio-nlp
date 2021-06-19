@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 5,
+        "end": 13
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 47,
+        "end": 52
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 56,
+        "end": 58
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25034231_6",
+  "text": "This xanthone down-regulates the expression of CXCR4 on MM cells in a dose - and time-dependent manner ."
+}

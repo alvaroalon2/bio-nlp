@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 98,
+        "end": 104
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 138,
+        "end": 144
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 98,
+        "end": 114
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 138,
+        "end": 152
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25122903_3",
+  "text": "The current study identifies an association of an intronic SNP ( rs9479757 ) with the severity of heroin addiction among Han-Chinese male heroin addicts ."
+}

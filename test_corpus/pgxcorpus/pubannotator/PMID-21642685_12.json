@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 43,
+        "end": 51
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 62,
+        "end": 65
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 95,
+        "end": 112
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21642685_12",
+  "text": "CONCLUSIONS : Among patients with advanced melanoma harboring KIT alterations , treatment with imatinib mesylate results in significant clinical responses in a subset of patients ."
+}

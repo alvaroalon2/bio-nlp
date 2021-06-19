@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 47,
+        "end": 57
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 8,
+        "end": 16
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 3
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 38
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 19,
+        "end": 27
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17968354_8",
+  "text": "PNA and PNA-AAV6 , PNA-AAV8 conjugates induced dystrophin expression in a dose-dependent manner ."
+}

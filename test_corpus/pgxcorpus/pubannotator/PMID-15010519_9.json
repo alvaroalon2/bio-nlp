@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 25
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 56,
+        "end": 63
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 68,
+        "end": 74
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15010519_9",
+  "text": "DISCUSSION : Lansoprazole is metabolized by 2 enzymes , CYP2C19 and CYP3A4 ."
+}

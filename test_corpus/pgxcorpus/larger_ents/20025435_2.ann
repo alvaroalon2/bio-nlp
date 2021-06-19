@@ -1,0 +1,7 @@
+T1	Gene_or_protein 56 77	alcohol dehydrogenase
+T2	Gene_or_protein 80 84	ADH2
+T3	Gene_or_protein 87 92	ADH1B
+T4	Gene_or_protein 99 121	aldehyde dehydrogenase
+T5	Gene_or_protein 124 129	ALDH2
+T6	Disease 142 160	alcohol dependence
+T7	Disease 234 252	alcohol dependence

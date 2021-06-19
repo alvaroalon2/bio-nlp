@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 81,
+        "end": 87
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 113,
+        "end": 122
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25251606_7",
+  "text": "Intracerebroventricular infusion of a peptide that mimics the effector domain of MARCKS increases the content of PI(4,5)P2 in the synaptic membrane and ameliorates behavioral abnormalities in ASMko mice ."
+}

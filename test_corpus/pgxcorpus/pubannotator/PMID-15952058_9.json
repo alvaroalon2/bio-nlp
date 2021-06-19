@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 9
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 33,
+        "end": 40
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15952058_9",
+  "text": "Tamoxifen -treated patients with UGT2B15 high activity genotypes had increased risk of recurrence and poorer survival ."
+}

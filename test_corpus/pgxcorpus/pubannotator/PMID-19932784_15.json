@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 27,
+        "end": 50
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 53,
+        "end": 70
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 77,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 143,
+        "end": 154
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19932784_15",
+  "text": "In conclusion , high BMI , acute coronary syndrome , diabetes mellitus , and CYP2C19 2 are associated with HTPR after a 600-mg loading dose of clopidogrel ."
+}

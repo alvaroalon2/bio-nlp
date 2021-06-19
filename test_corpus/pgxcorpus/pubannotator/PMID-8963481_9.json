@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 76,
+        "end": 82
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 107,
+        "end": 123
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8963481_9",
+  "text": "These pharmacokinetic parameters were also investigated with respect to the CYP2D6 polymorphism , i.e. via dextromethorphan phenotyping of 9 subjects , 3 subjects were poor metabolizers , and 6 extensive metabolizers ."
+}

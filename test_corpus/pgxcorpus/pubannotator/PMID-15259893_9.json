@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 30,
+        "end": 40
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 110,
+        "end": 119
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15259893_9",
+  "text": "Resistance during exposure to amprenavir can follow development of I50V , which also may confer resistance to lopinavir ."
+}

@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 21,
+        "end": 25
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 93,
+        "end": 112
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 147,
+        "end": 151
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 8,
+        "end": 11
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19179882_9",
+  "text": "In both TPN groups , MDR2 expression was significantly ( 68 % ) lower than controls and bile phosphatidylcholine content , a functional measure of MDR2 , was 40 % less than controls ."
+}

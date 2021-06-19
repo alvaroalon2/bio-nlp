@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 31,
+        "end": 44
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 72
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 76,
+        "end": 82
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15180166_10",
+  "text": "The metabolic ratios unchanged acetaminophen / acetaminophen glucuronide in UGT1A1 -wildtypes , heterozygotes and mutants showed no statistically significant differences ."
+}

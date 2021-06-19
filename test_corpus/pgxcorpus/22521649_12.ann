@@ -1,0 +1,6 @@
+T1	Disease 45 56	lung cancer
+T2	Gene_or_protein 71 75	EGFR
+T3	Chemical 107 113	taxane
+T4	Chemical 119 130	gemcitabine
+T5	Chemical 148 179	platinum -based doublet regimen
+T8	Chemical 148 156	platinum

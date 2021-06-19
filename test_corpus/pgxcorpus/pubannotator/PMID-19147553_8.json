@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 11,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 38,
+        "end": 51
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 101,
+        "end": 105
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 62,
+        "end": 79
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19147553_8",
+  "text": "Moreover , nutlin-3 reduced efflux of rhodamine 123 and other fluorescence dyes that are effluxed by P-gp ."
+}

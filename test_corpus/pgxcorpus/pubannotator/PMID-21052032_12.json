@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 17,
+        "end": 21
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 52,
+        "end": 77
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 109,
+        "end": 120
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21052032_12",
+  "text": "CONCLUSION : The MC1R gene might be associated with major depressive disorder and with treatment response to desipramine ."
+}

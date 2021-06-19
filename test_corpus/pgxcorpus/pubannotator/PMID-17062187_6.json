@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 61,
+        "end": 104
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 215,
+        "end": 225
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 107,
+        "end": 112
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 118,
+        "end": 133
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 201,
+        "end": 210
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17062187_6",
+  "text": "Mutations at codons M184V and Q151M conferring resistance to nucleoside reverse transcriptase inhibitors ( NRTIs ) in HIV-1 infection were detected , as were mutations at codons V71I and L90M implying indinavir and nelfinavir resistance as well ."
+}

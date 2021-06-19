@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 7
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 11,
+        "end": 15
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 11,
+        "end": 59
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26450446_1",
+  "text": "AZD9291 in EGFR -mutant advanced non-small-cell lung cancer patients ."
+}

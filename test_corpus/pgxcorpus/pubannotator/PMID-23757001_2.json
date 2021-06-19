@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 109,
+        "end": 130
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 213,
+        "end": 218
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 221,
+        "end": 226
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 233,
+        "end": 239
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 273,
+        "end": 280
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 294,
+        "end": 296
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 273,
+        "end": 291
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 83,
+        "end": 90
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23757001_2",
+  "text": "On the basis of the converging evidence showing regulation of drinking behavior by 5-HT3AB receptors and the serotonin transporter , we hypothesized that the interactive effects of genetic variations in the genes HTR3A , HTR3B , and SLC6A4 confer greater susceptibility to alcohol dependence ( AD ) than do their effects individually ."
+}

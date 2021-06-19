@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 54,
+        "end": 66
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 71,
+        "end": 89
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 161,
+        "end": 192
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 195,
+        "end": 199
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 225,
+        "end": 230
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 206,
+        "end": 222
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 27,
+        "end": 30
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 44
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22588330_3",
+  "text": "Our results indicated that LDF inhibited LPS -induced nitric oxide and prostaglandin E(2) production in a dose-dependent manner and suppressed the expression of inducible nitric oxide synthase ( iNOS ) and cyclooxygenase 2 ( COX-2 ) in RAW 264.7 cells ."
+}

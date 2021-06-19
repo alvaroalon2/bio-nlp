@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 31,
+        "end": 40
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 84,
+        "end": 92
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25043824_3",
+  "text": "Pharmacogenetic aspects of the serotonin metabolism , specifically variation in the 5-HTTLPR may be involved ."
+}

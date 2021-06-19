@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 20,
+        "end": 27
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 45,
+        "end": 53
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 77,
+        "end": 96
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 63,
+        "end": 73
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25872644_1",
+  "text": "Is there a role for ADORA2A polymorphisms in levodopa -induced dyskinesia in Parkinson's disease patients ?"
+}

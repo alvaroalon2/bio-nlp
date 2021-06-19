@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 14,
+        "end": 17
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 43
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 53,
+        "end": 57
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 64,
+        "end": 67
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 97,
+        "end": 121
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 46,
+        "end": 50
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23991619_3",
+  "text": "METHODS : One APL patient overexpressed PML / RARa ( bcr1 ) and WT1 genes in the presence of the Fms-like tyrosine kinase -internal tandem duplication mutation , while cytogenetics showed t ( 2 ; 3 ) ( p25 ; q21 ) and t ( 15 ; 17 ) ( q22 ; q21 ) ."
+}

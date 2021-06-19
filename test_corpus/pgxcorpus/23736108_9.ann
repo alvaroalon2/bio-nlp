@@ -1,0 +1,5 @@
+T1	Gene_or_protein 83 88	TAPBP
+T7	Disease 252 256	AERD
+T8	Chemical 275 282	aspirin
+T9	Disease 293 299	asthma
+T3	Disease 275 299	aspirin -tolerant asthma

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 3,
+        "end": 18
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 38,
+        "end": 47
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 54
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 67,
+        "end": 73
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 78,
+        "end": 84
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18433425_8",
+  "text": "As cytochrome P450 enzymes metabolize yohimbine , P450 genotypes ( CYP2D6 and CYP3A4 ) were determined in 25 of 30 subjects who consented to genetic studies ."
+}

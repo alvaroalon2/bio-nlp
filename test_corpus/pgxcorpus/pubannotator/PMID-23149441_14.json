@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 29,
+        "end": 35
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 74
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 120,
+        "end": 126
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23149441_14",
+  "text": "The effect was influenced by CYP3A5 polymorphism , although the tacrolimus variability itself was not determined by the CYP3A5 polymorphism ."
+}

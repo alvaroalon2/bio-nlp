@@ -1,0 +1,13 @@
+T1	Chemical 13 41	dimethyl histone H3 lysine 4
+T3	Gene_or_protein 61 65	RARa
+T5	Gene_or_protein 89 93	PU.1
+T6	Gene_or_protein 133 138	RUNX1
+T7	Gene_or_protein 181 184	MLL
+T8	Gene_or_protein 187 190	AF9
+T9	Gene_or_protein 215 218	MLL
+T10	Gene_or_protein 221 224	AF4
+T13	Chemical 351 355	ATRA
+T14	Gene_or_protein 371 374	MLL
+T15	Gene_or_protein 377 380	AF4
+T2	Chemical 44 51	H3K4me2
+T18	Gene_or_protein 258 288	lysine -specific demethylase 1

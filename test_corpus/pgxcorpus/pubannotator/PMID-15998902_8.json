@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 12
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 56
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 147
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 143,
+        "end": 179
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 182,
+        "end": 187
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15998902_8",
+  "text": "Temsirolimus peak concentration ( Cmax ) , and sirolimus Cmax and area under the concentration-time curve were decreased in patients receiving p450 enzyme-inducing anticonvulsants ( EIACs ) by 73 % , 47 % , and 50 % , respectively , but were still within the therapeutic range of preclinical models ."
+}

@@ -1,0 +1,5 @@
+T1	Gene_or_protein 24 56	epidermal growth factor receptor
+T2	Gene_or_protein 59 63	EGFR
+T3	Chemical 141 150	cetuximab
+T4	Disease 176 204	metastatic colorectal cancer
+T5	Disease 207 211	MCRC

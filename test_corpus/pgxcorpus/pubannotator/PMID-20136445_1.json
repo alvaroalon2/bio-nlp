@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 36,
+        "end": 53
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 66
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 19,
+        "end": 32
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20136445_1",
+  "text": "Effects of various polyphenolics on hydrogen peroxide -induced p53 activity in NIH3T3 cells ."
+}

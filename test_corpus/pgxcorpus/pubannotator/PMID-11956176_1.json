@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 14
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 19,
+        "end": 24
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 71,
+        "end": 97
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 153
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 168,
+        "end": 190
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11956176_1",
+  "text": "Cyclosporine a and FK506 inhibit transcriptional activity of the human mineralocorticoid receptor : a cell-based model to investigate partial aldosterone resistance in kidney transplantation ."
+}

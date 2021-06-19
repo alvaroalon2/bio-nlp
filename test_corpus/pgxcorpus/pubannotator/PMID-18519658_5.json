@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 0,
+        "end": 13
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 80,
+        "end": 84
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 118,
+        "end": 151
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 118,
+        "end": 131
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18519658_5",
+  "text": "Breast cancer patients harboring the loss-of-function Asp299Gly polymorphism of TLR4 relapsed earlier after receiving anthracycline -based chemotherapy ."
+}

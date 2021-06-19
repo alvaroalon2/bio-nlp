@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 57,
+        "end": 85
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 103,
+        "end": 138
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 179,
+        "end": 191
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 214,
+        "end": 240
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 269,
+        "end": 281
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20121554_4",
+  "text": "The authors describe the case of a 12-year-old male with acute lymphoblastic leukemia and a homozygous methylenetetrahydrofolate reductase C677T mutation , who developed subacute methotrexate -induced toxicity and cerebral venous thrombosis after receiving intrathecal methotrexate ."
+}

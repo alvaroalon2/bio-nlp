@@ -1,0 +1,5 @@
+T1	Gene_or_protein 77 79	ER
+T2	Gene_or_protein 124 128	HER2
+T4	Chemical 214 228	5-fluorouracil
+T9	Chemical 92 109	endocrine therapy
+T10	Disease 124 149	HER2 -negative metastases

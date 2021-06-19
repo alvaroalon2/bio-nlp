@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 18
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 103,
+        "end": 114
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 140,
+        "end": 142
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19396436_11",
+  "text": "CONCLUSIONS : DRD3 Ser9Gly polymorphisms are significantly associated with the therapeutic efficacy of pramipexole in Chinese patients with PD ."
+}

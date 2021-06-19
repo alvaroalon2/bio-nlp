@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 134,
+        "end": 147
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 152,
+        "end": 161
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 83,
+        "end": 94
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23306941_1",
+  "text": "Prediction of sustained virologic response based on week 4 and week 12 response in hepatitis C virus genotype 1 patients treated with peginterferon and ribavirin : assessment in a favorable IL28B allele -prevalent area ."
+}

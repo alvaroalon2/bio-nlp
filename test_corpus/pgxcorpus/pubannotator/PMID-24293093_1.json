@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 101,
+        "end": 125
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 148,
+        "end": 156
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24293093_1",
+  "text": "Functional polymorphism of CYP2B6 G15631T is associated with hematologic and cytogenetic response in chronic myeloid leukemia patients treated with imatinib ."
+}

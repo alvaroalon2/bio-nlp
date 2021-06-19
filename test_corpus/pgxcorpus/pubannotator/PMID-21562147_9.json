@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 76,
+        "end": 79
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 138,
+        "end": 146
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21562147_9",
+  "text": "These results indicate , for the first time , that three common SNPs in the POR gene may contribute to the interindividual variability in warfarin maintenance dose ."
+}

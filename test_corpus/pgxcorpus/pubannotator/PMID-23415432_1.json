@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 51,
+        "end": 69
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 121,
+        "end": 129
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23415432_1",
+  "text": "Lipoprotein abnormalities in compound heterozygous lipoprotein lipase deficiency after treatment with a low-fat diet and orlistat ."
+}

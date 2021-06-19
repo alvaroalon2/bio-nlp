@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 86
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 109,
+        "end": 130
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12153842_2",
+  "text": "OBJECTIVE : Jews drink less than other Caucasians and have a higher prevalence of ADH2 * 2 , an allele of an alcohol dehydrogenase gene that protects against heavy drinking ."
+}

@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 96,
+        "end": 113
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 136,
+        "end": 171
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 174,
+        "end": 179
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "9607827_2",
+  "text": "A set of five reverse transcriptase mutations , which include Q151M , is known to confer multi- dideoxynucleoside resistance ( MDR ) in human immunodeficiency virus type 1 ( HIV-1 ) ."
+}

@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 5,
+        "end": 11
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21531995_4",
+  "text": "Five SCARB1 SNPs were sequenced and progesterone levels were measured in the follicular fluid ."
+}

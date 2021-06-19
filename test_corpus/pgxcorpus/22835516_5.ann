@@ -1,0 +1,7 @@
+T1	Disease 9 36	malignant pleural effusions
+T3	Gene_or_protein 54 58	EGFR
+T4	Disease 82 99	pleural effusions
+T5	Chemical 136 145	gefitinib
+T6	Chemical 152 161	erlotinib
+T8	Gene_or_protein 179 183	EGFR
+T9	Chemical 121 133	chemotherapy

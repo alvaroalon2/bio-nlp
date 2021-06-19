@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 65
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 90,
+        "end": 93
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 80,
+        "end": 106
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 139,
+        "end": 153
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 162,
+        "end": 182
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 193,
+        "end": 204
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 162,
+        "end": 192
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10785598_1",
+  "text": "Molecular downstream events and induction of thymidylate synthase in mutant and wild-type p53 colon cancer cell lines after treatment with 5-fluorouracil and the thymidylate synthase inhibitor raltitrexed ."
+}

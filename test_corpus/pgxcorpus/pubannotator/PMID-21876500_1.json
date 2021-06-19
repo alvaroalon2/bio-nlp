@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 42,
+        "end": 70
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 93,
+        "end": 119
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 93,
+        "end": 108
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21876500_1",
+  "text": "Lack of association between the Val158Met catechol-O-methyltransferase gene polymorphism and methamphetamine dependence ."
+}

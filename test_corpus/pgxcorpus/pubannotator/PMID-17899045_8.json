@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 49
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 175,
+        "end": 181
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 248,
+        "end": 254
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 259,
+        "end": 265
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17899045_8",
+  "text": "The multiple linear regression model for warfarin dose indicated significant contributions from age ( r ( 2 ) = 0.084 ; P < 0.001 ) , weight ( r ( 2 ) = 0.063 ; P < 0.001 ) , VKORC1 genotype ( r ( 2 ) = 0.494 ; P < 0.001 ) , and age , weight , and CYP2C9 and VKORC1 genotype together ( r ( 2 ) = 0.628 ; P < 0.001 ) ."
+}

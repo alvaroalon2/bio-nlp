@@ -1,0 +1,6 @@
+T2	Gene_or_protein 37 39	SR
+T3	Chemical 68 76	D-serine
+T4	Disease 104 117	neurotoxicity
+T5	Disease 122 128	stroke
+T6	Gene_or_protein 80 93	NMDA receptor
+T7	Disease 80 117	NMDA receptor -mediated neurotoxicity

@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 29,
+        "end": 40
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 101,
+        "end": 106
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18377430_8",
+  "text": "No significant influences on doxorubicin pharmacokinetic parameters were observed in relation to the ABCG2 c.421C>A polymorphism ."
+}

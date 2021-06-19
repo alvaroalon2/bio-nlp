@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 102,
+        "end": 111
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 129,
+        "end": 133
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 205,
+        "end": 209
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 163,
+        "end": 187
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 129,
+        "end": 158
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Disease",
+      "span": {
+        "begin": 205,
+        "end": 234
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Chemical",
+      "span": {
+        "begin": 163,
+        "end": 174
+      }
+    },
+    {
+      "id": "T15",
+      "obj": "Chemical",
+      "span": {
+        "begin": 177,
+        "end": 187
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22011650_9",
+  "text": "CONCLUSIONS : HRQoL and symptom endpoints were consistent with efficacy outcomes in IPASS and favored gefitinib in patients with EGFR mutation-positive tumors and carboplatin / paclitaxel in patients with EGFR mutation-negative tumors ."
+}

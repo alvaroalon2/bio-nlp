@@ -1,0 +1,6 @@
+T1	Chemical 27 36	Erlotinib
+T3	Disease 56 82	Non-Small Cell Lung Cancer
+T5	Gene_or_protein 99 103	EGFR
+T7	Gene_or_protein 118 121	HGF
+T8	Chemical 10 21	Onartuzumab
+T9	Chemical 10 36	Onartuzumab with Erlotinib

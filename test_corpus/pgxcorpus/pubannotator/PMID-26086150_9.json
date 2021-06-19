@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 28
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 69,
+        "end": 74
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 90
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 104,
+        "end": 109
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26086150_9",
+  "text": "The risks for co-trimoxazole -induced SJS / TEN in patients with the HLA-B * 15:02 , HLA-C * 06:02 , or HLA-C * 08:01 allele were about 3-11-fold higher when compared with those who did not carry one of these alleles ."
+}

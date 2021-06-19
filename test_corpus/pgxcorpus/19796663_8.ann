@@ -1,0 +1,6 @@
+T3	Chemical 84 95	apomorphine
+T4	Chemical 105 107	GH
+T5	Gene_or_protein 129 133	DRD2
+T6	Gene_or_protein 138 143	ANKK1
+T7	Chemical 147 154	alcohol
+T8	Disease 147 165	alcohol -dependent

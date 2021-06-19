@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 25,
+        "end": 39
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 7
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 75,
+        "end": 78
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 92,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 25,
+        "end": 50
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 126,
+        "end": 129
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8530458_13",
+  "text": "Insulin treatment of the streptozotocin - diabetic mice increased both the CAT activity and CAT mRNA levels driven by the rat FAS promoter in liver and white adipose tissue ."
+}

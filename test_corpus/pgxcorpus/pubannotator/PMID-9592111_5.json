@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 53,
+        "end": 60
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 179,
+        "end": 185
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 247,
+        "end": 251
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "9592111_5",
+  "text": "While investigating the neuroendocrine correlates of alcohol administration via different routes ( intraperitoneal vs intragastric ) , we noted a difference in the time course of NGFI-B mRNA expression in the pPVN , despite comparable dynamics in ACTH secretion ."
+}

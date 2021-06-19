@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 110,
+        "end": 117
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 208,
+        "end": 215
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 110,
+        "end": 128
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 208,
+        "end": 226
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24585043_5",
+  "text": "RESULTS : We found highly significant differences in allele and genotype frequencies of rs6465084 between the alcohol -dependent and control group , with the greater frequency of A allele of SNP rs6465084 in alcohol -dependent group ."
+}

@@ -1,0 +1,6 @@
+T1	Disease 73 97	acute coronary syndromes
+T2	Disease 100 103	ACS
+T3	Gene_or_protein 138 145	CYP2C19
+T4	Chemical 188 203	thienopyridines
+T6	Chemical 260 271	clopidogrel
+T7	Chemical 287 296	prasugrel

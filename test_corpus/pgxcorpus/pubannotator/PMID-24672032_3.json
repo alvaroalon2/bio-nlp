@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 8,
+        "end": 27
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 71,
+        "end": 78
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 188,
+        "end": 197
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 237,
+        "end": 240
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 162,
+        "end": 197
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 223,
+        "end": 234
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 162,
+        "end": 182
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24672032_3",
+  "text": "IFNL3 ( lambda-3 interferon gene ) polymorphisms and the expression of miR-122 have been associated with sustained virological response ( SVR ) to treatment with pegylated interferon plus ribavirin in patients with chronic hepatitis C ( CHC ) ."
+}

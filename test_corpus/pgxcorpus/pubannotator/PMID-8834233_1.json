@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 61
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 78,
+        "end": 85
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8834233_1",
+  "text": "The contribution of polymorphism in the alcohol dehydrogenase beta subunit to alcohol sensitivity in a Japanese population ."
+}

@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 58,
+        "end": 72
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20179610_15",
+  "text": "A2143G was an important 23S rRNA mutation associated with clarithromycin resistance and affected the H. pylori eradication efficacy ."
+}

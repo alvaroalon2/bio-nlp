@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 52
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 106,
+        "end": 111
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 116,
+        "end": 121
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27097364_3",
+  "text": "We analyzed the relations between plasma raltegravir concentrations and single nucleotide polymorphism of ABCB1 and ABCG2 genes ."
+}

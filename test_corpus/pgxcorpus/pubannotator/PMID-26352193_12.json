@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 11,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 40,
+        "end": 54
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 57,
+        "end": 64
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 71,
+        "end": 81
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 99
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 92,
+        "end": 110
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26352193_12",
+  "text": "Triallelic 5-HTTLPR was associated with social anxiety , anxiety , and depressive traits in alcohol -dependent subjects ."
+}

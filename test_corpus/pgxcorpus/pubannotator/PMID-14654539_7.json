@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 87,
+        "end": 101
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 106,
+        "end": 115
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 165,
+        "end": 168
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "14654539_7",
+  "text": "CONCLUSION : This study revealed a significant association between lack of response to 5-fluorouracil and mitomycin and mutations affecting the L2/L3 domains of the p53 protein ."
+}

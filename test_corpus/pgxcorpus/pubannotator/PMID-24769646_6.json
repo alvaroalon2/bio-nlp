@@ -1,0 +1,111 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 41
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 61,
+        "end": 65
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 89,
+        "end": 93
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 133,
+        "end": 138
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 184
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 187,
+        "end": 190
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 215,
+        "end": 218
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 221,
+        "end": 224
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Chemical",
+      "span": {
+        "begin": 351,
+        "end": 355
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 371,
+        "end": 374
+      }
+    },
+    {
+      "id": "T15",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 377,
+        "end": 380
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 44,
+        "end": 51
+      }
+    },
+    {
+      "id": "T18",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 258,
+        "end": 288
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24769646_6",
+  "text": "The level of dimethyl histone H3 lysine 4 ( H3K4me2 ) in the RARa gene-promoter region , PU.1 upstream regulatory region ( URE ) and RUNX1 +24 / +25 intronic enhancer was higher in MLL - AF9 -positive cells than in MLL - AF4 -positive cells , and inhibiting lysine -specific demethylase 1 , which acts as a histone demethylase inhibitor , reactivated ATRA sensitivity in MLL - AF4 -positive cells ."
+}

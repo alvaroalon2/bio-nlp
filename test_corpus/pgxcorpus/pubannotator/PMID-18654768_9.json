@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 60,
+        "end": 67
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 138,
+        "end": 150
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 154,
+        "end": 164
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 78
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18654768_9",
+  "text": "CONCLUSION : Based on our investigation using two different CYP2C19 substrates , we concluded that a clinically significant difference in escitalopram or omeprazole kinetics between the genotypes appears unlikely ."
+}

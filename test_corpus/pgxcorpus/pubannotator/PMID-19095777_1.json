@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 32
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 52,
+        "end": 57
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 121,
+        "end": 125
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 168,
+        "end": 181
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 109,
+        "end": 118
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 147
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19095777_1",
+  "text": "Epidermal growth factor receptor gene copy number , K-ras mutation and pathological response to preoperative cetuximab , 5-FU and radiation therapy in locally advanced rectal cancer ."
+}

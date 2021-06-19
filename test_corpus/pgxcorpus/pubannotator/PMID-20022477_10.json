@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 43,
+        "end": 47
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 111,
+        "end": 115
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 204,
+        "end": 211
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20022477_10",
+  "text": "CONCLUSION : This result suggests that the CCR3 genetic polymorphisms may contribute to the development of the AERD phenotype and may be used as a genetic marker for differentiating between the two major aspirin hypersensitivity phenotypes ."
+}

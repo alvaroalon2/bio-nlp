@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 50
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 59,
+        "end": 69
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 92,
+        "end": 96
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 135,
+        "end": 139
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 151,
+        "end": 155
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27040858_7",
+  "text": "This patient had an excellent response to Icotinib but not crizotinib , suggesting that the EGFR mutation was the oncogenic driver but ROS1 fusion and KRAS mutation not ."
+}

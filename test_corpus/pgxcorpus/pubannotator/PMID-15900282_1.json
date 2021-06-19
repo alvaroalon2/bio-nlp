@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 55
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 71
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 111,
+        "end": 130
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15900282_1",
+  "text": "Common genetic variants of microsomal epoxide hydrolase affect warfarin dose requirements beyond the effect of cytochrome P450 2C9 ."
+}

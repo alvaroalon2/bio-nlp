@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 39,
+        "end": 53
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 73,
+        "end": 76
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 153,
+        "end": 165
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 138,
+        "end": 142
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 86
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 87,
+        "end": 94
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 138,
+        "end": 152
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21351275_1",
+  "text": "BRAF mutation -selective inhibition of thyroid cancer cells by the novel MEK inhibitor RDEA119 and genetic-potentiated synergism with the mTOR inhibitor temsirolimus ."
+}

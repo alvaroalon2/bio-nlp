@@ -1,0 +1,87 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 110
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 153,
+        "end": 159
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 190,
+        "end": 196
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 238,
+        "end": 245
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 263,
+        "end": 269
+      }
+    },
+    {
+      "id": "T16",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 313,
+        "end": 316
+      }
+    },
+    {
+      "id": "T18",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 333,
+        "end": 339
+      }
+    },
+    {
+      "id": "T20",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 356,
+        "end": 362
+      }
+    },
+    {
+      "id": "T23",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 378,
+        "end": 383
+      }
+    },
+    {
+      "id": "T26",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 432,
+        "end": 437
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22015057_6",
+  "text": "We assessed RECIST response , progression-free survival ( PFS ) , overall survival , and toxicity of sunitinib with 16 key polymorphisms in nine genes : VEGFR2 ( rs2305948 and rs1870377 ) , VEGFR3 ( rs307826 , rs448012 , and rs307821 ) , PDGFR-a ( rs35597368 ) , VEGF-A ( rs2010963 , rs699947 , and rs1570360 ) , IL8 ( rs1126647 ) , CYP3A4 ( rs2740574 ) , CYP3A5 ( rs776746 ) , ABCB1 ( rs1045642 , rs1128503 , and rs2032582 ) , and ABCB2 ( rs2231142 ) ."
+}

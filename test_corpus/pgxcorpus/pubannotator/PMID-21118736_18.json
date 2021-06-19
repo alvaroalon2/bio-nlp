@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 20
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 70
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 125,
+        "end": 128
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 140,
+        "end": 146
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 165,
+        "end": 168
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21118736_18",
+  "text": "In homozygous CYP3A5 * 3 carriers ( n = 252 ) , mean ( SD ) tacrolimus dose requirements remained significantly lower during DGF , while in CYP3A5 * 1 carriers with DGF ( n = 52 ) , lower mean dose requirements were observed only after postoperative day 4 ."
+}

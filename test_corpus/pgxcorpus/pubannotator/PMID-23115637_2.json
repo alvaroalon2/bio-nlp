@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 69
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 88,
+        "end": 109
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 130,
+        "end": 137
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 130,
+        "end": 148
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23115637_2",
+  "text": "Human genetic studies have suggested that polymorphisms of the GABRA2 gene encoding the GABA ( A ) a2-subunit are associated with ethanol dependence ."
+}

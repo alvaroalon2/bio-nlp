@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 37,
+        "end": 42
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 57,
+        "end": 62
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 157,
+        "end": 164
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10585223_5",
+  "text": "Brain concentration-time profiles in mdr1a ( + / + ) and mdr1a ( - / - ) mice showed a different pattern from those in plasma and other tissues , indicating digoxin accumulation in the brain tissue ."
+}

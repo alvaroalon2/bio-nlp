@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 62,
+        "end": 67
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 103,
+        "end": 106
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 225,
+        "end": 232
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20922562_4",
+  "text": "Further logistic analyses revealed that most polymorphisms of KIF3A were significantly associated with AIA ( P = 0.0004-0 .02 ; P ( corr ) = 0.004-0 .04 ) and the decline of forced expiratory volume at 1 s ( FEV ( 1 ) ) % by aspirin provocation ( P = 0.004-0 .04 ; P ( corr ) = 0.03 ) ."
+}

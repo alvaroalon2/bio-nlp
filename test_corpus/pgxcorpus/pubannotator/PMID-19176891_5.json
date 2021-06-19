@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 67
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 222,
+        "end": 225
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 249,
+        "end": 255
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 149
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 272,
+        "end": 292
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19176891_5",
+  "text": "Using confocal microscopy , we demonstrate that intraperitoneal CCK administration increases the number of neurons that express phosphorylated ERK1/2 ( pERK1/2 ) in the medial and commissural subnuclei of the NTS and that CCK -induced expression of ERK1/2 is increased in tyrosine hydroxylase -immunoreactive neurons ."
+}

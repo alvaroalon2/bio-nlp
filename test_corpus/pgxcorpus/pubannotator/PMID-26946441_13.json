@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 101
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 177,
+        "end": 182
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26946441_13",
+  "text": "None of the selected polymorphisms were significantly associated with analgesic response of oxycodone , but an association of baseline response in muscle cuff pressure with two OPRK1 SNPs was identified ."
+}

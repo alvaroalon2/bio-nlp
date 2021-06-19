@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 90
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 116,
+        "end": 125
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 151,
+        "end": 163
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 188,
+        "end": 203
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 229,
+        "end": 251
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 281,
+        "end": 311
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10070957_8",
+  "text": "Among controls , we found women with the A2/A2 genotype to have elevated levels of estrone ( +14.3 % , P = 0.01 ) , estradiol ( +13.8 % , P = 0.08 ) , testosterone ( +8.6 % , P = 0.34 ) , androstenedione ( +17.1 % , P = 0.06 ) , dehydroepiandrosterone ( +14.4 % , P = 0.02 ) , and dehydroepiandrosterone sulfate ( +7.2 % , P = 0.26 ) compared with women with the A1/A1 genotype ."
+}

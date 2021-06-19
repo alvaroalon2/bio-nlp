@@ -1,0 +1,119 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 84,
+        "end": 100
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 118,
+        "end": 122
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 127,
+        "end": 139
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 145
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 169,
+        "end": 174
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 180,
+        "end": 184
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 189,
+        "end": 194
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 197,
+        "end": 204
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 210,
+        "end": 214
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 223,
+        "end": 230
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 241,
+        "end": 244
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 259,
+        "end": 264
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 269,
+        "end": 273
+      }
+    },
+    {
+      "id": "T16",
+      "obj": "Chemical",
+      "span": {
+        "begin": 362,
+        "end": 365
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25007187_2",
+  "text": "BACKGROUND : The aim of this study is to analyze polymorphisms in genes involved in 6-mercaptopurine detoxification ( TPMT ) ; methotrexate ( MTX ) metabolism including ABCB1 ( or MDR1 ) , ABCC2 , SLC19A1 ( or RFC1 ) , and SLCO1B1 ; and the MTX effect mainly MTHFR and TYMS , and to assess whether these polymorphisms are predictors of treatment toxicity and/or MTX clearance ."
+}

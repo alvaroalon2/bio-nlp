@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 58,
+        "end": 66
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 104
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 109,
+        "end": 120
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 158,
+        "end": 163
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12005453_12",
+  "text": "CONCLUSIONS : In a rat model of TPN , the use of 9 mmol/L butyrate did not have the same effect on GLUT2 and proglucagon expression as a 60-mmol/L mixture of SCFAs ."
+}

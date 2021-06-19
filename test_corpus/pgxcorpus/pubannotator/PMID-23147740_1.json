@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 12
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 72,
+        "end": 77
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 142,
+        "end": 174
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23147740_1",
+  "text": "Posaconazole pharmacodynamic target determination against wild-type and Cyp51 mutant isolates of Aspergillus fumigatus in an in vivo model of invasive pulmonary aspergillosis ."
+}

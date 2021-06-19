@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 43,
+        "end": 49
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 69,
+        "end": 76
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 111,
+        "end": 118
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 69,
+        "end": 87
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 111,
+        "end": 129
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15834213_3",
+  "text": "The goal of this study was to test whether GABRA2 is associated with alcohol dependence in a sample of Russian alcohol -dependent men ."
+}

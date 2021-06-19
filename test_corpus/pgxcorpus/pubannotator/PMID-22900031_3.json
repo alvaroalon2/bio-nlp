@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 41,
+        "end": 45
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 183,
+        "end": 196
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 199,
+        "end": 202
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 102
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22900031_3",
+  "text": "A mouse model with a genetic deletion of Pak1 ( Pak1 ( - / - ) ) was used to determine the role of Pak in the response of the airways in vivo to challenge with inhaled or intravenous acetylcholine ( ACh ) ."
+}

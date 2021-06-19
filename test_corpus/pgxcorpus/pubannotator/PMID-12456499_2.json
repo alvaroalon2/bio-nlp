@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 335,
+        "end": 362
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 275,
+        "end": 301
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 216,
+        "end": 224
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 58,
+        "end": 81
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12456499_2",
+  "text": "We hypothesized that possession of either of 2 functional coagulation factor XIII polymorphisms , one within subunit A ( Val34Leu ) and one within subunit B ( His95Arg ) , might modulate the prothrombotic effects of estrogen and help to explain the variation in incidence of arterial thrombotic events among postmenopausal women using hormone replacement therapy ."
+}

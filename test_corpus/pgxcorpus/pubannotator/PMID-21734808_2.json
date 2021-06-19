@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 88
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 91,
+        "end": 95
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 115,
+        "end": 127
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 49,
+        "end": 52
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 28,
+        "end": 46
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21734808_2",
+  "text": "AIM : To evaluate bacterial cytosine deaminase ( bCD ) mutant D314A and 5-fluorocytosine ( 5-FC ) for treatment of colon cancer in a mouse model ."
+}

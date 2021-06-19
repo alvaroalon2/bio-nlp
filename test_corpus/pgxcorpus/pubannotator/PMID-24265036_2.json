@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 3,
+        "end": 12
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 22,
+        "end": 35
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 108,
+        "end": 125
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 198,
+        "end": 215
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 172,
+        "end": 189
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24265036_2",
+  "text": "In tamoxifen -treated breast cancer patients the occurrence of hot flashes may be associated with effective estrogen receptor antagonism dependent on genetic variations of metabolic enzymes and the estrogen receptor ."
+}

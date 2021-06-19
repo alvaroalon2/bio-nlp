@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 49
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 54,
+        "end": 63
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 69,
+        "end": 72
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 63
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 69,
+        "end": 82
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26299806_7",
+  "text": "Therefore , we investigated the effect of fisetin and sorafenib ( an RAF inhibitor ) alone and in combination on cell proliferation , apoptosis and tumor growth ."
+}

@@ -1,0 +1,6 @@
+T1	Gene_or_protein 0 4	BRAF
+T2	Disease 39 53	thyroid cancer
+T3	Chemical 73 86	MEK inhibitor
+T4	Chemical 87 94	RDEA119
+T5	Chemical 138 152	mTOR inhibitor
+T6	Chemical 153 165	temsirolimus

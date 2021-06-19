@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 72,
+        "end": 76
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 98
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 35,
+        "end": 42
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 86
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23778325_1",
+  "text": "Impact of genetic polymorphisms on adenoma recurrence and toxicity in a COX2 inhibitor ( celecoxib ) trial : results from a pilot study ."
+}

@@ -1,0 +1,303 @@
+T1	sosy-dis 168 176	COVID-19
+T10	sosy-dis 8080 8088	COVID-19
+T100	sosy-dis 21837 21845	diabetes
+T101	sosy-dis 37222 37230	diabetes
+T102	sosy-dis 8457 8462	fever
+T103	sosy-dis 16154 16159	fever
+T104	sosy-dis 16225 16230	fever
+T105	sosy-dis 18511 18516	fever
+T106	sosy-dis 20117 20122	fever
+T107	sosy-dis 24459 24464	fever
+T108	sosy-dis 24581 24586	fever
+T109	sosy-dis 26398 26403	fever
+T11	sosy-dis 8328 8336	COVID-19
+T110	sosy-dis 26629 26634	fever
+T111	sosy-dis 27031 27036	fever
+T112	sosy-dis 27098 27103	fever
+T113	sosy-dis 38999 39004	fever
+T114	sosy-dis 40141 40146	fever
+T115	sosy-dis 6641 6644	flu
+T116	sosy-dis 8434 8437	flu
+T117	sosy-dis 10525 10528	flu
+T118	drug-trt 2077 2086	isolation
+T119	drug-trt 9994 10003	isolation
+T12	sosy-dis 9654 9662	COVID-19
+T120	drug-trt 10904 10913	isolation
+T121	drug-trt 26365 26374	isolation
+T122	drug-trt 37138 37147	isolation
+T123	behavior 289 301	self-isolate
+T124	behavior 1637 1649	self-isolate
+T125	behavior 2130 2142	self-isolate
+T126	behavior 3852 3864	self-isolate
+T127	behavior 4974 4986	self-isolate
+T128	behavior 8500 8512	self-isolate
+T129	behavior 9664 9676	self-isolate
+T13	sosy-dis 9689 9697	COVID-19
+T130	behavior 11768 11780	self-isolate
+T131	behavior 12591 12603	self-isolate
+T132	behavior 13816 13828	self-isolate
+T133	behavior 29594 29606	self-isolate
+T134	behavior 3852 3872	self-isolate at home
+T135	behavior 10899 10913	self-isolation
+T136	behavior 37133 37147	self-isolation
+T137	sosy-dis 9711 9717	sneeze
+T138	sosy-dis 14091 14097	sneeze
+T139	sosy-dis 1229 1237	sneezing
+T14	sosy-dis 9905 9913	COVID-19
+T140	sosy-dis 8910 8918	sneezing
+T141	sosy-dis 21161 21169	sneezing
+T142	sosy-dis 37575 37583	sneezing
+T143	behavior 7386 7403	social distancing
+T144	behavior 123 135	stay at home
+T145	behavior 2320 2332	stay at home
+T146	behavior 14564 14576	stay at home
+T147	behavior 17419 17431	stay at home
+T148	behavior 2317 2332	to stay at home
+T149	behavior 5244 5259	wash your hands
+T15	sosy-dis 10103 10111	COVID-19
+T150	behavior 8875 8890	wash your hands
+T151	behavior 26241 26267	wash your hands very often
+T152	behavior 34821 34836	wash your hands
+T16	sosy-dis 10149 10157	COVID-19
+T17	sosy-dis 11375 11383	COVID-19
+T18	sosy-dis 11674 11682	COVID-19
+T19	sosy-dis 11801 11809	COVID-19
+T2	sosy-dis 562 570	COVID-19
+T20	sosy-dis 12580 12588	COVID-19
+T21	sosy-dis 12910 12918	COVID-19
+T22	sosy-dis 13080 13088	COVID-19
+T23	sosy-dis 13295 13303	COVID-19
+T24	sosy-dis 13582 13590	COVID-19
+T25	sosy-dis 13727 13735	COVID-19
+T26	sosy-dis 13899 13907	COVID-19
+T27	sosy-dis 14044 14052	COVID-19
+T28	sosy-dis 14068 14076	COVID-19
+T29	sosy-dis 14487 14495	COVID-19
+T3	sosy-dis 4297 4305	COVID-19
+T30	sosy-dis 14544 14552	COVID-19
+T31	sosy-dis 14586 14594	COVID-19
+T32	sosy-dis 30932 30940	COVID-19
+T33	sosy-dis 33086 33094	COVID-19
+T34	sosy-dis 42977 42985	COVID-19
+T35	sosy-dis 43651 43659	COVID-19
+T36	sosy-dis 43704 43712	COVID-19
+T37	sosy-dis 43764 43772	COVID-19
+T38	sosy-dis 3622 3633	Coronavirus
+T39	sosy-dis 4285 4296	Coronavirus
+T4	sosy-dis 4619 4627	COVID-19
+T40	sosy-dis 4607 4618	Coronavirus
+T41	sosy-dis 4994 5005	Coronavirus
+T42	sosy-dis 5350 5361	Coronavirus
+T43	sosy-dis 5951 5962	Coronavirus
+T44	sosy-dis 6558 6569	Coronavirus
+T45	sosy-dis 8068 8079	Coronavirus
+T46	sosy-dis 8316 8327	Coronavirus
+T47	sosy-dis 9642 9653	Coronavirus
+T48	sosy-dis 9677 9688	Coronavirus
+T49	sosy-dis 9893 9904	Coronavirus
+T5	sosy-dis 5006 5014	COVID-19
+T50	sosy-dis 10137 10148	Coronavirus
+T51	sosy-dis 11362 11373	Coronavirus
+T52	sosy-dis 11661 11672	Coronavirus
+T53	sosy-dis 11788 11799	Coronavirus
+T54	sosy-dis 12567 12578	Coronavirus
+T55	sosy-dis 12897 12908	Coronavirus
+T56	sosy-dis 13067 13078	Coronavirus
+T57	sosy-dis 13282 13293	Coronavirus
+T58	sosy-dis 13569 13580	Coronavirus
+T59	sosy-dis 13714 13725	Coronavirus
+T6	sosy-dis 5362 5370	COVID-19
+T60	sosy-dis 13886 13897	Coronavirus
+T61	sosy-dis 14031 14042	Coronavirus
+T62	sosy-dis 14055 14066	Coronavirus
+T63	sosy-dis 14474 14485	Coronavirus
+T64	sosy-dis 14531 14542	Coronavirus
+T65	sosy-dis 18249 18260	Coronavirus
+T66	sosy-dis 30919 30930	Coronavirus
+T67	sosy-dis 43661 43672	Coronavirus
+T68	sosy-dis 43691 43702	Coronavirus
+T69	sosy-dis 43751 43762	Coronavirus
+T7	sosy-dis 5716 5724	COVID-19
+T70	sosy-dis 376 381	Cough
+T71	sosy-dis 4402 4407	Cough
+T72	sosy-dis 14404 14409	Cough
+T73	behavior 0 12	Stay at home
+T74	behavior 18753 18765	Stay at home
+T75	behavior 42989 43001	Stay at home
+T76	behavior 3874 3899	Wash your hands regularly
+T77	behavior 5215 5230	Wash your hands
+T78	behavior 7215 7230	Wash your hands
+T79	behavior 39391 39406	Wash your hands
+T8	sosy-dis 5963 5971	COVID-19
+T80	sosy-dis 10087 10093	cancer
+T81	sosy-dis 13553 13559	cancer
+T82	sosy-dis 24840 24846	cancer
+T83	sosy-dis 37235 37241	cancer
+T84	sosy-dis 33367 33371	cold
+T85	sosy-dis 15918 15929	coronavirus
+T86	sosy-dis 16470 16481	coronavirus
+T87	sosy-dis 17000 17011	coronavirus
+T88	sosy-dis 17860 17871	coronavirus
+T89	sosy-dis 35542 35553	coronavirus
+T9	sosy-dis 6570 6578	COVID-19
+T90	sosy-dis 4434 4439	cough
+T91	sosy-dis 8470 8475	cough
+T92	sosy-dis 9721 9726	cough
+T93	sosy-dis 10589 10594	cough
+T94	sosy-dis 14101 14106	cough
+T95	sosy-dis 30539 30544	cough
+T96	sosy-dis 1217 1225	coughing
+T97	sosy-dis 8897 8905	coughing
+T98	sosy-dis 21151 21159	coughing
+T99	sosy-dis 37563 37571	coughing
+T153	sosy-dis 344 349	Fever
+T154	sosy-dis 351 367	High Temperature
+T155	sosy-dis 387 406	Shortness of Breath
+T156	behavior 1126 1166	2m physical distancing from other people
+T157	behavior 1662 1697	Stay in a room with the window open
+T158	behavior 1806 1876	avoid spending more than 15 minutes in close contact with other people
+T159	behavior 2072 2086	Self-isolation
+T160	behavior 43448 43488	2m physical distancing from other people
+T161	sosy-dis 20228 20233	Fever
+T162	behavior 9989 10003	Self-isolation
+T163	sosy-dis 13751 13770	Shortness of Breath
+T164	sosy-dis 2409 2416	worried
+T165	sosy-dis 2420 2442	have problems sleeping
+T166	sosy-dis 2461 2468	anxious
+T167	behavior 3904 3944	avoid touching your face with your hands
+T168	behavior 3946 3991	Don't share games consoles or remote controls
+T169	behavior 4047 4081	use a separate toilet and bathroom
+T170	behavior 4368 4397	avoid communal sleeping areas
+T171	behavior 3874 3889	Wash your hands
+T172	behavior 12257 12286	avoid communal sleeping areas
+T173	sosy-dis 5626 5648	Breathing Difficulties
+T174	behavior 6371 6414	Limit social interactions with other people
+T175	behavior 6656 6678	Wear disposable gloves
+T176	behavior 7326 7371	Wet your hands with warm water and apply soap
+T177	behavior 7583 7626	Avoiding touching your eyes, nose and mouth
+T178	behavior 8266 8314	Dry your hands with a clean towel or paper towel
+T179	behavior 9739 9773	Increase your distance from others
+T180	behavior 9776 9809	keep separate by at least 1 metre
+T181	sosy-dis 10304 10344	High temperature over 38 degrees Celsius
+T182	behavior 12158 12191	keep separate by at least 1 metre
+T183	behavior 12121 12155	Increase your distance from others
+T184	sosy-dis 11108 11130	Breathing Difficulties
+T185	behavior 13937 13980	Limit social interactions with other people
+T186	drug-trt 16032 16043	antibiotics
+T187	drug-trt 16108 16119	Paracetamol
+T188	drug-trt 16172 16183	paracetamol
+T189	sosy-dis 17361 17370	diarrhoea
+T190	sosy-dis 18288 18297	rotavirus
+T191	drug-trt 26918 26929	Paracetamol
+T192	sosy-dis 20400 20409	diarrhoea
+T193	sosy-dis 35021 35030	diarrhoea
+T194	sosy-dis 42565 42574	diarrhoea
+T195	drug-trt 19434 19445	paracetamol
+T196	drug-trt 19615 19626	paracetamol
+T197	drug-trt 20073 20084	paracetamol
+T198	drug-trt 34551 34562	paracetamol
+T199	sosy-dis 16275 16284	rotavirus
+T200	sosy-dis 18386 18395	rotavirus
+T201	sosy-dis 19756 19765	rotavirus
+T202	sosy-dis 33677 33686	rotavirus
+T203	sosy-dis 34497 34506	rotavirus
+T204	sosy-dis 35036 35045	rotavirus
+T205	sosy-dis 20356 20365	Rotavirus
+T206	sosy-dis 20414 20422	vomiting
+T207	sosy-dis 35047 35056	Rotavirus
+T208	sosy-dis 35008 35016	vomiting
+T209	sosy-dis 42553 42561	vomiting
+T210	sosy-dis 21573 21594	Meningococcal disease
+T211	sosy-dis 22205 22226	meningococcal disease
+T212	sosy-dis 25371 25392	Meningococcal disease
+T213	sosy-dis 18677 18698	meningococcal disease
+T214	sosy-dis 21316 21337	meningococcal disease
+T215	sosy-dis 22969 22990	meningococcal disease
+T216	sosy-dis 25438 25459	meningococcal disease
+T217	sosy-dis 26192 26213	meningococcal disease
+T218	sosy-dis 26829 26850	meningococcal disease
+T219	sosy-dis 28688 28709	meningococcal disease
+T220	sosy-dis 31406 31427	meningococcal disease
+T221	sosy-dis 36857 36878	meningococcal disease
+T222	sosy-dis 38080 38101	meningococcal disease
+T223	sosy-dis 40111 40132	meningococcal disease
+T224	drug-trt 22408 22420	Immunisation
+T225	sosy-dis 23458 23479	Anaphylactic reaction
+T226	drug-trt 26410 26422	MenB vaccine
+T227	drug-trt 18119 18131	Immunisation
+T228	drug-trt 19247 19259	Immunisation
+T229	drug-trt 26568 26580	Immunisation
+T230	drug-trt 30335 30347	Immunisation
+T231	drug-trt 20240 20252	MenB vaccine
+T232	drug-trt 20891 20903	MenB vaccine
+T233	drug-trt 24326 24338	MenB vaccine
+T234	drug-trt 26530 26542	MenB vaccine
+T235	drug-trt 26996 27008	MenB vaccine
+T236	drug-trt 29149 29161	MenB vaccine
+T237	drug-trt 29210 29222	MenB vaccine
+T238	drug-trt 32334 32346	MenB vaccine
+T239	drug-trt 35756 35768	MenB vaccine
+T240	behavior 26241 26256	wash your hands
+T241	sosy-dis 30422 30432	diphtheria
+T242	sosy-dis 30434 30458	haemophilus influenzae B
+T243	sosy-dis 30466 30477	hepatitis B
+T244	sosy-dis 30479 30486	measles
+T245	sosy-dis 30487 30510	meningococcal C disease
+T246	sosy-dis 30512 30517	mumps
+T247	sosy-dis 30519 30528	pertussis
+T248	sosy-dis 30547 30567	pneumococcal disease
+T249	sosy-dis 30569 30574	polio
+T250	sosy-dis 30576 30583	rubella
+T251	sosy-dis 30585 30592	tetanus
+T252	sosy-dis 30597 30609	tuberculosis
+T253	drug-trt 31344 31356	MenC vaccine
+T254	drug-trt 35697 35709	MenC vaccine
+T255	sosy-dis 27271 27278	measles
+T256	sosy-dis 27282 27287	mumps
+T257	sosy-dis 22922 22929	rubella
+T258	sosy-dis 36624 36631	tetanus
+T259	drug-trt 32080 32100	Tuberculosis Vaccine
+T260	behavior 33354 33384	Avoid really cold temperatures
+T261	sosy-dis 34705 34730	Meningococcal B infection
+T262	drug-trt 35047 35064	Rotavirus vaccine
+T263	sosy-dis 35838 35860	meningitis B infection
+T264	sosy-dis 35929 35939	meningitis
+T265	sosy-dis 35943 35954	septicaemia
+T266	sosy-dis 21243 21253	meningitis
+T267	sosy-dis 21707 21717	meningitis
+T268	sosy-dis 24040 24062	meningitis C infection
+T269	sosy-dis 26078 26088	meningitis
+T270	sosy-dis 29716 29726	meningitis
+T271	sosy-dis 35838 35848	meningitis
+T272	sosy-dis 40082 40092	meningitis
+T273	sosy-dis 26139 26150	septicaemia
+T274	drug-trt 23993 24016	Meningococcal C vaccine
+T275	drug-trt 23014 23034	Meningitis B vaccine
+T276	sosy-dis 24040 24050	meningitis
+T277	sosy-dis 36518 36542	severe allergic reaction
+T278	sosy-dis 36544 36555	anaphylaxis
+T279	drug-trt 36624 36639	tetanus vaccine
+T280	sosy-dis 37013 37020	Malaria
+T281	sosy-dis 37208 37220	lung disease
+T282	sosy-dis 37193 37206	heart disease
+T283	drug-trt 37968 37986	Influenza vaccines
+T284	sosy-dis 38044 38053	influenza
+T285	sosy-dis 24977 24990	heart disease
+T286	sosy-dis 40041 40065	Haemophilus influenzae b
+T287	sosy-dis 40068 40094	Meningococcal meningitis C
+T288	sosy-dis 40162 40170	headache
+T289	sosy-dis 40172 40183	joint pains
+T290	sosy-dis 40150 40160	stiff neck
+T291	sosy-dis 40191 40195	rash
+T292	sosy-dis 40388 40398	Diphtheria
+T293	sosy-dis 40400 40407	Tetanus
+T294	sosy-dis 40409 40418	Pertussis
+T295	sosy-dis 40420 40425	Polio
+T296	sosy-dis 40427 40449	Haemophilus influenzae
+T297	sosy-dis 40477 40486	Norovirus
+T298	sosy-dis 40041 40063	Haemophilus influenzae
+T299	sosy-dis 42790 42813	meningococcal infection
+T300	behavior 43113 43127	Self-isolating
+T301	behavior 43276 43312	Rinse your hands under running water
+T302	behavior 43492 43509	Don't shake hands
+T303	behavior 12231 12248	Don't shake hands

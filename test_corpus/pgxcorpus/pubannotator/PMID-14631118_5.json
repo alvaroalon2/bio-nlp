@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 115,
+        "end": 124
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 191,
+        "end": 199
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 220,
+        "end": 229
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 48
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "14631118_5",
+  "text": "It was found that the EA extract of bitter gourd ( Momordica charantia ) , a common oriental vegetable , activated PPARalpha to an extent that was equivalent to or even higher than 10 microM Wy-14643 , a known ligand of PPARalpha ."
+}

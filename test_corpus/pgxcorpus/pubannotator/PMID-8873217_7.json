@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 69,
+        "end": 78
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8873217_7",
+  "text": "The intron 6G-->T variant was significantly associated with platelet serotonin levels ."
+}

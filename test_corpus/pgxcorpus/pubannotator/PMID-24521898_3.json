@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 55
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 113,
+        "end": 119
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 122,
+        "end": 128
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 133,
+        "end": 139
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24521898_3",
+  "text": "METHODS : Genomic DNAs were extracted from the warfarin hypersensitive patient and used for genetic screening of CYP2C9 , VKORC1 and CYP4F2 by direct sequencing ."
+}

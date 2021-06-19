@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 31
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 74,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 130,
+        "end": 136
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27916449_4",
+  "text": "After identification of a GNAO1 missense mutation at the age of 18years , topiramate treatment was initiated and the frequency of chorea decreased dramatically ."
+}

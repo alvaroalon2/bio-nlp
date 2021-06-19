@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 17,
+        "end": 27
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 32,
+        "end": 45
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 50,
+        "end": 78
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 95,
+        "end": 101
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 17,
+        "end": 45
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20028383_1",
+  "text": "Phase I study of irinotecan and doxifluridine for metastatic colorectal cancer focusing on the UGT1A1 * 28 polymorphism ."
+}

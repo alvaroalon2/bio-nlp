@@ -1,0 +1,7 @@
+T1	Disease 32 38	tumors
+T2	Gene_or_protein 59 62	MET
+T3	Gene_or_protein 92 98	PIK3CA
+T4	Gene_or_protein 102 105	MET
+T5	Gene_or_protein 137 143	PIK3CA
+T6	Chemical 187 197	crizotinib
+T7	Gene_or_protein 216 222	PIK3CA

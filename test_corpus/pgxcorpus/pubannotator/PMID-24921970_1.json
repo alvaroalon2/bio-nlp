@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 15,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 15,
+        "end": 46
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 68,
+        "end": 74
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24921970_1",
+  "text": "Small-molecule EGFR tyrosine kinase inhibitors for the treatment of cancer ."
+}

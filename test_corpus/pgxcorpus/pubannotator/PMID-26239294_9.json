@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 58,
+        "end": 64
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 115,
+        "end": 123
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 115,
+        "end": 134
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26239294_9",
+  "text": "Our results indicate that common , low frequency and rare CHRNA5 coding variants are independently associated with nicotine dependence risk ."
+}

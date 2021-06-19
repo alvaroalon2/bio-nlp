@@ -1,0 +1,5 @@
+T1	Gene_or_protein 15 19	HER2
+T2	Disease 102 115	breast cancer
+T3	Chemical 152 187	non- anthracycline -based therapies
+T4	Chemical 192 207	hormonal agents
+T5	Chemical 226 252	targeted molecular therapy

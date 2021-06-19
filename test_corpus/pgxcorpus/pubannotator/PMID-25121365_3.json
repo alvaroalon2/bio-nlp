@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 164,
+        "end": 168
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 144,
+        "end": 161
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 116,
+        "end": 141
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 177,
+        "end": 184
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25121365_3",
+  "text": "Inter-individual variability in drug response can be attributed to genetic polymorphism in genes encoding different drug metabolizing enzymes , drug transporters ( P-gp ) , and enzymes involved in sodium channel biosynthesis ."
+}

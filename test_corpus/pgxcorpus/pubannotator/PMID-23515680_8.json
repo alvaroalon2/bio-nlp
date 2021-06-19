@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 30,
+        "end": 41
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23515680_8",
+  "text": "The SNPs C1236T and C3435T in venlafaxine -positive cases were significantly different between the intoxication cases and non-intoxications ."
+}

@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 46,
+        "end": 57
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 179,
+        "end": 183
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27228223_9",
+  "text": "In summary , the results suggest that hepatic oseltamivir activation appears to be more efficient in females than that in males , and the activation can be impaired by functional CES1 variants , such as the G143E ."
+}

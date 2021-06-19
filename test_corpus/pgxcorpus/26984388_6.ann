@@ -1,0 +1,4 @@
+T1	Chemical 16 27	cobimetinib
+T2	Chemical 33 44	vemurafenib
+T4	Gene_or_protein 77 81	BRAF
+T7	Chemical 16 44	cobimetinib plus vemurafenib

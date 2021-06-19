@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 32
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 109,
+        "end": 115
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 106
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16595709_5",
+  "text": "Of all the variants , the UGT1A9 I399C>T was associated with the most dramatic change in SN-38-glucuronide ( SN-38G ) ( 2.64-fold ; p = 0.0007 ) ."
+}

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 19
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 27
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 169,
+        "end": 180
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 70,
+        "end": 75
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 37
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19000371_7",
+  "text": "The levels of c-fos , c-jun and rsGFP mRNA , as well as the levels of rsGFP protein , in the FR-pQBI25 cells were found to be significantly higher following exposure to doxorubicin ."
+}

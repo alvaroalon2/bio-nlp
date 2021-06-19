@@ -1,0 +1,7 @@
+T1	Gene_or_protein 83 90	5-HT3AB
+T2	Gene_or_protein 109 130	serotonin transporter
+T3	Gene_or_protein 213 218	HTR3A
+T4	Gene_or_protein 221 226	HTR3B
+T5	Gene_or_protein 233 239	SLC6A4
+T6	Disease 273 291	alcohol dependence
+T7	Disease 294 296	AD

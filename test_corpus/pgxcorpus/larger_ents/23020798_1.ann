@@ -1,0 +1,6 @@
+T1	Gene_or_protein 17 22	ERCC1
+T2	Gene_or_protein 25 29	GSTs
+T3	Gene_or_protein 32 34	TS
+T4	Gene_or_protein 39 44	MTHFR
+T5	Disease 74 88	gastric cancer
+T6	Chemical 111 145	platinum /5-Fu -based chemotherapy

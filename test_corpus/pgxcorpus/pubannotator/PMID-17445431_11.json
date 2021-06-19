@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 13,
+        "end": 17
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 59,
+        "end": 63
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 84,
+        "end": 88
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 148,
+        "end": 152
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 212,
+        "end": 229
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 157,
+        "end": 173
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17445431_11",
+  "text": "CONCLUSION : DPYD * 5 gene mutation contributes to reduced DPYD enzyme activity and 5-FU dyes metabolism , which is associated with accumulation of 5-FU and chemotherapeutic toxicity in patients with gastric and colonic carcinoma ."
+}

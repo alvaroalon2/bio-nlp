@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 80,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 100,
+        "end": 103
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 170,
+        "end": 198
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 201,
+        "end": 206
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 152,
+        "end": 169
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10864974_5",
+  "text": "Specifically , the effects of unilateral lesions of nigrostriatal DA neurons on oral dyskinesia and Fos protein expression induced by the non-selective 5-HT(2C ) agonist 1-(m-chlorophenyl)piperazine ( m-CPP ) were examined ."
+}

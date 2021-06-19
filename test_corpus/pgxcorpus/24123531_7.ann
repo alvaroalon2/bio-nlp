@@ -1,0 +1,5 @@
+T1	Gene_or_protein 46 50	EGFR
+T2	Gene_or_protein 55 59	KRAS
+T4	Chemical 74 83	erlotinib
+T5	Chemical 110 119	erlotinib
+T7	Gene_or_protein 162 166	HRAS

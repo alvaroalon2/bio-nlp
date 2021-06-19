@@ -1,0 +1,5 @@
+T2	Gene_or_protein 59 63	COMT
+T3	Gene_or_protein 78 82	DRD2
+T4	Gene_or_protein 85 90	ANKK1
+T5	Chemical 153 160	alcohol
+T6	Disease 153 171	alcohol dependence

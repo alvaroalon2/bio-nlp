@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 20,
+        "end": 26
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 29,
+        "end": 35
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 40,
+        "end": 46
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 98,
+        "end": 107
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 112,
+        "end": 122
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 50,
+        "end": 53
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 50,
+        "end": 63
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25391641_1",
+  "text": "Pharmacogenetics of CYP2B6 , CYP2A6 and UGT2B7 in HIV treatment in African populations : focus on efavirenz and nevirapine ."
+}

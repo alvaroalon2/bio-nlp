@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 10
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 39,
+        "end": 64
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 102,
+        "end": 108
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17030231_1",
+  "text": "Salmeterol response is not affected by beta2-adrenergic receptor genotype in subjects with persistent asthma ."
+}

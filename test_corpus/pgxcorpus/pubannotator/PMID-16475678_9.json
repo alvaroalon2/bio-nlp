@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 31,
+        "end": 41
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 91,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 141,
+        "end": 151
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 201,
+        "end": 205
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 230,
+        "end": 240
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16475678_9",
+  "text": "Among 12 patients treated with paclitaxel alone , only 1 ( 20.0 % ) of the 5 patients with CHFR methylation had a partial response ( PR ) to paclitaxel , whereas 3 ( 42.9 % ) of the 7 patients without CHFR methylation had a PR to paclitaxel ( p = 0.836 ) ."
+}

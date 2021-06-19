@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 9
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 30,
+        "end": 43
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 47,
+        "end": 53
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 91
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16297086_5",
+  "text": "Tamoxifen reduces the risk of breast cancer in BRCA-2 mutation carriers , but not in BRCA-1 mutation carriers ."
+}

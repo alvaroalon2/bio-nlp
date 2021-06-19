@@ -1,0 +1,8 @@
+T1	Chemical 26 57	combining aspirin and celecoxib
+T2	Gene_or_protein 73 79	UGT1A6
+T3	Disease 133 140	Adenoma
+T4	Chemical 157 166	Celecoxib
+T5	Chemical 234 241	aspirin
+T6	Disease 259 267	adenomas
+T7	Chemical 286 293	placebo
+T8	Chemical 339 348	celecoxib

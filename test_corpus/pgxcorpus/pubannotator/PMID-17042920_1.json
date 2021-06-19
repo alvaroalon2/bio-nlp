@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 36,
+        "end": 42
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 51
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 56,
+        "end": 60
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 76
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Disease",
+      "span": {
+        "begin": 100,
+        "end": 121
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17042920_1",
+  "text": "Effects of genetic polymorphisms of CYP3A4 , CYP3A5 and MDR1 on cyclosporine pharmacokinetics after renal transplantation ."
+}

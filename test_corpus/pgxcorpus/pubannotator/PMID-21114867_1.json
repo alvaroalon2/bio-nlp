@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 29,
+        "end": 62
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 112,
+        "end": 138
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 161,
+        "end": 197
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 161,
+        "end": 169
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21114867_1",
+  "text": "Genetic polymorphisms in the endothelial nitric oxide synthase gene correlate with overall survival in advanced non-small-cell lung cancer patients treated with platinum -based doublet chemotherapy ."
+}

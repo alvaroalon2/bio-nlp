@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 24,
+        "end": 29
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 159,
+        "end": 173
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 216,
+        "end": 225
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 153,
+        "end": 183
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 190,
+        "end": 215
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16084852_3",
+  "text": "To test whether certain ABCB1 haplotypes contribute to interindividual differences in central nervous system drug distribution , brain distribution of a model P-glycoprotein substrate , the calcium channel inhibitor verapamil , was measured by positron emission tomography ( PET ) in 2 groups of healthy volunteers ."
+}

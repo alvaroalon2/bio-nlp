@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 32
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 67,
+        "end": 74
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 175,
+        "end": 180
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 200,
+        "end": 238
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 243,
+        "end": 268
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17851539_6",
+  "text": "In the second experiment , c-Fos activation after reinstatement of ethanol seeking induced by discrete cues was compared with the activation pattern of its putative partner ( c-Jun ) and regulators ( extracellular signal-regulated kinases and c-Jun N -terminal kinases ) ."
+}

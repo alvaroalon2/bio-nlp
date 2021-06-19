@@ -1,0 +1,7 @@
+T1	Disease 56 64	toxicity
+T6	Gene_or_protein 96 111	cytochrome P450
+T7	Gene_or_protein 114 120	CYP450
+T8	Chemical 135 144	isoniazid
+T9	Gene_or_protein 147 154	CYP2C19
+T10	Gene_or_protein 157 162	CYP3A
+T11	Chemical 182 185	INH

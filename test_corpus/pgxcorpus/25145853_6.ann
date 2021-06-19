@@ -1,0 +1,8 @@
+T1	Chemical 15 30	TLR9 ligand CpG
+T2	Gene_or_protein 15 19	TLR9
+T3	Gene_or_protein 124 127	Th2
+T5	Gene_or_protein 135 138	Th1
+T7	Gene_or_protein 182 187	IgG2a
+T8	Gene_or_protein 190 194	IgG1
+T10	Chemical 0 51	Conjugation of TLR9 ligand CpG to LDH nanoparticles
+T11	Chemical 34 37	LDH

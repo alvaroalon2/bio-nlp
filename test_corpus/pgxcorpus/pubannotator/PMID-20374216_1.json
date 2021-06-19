@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 163,
+        "end": 170
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 77
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 90
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 163,
+        "end": 181
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20374216_1",
+  "text": "Single-nucleotide polymorphisms in corticotropin releasing hormone receptor 1 gene ( CRHR1 ) are associated with quantitative trait of event-related potential and alcohol dependence ."
+}

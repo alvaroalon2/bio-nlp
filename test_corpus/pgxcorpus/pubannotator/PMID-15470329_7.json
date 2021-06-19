@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 27
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 171,
+        "end": 181
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15470329_7",
+  "text": "beta 1 -Adrenergic receptor polymorphisms Ser49Gly and Arg 389Gly were included as factors possibly interfering with the pharmacokinetic - pharmacodynamic relationship of metoprolol ."
+}

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 58,
+        "end": 61
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 111,
+        "end": 132
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 111,
+        "end": 122
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 28,
+        "end": 34
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 39,
+        "end": 45
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18568343_13",
+  "text": "CONCLUSIONS : The effect of UGT1A8 and UGT1A9 variants on MPA metabolism appears to be modified by concomitant calcineurin inhibitor therapy ."
+}

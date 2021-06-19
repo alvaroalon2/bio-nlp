@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 10
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 25,
+        "end": 29
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 66,
+        "end": 106
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 109,
+        "end": 113
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 154,
+        "end": 158
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 163,
+        "end": 167
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24901049_9",
+  "text": "Dabrafenib decreased the RIP3 -mediated Ser358 phosphorylation of mixed lineage kinase domain-like protein ( MLKL ) and disrupted the interaction between RIP3 and MLKL ."
+}

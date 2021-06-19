@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 13,
+        "end": 44
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 86
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 101,
+        "end": 118
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23942539_1",
+  "text": "Potential of dihydropyrimidine dehydrogenase genotypes in personalizing 5-fluorouracil therapy among colorectal cancer patients ."
+}

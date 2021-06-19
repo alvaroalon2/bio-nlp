@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 68,
+        "end": 105
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 108,
+        "end": 112
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 119,
+        "end": 152
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 155,
+        "end": 158
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 199,
+        "end": 203
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19671633_2",
+  "text": "Experimental studies in our laboratory have established the role of delta-aminolevulinic acid dehydratase ( ALAD ) and matrix gamma-carboxyglutamic acid ( MGP ) gene polymorphisms in the etiology of lead toxicity ."
+}

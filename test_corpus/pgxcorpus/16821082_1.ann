@@ -1,0 +1,7 @@
+T2	Gene_or_protein 24 28	CCT5
+T3	Gene_or_protein 31 35	RGS3
+T5	Gene_or_protein 42 46	YKT6
+T7	Gene_or_protein 69 72	p53
+T10	Chemical 106 115	docetaxel
+T11	Disease 125 139	breast cancers
+T1	Disease 69 88	p53 -mutated tumors

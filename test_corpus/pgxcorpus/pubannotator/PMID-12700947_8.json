@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 95,
+        "end": 98
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 40,
+        "end": 52
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 25,
+        "end": 28
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 25,
+        "end": 52
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12700947_8",
+  "text": "A single immunization of 3H1 mixed with CpG ODN 1826 was sufficient to induce measurable anti- CEA immunity in na ve mice ."
+}

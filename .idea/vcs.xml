@@ -5,5 +5,7 @@
     <mapping directory="$PROJECT_DIR$/models/Chemical" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/models/Disease" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/models/Gene" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_corpus/standoff2conll" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_corpus/standoff2pa" vcs="Git" />
   </component>
 </project>

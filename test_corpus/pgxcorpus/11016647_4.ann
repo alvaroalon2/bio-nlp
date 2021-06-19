@@ -1,0 +1,7 @@
+T1	Disease 42 48	tumors
+T3	Gene_or_protein 107 111	MGMT
+T4	Disease 101 111	tumor MGMT
+T5	Chemical 117 133	O6-benzylguanine
+T6	Chemical 136 140	6-BG
+T7	Chemical 263 267	6-BG
+T8	Gene_or_protein 279 283	MGMT

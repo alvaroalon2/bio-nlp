@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 43,
+        "end": 48
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 82,
+        "end": 89
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 99
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 104,
+        "end": 112
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 22
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 79
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Disease",
+      "span": {
+        "begin": 104,
+        "end": 122
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21507151_2",
+  "text": "The mu-opioid receptor encoded by the gene OPRM1 plays a primary role in opiate , alcohol , cocaine and nicotine addiction ."
+}

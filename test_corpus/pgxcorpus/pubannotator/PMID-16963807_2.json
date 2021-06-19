@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 57,
+        "end": 65
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 86,
+        "end": 98
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 114,
+        "end": 120
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 321,
+        "end": 327
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 245,
+        "end": 271
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 274,
+        "end": 277
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 321,
+        "end": 348
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 351,
+        "end": 356
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16963807_2",
+  "text": "To investigate the molecular mechanisms of the effect of curcumin on up-regulation of LDL receptor expression , a sterol regulatory report system was established in Xenopus laevis oocytes by microinjection of a plasmid pLXRN-4SRE-fPA , in which green fluorescence protein ( GFP ) gene was constructed downstream from the sterol regulatory element-1 ( SRE-1 ) , in the nucleus of the oocytes ."
+}

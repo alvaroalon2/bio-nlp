@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 29,
+        "end": 42
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 64,
+        "end": 69
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18370849_5",
+  "text": "A strong association between carbamazepine hypersensitivity and HLA-B * 1502 has been reported in Han Chinese ."
+}

@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 61,
+        "end": 64
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 121,
+        "end": 126
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 169,
+        "end": 184
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 200,
+        "end": 209
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 103,
+        "end": 118
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 169,
+        "end": 195
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19566775_5",
+  "text": "METHODS : The single nucleotide polymorphisms rs16147 of the NPY gene ( -485C>T ) and rs7687423 of the NPY receptor Y1 ( NPY1R ) gene were analyzed in 222 patients with methamphetamine dependence and psychosis and 288 age - and gender-matched controls ."
+}

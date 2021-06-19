@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 5,
+        "end": 13
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 16,
+        "end": 24
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 112,
+        "end": 138
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 141,
+        "end": 146
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 158,
+        "end": 165
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 171,
+        "end": 175
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23982599_5",
+  "text": "Oral afatinib ( Gilotrif ) has been approved in the US for the first-line treatment of patients with metastatic non-small-cell lung cancer ( NSCLC ) who have tumours with EGFR exon 19 deletions or exon 21 ( L858R ) substitution mutations as detected by a US FDA-approved test ."
+}

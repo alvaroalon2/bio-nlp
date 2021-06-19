@@ -1,0 +1,7 @@
+T1	Gene_or_protein 19 26	5-HTR2A
+T2	Gene_or_protein 38 42	COMT
+T3	Gene_or_protein 55 59	MAOA
+T4	Gene_or_protein 67 70	DAT
+T5	Gene_or_protein 80 85	5-HTT
+T6	Disease 114 145	borderline personality disorder
+T7	Disease 156 173	heroin -dependent

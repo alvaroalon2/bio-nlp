@@ -1,0 +1,79 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 80,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 87,
+        "end": 92
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 121
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 124,
+        "end": 129
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 149
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 234,
+        "end": 241
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 142,
+        "end": 160
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 56,
+        "end": 77
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Disease",
+      "span": {
+        "begin": 234,
+        "end": 252
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20025435_2",
+  "text": "The association between two functional polymorphisms in alcohol dehydrogenase ( ADH2 / ADH1B ) and aldehyde dehydrogenase ( ALDH2 ) genes and alcohol dependence was examined in 182 Chinese and Indian patients undergoing treatment for alcohol dependence and 184 screened control subjects from Singapore ."
+}

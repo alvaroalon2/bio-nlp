@@ -1,0 +1,9 @@
+T1	Chemical 75 85	paclitaxel
+T2	Chemical 88 93	Taxol
+T3	Chemical 99 108	docetaxel
+T4	Chemical 111 119	Taxotere
+T5	Gene_or_protein 125 129	HER2
+T7	Chemical 35 46	trastuzumab
+T8	Chemical 49 58	Herceptin
+T9	Disease 125 161	HER2 -expressing human breast cancer
+T6	Chemical 35 95	trastuzumab ( Herceptin ) combined with paclitaxel ( Taxol )

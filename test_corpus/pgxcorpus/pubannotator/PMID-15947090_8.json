@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 19,
+        "end": 25
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 74
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 85,
+        "end": 93
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 166,
+        "end": 177
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15947090_8",
+  "text": "Age , height , and CYP2C9 genotype significantly contributed to S-warfarin and total warfarin clearance , whereas only age and body size significantly contributed to R- warfarin clearance ."
+}

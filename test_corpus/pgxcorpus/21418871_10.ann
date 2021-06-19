@@ -1,0 +1,5 @@
+T1	Disease 13 27	Gastric cancer
+T3	Gene_or_protein 42 47	ERCC1
+T4	Gene_or_protein 70 75	XRCC1
+T5	Chemical 122 162	oxaliplatin -based adjuvant chemotherapy
+T8	Chemical 122 133	oxaliplatin

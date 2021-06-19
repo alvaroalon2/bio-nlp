@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 47
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 56,
+        "end": 80
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 100
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20172524_1",
+  "text": "Protective effects of magnesium lithospermate B against diabetic atherosclerosis via Nrf2 -ARE- NQO1 transcriptional pathway ."
+}

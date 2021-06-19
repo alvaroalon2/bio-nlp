@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 50,
+        "end": 57
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 192,
+        "end": 196
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 111,
+        "end": 115
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 136,
+        "end": 142
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 147,
+        "end": 153
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 200,
+        "end": 204
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18079739_5",
+  "text": "By western blotting we showed that in HEL cells , ITF2357 led to the disappearance of total and phosphorylated JAK2 (V617F ) as well as pSTAT5 and pSTAT3 , but it did not affect the wild-type JAK2 or STAT proteins in the control K562 cell line ."
+}

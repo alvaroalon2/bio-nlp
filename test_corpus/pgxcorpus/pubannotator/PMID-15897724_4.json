@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 40,
+        "end": 52
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 67,
+        "end": 75
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 108,
+        "end": 120
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15897724_4",
+  "text": "Recent studies from Japan revealed that macrocytosis is related to ALDH-2/2 genotype , leading to increased acetaldehyde accumulation ."
+}

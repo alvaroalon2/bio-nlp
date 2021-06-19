@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 20
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 90,
+        "end": 96
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 13,
+        "end": 34
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 121,
+        "end": 146
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27717041_2",
+  "text": "BACKGROUND : Alcohol use disorders are associated with single-nucleotide polymorphisms in GABRA2 , the gene encoding the GABAA receptor a2-subunit in humans ."
+}

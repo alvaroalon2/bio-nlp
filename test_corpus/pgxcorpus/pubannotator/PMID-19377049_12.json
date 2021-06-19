@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 30,
+        "end": 34
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 50,
+        "end": 65
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 92,
+        "end": 96
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 99,
+        "end": 102
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 30,
+        "end": 45
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 92,
+        "end": 120
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19377049_12",
+  "text": "This work suggests a role for DHFR inhibitors and corticosteroids in treating patients with AML1 - ETO -positive disease ."
+}

@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 46,
+        "end": 53
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 57,
+        "end": 70
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 89,
+        "end": 108
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12958193_8",
+  "text": "Another novel finding is hepatic induction of CYP3a13 by dexamethasone occurring only in pregnane X receptor null mice ."
+}

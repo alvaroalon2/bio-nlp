@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 33,
+        "end": 36
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 76
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25404639_1",
+  "text": "Identification and validation of p50 as the cellular target of eriocalyxin B ."
+}

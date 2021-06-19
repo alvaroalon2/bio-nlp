@@ -1,0 +1,111 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 349,
+        "end": 359
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 102,
+        "end": 131
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 134,
+        "end": 137
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 169,
+        "end": 184
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 187,
+        "end": 190
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 203,
+        "end": 233
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 236,
+        "end": 240
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 270,
+        "end": 279
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 285,
+        "end": 288
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 77
+      }
+    },
+    {
+      "id": "T16",
+      "obj": "Chemical",
+      "span": {
+        "begin": 285,
+        "end": 298
+      }
+    },
+    {
+      "id": "T17",
+      "obj": "Disease",
+      "span": {
+        "begin": 366,
+        "end": 400
+      }
+    },
+    {
+      "id": "T18",
+      "obj": "Disease",
+      "span": {
+        "begin": 403,
+        "end": 406
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11849656_2",
+  "text": "We studied the relation between renin-angiotensin system ( RAS ) related gene polymorphisms , such as angiotensin converting enzyme ( ACE ) insertion/deletion ( I/D ) , angiotensinogen ( AGT ) M253T and angiotensin II type 1 receptor ( AT1R ) A1166C , and the effect of quinapril , an ACE inhibitor with high tissue-binding affinity , on preventing restenosis after percutaneous coronary intervention ( PCI ) ."
+}

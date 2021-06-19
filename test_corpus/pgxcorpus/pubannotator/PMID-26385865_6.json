@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 67
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 127,
+        "end": 136
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26385865_6",
+  "text": "Furthermore , knockdown of the human ortholog POLG of S. pombe POG1 in human cells significantly increased the cytotoxicity of sunitinib ."
+}

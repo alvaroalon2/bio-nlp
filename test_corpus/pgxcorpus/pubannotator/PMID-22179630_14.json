@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 55
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 96,
+        "end": 101
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 170
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 150
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22179630_14",
+  "text": "Compared to patients carrying the C/T genotype of BAG-1 , patients carrying the C/C genotype at Bag-1 codon 324 exhibited better responses to platinum -based chemotherapy ."
+}

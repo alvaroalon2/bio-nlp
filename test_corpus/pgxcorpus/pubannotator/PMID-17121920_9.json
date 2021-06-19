@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 80,
+        "end": 84
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 115,
+        "end": 128
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 165,
+        "end": 169
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 197,
+        "end": 200
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17121920_9",
+  "text": "Luciferase reporter assay and the chromatin immunoprecipitation assay using the XIAP promoter constructs show that mithramycin A down-regulates the transcription of XIAP gene through inhibition of Sp1 binding to its promoter ."
+}

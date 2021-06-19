@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 166,
+        "end": 169
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 199,
+        "end": 211
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 31
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 84,
+        "end": 88
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 84,
+        "end": 93
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "28258422_9",
+  "text": "The adverse events of EGFR -TKI rechallenge were tolerable , but one case receiving EGFR -TKI rechallenge with the suspected drug exhibited the recurrence of grade 3 ILD after the discontinuation of prednisolone ."
+}

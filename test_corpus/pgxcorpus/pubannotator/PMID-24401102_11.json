@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 70,
+        "end": 78
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 70,
+        "end": 89
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24401102_11",
+  "text": "Another SNP in the region , rs4952 , remains modestly associated with nicotine dependence in the combined data after conditioning on rs13273442 ."
+}

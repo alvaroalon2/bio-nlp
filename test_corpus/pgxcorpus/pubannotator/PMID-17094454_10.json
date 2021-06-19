@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 30
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 221,
+        "end": 225
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 251,
+        "end": 276
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 74,
+        "end": 77
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 139,
+        "end": 142
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17094454_10",
+  "text": "Our data indicate that the PSA -158 G/A polymorphism has no effect on the PSA promoter activity in vitro and no association with the serum PSA level in Japanese men , however suggest that the patients with GG genotype of ARE1 may be more sensitive to androgen ablation therapy ."
+}

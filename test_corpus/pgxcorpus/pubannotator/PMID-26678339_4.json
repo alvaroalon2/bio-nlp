@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 103,
+        "end": 107
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 103,
+        "end": 121
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 145
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 18,
+        "end": 47
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 226,
+        "end": 230
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26678339_4",
+  "text": "To identify other metabolic therapeutic targets , we systematically profiled metabolites in endogenous IDH1 mutant cancer cells after mutant IDH1 inhibition and discovered a profound vulnerability to depletion of the coenzyme NAD+ ."
+}

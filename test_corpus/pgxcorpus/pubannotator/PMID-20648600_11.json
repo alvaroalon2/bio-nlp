@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 3
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 106,
+        "end": 113
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20648600_11",
+  "text": "LAM resistance substitutions ( rt L180M + rt M204V ) were detected in 10 ( 50 % ) of the 20 patients with viremia ."
+}

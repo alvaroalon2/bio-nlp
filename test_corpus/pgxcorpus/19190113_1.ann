@@ -1,0 +1,5 @@
+T3	Gene_or_protein 24 28	DIO2
+T4	Chemical 105 114	thyroxine
+T5	Chemical 120 136	triiodothyronine
+T6	Disease 148 159	hypothyroid
+T8	Chemical 93 136	combination thyroxine plus triiodothyronine

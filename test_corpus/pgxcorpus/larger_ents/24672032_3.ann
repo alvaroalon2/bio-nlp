@@ -1,0 +1,6 @@
+T1	Gene_or_protein 0 5	IFNL3
+T2	Gene_or_protein 8 27	lambda-3 interferon
+T3	Gene_or_protein 71 78	miR-122
+T4	Chemical 162 197	pegylated interferon plus ribavirin
+T5	Disease 223 234	hepatitis C
+T6	Disease 237 240	CHC

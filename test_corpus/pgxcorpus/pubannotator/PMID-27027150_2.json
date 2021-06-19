@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 42,
+        "end": 50
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 65,
+        "end": 71
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 82,
+        "end": 86
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 115,
+        "end": 130
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 139,
+        "end": 149
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27027150_2",
+  "text": "INTRODUCTION : In the 40-50 % of advanced melanoma patients with tumors harboring BRAF V600E and V600K mutations , BRAF inhibitors such as dabrafenib are a highly effective treatment ."
+}

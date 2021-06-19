@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 182,
+        "end": 199
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 202,
+        "end": 243
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 250,
+        "end": 262
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 53,
+        "end": 76
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 79,
+        "end": 83
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 125,
+        "end": 142
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16146333_7",
+  "text": "In addition to its role to confer resistance against chemotherapeutic agents , BCRP actively transports structurally diverse organic molecules , conjugated or unconjugated , such as estrone-3-sulfate , 17beta-estradiol 17-(beta-D-glucuronide ) , and methotrexate ."
+}

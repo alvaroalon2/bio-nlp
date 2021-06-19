@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 40
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 73,
+        "end": 88
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 114,
+        "end": 142
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 114,
+        "end": 122
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22634097_7",
+  "text": "MATERIAL AND METHODS : We analyzed RAD51 G172T polymorphism genotypes in cervical cancer patients who underwent a platinum -based chemotherapy in combination with radiotherapy ."
+}

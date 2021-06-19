@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 70,
+        "end": 80
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21880305_9",
+  "text": "Additionally , carriers of the A allele of rs6265 responded better to sertraline treatment ( p = 0.001 ) ."
+}

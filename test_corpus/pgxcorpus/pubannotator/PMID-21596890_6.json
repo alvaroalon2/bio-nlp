@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 17,
+        "end": 21
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 42,
+        "end": 49
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21596890_6",
+  "text": "In HepG2 cells , CDCA treatment activated C /EBPb , as shown by increases in its phosphorylation , nuclear accumulation , and expression ."
+}

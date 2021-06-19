@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 26,
+        "end": 33
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 12,
+        "end": 16
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16407894_1",
+  "text": "Knockout of ERK1 enhances cocaine -evoked immediate early gene expression and behavioral plasticity ."
+}

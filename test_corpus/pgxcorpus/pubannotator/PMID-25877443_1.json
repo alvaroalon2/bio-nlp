@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 15,
+        "end": 20
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 42,
+        "end": 50
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25877443_1",
+  "text": "Association of HLA-B * 5701 genotypes and abacavir -induced hypersensitivity reaction : a systematic review and meta-analysis ."
+}

@@ -1,0 +1,8 @@
+T1	Gene_or_protein 18 50	epidermal growth factor receptor
+T2	Gene_or_protein 53 57	EGFR
+T4	Disease 255 281	non-small-cell lung cancer
+T5	Disease 284 289	NSCLC
+T6	Chemical 105 168	inhibitors of the tyrosine kinase ( TK ) domain of the receptor
+T7	Gene_or_protein 141 143	TK
+T8	Gene_or_protein 123 138	tyrosine kinase
+T9	Chemical 65 86	monoclonal antibodies

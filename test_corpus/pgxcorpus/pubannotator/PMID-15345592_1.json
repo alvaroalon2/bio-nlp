@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 59,
+        "end": 87
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 135,
+        "end": 152
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 13,
+        "end": 27
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15345592_1",
+  "text": "Detection of BCR-ABL kinase mutations in CD34 + cells from chronic myelogenous leukemia patients in complete c ytogenetic remission on imatinib mesylate treatment ."
+}

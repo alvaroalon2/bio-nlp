@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 27,
+        "end": 31
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 48,
+        "end": 55
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17404720_1",
+  "text": "Modelling the influence of MDR1 polymorphism on digoxin pharmacokinetic parameters ."
+}

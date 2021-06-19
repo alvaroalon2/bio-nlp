@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 44,
+        "end": 66
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 188,
+        "end": 249
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 252,
+        "end": 257
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 164,
+        "end": 187
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16338277_3",
+  "text": "We hypothesized that clinical resistance to 5-HT ( 3 ) antagonists is associated with the single-nucleotide polymorphism ( 3435C>T ) in the gene that codes for the drug efflux transporter adenosine triphosphate -binding cassette subfamily B member 1 ( ABCB1 ) ."
+}

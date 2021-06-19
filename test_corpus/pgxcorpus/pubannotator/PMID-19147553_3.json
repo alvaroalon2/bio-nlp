@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 8
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 18
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 97
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 110,
+        "end": 116
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 28
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 77,
+        "end": 97
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19147553_3",
+  "text": "Nutlin-3 is a MDM2 inhibitor under preclinical investigation as nongenotoxic activator of the p53 pathway for cancer therapy ."
+}

@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 32,
+        "end": 40
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 68,
+        "end": 88
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 68,
+        "end": 76
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25862379_3",
+  "text": "Regulation of the extracellular dopamine concentration is driven by dopamine transporter ."
+}

@@ -1,0 +1,4 @@
+T1	Disease 13 26	Breast cancer
+T3	Gene_or_protein 59 65	CYP2D6
+T4	Chemical 135 144	tamoxifen
+T6	Chemical 96 105	endoxifen

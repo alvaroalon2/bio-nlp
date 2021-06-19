@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 40
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 44,
+        "end": 55
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "28035401_6",
+  "text": "Few studies focused on the role of HDAC6 in vemurafenib resistance ."
+}

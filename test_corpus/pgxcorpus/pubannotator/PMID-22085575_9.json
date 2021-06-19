@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 49,
+        "end": 59
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 110,
+        "end": 113
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 126,
+        "end": 136
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 110,
+        "end": 123
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22085575_9",
+  "text": "The final patient , a 47-year-old woman , had an EML4 - ALK translocation and responded remarkably well to an ALK inhibitor , crozotinib ."
+}

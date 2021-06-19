@@ -81,7 +81,8 @@ class GeneProcessor(BioProcessor):
                 for result in results:
                     genetic = {}
                     genetic["text_term"] = label
-                    genetic["found_term"] = "".join(result["term"])
+                    if "term" in result:
+                        genetic["found_term"] = "".join(result["term"])
                     if 'ncbi_gene_id' in result:
                         genetic['ncbi_gene_id'] = result["ncbi_gene_id"]
                     if 'ncbi_taxon_id' in result:
@@ -111,7 +112,8 @@ class GeneProcessor(BioProcessor):
             for result in results:
                 covid_dict = {}
                 covid_dict["text_term"] = label
-                covid_dict["found_term"] = "".join(result["term"])
+                if "term" in result:
+                    covid_dict["found_term"] = "".join(result["term"])
                 if 'evidence_url' in result:
                     covid_dict['evidence_url'] = result["evidence_url"]
                 if 'target_url' in result:

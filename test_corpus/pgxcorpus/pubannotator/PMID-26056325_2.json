@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 24
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 29,
+        "end": 39
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 163,
+        "end": 171
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 176,
+        "end": 180
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26056325_2",
+  "text": "UNASSIGNED : Vemurafenib and dabrafenib are both orally bioavailable small molecule agents that block mitogen activated protein kinase signalling in patients with melanoma and BRAF (V600E ) mutation ."
+}

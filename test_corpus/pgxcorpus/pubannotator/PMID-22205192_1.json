@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 76,
+        "end": 83
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 110,
+        "end": 129
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 132,
+        "end": 138
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22205192_1",
+  "text": "Clinical Pharmacogenetics Implementation Consortium ( CPIC ) guidelines for codeine therapy in the context of cytochrome P450 2D6 ( CYP2D6 ) genotype ."
+}

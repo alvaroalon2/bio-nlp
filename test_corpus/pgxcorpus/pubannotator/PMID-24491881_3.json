@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 25,
+        "end": 60
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 102,
+        "end": 107
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 127,
+        "end": 139
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 68
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 142,
+        "end": 145
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24491881_3",
+  "text": "A C-to-T mutation in the methylenetetrahydrofolate reductase ( MTHFR ) gene results in a thermolabile MTHFR , which may affect homocysteine ( Hcy ) levels ."
+}

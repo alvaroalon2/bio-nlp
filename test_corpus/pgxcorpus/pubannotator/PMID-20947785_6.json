@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 46,
+        "end": 51
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 154,
+        "end": 158
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 114,
+        "end": 151
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 114,
+        "end": 121
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "20947785_6",
+  "text": "RESULTS : Compound heterozygous or homozygous NPHS2 pathogenic mutations were identified in seven childhood-onset steroid -resistant nephrotic syndrome ( SRNS ) cases ."
+}

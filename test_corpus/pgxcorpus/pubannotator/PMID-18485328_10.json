@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 188,
+        "end": 203
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18485328_10",
+  "text": "In vitro functional studies demonstrated the catalytic functions of both p.Gly143Glu and p.Asp260fs are substantially impaired , resulting in a complete loss of hydrolytic activity toward methylphenidate ."
+}

@@ -1,0 +1,6 @@
+T1	Chemical 30 38	imatinib
+T4	Gene_or_protein 97 100	KIT
+T6	Gene_or_protein 142 145	KIT
+T8	Gene_or_protein 184 187	KIT
+T10	Gene_or_protein 206 212	PDGFRA
+T14	Disease 227 242	wild-type tumor

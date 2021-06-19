@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 50,
+        "end": 61
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 50,
+        "end": 54
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 112,
+        "end": 120
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 109
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 168,
+        "end": 172
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 123,
+        "end": 128
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18480244_5",
+  "text": "In these experiments , we used a potent synthetic TLR7 ligand , 9-benzyl-8-hydroxy-2-(2-methoxyethoxy)adenine ( SM360320 ; 1V136 ) , to investigate the consequences of TLR7 activation in genetically defined strains of mice ."
+}

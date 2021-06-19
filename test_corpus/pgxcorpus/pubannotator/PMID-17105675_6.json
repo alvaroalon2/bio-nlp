@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 76,
+        "end": 87
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 443,
+        "end": 454
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17105675_6",
+  "text": "Our results show that genotyping A-241G may help to predict the efficacy of risperidone treatment on the basis that patients with the A allele showed greater improvement than those with the G allele on the overall BPRS ( chi2 = 7.19 , p = 0.007 , p = 0.031 after correction by the program SNPSpD ) , while other polymorphisms , including -141 C Ins/Del , TaqIB , rs1076562 , T939C and TaqIA , did not show any association with the response to risperidone ."
+}

@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 79,
+        "end": 82
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 56,
+        "end": 76
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 130,
+        "end": 178
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 186
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 203,
+        "end": 220
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24651609_2",
+  "text": "To further understand the pharmacological properties of N-oleoylethanolamine ( OEA ) , a naturally occurring lipid that activates peroxisome proliferator-activated receptor alpha ( PPARa ) , we designed sulfamoyl analogs based on its structure ."
+}

@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 129,
+        "end": 150
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 169,
+        "end": 173
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 197,
+        "end": 203
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 15,
+        "end": 32
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 37,
+        "end": 69
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 87,
+        "end": 124
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24830941_7",
+  "text": "Using specific kinase inhibitors for mitogen-activated protein kinase , we showed that extracellular signal-regulated kinase and Jun N-terminal kinase are essential for tBHQ -induced expression of CYP2C9 ."
+}

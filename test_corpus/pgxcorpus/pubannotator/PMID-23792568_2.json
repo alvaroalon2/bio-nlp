@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 9
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 48,
+        "end": 52
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 241,
+        "end": 253
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 167,
+        "end": 179
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 48,
+        "end": 68
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 76,
+        "end": 98
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23792568_2",
+  "text": "Sorafenib , the first agent developed to target BRAF mutant melanoma , is a multi-kinase inhibitor that was approved by the FDA for therapy of kidney and subsequently liver cancer , and is currently in clinical trials for thyroid , lung and brain cancer ."
+}

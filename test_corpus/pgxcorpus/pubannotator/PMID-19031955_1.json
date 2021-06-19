@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 6,
+        "end": 20
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 33,
+        "end": 36
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 75
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 114,
+        "end": 119
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19031955_1",
+  "text": "Toxic encephalopathy and delayed MTX clearance after high-dose methotrexate therapy in a child homozygous for the MTHFR C677T polymorphism ."
+}

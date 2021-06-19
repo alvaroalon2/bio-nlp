@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 80,
+        "end": 84
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 94,
+        "end": 97
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 3
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 80,
+        "end": 97
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22027477_9",
+  "text": "PMH therapy was not significantly associated with the MSI -H , CIMP-positive or BRAF -mutated CRC subtypes ."
+}

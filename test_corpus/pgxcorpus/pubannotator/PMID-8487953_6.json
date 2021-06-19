@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 60,
+        "end": 67
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 98
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 173,
+        "end": 176
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 184
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8487953_6",
+  "text": "In contrast , strong neocortical constitutive expression of KROX-24 was almost abolished by MK-801 administration , and replaced by an expression pattern similar to that of FOS and JUN proteins ."
+}

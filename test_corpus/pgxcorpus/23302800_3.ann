@@ -1,0 +1,6 @@
+T1	Disease 22 28	tumour
+T2	Gene_or_protein 76 80	BRAF
+T3	Disease 76 98	BRAF -mutated melanoma
+T6	Gene_or_protein 195 199	BRAF
+T10	Chemical 138 149	vemurafenib
+T5	Disease 203 211	melanoma

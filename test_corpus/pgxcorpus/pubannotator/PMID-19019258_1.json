@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 21,
+        "end": 34
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 55,
+        "end": 61
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 89,
+        "end": 98
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19019258_1",
+  "text": "Pharmacogenetics and breast cancer endocrine therapy : CYP2D6 as a predictive factor for tamoxifen metabolism and drug response ?"
+}

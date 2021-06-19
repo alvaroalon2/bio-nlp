@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 125,
+        "end": 151
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 41,
+        "end": 47
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 125,
+        "end": 140
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25303981_7",
+  "text": "RESULTS : Our results indicated that the DTNBP1 rs3213207 polymorphism did not show any significant association with risk of methamphetamine dependence , either in the pooled subjects or after stratification into the 4 different ethnic groups ( P > 0.05 ) ."
+}

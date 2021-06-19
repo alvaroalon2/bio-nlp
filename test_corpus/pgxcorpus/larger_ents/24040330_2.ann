@@ -1,0 +1,10 @@
+T1	Gene_or_protein 46 69	glutathione transferase
+T2	Gene_or_protein 72 75	GST
+T3	Gene_or_protein 99 104	GSTT1
+T4	Gene_or_protein 107 112	GSTP1
+T5	Gene_or_protein 124 129	GSTO1
+T6	Gene_or_protein 141 146	GSTO2
+T7	Gene_or_protein 160 165	GSTM1
+T8	Gene_or_protein 168 173	GSTA1
+T9	Disease 239 253	bladder cancer
+T10	Chemical 291 303	chemotherapy

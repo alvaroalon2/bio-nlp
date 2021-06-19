@@ -1,0 +1,7 @@
+T1	Gene_or_protein 31 34	p53
+T2	Chemical 69 76	arsenic
+T3	Chemical 80 86	Cr(VI)
+T4	Disease 194 205	lung cancer
+T5	Chemical 168 175	arsenic
+T6	Chemical 179 185	Cr(VI)
+T7	Disease 179 205	Cr(VI) induced lung cancer

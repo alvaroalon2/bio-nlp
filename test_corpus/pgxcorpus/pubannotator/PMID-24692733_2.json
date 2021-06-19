@@ -1,0 +1,79 @@
+{
+  "denotations": [
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 141,
+        "end": 145
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 207,
+        "end": 211
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 216,
+        "end": 222
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 156,
+        "end": 160
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 128,
+        "end": 135
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 83,
+        "end": 125
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 68,
+        "end": 77
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Disease",
+      "span": {
+        "begin": 141,
+        "end": 160
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 68,
+        "end": 125
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24692733_2",
+  "text": "BACKGROUND : This study was the first multicenter phase II study of cetuximab plus folinic acid / 5-fluorouracil / irinotecan ( FOLFIRI ) in KRAS wild-type mCRC as a second-line treatment in Japan including BRAF and PIK3CA genotyping ."
+}

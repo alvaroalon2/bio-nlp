@@ -76,7 +76,8 @@ class DiseaseProcessor(BioProcessor):
                 for result in results:
                     disease = {}
                     disease["text_term"] = label
-                    disease["found_term"] = "".join(result["term"])
+                    if "term" in result:
+                        disease["found_term"] = "".join(result["term"])
                     if 'cui' in result:
                         disease['cui'] = result["cui"]
                     if 'mesh_id' in result:

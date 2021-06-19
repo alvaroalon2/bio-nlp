@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 18,
+        "end": 28
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 67
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 85,
+        "end": 90
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 60,
+        "end": 78
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21946895_6",
+  "text": "Therefore , while naltrexone was an effective treatment for alcohol dependence , the OPRM1 A118G genotype was not a predictor of success ."
+}

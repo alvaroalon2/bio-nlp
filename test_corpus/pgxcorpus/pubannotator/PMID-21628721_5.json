@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 22,
+        "end": 29
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 231,
+        "end": 242
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 283,
+        "end": 300
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21628721_5",
+  "text": "METHODS AND RESULTS : CYP2C19 * 2 genotyping and platelet function testing using 5 and 20 mol/l ADP -induced light transmittance aggregometry ( LTA ) , the PlateletWorks assay and the VerifyNow P2Y12 assay , were performed in 1069 clopidogrel pretreated patients undergoing elective coronary stenting ( POPular study , http://clinicalTrials.gov/ NCT00352014 ) ."
+}

@@ -1,0 +1,15 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 113,
+        "end": 138
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23246478_11",
+  "text": "CONCLUSIONS : Our results suggest that 4 single nucleotide polymorphisms can be used to adjust a man 's measured prostate specific antigen concentration and potentially delay or prevent unnecessary prostate biopsies in Caucasian men ."
+}

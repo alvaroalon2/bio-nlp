@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 11,
+        "end": 14
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 63,
+        "end": 67
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 78
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25486952_12",
+  "text": "However in PMF , Adenosine Tri-Phosphate ( ATP ) - competitive JAK2 inhibitors have shown their interest , but also their important limitations ."
+}

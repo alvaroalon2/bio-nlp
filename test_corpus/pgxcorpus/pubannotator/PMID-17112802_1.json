@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 6
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 63,
+        "end": 71
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17112802_1",
+  "text": "CYP2A6 genotype and the metabolism and disposition kinetics of nicotine ."
+}

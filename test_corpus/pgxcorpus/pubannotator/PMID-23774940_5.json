@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 37,
+        "end": 40
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 123,
+        "end": 128
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 133,
+        "end": 139
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 166,
+        "end": 172
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 175,
+        "end": 181
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 186,
+        "end": 192
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23774940_5",
+  "text": "METHODS : Twenty-seven patients with NVP -induced SJS / TEN and 78 controls , all from Mozambique , were genotyped for the ABCB1 and ABCC10 transporter genes and for CYP2B6 , CYP3A4 and CYP3A5 cytochrome gene variants ."
+}

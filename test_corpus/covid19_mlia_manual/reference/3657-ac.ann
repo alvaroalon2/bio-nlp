@@ -1,0 +1,53 @@
+T1	sosy-dis 21648 21656	COVID-19
+T10	sosy-dis 145545 145553	COVID-19
+T11	sosy-dis 158430 158438	COVID-19
+T114	behavior 20125 20136	wear a mask
+T12	sosy-dis 159752 159760	COVID-19
+T13	sosy-dis 159876 159884	COVID-19
+T15	behavior 19369 19378	Stay home
+T18	sosy-dis 13698 13705	anxiety
+T19	sosy-dis 13719 13726	anxiety
+T2	sosy-dis 21815 21823	COVID-19
+T24	sosy-dis 51882 51888	cancer
+T25	sosy-dis 19738 19749	coronavirus
+T26	sosy-dis 20752 20763	coronavirus
+T27	sosy-dis 21145 21156	coronavirus
+T28	sosy-dis 22823 22834	coronavirus
+T29	sosy-dis 23572 23583	coronavirus
+T3	sosy-dis 22064 22072	COVID-19
+T30	sosy-dis 158158 158169	coronavirus
+T31	sosy-dis 158199 158210	coronavirus
+T32	sosy-dis 158375 158386	coronavirus
+T33	sosy-dis 158957 158968	coronavirus
+T34	sosy-dis 172715 172726	coronavirus
+T35	sosy-dis 173400 173411	coronavirus
+T36	sosy-dis 22129 22134	cough
+T37	sosy-dis 98896 98901	cough
+T4	sosy-dis 22446 22454	COVID-19
+T41	sosy-dis 106798 106808	depression
+T5	sosy-dis 23362 23370	COVID-19
+T57	sosy-dis 98589 98594	fever
+T6	sosy-dis 24022 24030	COVID-19
+T66	sosy-dis 13589 13611	mental health problems
+T67	legal-reg 16313 16327	online classes
+T68	legal-reg 89608 89622	online classes
+T69	legal-reg 91733 91747	online classes
+T7	sosy-dis 42809 42817	COVID-19
+T8	sosy-dis 122064 122072	COVID-19
+T9	sosy-dis 122459 122467	COVID-19
+T95	sosy-dis 22138 22144	sneeze
+T96	behavior 20165 20182	social distancing
+T14	sosy-dis 13634 13637	GAD
+T16	sosy-dis 13639 13667	Generalized Anxiety Disorder
+T17	behavior 22092 22110	washing your hands
+T20	behavior 22112 22144	using tissues to cough or sneeze
+T21	behavior 22146 22168	not touching your face
+T22	behavior 22174 22191	cleaning surfaces
+T23	behavior 22193 22218	Cover your nose and mouth
+T38	sosy-dis 106812 106823	mood swings
+T115	sosy-dis 13481 13484	GAD
+T116	sosy-dis 13669 13672	GAD
+T117	sosy-dis 13782 13785	GAD
+T118	sosy-dis 13801 13808	anxious
+T119	sosy-dis 19720 19727	worried
+T120	sosy-dis 145104 145111	worried

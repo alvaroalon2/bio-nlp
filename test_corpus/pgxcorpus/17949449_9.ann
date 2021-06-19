@@ -1,0 +1,6 @@
+T1	Disease 30 57	Dukes ' C colorectal cancer
+T2	Disease 115 121	tumour
+T3	Chemical 136 140	5-FU
+T5	Gene_or_protein 172 175	p53
+T7	Chemical 136 169	5-FU -based adjuvant chemotherapy
+T8	Disease 81 99	surgical resection

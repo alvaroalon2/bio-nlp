@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 38
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 92,
+        "end": 95
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "19391036_8",
+  "text": "The present study suggests that A1298C gene , but not C677T polymorphism is associated with MTX -related toxicity ."
+}

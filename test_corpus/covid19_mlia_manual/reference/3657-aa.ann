@@ -1,0 +1,33 @@
+T1	sosy-dis 1565 1573	COVID-19
+T12	sosy-dis 2264 2269	cough
+T13	sosy-dis 3672 3677	cough
+T14	sosy-dis 4120 4125	cough
+T16	sosy-dis 50523 50531	diabetes
+T2	sosy-dis 1549 1560	Coronavirus
+T36	sosy-dis 1957 1960	flu
+T37	sosy-dis 2087 2090	flu
+T38	sosy-dis 3499 3502	flu
+T4	behavior 1141 1156	Wash your hands
+T40	legal-reg 161110 161124	online classes
+T46	sosy-dis 2254 2260	sneeze
+T47	sosy-dis 3661 3667	sneeze
+T48	sosy-dis 4154 4160	sneeze
+T49	behavior 144171 144180	stay home
+T5	sosy-dis 54206 54213	anxiety
+T7	sosy-dis 937 943	cancer
+T3	sosy-dis 1949 1953	cold
+T50	sosy-dis 2079 2083	cold
+T51	sosy-dis 48583 48587	cold
+T52	sosy-dis 57320 57324	cold
+T6	behavior 2228 2243	wash your hands
+T8	behavior 2804 2816	Hand-washing
+T9	behavior 4091 4125	covering your mouth when you cough
+T10	behavior 4126 4160	covering your nose when you sneeze
+T53	behavior 4063 4078	wash your hands
+T54	behavior 3627 3645	washing your hands
+T55	sosy-dis 157935 157956	mental health illness
+T56	sosy-dis 59477 59484	worried
+T57	sosy-dis 132677 132684	worried
+T58	sosy-dis 173689 173696	worried
+T59	sosy-dis 175795 175802	worried
+T60	sosy-dis 3717 3730	heart disease

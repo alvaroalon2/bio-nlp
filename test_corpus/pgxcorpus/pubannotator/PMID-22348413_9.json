@@ -1,0 +1,87 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 12
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 50
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 101,
+        "end": 110
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 113,
+        "end": 122
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 125,
+        "end": 134
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 137,
+        "end": 147
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 150,
+        "end": 161
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 166,
+        "end": 175
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 186,
+        "end": 196
+      }
+    },
+    {
+      "id": "T16",
+      "obj": "Chemical",
+      "span": {
+        "begin": 30,
+        "end": 50
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22348413_9",
+  "text": "Itraconazole and other potent inhibitors of CYP3A4 could drastically increase exposure to drugs like midazolam , triazolam , buspirone , lovastatin , simvastatin and oxycodone , whereas rifampicin greatly reduced their plasma concentrations ."
+}

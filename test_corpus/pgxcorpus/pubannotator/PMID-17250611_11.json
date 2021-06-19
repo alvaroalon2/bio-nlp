@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 26,
+        "end": 33
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 75,
+        "end": 82
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 75,
+        "end": 93
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17250611_11",
+  "text": "Similarly , the allele of TAS2R16 that is associated with a lower risk for alcohol dependence is also associated with lower mean Maxdrinks scores in African-American families ."
+}

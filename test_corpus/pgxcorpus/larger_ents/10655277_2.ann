@@ -1,0 +1,9 @@
+T1	Disease 26 51	chronic hepatitis B virus
+T2	Disease 54 57	HBV
+T3	Gene_or_protein 62 87	antibody to hepatitis B e
+T4	Gene_or_protein 98 106	anti-HBe
+T5	Gene_or_protein 136 156	alanine transaminase
+T6	Gene_or_protein 159 162	ALT
+T7	Chemical 195 210	interferon alfa
+T8	Chemical 213 222	IFN-alpha
+T9	Chemical 267 315	combination therapy with ribavirin and IFN-alpha

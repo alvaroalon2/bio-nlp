@@ -1,0 +1,5 @@
+T1	Chemical 42 50	Icotinib
+T2	Chemical 59 69	crizotinib
+T4	Gene_or_protein 92 96	EGFR
+T5	Gene_or_protein 135 139	ROS1
+T7	Gene_or_protein 151 155	KRAS

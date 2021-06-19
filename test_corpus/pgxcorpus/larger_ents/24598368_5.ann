@@ -1,0 +1,6 @@
+T1	Chemical 65 101	anaplastic lymphoma kinase inhibitor
+T2	Chemical 104 114	crizotinib
+T3	Disease 184 210	non-small cell lung cancer
+T4	Disease 226 232	tumors
+T5	Gene_or_protein 242 246	EML4
+T6	Gene_or_protein 249 252	ALK

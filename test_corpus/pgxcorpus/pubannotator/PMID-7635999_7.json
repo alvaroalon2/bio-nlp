@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 11,
+        "end": 17
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 52,
+        "end": 64
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "7635999_7",
+  "text": "None had a CYP2D6 genotype indicative of ultrarapid debrisoquine hydroxylation capacity ."
+}

@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 24,
+        "end": 28
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 31,
+        "end": 35
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 42,
+        "end": 46
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 69,
+        "end": 72
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 106,
+        "end": 115
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Disease",
+      "span": {
+        "begin": 125,
+        "end": 139
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 69,
+        "end": 88
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16821082_1",
+  "text": "Possible involvement of CCT5 , RGS3 , and YKT6 genes up-regulated in p53 -mutated tumors in resistance to docetaxel in human breast cancers ."
+}

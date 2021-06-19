@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 59,
+        "end": 68
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 44,
+        "end": 48
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 122,
+        "end": 126
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 122,
+        "end": 161
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 44,
+        "end": 58
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 72,
+        "end": 75
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 135,
+        "end": 138
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27025877_4",
+  "text": "JAK2 inhibition restored sensitivity to the EGFR inhibitor erlotinib in TKI -resistant cell lines and xenograft models of EGFR -mutant TKI -resistant lung cancer ."
+}

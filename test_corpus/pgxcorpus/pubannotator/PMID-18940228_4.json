@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 22,
+        "end": 25
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 132,
+        "end": 143
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 146,
+        "end": 149
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 197,
+        "end": 205
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 210,
+        "end": 243
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 189,
+        "end": 192
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 166,
+        "end": 186
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18940228_4",
+  "text": "Results revealed that HCH administration lead to an increase in hepatic lipid peroxidation associated with reduction in , levels of glutathione ( GSH ) , activity of superoxide dismutase ( SOD ) , catalase and glucose-6-phosphate dehydrogenase ."
+}

@@ -1,0 +1,7 @@
+T2	Gene_or_protein 45 65	thymidylate synthase
+T3	Gene_or_protein 90 93	p53
+T4	Disease 80 106	wild-type p53 colon cancer
+T5	Chemical 139 153	5-fluorouracil
+T6	Gene_or_protein 162 182	thymidylate synthase
+T8	Chemical 193 204	raltitrexed
+T12	Chemical 162 192	thymidylate synthase inhibitor

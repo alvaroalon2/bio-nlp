@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 23,
+        "end": 35
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 119,
+        "end": 123
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "15349717_10",
+  "text": "We concluded that when azathioprine is administered at an initial dose of 1.5 mg/kg per day , both coding and promoter TPMT polymorphisms influence the dose tolerated ."
+}

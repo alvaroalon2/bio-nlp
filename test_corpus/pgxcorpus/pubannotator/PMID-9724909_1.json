@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 42,
+        "end": 46
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 21,
+        "end": 31
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 82,
+        "end": 99
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 31
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "9724909_1",
+  "text": "HPMA copolymer bound adriamycin overcomes MDR1 gene encoded resistance in a human ovarian carcinoma cell line ."
+}

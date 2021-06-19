@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 65,
+        "end": 67
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 113,
+        "end": 116
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "9654649_8",
+  "text": "G-Rg1 treatment also led to the down-regulation of intracellular GR content , which was similar to the effect of Dex ."
+}

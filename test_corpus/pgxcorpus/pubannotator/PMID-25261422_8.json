@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 64,
+        "end": 73
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 78,
+        "end": 91
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 139,
+        "end": 144
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 139,
+        "end": 160
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25261422_8",
+  "text": "In vivo , virological outcome of first-line regimens containing tenofovir and emtricitabine was comparable between patients diagnosed with HIV-1 harbouring M41L ( n = 17 , 16 were part of one transmission cluster ) and WT virus ( n = 248 ) ."
+}

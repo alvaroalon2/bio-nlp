@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 66,
+        "end": 71
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 110,
+        "end": 123
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 162,
+        "end": 175
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25042383_3",
+  "text": "The purpose of this study was to evaluate the predictive value of TOP2A gene for the efficacy of neo-adjuvant anthracycline in a population with locally advanced breast cancer ."
+}

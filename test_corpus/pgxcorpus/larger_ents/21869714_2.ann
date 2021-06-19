@@ -1,0 +1,5 @@
+T1	Disease 68 94	non-small cell lung cancer
+T2	Disease 97 102	NSCLC
+T3	Chemical 181 248	epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitor
+T4	Chemical 285 297	chemotherapy
+T5	Gene_or_protein 326 330	EGFR

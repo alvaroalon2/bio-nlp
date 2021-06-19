@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 68,
+        "end": 72
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 88,
+        "end": 94
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 11,
+        "end": 14
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11882352_1",
+  "text": "Effects of src -deficiency on the expression of in vivo toxicity of TCDD in a strain of c- src knockout mice procured through six generations of backcrossings to C57BL/6 mice ."
+}

@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 16,
+        "end": 34
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 65,
+        "end": 76
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26556583_1",
+  "text": "Yin and yang of cytidine deaminase roles in clinical response to azacitidine in the elderly : a pharmacogenetics tale ."
+}

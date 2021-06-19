@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 66,
+        "end": 72
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 111,
+        "end": 126
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 141,
+        "end": 150
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 111,
+        "end": 137
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18991847_9",
+  "text": "The present findings suggest that having a genetic variant of the CSNK1E gene did not affect susceptibility to methamphetamine dependence or psychosis , at least in a Japanese population ."
+}

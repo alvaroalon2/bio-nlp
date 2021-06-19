@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 41,
+        "end": 45
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 72,
+        "end": 75
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11455387_7",
+  "text": "Here we show that an exposure of mice to PAHs induces the expression of Bax in oocytes , followed by apoptosis ."
+}

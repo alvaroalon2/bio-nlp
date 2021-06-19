@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 9
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 73,
+        "end": 82
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 36,
+        "end": 39
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18006783_9",
+  "text": "Cyclin D1 is up-regulated under the Ras pathway and is down-regulated by celecoxib ."
+}

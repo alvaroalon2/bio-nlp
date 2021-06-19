@@ -1,0 +1,6 @@
+T2	Gene_or_protein 12 42	thiopurine S-methyltransferase
+T3	Gene_or_protein 45 49	TPMT
+T4	Chemical 136 148	azathioprine
+T5	Chemical 152 168	6-mercaptopurine
+T6	Disease 216 231	Crohn's disease
+T7	Disease 234 236	CD

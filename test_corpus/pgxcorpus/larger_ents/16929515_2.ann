@@ -1,0 +1,6 @@
+T1	Gene_or_protein 38 58	thymidylate synthase
+T2	Gene_or_protein 61 63	TS
+T3	Gene_or_protein 70 111	5,10-methylene-tetrahydrofolate reductase
+T4	Gene_or_protein 114 119	MTHFR
+T5	Disease 194 208	gastric cancer
+T6	Chemical 222 266	5-FU based preoperative chemotherapy ( CTx )

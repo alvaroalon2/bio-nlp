@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 13,
+        "end": 19
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 64,
+        "end": 80
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 77,
+        "end": 80
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Disease",
+      "span": {
+        "begin": 122,
+        "end": 125
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 136,
+        "end": 141
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21139584_10",
+  "text": "CONCLUSION : GUT-70 has pronounced antiproliferative effects in MCL with mt- p53 , a known negative prognostic factor for MCL , through Hsp90 inhibition ."
+}

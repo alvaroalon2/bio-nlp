@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 89,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 163,
+        "end": 175
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 212,
+        "end": 219
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "8947308_9",
+  "text": "Results of the present Finnish association study suggest that homozygous deletion of the GST M1 gene may indicate increased susceptibility to develop irreversible liver damage in response to the toxic effects of ethanol ."
+}

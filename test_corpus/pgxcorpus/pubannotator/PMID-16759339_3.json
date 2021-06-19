@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 155,
+        "end": 162
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 231,
+        "end": 241
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 74,
+        "end": 78
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 139,
+        "end": 143
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 155,
+        "end": 173
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16759339_3",
+  "text": "We analyzed the -141 C Ins/Del polymorphism in the promoter region of the DRD2 gene and the Ser9Gly ( BalI ) polymorphism in exon 1 of the DRD3 gene in 74 alcohol -dependent Caucasian men with or without genetic predisposition for alcoholism ."
+}

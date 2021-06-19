@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 31,
+        "end": 38
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22961402_1",
+  "text": "CD55 polymorphisms and risk of aspirin - exacerbated respiratory disease ."
+}

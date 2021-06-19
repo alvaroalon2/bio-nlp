@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 13
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 28,
+        "end": 35
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 46,
+        "end": 49
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 104,
+        "end": 111
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 132,
+        "end": 135
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 138,
+        "end": 142
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11320258_10",
+  "text": "The serotonin dependence of cocaine reward in DAT knockout mice is thus confirmed by the elimination of cocaine place preference in DAT / SERT double knockout mice ."
+}

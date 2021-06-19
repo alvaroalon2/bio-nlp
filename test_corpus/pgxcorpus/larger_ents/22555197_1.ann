@@ -1,0 +1,5 @@
+T1	Chemical 58 68	irinotecan
+T2	Chemical 73 76	S-1
+T3	Disease 115 143	metastatic colorectal cancer
+T4	Gene_or_protein 163 169	UGT1A1
+T5	Gene_or_protein 174 180	CYP2A6

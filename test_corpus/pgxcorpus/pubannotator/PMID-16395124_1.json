@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 41
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 52,
+        "end": 59
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 52,
+        "end": 70
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16395124_1",
+  "text": "Confirmation of association of the GABRA2 gene with alcohol dependence by subtype-specific analysis ."
+}

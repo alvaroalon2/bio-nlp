@@ -1,0 +1,13 @@
+T1	Disease 349 359	restenosis
+T2	Gene_or_protein 102 131	angiotensin converting enzyme
+T3	Gene_or_protein 134 137	ACE
+T4	Gene_or_protein 169 184	angiotensinogen
+T5	Gene_or_protein 187 190	AGT
+T7	Gene_or_protein 203 233	angiotensin II type 1 receptor
+T8	Gene_or_protein 236 240	AT1R
+T10	Chemical 270 279	quinapril
+T11	Gene_or_protein 285 288	ACE
+T14	Gene_or_protein 32 77	renin-angiotensin system ( RAS ) related gene
+T16	Chemical 285 298	ACE inhibitor
+T17	Disease 366 400	percutaneous coronary intervention
+T18	Disease 403 406	PCI

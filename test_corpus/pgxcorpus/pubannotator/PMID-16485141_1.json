@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 8
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 65,
+        "end": 73
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 90,
+        "end": 96
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "16485141_1",
+  "text": "Nicotine self-administration in mice is associated with rates of nicotine inactivation by CYP2A5 ."
+}

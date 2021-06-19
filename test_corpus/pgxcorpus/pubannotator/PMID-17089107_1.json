@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 10,
+        "end": 16
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 25,
+        "end": 41
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17089107_1",
+  "text": "Impact of CYP2D6 * 10 on H1-antihistamine -induced hypersomnia ."
+}

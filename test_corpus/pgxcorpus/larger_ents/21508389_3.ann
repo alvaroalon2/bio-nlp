@@ -1,0 +1,7 @@
+T1	Gene_or_protein 36 47	Kirsten ras
+T2	Gene_or_protein 50 54	KRAS
+T3	Disease 77 94	colorectal tumour
+T4	Chemical 104 115	oxaliplatin
+T5	Chemical 120 132	capecitabine
+T6	Gene_or_protein 148 169	tumour suppressor p53
+T7	Gene_or_protein 172 176	TP53

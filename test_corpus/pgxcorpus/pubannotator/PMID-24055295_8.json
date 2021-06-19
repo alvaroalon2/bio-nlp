@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 15,
+        "end": 21
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 73,
+        "end": 76
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 162,
+        "end": 170
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 173,
+        "end": 183
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 190,
+        "end": 208
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24055295_8",
+  "text": "Intriguingly , JTC801 promoted the mRNA and protein expression levels of FLG but not the mRNA levels of other makers for keratinocyte differentiation , including loricrin , keratin 10 , and transglutaminase 1 , in a human skin equivalent model ."
+}

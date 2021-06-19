@@ -1,0 +1,8 @@
+T1	Chemical 102 111	gefitinib
+T3	Gene_or_protein 129 133	EGFR
+T7	Gene_or_protein 205 209	EGFR
+T4	Chemical 163 187	carboplatin / paclitaxel
+T11	Disease 129 158	EGFR mutation-positive tumors
+T12	Disease 205 234	EGFR mutation-negative tumors
+T14	Chemical 163 174	carboplatin
+T15	Chemical 177 187	paclitaxel

@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 162,
+        "end": 173
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 222,
+        "end": 236
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 256,
+        "end": 261
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 265,
+        "end": 270
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 86,
+        "end": 130
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 133,
+        "end": 145
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 56,
+        "end": 76
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26698676_2",
+  "text": "OBJECTIVE : To evaluate the relationship between use of fertility medication ( i.e. , selective estrogen receptor [ ER ] modulator , gonadotropin , or other ) or infertility treatment ( i.e. , IVF or IUI ) and the risk of ovarian cancer among women with a BRCA1 or BRCA2 mutation ."
+}

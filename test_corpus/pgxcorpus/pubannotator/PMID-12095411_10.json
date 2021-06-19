@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 96,
+        "end": 111
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 125,
+        "end": 136
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12095411_10",
+  "text": "According to the results of a multifactorial analysis of variance , only the 235T allele of the angiotensinogen gene and not cholesterol drug therapy independently affected the increase of stenosis at follow-up angiography ."
+}

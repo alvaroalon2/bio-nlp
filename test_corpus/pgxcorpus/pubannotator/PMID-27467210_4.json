@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 14,
+        "end": 21
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 11
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Chemical",
+      "span": {
+        "begin": 24,
+        "end": 35
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 77,
+        "end": 83
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 175,
+        "end": 179
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Disease",
+      "span": {
+        "begin": 175,
+        "end": 212
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27467210_4",
+  "text": "Selumetinib ( AZD6244 , ARRY-142886 ) is a potent and selective inhibitor of MEK1/2 which has demonstrated significant efficacy in combination with docetaxel in patients with KRAS mutant pretreated advanced NSCLC ."
+}

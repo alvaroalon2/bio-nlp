@@ -1,0 +1,5 @@
+T3	Chemical 72 88	5-fluorocytosine
+T4	Chemical 91 95	5-FC
+T5	Disease 115 127	colon cancer
+T7	Gene_or_protein 49 52	bCD
+T2	Gene_or_protein 28 46	cytosine deaminase

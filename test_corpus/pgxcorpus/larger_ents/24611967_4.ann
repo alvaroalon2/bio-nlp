@@ -1,0 +1,8 @@
+T1	Chemical 42 49	glucose
+T2	Gene_or_protein 67 90	glycosylated hemoglobin
+T3	Gene_or_protein 93 98	HbA1c
+T4	Gene_or_protein 115 139	alanine aminotransferase
+T5	Gene_or_protein 142 145	ALT
+T6	Chemical 187 196	metformin
+T7	Chemical 220 229	metformin
+T8	Chemical 252 270	carnitine -orotate

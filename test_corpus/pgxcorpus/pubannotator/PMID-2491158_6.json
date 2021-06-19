@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 116,
+        "end": 119
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 51,
+        "end": 68
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 132,
+        "end": 143
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "2491158_6",
+  "text": "( NZB x NZW ) F1 mice respond to immunization with phosphorylcholine with a response that is largely encoded by the VH1 gene of the S107 family ."
+}

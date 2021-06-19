@@ -1,0 +1,8 @@
+T1	Chemical 56 67	doxorubicin
+T2	Chemical 70 81	oxaliplatin
+T3	Chemical 86 98	methotrexate
+T4	Disease 112 129	stomach carcinoma
+T5	Gene_or_protein 159 166	BCL2L12
+T6	Gene_or_protein 169 172	BAX
+T8	Gene_or_protein 179 184	BCL-2
+T11	Chemical 254 266	chemotherapy

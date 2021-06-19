@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 40
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 91,
+        "end": 114
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 117,
+        "end": 122
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 149,
+        "end": 163
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21932012_4",
+  "text": "GACI is linked to mutations in the ENPP1 gene , which encodes for an enzyme that generates inorganic pyrophosphate ( PP(i) ) , a potent inhibitor of hydroxyapatite crystal formation ."
+}

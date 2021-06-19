@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 45,
+        "end": 49
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 93,
+        "end": 97
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 125,
+        "end": 136
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 14,
+        "end": 18
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25657029_9",
+  "text": "Accordingly , PDAC cell lines expressing the MIA2 ( I141M ) variant expressed high levels of ERN1 and were more sensitive to gemcitabine ."
+}

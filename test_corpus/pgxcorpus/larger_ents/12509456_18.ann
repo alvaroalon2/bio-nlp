@@ -1,0 +1,5 @@
+T1	Gene_or_protein 16 21	BRCA1
+T2	Disease 50 63	breast cancer
+T3	Gene_or_protein 110 115	BRCA1
+T4	Chemical 145 148	LAM
+T5	Chemical 152 155	CL4

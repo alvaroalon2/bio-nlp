@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 4,
+        "end": 8
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 102,
+        "end": 121
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 102,
+        "end": 110
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "17986837_5",
+  "text": "The TPH1 779A/C was only investigated in sample 2 where additional data with respect to the degree of nicotine dependence were assessed ."
+}

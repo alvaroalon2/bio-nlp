@@ -1,0 +1,5 @@
+T2	Gene_or_protein 143 147	BRAF
+T3	Gene_or_protein 170 174	BRAF
+T5	Disease 170 213	BRAF ( V600K ) - mutant metastatic melanoma
+T6	Chemical 248 258	dabrafenib
+T7	Chemical 283 293	trametinib

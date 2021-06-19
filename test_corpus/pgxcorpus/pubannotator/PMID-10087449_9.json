@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 33,
+        "end": 43
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 121,
+        "end": 143
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 93,
+        "end": 118
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 93,
+        "end": 98
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 121,
+        "end": 126
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10087449_9",
+  "text": "PACAP -induced expression of the c-fos gene was significantly reduced by pretreatment with a PACAP receptor antagonist , PACAP - ( 6-38 ) - NH2 ."
+}

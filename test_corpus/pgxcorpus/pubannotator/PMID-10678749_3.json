@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 85,
+        "end": 95
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 116,
+        "end": 124
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 143,
+        "end": 148
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 60,
+        "end": 84
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "10678749_3",
+  "text": "Previous studies have also shown that pretreatment with the D2-like dopamine agonist quinpirole virtually abolishes RU-24969 -induced striatal c-Fos expression ."
+}

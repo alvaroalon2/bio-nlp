@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 4
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 43,
+        "end": 52
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 98
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 94,
+        "end": 124
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 27,
+        "end": 38
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 26
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21676217_3",
+  "text": "HER2 -related target drugs trastuzumab and lapatinib have been the foundation of treatment of HER2 -- positive breast cancer ."
+}

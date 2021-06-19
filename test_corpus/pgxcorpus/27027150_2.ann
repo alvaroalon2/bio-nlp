@@ -1,0 +1,5 @@
+T1	Disease 42 50	melanoma
+T2	Disease 65 71	tumors
+T4	Gene_or_protein 82 86	BRAF
+T6	Chemical 115 130	BRAF inhibitors
+T7	Chemical 139 149	dabrafenib

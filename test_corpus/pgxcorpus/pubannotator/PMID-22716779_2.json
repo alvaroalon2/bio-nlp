@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 61,
+        "end": 91
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 98
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 105,
+        "end": 116
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 119,
+        "end": 122
+      }
+    },
+    {
+      "id": "T11",
+      "obj": "Chemical",
+      "span": {
+        "begin": 194,
+        "end": 197
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 202,
+        "end": 209
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "22716779_2",
+  "text": "The SNP rs1260326 ( P446L ) and rs1799884 ( -30G>A ) for the glucokinase regulatory protein ( GCKR ) and glucokinase ( GCK ) genes , respectively , have been associated with opposing effects on TAG and glucose concentrations ."
+}

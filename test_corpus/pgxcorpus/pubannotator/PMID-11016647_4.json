@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 42,
+        "end": 48
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 107,
+        "end": 111
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Disease",
+      "span": {
+        "begin": 101,
+        "end": 111
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 117,
+        "end": 133
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Chemical",
+      "span": {
+        "begin": 136,
+        "end": 140
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 263,
+        "end": 267
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 279,
+        "end": 283
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "11016647_4",
+  "text": "One future approach to treatment of these tumors may rely on concurrent pharmacological depletion of tumor MGMT with O6-benzylguanine ( 6-BG ) and protection of sensitive tissues , such as hematopoietic stem and progenitor cells , using genetic modification with 6-BG -resistant MGMT mutants ."
+}

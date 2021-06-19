@@ -1,0 +1,7 @@
+T1	Chemical 0 10	Crizotinib
+T2	Gene_or_protein 43 46	ALK
+T3	Disease 74 79	tumor
+T4	Gene_or_protein 110 113	ALK
+T5	Gene_or_protein 51 54	MET
+T6	Gene_or_protein 118 121	MET
+T10	Chemical 51 64	MET inhibitor

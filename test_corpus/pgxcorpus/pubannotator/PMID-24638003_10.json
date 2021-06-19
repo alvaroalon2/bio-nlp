@@ -1,0 +1,55 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 30,
+        "end": 38
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 97,
+        "end": 100
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 142,
+        "end": 145
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 184,
+        "end": 187
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 206,
+        "end": 212
+      }
+    },
+    {
+      "id": "T14",
+      "obj": "Disease",
+      "span": {
+        "begin": 227,
+        "end": 242
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "24638003_10",
+  "text": "When comparing the two arms , imatinib therapy was associated with higher RFS in patients with a KIT exon 11 deletion of any type , but not a KIT exon 11 insertion or point mutation , KIT exon 9 mutation , PDGFRA mutation , or wild-type tumor , although some of these patient groups were small ."
+}

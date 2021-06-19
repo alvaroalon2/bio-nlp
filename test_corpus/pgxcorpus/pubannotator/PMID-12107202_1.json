@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 19
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 130,
+        "end": 154
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12107202_1",
+  "text": "Hydrochlorothiazide effectively reduces urinary calcium excretion in two Japanese patients with gain-of-function mutations of the calcium-sensing receptor gene ."
+}

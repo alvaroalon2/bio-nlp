@@ -1,0 +1,5 @@
+T1	Gene_or_protein 36 42	CYP3A4
+T2	Gene_or_protein 45 51	CYP3A5
+T3	Gene_or_protein 56 60	MDR1
+T4	Chemical 64 76	cyclosporine
+T5	Disease 100 121	renal transplantation

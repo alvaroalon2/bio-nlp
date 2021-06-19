@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 19,
+        "end": 23
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 183,
+        "end": 213
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 216,
+        "end": 220
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23030234_8",
+  "text": "SSRIs can increase MDMA plasma levels , clinical effects ( e.g. blood pressure , heart rate , body temperature ) can be reduced , possibly due to a pharmacodynamic interaction at the serotonin reuptake transporter ( SERT ) ."
+}

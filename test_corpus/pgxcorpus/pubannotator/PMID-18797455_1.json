@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 0,
+        "end": 5
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 112,
+        "end": 122
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Disease",
+      "span": {
+        "begin": 74,
+        "end": 78
+      }
+    },
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 146,
+        "end": 163
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "18797455_1",
+  "text": "GSTP1 Ile105Val polymorphism correlates with progression-free survival in MCRC patients treated with or without irinotecan : a study of the Dutch Colorectal Cancer Group ."
+}

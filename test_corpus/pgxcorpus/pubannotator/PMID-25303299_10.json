@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 14,
+        "end": 19
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 30,
+        "end": 35
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Chemical",
+      "span": {
+        "begin": 93,
+        "end": 96
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25303299_10",
+  "text": "Patients with MTHFR C677T and ABCB1 C3435T polymorphisms appear to have significantly higher MTX plasma concentrations ( p < 0.05 ) ."
+}

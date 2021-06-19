@@ -1,0 +1,55 @@
+T1	sosy-dis 1126 1134	COVID-19
+T10	sosy-dis 6087 6095	COVID-19
+T11	sosy-dis 6253 6261	COVID-19
+T12	sosy-dis 7078 7086	COVID-19
+T13	sosy-dis 7431 7439	COVID-19
+T14	sosy-dis 9062 9070	COVID-19
+T15	sosy-dis 17765 17773	COVID-19
+T16	sosy-dis 20094 20102	COVID-19
+T17	sosy-dis 20502 20510	COVID-19
+T18	sosy-dis 20717 20725	COVID-19
+T19	sosy-dis 22603 22611	COVID-19
+T2	sosy-dis 1572 1580	COVID-19
+T20	sosy-dis 32779 32787	COVID-19
+T21	sosy-dis 33268 33276	COVID-19
+T22	sosy-dis 4784 4795	Coronavirus
+T23	sosy-dis 6240 6251	Coronavirus
+T24	sosy-dis 7065 7076	Coronavirus
+T25	sosy-dis 32767 32778	Coronavirus
+T26	sosy-dis 33015 33026	Coronavirus
+T27	sosy-dis 33576 33587	Coronavirus
+T28	sosy-dis 1234 1242	Covid-19
+T29	sosy-dis 11272 11280	Covid-19
+T3	sosy-dis 2741 2749	COVID-19
+T30	sosy-dis 13375 13383	Covid-19
+T31	sosy-dis 17922 17930	Covid-19
+T32	sosy-dis 18187 18195	Covid-19
+T33	sosy-dis 18941 18949	Covid-19
+T4	sosy-dis 2884 2892	COVID-19
+T5	sosy-dis 3224 3232	COVID-19
+T6	sosy-dis 3307 3315	COVID-19
+T7	sosy-dis 4227 4235	COVID-19
+T8	sosy-dis 4924 4932	COVID-19
+T9	sosy-dis 6032 6040	COVID-19
+T34	sosy-dis 3072 3077	cough
+T35	sosy-dis 3079 3084	fever
+T36	sosy-dis 3088 3108	respiratory problems
+T37	behavior 34481 34490	Stay home
+T38	behavior 21625 21636	wear a mask
+T39	sosy-dis 19745 19756	coronavirus
+T40	sosy-dis 20941 20952	coronavirus
+T41	tests 19411 19420	PCR tests
+T42	behavior 14670 14682	STAY AT HOME
+T43	behavior 10459 10476	social distancing
+T44	legal-reg 1071 1118	new aid scheme to stimulate business investment
+T45	legal-reg 1143 1186	online sales platform for vulnerable people
+T46	legal-reg 2212 2276	shutdown of cultural, recreational, sports and HORECA facilities
+T47	legal-reg 4652 4702	Installation of a reception structure for patients
+T48	legal-reg 6492 6542	Installation of a reception structure for patients
+T49	legal-reg 7317 7367	Installation of a reception structure for patients
+T50	legal-reg 7852 7879	Avoid public transportation
+T51	legal-reg 11794 11822	home learning support system
+T52	legal-reg 33528 33561	go shopping outside of peak hours
+T53	legal-reg 33488 33526	sale of non-food products in drive-ins
+T54	sosy-dis 17796 17803	covid19
+T55	sosy-dis 24009 24016	COVID19

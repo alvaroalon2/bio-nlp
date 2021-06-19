@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 12,
+        "end": 18
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 32,
+        "end": 38
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 55,
+        "end": 61
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 78,
+        "end": 84
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 104,
+        "end": 108
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 173,
+        "end": 182
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Chemical",
+      "span": {
+        "begin": 313,
+        "end": 321
+      }
+    },
+    {
+      "id": "T17",
+      "obj": "Chemical",
+      "span": {
+        "begin": 127,
+        "end": 135
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "25594941_4",
+  "text": "rs9923231 ( VKORC1 ) , rs7294 ( VKORC1 ) , rs1057910 ( CYP2C9 ) , rs2108622 ( CYP4F2 ) , and rs699664 ( GGCX ) involved in the warfarin action mechanism and the circulatory vitamin K were selected to investigate their polymorphism characteristics and their effects on the pharmacodynamics and pharmacokinetics of warfarin in Chinese population ."
+}

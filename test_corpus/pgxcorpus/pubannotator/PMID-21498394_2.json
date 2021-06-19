@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 35,
+        "end": 66
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 144,
+        "end": 156
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 69,
+        "end": 72
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21498394_2",
+  "text": "PURPOSE : To explore the effect of dihydropyrimidine dehydrogenase ( DPD ) single nucleotide polymorphisms ( SNP ) and haplotypes on outcome of capecitabine ."
+}

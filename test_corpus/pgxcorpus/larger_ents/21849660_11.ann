@@ -1,0 +1,4 @@
+T1	Chemical 13 19	Statin
+T2	Chemical 50 62	chemotherapy
+T3	Disease 131 153	stage III colon cancer
+T4	Gene_or_protein 170 174	KRAS

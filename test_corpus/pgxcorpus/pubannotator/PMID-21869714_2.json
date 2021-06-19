@@ -1,0 +1,71 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 68,
+        "end": 94
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Disease",
+      "span": {
+        "begin": 97,
+        "end": 102
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 181,
+        "end": 213
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 216,
+        "end": 220
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 326,
+        "end": 330
+      }
+    },
+    {
+      "id": "T8",
+      "obj": "Chemical",
+      "span": {
+        "begin": 181,
+        "end": 248
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 223,
+        "end": 238
+      }
+    },
+    {
+      "id": "T10",
+      "obj": "Chemical",
+      "span": {
+        "begin": 285,
+        "end": 297
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "21869714_2",
+  "text": "BACKGROUND : Several randomized phase III studies in advanced stage non-small cell lung cancer ( NSCLC ) confirmed the superior response rate and progression-free survival of using epidermal growth factor receptor ( EGFR ) tyrosine kinase inhibitor as first-line therapy compared with chemotherapy in patients with activating EGFR mutations ."
+}

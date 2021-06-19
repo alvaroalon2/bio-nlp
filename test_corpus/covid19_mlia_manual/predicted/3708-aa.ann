@@ -1,0 +1,230 @@
+T1	sosy-dis 168 176	COVID-19
+T2	sosy-dis 344 349	Fever
+T3	sosy-dis 376 381	Cough
+T4	sosy-dis 387 406	Shortness of Breath
+T5	sosy-dis 562 570	COVID-19
+T6	sosy-dis 648 674	www.gov.ie/health-covid-19
+T7	sosy-dis 3622 3633	Coronavirus
+T8	sosy-dis 4238 4256	Infectious disease
+T9	sosy-dis 4285 4296	Coronavirus
+T10	sosy-dis 4297 4305	COVID-19
+T11	sosy-dis 4402 4407	Cough
+T12	sosy-dis 4434 4439	cough
+T13	sosy-dis 4607 4618	Coronavirus
+T14	sosy-dis 4619 4627	COVID-19
+T15	sosy-dis 4994 5005	Coronavirus
+T16	sosy-dis 5006 5014	COVID-19
+T17	sosy-dis 5350 5361	Coronavirus
+T18	sosy-dis 5362 5370	COVID-19
+T19	sosy-dis 5626 5648	Breathing Difficulties
+T20	sosy-dis 5716 5724	COVID-19
+T21	sosy-dis 5951 5962	Coronavirus
+T22	sosy-dis 5963 5971	COVID-19
+T23	sosy-dis 6558 6569	Coronavirus
+T24	sosy-dis 6570 6578	COVID-19
+T25	sosy-dis 7686 7712	www.gov.ie/health-covid-19
+T26	sosy-dis 7915 7925	disability
+T27	sosy-dis 7973 7983	disability
+T28	sosy-dis 8068 8079	Coronavirus
+T29	sosy-dis 8080 8088	COVID-19
+T30	sosy-dis 8316 8327	Coronavirus
+T31	sosy-dis 8328 8336	COVID-19
+T32	sosy-dis 8457 8462	fever
+T33	sosy-dis 8470 8475	cough
+T34	sosy-dis 9642 9653	Coronavirus
+T35	sosy-dis 9654 9662	COVID-19
+T36	sosy-dis 9677 9688	Coronavirus
+T37	sosy-dis 9689 9697	COVID-19
+T38	sosy-dis 9893 9904	Coronavirus
+T39	sosy-dis 9905 9913	COVID-19
+T40	sosy-dis 10087 10093	cancer
+T41	sosy-dis 10103 10111	COVID-19
+T42	sosy-dis 10137 10148	Coronavirus
+T43	sosy-dis 10149 10157	COVID-19
+T44	sosy-dis 10589 10594	cough
+T45	sosy-dis 11108 11130	Breathing Difficulties
+T46	sosy-dis 11315 11333	Infectious disease
+T47	sosy-dis 11362 11373	Coronavirus
+T48	sosy-dis 11375 11383	COVID-19
+T49	sosy-dis 11661 11672	Coronavirus
+T50	sosy-dis 11674 11682	COVID-19
+T51	sosy-dis 11788 11799	Coronavirus
+T52	sosy-dis 11801 11809	COVID-19
+T53	sosy-dis 12567 12578	Coronavirus
+T54	sosy-dis 12580 12588	COVID-19
+T55	sosy-dis 12897 12908	Coronavirus
+T56	sosy-dis 12910 12918	COVID-19
+T57	sosy-dis 13067 13078	Coronavirus
+T58	sosy-dis 13080 13088	COVID-19
+T59	sosy-dis 13282 13293	Coronavirus
+T60	sosy-dis 13295 13303	COVID-19
+T61	sosy-dis 13441 13475	cardiac and respiratory conditions
+T62	sosy-dis 13553 13559	cancer
+T63	sosy-dis 13569 13580	Coronavirus
+T64	sosy-dis 13582 13590	COVID-19
+T65	sosy-dis 13714 13725	Coronavirus
+T66	sosy-dis 13727 13735	COVID-19
+T67	sosy-dis 13751 13770	Shortness of Breath
+T68	sosy-dis 13886 13897	Coronavirus
+T69	sosy-dis 13899 13907	COVID-19
+T70	sosy-dis 14031 14042	Coronavirus
+T71	sosy-dis 14044 14052	COVID-19
+T72	sosy-dis 14055 14066	Coronavirus
+T73	sosy-dis 14068 14076	COVID-19
+T74	sosy-dis 14190 14200	disability
+T75	sosy-dis 14202 14208	mental
+T76	sosy-dis 14287 14297	disability
+T77	sosy-dis 14343 14353	disability
+T78	sosy-dis 14404 14409	Cough
+T79	sosy-dis 14474 14485	Coronavirus
+T80	sosy-dis 14487 14495	COVID-19
+T81	sosy-dis 14531 14542	Coronavirus
+T82	sosy-dis 14544 14552	COVID-19
+T83	sosy-dis 14586 14594	COVID-19
+T84	sosy-dis 15348 15357	infection
+T85	sosy-dis 15454 15463	infection
+T86	sosy-dis 15778 15783	death
+T87	sosy-dis 15918 15929	coronavirus
+T88	sosy-dis 16154 16159	fever
+T89	sosy-dis 16225 16230	fever
+T90	sosy-dis 16470 16481	coronavirus
+T91	sosy-dis 16788 16795	allergy
+T92	sosy-dis 16853 16857	pain
+T93	sosy-dis 17000 17011	coronavirus
+T94	sosy-dis 17361 17370	diarrhoea
+T95	sosy-dis 17860 17871	coronavirus
+T96	sosy-dis 18249 18260	Coronavirus
+T97	sosy-dis 18386 18395	rotavirus
+T98	sosy-dis 18490 18499	irritable
+T99	sosy-dis 18511 18516	fever
+T100	sosy-dis 18558 18574	alcohol problems
+T101	sosy-dis 18677 18698	meningococcal disease
+T102	sosy-dis 19268 19286	infectious disease
+T103	sosy-dis 19756 19775	rotavirus infection
+T104	sosy-dis 19846 19853	illness
+T105	sosy-dis 19857 19867	disability
+T106	sosy-dis 20117 20122	fever
+T107	sosy-dis 20228 20233	Fever
+T108	sosy-dis 20356 20365	Rotavirus
+T109	sosy-dis 20371 20386	viral infection
+T110	sosy-dis 20400 20409	diarrhoea
+T111	sosy-dis 20414 20422	vomiting
+T112	sosy-dis 21243 21253	meningitis
+T113	sosy-dis 21316 21337	meningococcal disease
+T114	sosy-dis 21573 21594	Meningococcal disease
+T115	sosy-dis 21837 21845	diabetes
+T116	sosy-dis 21861 21862	a
+T117	sosy-dis 21863 21873	disability
+T118	sosy-dis 22172 22184	meningitidis
+T119	sosy-dis 22205 22226	meningococcal disease
+T120	sosy-dis 22518 22538	fructose intolerance
+T121	sosy-dis 22540 22569	sucrose-isomaltase deficiency
+T122	sosy-dis 22573 22580	glucose
+T123	sosy-dis 22657 22679	Meningococcal bacteria
+T124	sosy-dis 22922 22929	rubella
+T125	sosy-dis 22969 22990	meningococcal disease
+T126	sosy-dis 23014 23024	Meningitis
+T127	sosy-dis 23471 23479	reaction
+T128	sosy-dis 23993 24008	Meningococcal C
+T129	sosy-dis 24040 24062	meningitis C infection
+T130	sosy-dis 24459 24464	fever
+T131	sosy-dis 24553 24568	sore arm or leg
+T132	sosy-dis 24581 24586	fever
+T133	sosy-dis 24840 24846	cancer
+T134	sosy-dis 24865 24887	respiratory conditions
+T135	sosy-dis 24929 24939	infections
+T136	sosy-dis 24977 24990	heart disease
+T137	sosy-dis 25371 25392	Meningococcal disease
+T138	sosy-dis 25438 25459	meningococcal disease
+T139	sosy-dis 25832 25839	injured
+T140	sosy-dis 26048 26067	bacterial infection
+T141	sosy-dis 26078 26088	meningitis
+T142	sosy-dis 26090 26102	inflammation
+T143	sosy-dis 26139 26150	septicaemia
+T144	sosy-dis 26152 26167	blood poisoning
+T145	sosy-dis 26192 26213	meningococcal disease
+T146	sosy-dis 26398 26403	fever
+T147	sosy-dis 26629 26634	fever
+T148	sosy-dis 26778 26793	meningococcal B
+T149	sosy-dis 26829 26850	meningococcal disease
+T150	sosy-dis 26904 26916	homelessness
+T151	sosy-dis 27031 27036	fever
+T152	sosy-dis 27098 27103	fever
+T153	sosy-dis 27271 27278	measles
+T154	sosy-dis 27282 27287	mumps
+T155	sosy-dis 28591 28601	Meningitis
+T156	sosy-dis 28605 28612	Rubella
+T157	sosy-dis 28688 28709	meningococcal disease
+T158	sosy-dis 28801 28816	meningococcal B
+T159	sosy-dis 29668 29694	www.gov.ie/health-covid-19
+T160	sosy-dis 29706 29726	Bacterial meningitis
+T161	sosy-dis 30422 30432	diphtheria
+T162	sosy-dis 30434 30458	haemophilus influenzae B
+T163	sosy-dis 30466 30477	hepatitis B
+T164	sosy-dis 30479 30486	measles
+T165	sosy-dis 30487 30510	meningococcal C disease
+T166	sosy-dis 30512 30517	mumps
+T167	sosy-dis 30519 30528	pertussis
+T168	sosy-dis 30530 30544	whooping cough
+T169	sosy-dis 30547 30567	pneumococcal disease
+T170	sosy-dis 30569 30574	polio
+T171	sosy-dis 30576 30583	rubella
+T172	sosy-dis 30585 30592	tetanus
+T173	sosy-dis 30597 30609	tuberculosis
+T174	sosy-dis 30919 30930	Coronavirus
+T175	sosy-dis 30932 30940	COVID-19
+T176	sosy-dis 31117 31149	severe combined immunodeficiency
+T177	sosy-dis 31151 31155	SCID
+T178	sosy-dis 31406 31427	meningococcal disease
+T179	sosy-dis 31504 31518	abdominal pain
+T180	sosy-dis 32080 32092	Tuberculosis
+T181	sosy-dis 32586 32601	Chronic Disease
+T182	sosy-dis 33086 33094	COVID-19
+T183	sosy-dis 33677 33686	rotavirus
+T184	sosy-dis 34705 34730	Meningococcal B infection
+T185	sosy-dis 34907 34915	swelling
+T186	sosy-dis 35008 35016	vomiting
+T187	sosy-dis 35021 35030	diarrhoea
+T188	sosy-dis 35036 35045	rotavirus
+T189	sosy-dis 35542 35553	coronavirus
+T190	sosy-dis 35838 35860	meningitis B infection
+T191	sosy-dis 35929 35939	meningitis
+T192	sosy-dis 35943 35954	septicaemia
+T193	sosy-dis 36525 36542	allergic reaction
+T194	sosy-dis 36544 36555	anaphylaxis
+T195	sosy-dis 36624 36631	tetanus
+T196	sosy-dis 36857 36878	meningococcal disease
+T197	sosy-dis 37013 37020	Malaria
+T198	sosy-dis 37193 37206	heart disease
+T199	sosy-dis 37208 37220	lung disease
+T200	sosy-dis 37222 37230	diabetes
+T201	sosy-dis 37235 37241	cancer
+T202	sosy-dis 37968 37977	Influenza
+T203	sosy-dis 38044 38053	influenza
+T204	sosy-dis 38080 38101	meningococcal disease
+T205	sosy-dis 38999 39004	fever
+T206	sosy-dis 39810 39833	Intellectual Disability
+T207	sosy-dis 40068 40092	Meningococcal meningitis
+T208	sosy-dis 40111 40132	meningococcal disease
+T209	sosy-dis 40141 40146	fever
+T210	sosy-dis 40150 40160	stiff neck
+T211	sosy-dis 40162 40170	headache
+T212	sosy-dis 40172 40183	joint pains
+T213	sosy-dis 40191 40195	rash
+T214	sosy-dis 40315 40342	functional mental disorders
+T215	sosy-dis 40388 40398	Diphtheria
+T216	sosy-dis 40400 40407	Tetanus
+T217	sosy-dis 40477 40496	Norovirus infection
+T218	sosy-dis 41253 41271	Sensory Disability
+T219	sosy-dis 42331 42343	hearing loss
+T220	sosy-dis 42553 42561	vomiting
+T221	sosy-dis 42565 42574	diarrhoea
+T222	sosy-dis 42790 42813	meningococcal infection
+T223	sosy-dis 42903 42919	Violence against
+T224	sosy-dis 42977 42985	COVID-19
+T225	sosy-dis 43651 43659	COVID-19
+T226	sosy-dis 43661 43672	Coronavirus
+T227	sosy-dis 43691 43702	Coronavirus
+T228	sosy-dis 43704 43712	COVID-19
+T229	sosy-dis 43751 43762	Coronavirus
+T230	sosy-dis 43764 43772	COVID-19

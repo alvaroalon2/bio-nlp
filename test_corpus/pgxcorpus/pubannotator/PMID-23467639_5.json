@@ -1,0 +1,47 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 11,
+        "end": 18
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 21,
+        "end": 26
+      }
+    },
+    {
+      "id": "T3",
+      "obj": "Disease",
+      "span": {
+        "begin": 133,
+        "end": 141
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Chemical",
+      "span": {
+        "begin": 21,
+        "end": 37
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 48,
+        "end": 66
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "23467639_5",
+  "text": "Studies of aspirin , P2Y12 inhibitors and other antiplatelet drugs clearly demonstrate how inhibition of platelet function increases bleeding risk ."
+}

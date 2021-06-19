@@ -1,0 +1,39 @@
+{
+  "denotations": [
+    {
+      "id": "T2",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 55,
+        "end": 61
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 94,
+        "end": 99
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Chemical",
+      "span": {
+        "begin": 188,
+        "end": 209
+      }
+    },
+    {
+      "id": "T7",
+      "obj": "Disease",
+      "span": {
+        "begin": 122,
+        "end": 144
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "26773964_3",
+  "text": "The aim of this study was to evaluate the influence of CYP3A5 polymorphism on the increase in CYP3A activity after living kidney transplantation , by measuring the plasma concentration of 4b-hydroxycholesterol ."
+}

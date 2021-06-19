@@ -1,0 +1,63 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Chemical",
+      "span": {
+        "begin": 69,
+        "end": 79
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 151,
+        "end": 157
+      }
+    },
+    {
+      "id": "T5",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 233,
+        "end": 239
+      }
+    },
+    {
+      "id": "T6",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 295,
+        "end": 301
+      }
+    },
+    {
+      "id": "T9",
+      "obj": "Chemical",
+      "span": {
+        "begin": 47,
+        "end": 49
+      }
+    },
+    {
+      "id": "T12",
+      "obj": "Chemical",
+      "span": {
+        "begin": 209,
+        "end": 215
+      }
+    },
+    {
+      "id": "T13",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 113,
+        "end": 119
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "27217047_10",
+  "text": "However , in patients who were co-administered AZ , the C0 values of tacrolimus were higher in patients with the CYP3A5 * 3 / * 3 allele than with the CYP3A5 * 1 allele ( P = 0.034 ) , although daily doses of Tac-QD in patients with CYP3A5 * 3 / * 3 were significantly lower than those with the CYP3A5 * 1 allele ( P = 0.041 ) ."
+}

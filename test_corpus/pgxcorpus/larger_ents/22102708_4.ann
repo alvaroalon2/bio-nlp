@@ -1,0 +1,9 @@
+T1	Disease 136 153	polycythemia vera
+T2	Chemical 174 184	interferon
+T3	Chemical 187 220	rIFNa-2b : 28 , Peg-rIFNa-2a : 18
+T4	Chemical 226 246	non-interferon drugs
+T5	Chemical 275 286	hydroxyurea
+T6	Chemical 299 307	imatinib
+T7	Chemical 321 330	dasatinib
+T8	Chemical 343 351	busulfan
+T9	Chemical 368 390	radioactive phosphorus

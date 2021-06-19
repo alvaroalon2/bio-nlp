@@ -1,0 +1,23 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 34,
+        "end": 41
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 102,
+        "end": 114
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "12835613_12",
+  "text": "Heterozygous individuals with the CYP2C19 * 1 / * 2 genotype have a reduced capacity for metabolizing carisoprodol , and should probably be regarded as intermediate metabolizers of this drug ."
+}

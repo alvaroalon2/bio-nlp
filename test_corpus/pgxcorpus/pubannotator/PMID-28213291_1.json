@@ -1,0 +1,31 @@
+{
+  "denotations": [
+    {
+      "id": "T1",
+      "obj": "Disease",
+      "span": {
+        "begin": 55,
+        "end": 93
+      }
+    },
+    {
+      "id": "T2",
+      "obj": "Chemical",
+      "span": {
+        "begin": 27,
+        "end": 46
+      }
+    },
+    {
+      "id": "T4",
+      "obj": "Gene_or_protein",
+      "span": {
+        "begin": 115,
+        "end": 119
+      }
+    }
+  ],
+  "sourcedb": "PubMed",
+  "sourceid": "28213291_1",
+  "text": "Hepatoprotective effect of 2'-O-galloylhyperin against oxidative stress -induced liver damage through induction of Nrf2 / ARE -mediated antioxidant pathway ."
+}
