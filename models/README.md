@@ -6,7 +6,7 @@ The proposed models were uploaded to Huggingface repo
 
 https://huggingface.co/alvaroalon2/biobert_diseases_ner
 
-Model must be cloned in diseases:
+Model should be cloned in models/Disease:
 
 `git lfs install`
 
@@ -16,7 +16,7 @@ Model must be cloned in diseases:
 
 https://huggingface.co/alvaroalon2/biobert_chemical_ner
 
-Model must be cloned in diseases:
+Model should be cloned in models/Chemical:
 
 `git lfs install`
 
@@ -26,7 +26,7 @@ Model must be cloned in diseases:
 
 https://huggingface.co/alvaroalon2/biobert_genetic_ner
 
-Model must be cloned in diseases:
+Model should be cloned in models/Gene:
 
 `git lfs install`
 
