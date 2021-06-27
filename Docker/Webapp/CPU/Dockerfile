@@ -1,8 +1,8 @@
-FROM huggingface/transformers-pytorch-gpu
+FROM huggingface/transformers-pytorch-cpu
 LABEL maintainer1="cbadenes@fi.upm.es"
 LABEL maintainer2="alvaro.alonsoc@alumnos.upm.es"
 LABEL version="0.1"
-LABEL description="Bio-NLP"
+LABEL description="Bio-NLP Webapp"
 
 COPY requirements.txt .
 RUN pip install -r requirements.txt
