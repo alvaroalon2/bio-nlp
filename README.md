@@ -9,11 +9,12 @@ Biomedical Named Entity Recognition and Normalization of Diseases, Chemicals and
 The core piece in the modelling of the text entities recognition will be [BioBERT](https://github.com/dmis-lab/biobert-pytorch). Normalization step will be achived through inverse index search in a Solr database.
 
 ## System Set-up
-Package bionlp is mainly proposed to be used as part of the webpage or the annotation of CORD-19. If it is wanted to use it separately, the following dependencies must be satisfied:
+Package bionlp is mainly proposed to be used as part of the webpage or the annotation of CORD-19. In its dockerized versions these requirements are already satisfied. If it was desired to use it separately, the following dependencies must be satisfied:
 * transformers>=4.5.0
 * spacy>=3
 * pysolr~=3.9.0
 * torch
+
 bionlp package can be found on [bio-nlp/bionlp](https://github.com/alvaroalon2/bio-nlp/tree/master/bionlp)
 
 ## Solr Database for Normalization
@@ -77,7 +78,7 @@ If a GPU is not available, deployment can be done also on CPU. ANnotation will b
 2. `docker run --name annotation -it --gpus all --network 'host' alvaroalon2/bionlp_cord19_annotation:cpu`
 
 ## Models 
-One model was proposed for each of the entity classes: Diseases, Chemicals and Genenetic. Therefore, the final system is composed by three models in which each of them carries out the annnotation of its proper entity class. System will automatically check if models have been previously stored in its proper [folder](https://github.com/alvaroalon2/bio-nlp/tree/master/models). If the model is missing an automatical download of a cached version is download from its proper Huggingface repository where proposed models were uploaded. Further details are described on: [https://github.com/alvaroalon2/bio-nlp/tree/master/models](https://github.com/alvaroalon2/bio-nlp/tree/master/models). Models could be leveraged in other required systems.
+One model was proposed for each of the entity classes: Diseases, Chemicals and Genenetic. Therefore, the final system is composed by three models in which each of them carries out the annnotation of its proper entity class. System will automatically check if models have been previously stored in its proper [folder](https://github.com/alvaroalon2/bio-nlp/tree/master/models). If the model is missing an automatical download of a cached version is download from its proper Huggingface repository where proposed models were uploaded. Further details are described on: [bio-nlp/models](https://github.com/alvaroalon2/bio-nlp/tree/master/models). Models could be leveraged in other required systems.
 
 ### Fine-tuning
 Fine-tuning process was done in Google Collab using a TPU. For that purpose [Fine_tuning.ipynb](https://github.com/alvaroalon2/bio-nlp/blob/master/fine-tuning/NER4COVID.ipynb) Jupyter Notebook is proposed which make use of the scripts found on [bio-nlp/fine-tuning](https://github.com/alvaroalon2/bio-nlp/blob/master/fine-tuning/) which has been partially adapted from the originally proposed in [BioBERT repository](https://github.com/dmis-lab/biobert-pytorch) in order to allow TPU execution and the use of a newer version of huggingface-transformers.
