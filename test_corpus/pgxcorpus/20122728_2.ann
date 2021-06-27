@@ -1,7 +1,0 @@
-T2	Gene_or_protein 12 17	TNF-a
-T3	Disease 63 79	multiple myeloma
-T4	Disease 82 84	MM
-T5	Chemical 227 238	thalidomide
-T6	Chemical 243 256	dexamethasone
-T7	Chemical 227 256	thalidomide and dexamethasone
-T10	Chemical 259 269	Thal + Dex

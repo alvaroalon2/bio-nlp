@@ -1,7 +1,0 @@
-T1	Chemical 114 123	lapatinib
-T2	Gene_or_protein 127 131	HER2
-T3	Gene_or_protein 0 36	Immunoglobulin G fragment C receptor
-T6	Chemical 98 109	trastuzumab
-T7	Disease 127 155	HER2 -positive breast cancer
-T8	Chemical 80 92	chemotherapy
-T9	Chemical 80 123	chemotherapy plus trastuzumab and lapatinib

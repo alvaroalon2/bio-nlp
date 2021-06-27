@@ -1,6 +1,0 @@
-T2	Gene_or_protein 14 19	ERCC1
-T3	Chemical 85 113	platinum -based chemotherapy
-T4	Gene_or_protein 140 145	ERCC1
-T7	Disease 14 36	ERCC1 -negative tumors
-T8	Disease 140 162	ERCC1 -positive tumors
-T10	Chemical 85 93	platinum

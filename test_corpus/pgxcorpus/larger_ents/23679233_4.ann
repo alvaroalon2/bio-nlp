@@ -1,8 +1,0 @@
-T1	Gene_or_protein 94 98	HER2
-T2	Disease 186 200	breast cancers
-T3	Chemical 224 248	neoadjuvant chemotherapy
-T4	Chemical 254 264	paclitaxel
-T5	Chemical 267 282	cyclophosphamid
-T6	Chemical 285 295	epirubicin
-T7	Chemical 298 310	fluorouracil
-T8	Chemical 317 328	trastuzumab

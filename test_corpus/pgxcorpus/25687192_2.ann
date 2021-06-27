@@ -1,8 +1,0 @@
-T4	Gene_or_protein 83 88	IL28B
-T5	Disease 188 191	CHC
-T6	Disease 229 232	CHC
-T7	Chemical 337 350	peginterferon
-T8	Chemical 356 365	ribavirin
-T9	Disease 166 185	chronic hepatitis C
-T10	Chemical 337 365	peginterferon plus ribavirin
-T11	Chemical 153 185	treatment of chronic hepatitis C

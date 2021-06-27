@@ -1,7 +1,0 @@
-T1	Chemical 36 47	clopidogrel
-T2	Disease 66 100	percutaneous coronary intervention
-T3	Gene_or_protein 122 129	CYP2C19
-T4	Disease 262 282	cardiovascular death
-T5	Disease 285 306	myocardial infarction
-T6	Disease 312 318	stroke
-T7	Disease 361 377	stent thrombosis

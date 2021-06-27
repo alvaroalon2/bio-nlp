@@ -1,7 +1,0 @@
-T1	Chemical 56 76	fertility medication
-T2	Chemical 86 130	selective estrogen receptor [ ER ] modulator
-T3	Chemical 133 145	gonadotropin
-T4	Disease 162 173	infertility
-T5	Disease 222 236	ovarian cancer
-T6	Gene_or_protein 256 261	BRCA1
-T7	Gene_or_protein 265 270	BRCA2

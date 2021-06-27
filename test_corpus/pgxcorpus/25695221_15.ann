@@ -1,6 +1,0 @@
-T1	Chemical 15 24	Gefitinib
-T3	Gene_or_protein 181 185	EGFR
-T5	Gene_or_protein 225 229	EGFR
-T6	Chemical 45 56	bevacizumab
-T7	Disease 159 164	NSCLC
-T8	Chemical 15 56	Gefitinib in combination with bevacizumab

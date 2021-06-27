@@ -1,6 +1,0 @@
-T1	Gene_or_protein 30 34	DHFR
-T2	Chemical 50 65	corticosteroids
-T3	Gene_or_protein 92 96	AML1
-T4	Gene_or_protein 99 102	ETO
-T6	Chemical 30 45	DHFR inhibitors
-T7	Disease 92 120	AML1 - ETO -positive disease

@@ -1,9 +1,0 @@
-T1	Gene_or_protein 109 114	HLA-B
-T2	Chemical 180 188	abacavir
-T3	Gene_or_protein 191 221	thiopurine S-methyltransferase
-T4	Gene_or_protein 224 228	TPMT
-T5	Chemical 251 261	thiopurine
-T6	Gene_or_protein 277 283	CYP2C9
-T7	Gene_or_protein 288 294	VKORC1
-T8	Chemical 331 344	anticoagulant
-T9	Chemical 345 353	warfarin

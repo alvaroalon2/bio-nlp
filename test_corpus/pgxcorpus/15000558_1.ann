@@ -1,6 +1,0 @@
-T2	Chemical 88 96	abacavir
-T3	Disease 140 155	HIV-1 infection
-T5	Gene_or_protein 4 25	reverse transcriptase
-T6	Gene_or_protein 28 30	RT
-T4	Chemical 88 128	abacavir -based antiretroviral treatment
-T7	Chemical 131 134	ART

@@ -1,7 +1,0 @@
-T1	Gene_or_protein 40 60	interleukin (IL)-28B
-T2	Chemical 170 196	pegylated interferon-alpha
-T3	Chemical 201 210	ribavirin
-T4	Disease 303 306	CHC
-T6	Disease 281 300	chronic hepatitis C
-T7	Chemical 170 210	pegylated interferon-alpha and ribavirin
-T9	Disease 281 345	chronic hepatitis C ( CHC ) virus genotype 1 ( HCV-1 ) infection

@@ -1,8 +1,0 @@
-T3	Gene_or_protein 13 45	Epidermal growth factor receptor
-T4	Gene_or_protein 48 52	EGFR
-T5	Disease 68 94	non-small cell lung cancer
-T6	Disease 97 102	NSCLC
-T8	Gene_or_protein 158 162	EGFR
-T9	Chemical 158 191	EGFR - tyrosine kinase inhibitors
-T10	Gene_or_protein 194 198	EGFR
-T11	Chemical 194 204	EGFR -TKIs

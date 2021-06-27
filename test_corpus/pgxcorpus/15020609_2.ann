@@ -1,9 +1,0 @@
-T1	Gene_or_protein 42 69	multidrug resistance gene-1
-T2	Chemical 102 109	PSC 833
-T3	Gene_or_protein 72 77	MDR-1
-T4	Disease 223 245	acute myeloid leukemia
-T5	Disease 248 251	AML
-T6	Disease 268 292	myelodysplastic syndrome
-T7	Disease 295 298	MDS
-T8	Chemical 90 99	valspodar
-T10	Chemical 31 169	adding the multidrug resistance gene-1 ( MDR-1 ) modulator valspodar ( PSC 833 ; Novartis Pharmaceuticals , Hanover , NJ ) to chemotherapy

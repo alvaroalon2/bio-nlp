@@ -1,6 +1,0 @@
-T1	Chemical 68 102	SAHA in combination with docetaxel
-T2	Chemical 93 102	docetaxel
-T3	Disease 130 160	Her-2 -amplified breast cancer
-T4	Gene_or_protein 130 135	Her-2
-T6	Chemical 68 72	SAHA
-T7	Chemical 68 121	SAHA in combination with docetaxel and/or trastuzumab

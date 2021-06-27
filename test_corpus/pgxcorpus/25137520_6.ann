@@ -1,9 +1,0 @@
-T2	Gene_or_protein 68 73	TNF-a
-T3	Gene_or_protein 76 81	TNF-b
-T4	Gene_or_protein 92 95	VDR
-T5	Gene_or_protein 98 101	MBP
-T6	Gene_or_protein 108 112	APOE
-T7	Chemical 126 133	mercury
-T8	Chemical 119 123	lead
-T9	Chemical 139 147	solvents
-T10	Gene_or_protein 84 89	TCA-b

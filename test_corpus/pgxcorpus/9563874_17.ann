@@ -1,7 +1,0 @@
-T1	Gene_or_protein 46 50	EGFR
-T2	Gene_or_protein 113 117	EGFR
-T3	Chemical 136 150	cAMP analogues
-T4	Disease 205 211	cancer
-T5	Gene_or_protein 55 59	PKAI
-T6	Chemical 74 96	pharmacological agents
-T7	Chemical 107 131	anti- EGFR blocking MAbs

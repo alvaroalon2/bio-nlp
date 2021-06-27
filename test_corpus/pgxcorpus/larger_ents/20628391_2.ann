@@ -1,8 +1,0 @@
-T1	Gene_or_protein 27 47	thymidylate synthase
-T2	Gene_or_protein 50 54	TYMS
-T3	Gene_or_protein 61 91	UDP-glucoronosyltransferase 1A
-T4	Gene_or_protein 94 99	UGT1A
-T5	Disease 143 160	colorectal cancer
-T6	Disease 163 166	CRC
-T7	Chemical 191 221	irinotecan plus 5-fluorouracil
-T8	Chemical 224 240	irinotecan / 5FU

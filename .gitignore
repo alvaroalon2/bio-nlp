@@ -9,6 +9,8 @@ __pycache__/
 # Data
 Solr/data_processing/data/*
 test_corpus/
+prueba.txt
+Pruebas.ipynb
 
 # Models data
 models/Disease/pytorch_model.bin

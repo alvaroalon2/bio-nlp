@@ -1,7 +1,0 @@
-T1	Chemical 4 36	tyrosine kinase ( TK ) inhibitor
-T2	Chemical 39 47	imatinib
-T3	Disease 80 92	malignancies
-T4	Gene_or_protein 132 139	kinases
-T5	Gene_or_protein 142 147	c-abl
-T6	Gene_or_protein 150 155	c-kit
-T7	Gene_or_protein 160 166	PDGF-R
