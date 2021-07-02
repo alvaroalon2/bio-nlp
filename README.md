@@ -61,30 +61,31 @@ In order to ease the later use of the retrieved information a Json text box is a
 
 ### Web deployment
 This web platform can be easily deployed thanks to its dockerization. Docker image can be found on Docker Hub: [https://hub.docker.com/r/alvaroalon2/webapp_bionlp](https://hub.docker.com/r/alvaroalon2/webapp_bionlp). Docker image includes the models within the image.
+If it was not wanted to use the provided online Solr database endpoint 'http://librairy.linkeddata.es/solr/', then the environment variable should not be passed in docker run.
 
 #### GPU Support
 The [Docker Nvidia Toolkit](https://github.com/NVIDIA/nvidia-docker) is needed for GPU support inside Docker containers with NVIDIA GPUs. The deployment can be performed as follows:
 1. `docker pull alvaroalon2/webapp_bionlp:gpu`
-2. `docker run --name webapp -it --gpus all --network 'host' alvaroalon2/webapp_bionlp:gpu`
+2. `docker run --name webapp -it --gpus all --network 'host' -e SOLR_URL="http://librairy.linkeddata.es/solr/" alvaroalon2/webapp_bionlp:gpu`
 
 #### CPU Support
 If a GPU is not available, deployment can be done also on CPU. If it is the case it is recommended to use the CPU dockerized version instead of GPU:
 1. `docker pull alvaroalon2/webapp_bionlp:cpu`
-2. `docker run --name webapp -it --network 'host' alvaroalon2/webapp_bionlp:cpu`
+2. `docker run --name webapp -it --network 'host' -e SOLR_URL="http://librairy.linkeddata.es/solr/" alvaroalon2/webapp_bionlp:cpu`
 
 ## CORD-19 Annotation
 The proposed system will be used in a practical case: Annotation of CORD-19 corpus which contains thousands of COVID-19 related articles. For this purpose, the corpus will be previously pre-processed, to separate it on paragraphs, and loaded in a Solr database with the use of [https://github.com/librairy/cord-19](https://github.com/librairy/cord-19).
-In order to ease the use of this annotation the use of the dockerized version is recommended. The repository on Docker Hub for this docker image can be found on:[https://hub.docker.com/r/alvaroalon2/bionlp_cord19_annotation](https://hub.docker.com/r/alvaroalon2/bionlp_cord19_annotation). Docker image includes the models within the image.
+In order to ease the use of this annotation the use of the dockerized version is recommended. The repository on Docker Hub for this docker image can be found on:[https://hub.docker.com/r/alvaroalon2/bionlp_cord19_annotation](https://hub.docker.com/r/alvaroalon2/bionlp_cord19_annotation). Docker image includes the models within the image. If it was not wanted to use the provided online Solr database endpoint 'http://librairy.linkeddata.es/solr/', then the environment variable should not be passed in docker run.
 
 ### GPU Support
 The [Docker Nvidia Toolkit](https://github.com/NVIDIA/nvidia-docker) is needed for GPU support inside Docker containers with NVIDIA GPUs. Steps for running the container and itialize its anotation and normalization are as follows:
 1. `docker pull alvaroalon2/bionlp_cord19_annotation:gpu`
-2. `docker run --name annotation -it --gpus all --network 'host' alvaroalon2/bionlp_cord19_annotation:gpu`
+2. `docker run --name annotation -it --gpus all --network 'host' -e SOLR_URL="http://librairy.linkeddata.es/solr/" alvaroalon2/bionlp_cord19_annotation:gpu`
 
 ### CPU Support
 If a GPU is not available, deployment can be done also on CPU. ANnotation will be substantially slower. If it is the case it is recommended to use the CPU dockerized version instead of GPU:
 1. `docker pull alvaroalon2/bionlp_cord19_annotation:cpu`
-2. `docker run --name annotation -it --gpus all --network 'host' alvaroalon2/bionlp_cord19_annotation:cpu`
+2. `docker run --name annotation -it --network 'host' -e SOLR_URL="http://librairy.linkeddata.es/solr/" alvaroalon2/bionlp_cord19_annotation:cpu`
 
 ## Models 
 One model was proposed for each of the entity classes: Diseases, Chemicals and Genenetic. Therefore, the final system is composed by three models in which each of them carries out the annnotation of its proper entity class. System will automatically check if models have been previously stored in its proper [folder](https://github.com/alvaroalon2/bio-nlp/tree/master/models). If the model is missing an automatical download of a cached version is download from its proper Huggingface repository where proposed models were uploaded. These are the repositories for the proposed models:
