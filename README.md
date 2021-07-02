@@ -1,5 +1,6 @@
 # bioNLP System for BioNER and BioNEN
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Falvaroalon2.github.io%2Fbio-nlp%2F)
 ![Docker](https://img.shields.io/badge/docker-v3+-blue.svg)
 ![Python](https://img.shields.io/badge/python-v3+-blue.svg)
 
@@ -18,10 +19,18 @@ Package bionlp is mainly proposed to be used as part of the webpage or the annot
 bionlp package can be found on [bio-nlp/bionlp](https://github.com/alvaroalon2/bio-nlp/tree/master/bionlp)
 
 ## Solr Database for Normalization
-Solr database must be setup and populated in localhost before the following deployments since normalization step will need this database. Details about this configuration are found in [bio-nlp/Solr](https://github.com/alvaroalon2/bio-nlp/tree/master/Solr). Following these steps is *required* before further deployments. 
+Solr Database is available online at:
+ * Diseases: http://librairy.linkeddata.es/solr/#/bioner-diseases/core-overview
+ * Chemicals: http://librairy.linkeddata.es/solr/#/bioner-diseases/core-overview
+ * Genetics: http://librairy.linkeddata.es/solr/#/bioner-diseases/core-overview
+ * COVID: http://librairy.linkeddata.es/solr/#/bioner-diseases/core-overview
+
+The endopoint for normalization 'http://librairy.linkeddata.es/solr/' will be later passed as environment variable if it is desired to leverage this database. If this endpoint is not passed, the system will looked for the database by default in localhost. Customize endopints could be passed as enviromental variables for a customize Solr Database but schemas must agree with the ones which were proposed.
+
+If Solr database in localhost is desired to be used, this must be setup and populated in localhost before the following deployments since normalization step will need this database. Details about this configuration are found in [bio-nlp/Solr](https://github.com/alvaroalon2/bio-nlp/tree/master/Solr).
 
 ## Web Page
-Available at: [https://librairy.github.io/bio-nlp/](https://librairy.github.io/bio-nlp/).
+Available at: [https://alvaroalon2.github.io/bio-nlp/](https://alvaroalon2.github.io/bio-nlp/).
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/72864707/120455069-bab60800-c394-11eb-9c41-c2aeefc4f7cc.png" align="center" width="70%">
@@ -78,7 +87,12 @@ If a GPU is not available, deployment can be done also on CPU. ANnotation will b
 2. `docker run --name annotation -it --gpus all --network 'host' alvaroalon2/bionlp_cord19_annotation:cpu`
 
 ## Models 
-One model was proposed for each of the entity classes: Diseases, Chemicals and Genenetic. Therefore, the final system is composed by three models in which each of them carries out the annnotation of its proper entity class. System will automatically check if models have been previously stored in its proper [folder](https://github.com/alvaroalon2/bio-nlp/tree/master/models). If the model is missing an automatical download of a cached version is download from its proper Huggingface repository where proposed models were uploaded. Further details are described on: [bio-nlp/models](https://github.com/alvaroalon2/bio-nlp/tree/master/models). Models could be leveraged in other required systems.
+One model was proposed for each of the entity classes: Diseases, Chemicals and Genenetic. Therefore, the final system is composed by three models in which each of them carries out the annnotation of its proper entity class. System will automatically check if models have been previously stored in its proper [folder](https://github.com/alvaroalon2/bio-nlp/tree/master/models). If the model is missing an automatical download of a cached version is download from its proper Huggingface repository where proposed models were uploaded. These are the repositories for the proposed models:
+* Diseases: https://huggingface.co/alvaroalon2/biobert_diseases_ner
+* Chemicals: https://huggingface.co/alvaroalon2/biobert_chemical_ner
+* Genetic: https://huggingface.co/alvaroalon2/biobert_genetic_ner
+
+Further details are described on: [bio-nlp/models](https://github.com/alvaroalon2/bio-nlp/tree/master/models). Models could be leveraged in other required systems if desired.
 
 ### Fine-tuning
 Fine-tuning process was done in Google Collab using a TPU. For that purpose [Fine_tuning.ipynb](https://github.com/alvaroalon2/bio-nlp/blob/master/fine-tuning/NER4COVID.ipynb) Jupyter Notebook is proposed which make use of the scripts found on [bio-nlp/fine-tuning](https://github.com/alvaroalon2/bio-nlp/blob/master/fine-tuning/) which has been partially adapted from the originally proposed in [BioBERT repository](https://github.com/dmis-lab/biobert-pytorch) in order to allow TPU execution and the use of a newer version of huggingface-transformers.
