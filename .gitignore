@@ -11,6 +11,8 @@ Solr/data_processing/data/*
 test_corpus/
 prueba.txt
 Pruebas.ipynb
+Solr/create_schemas_linkeddata.sh
+Solr/index_docs_linkeddata.sh
 
 # Models data
 models/Disease/pytorch_model.bin

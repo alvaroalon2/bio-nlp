@@ -2,18 +2,20 @@ from .bioprocessor import BioProcessor
 import pysolr
 from bionlp.processors.utils import unique_terms
 import re
+import os
 
 
 class GeneProcessor(BioProcessor):
 
     def __init__(self, model_name):
         super().__init__(model_name)
+        self.solr_url = os.getenv('SOLR_URL','http://localhost:8983/solr/')
         try:
-            self.solr_engine = pysolr.Solr('http://localhost:8983/solr/genetic', timeout=20)
+            self.solr_engine = pysolr.Solr(self.solr_url + 'bioner-genetic', timeout=20)
         except ConnectionError:
             print('Connection with Solr Genetic database could not be established')
         try:
-            self.solr_engine_covid = pysolr.Solr('http://localhost:8983/solr/covid', timeout=20)
+            self.solr_engine_covid = pysolr.Solr(self.solr_url + 'bioner-covid', timeout=20)
         except ConnectionError:
             print('Connection with Solr COVID database could not be established')
 

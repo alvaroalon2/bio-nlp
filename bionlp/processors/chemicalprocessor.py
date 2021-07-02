@@ -2,14 +2,15 @@ from .bioprocessor import BioProcessor
 import pysolr
 from bionlp.processors.utils import unique_terms
 import re
-
+import os
 
 class ChemicalProcessor(BioProcessor):
 
     def __init__(self, model_name):
         super().__init__(model_name)
+        self.solr_url = os.getenv('SOLR_URL','http://localhost:8983/solr/')
         try:
-            self.solr_engine = pysolr.Solr('http://localhost:8983/solr/drugs', timeout=20)
+            self.solr_engine = pysolr.Solr(self.solr_url+'bioner-drugs', timeout=20)
         except ConnectionError:
             print('Connection with Solr Chemical database could not be established')
 

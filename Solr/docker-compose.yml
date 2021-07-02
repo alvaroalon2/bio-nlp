@@ -5,6 +5,6 @@ services:
     entrypoint:
     - bash
     - "-c"
-    - "precreate-core drugs; precreate-core diseases; precreate-core genetic; precreate-core covid; exec solr -f"
+    - "precreate-core bioner-drugs; precreate-core bioner-diseases; precreate-core bioner-genetic; precreate-core bioner-covid; exec solr -f"
     ports:
      - "8983:8983"

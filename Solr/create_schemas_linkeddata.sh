@@ -61,7 +61,7 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "type":"text_general",
      "indexed":true,
      "stored":true },
-}' http://localhost:8983/solr/bioner-drugs/schema
+}' http://librairy.linkeddata.es/solr/bioner-drugs/schema
 
 
 curl -X POST -H 'Content-type:application/json' --data-binary '{
@@ -103,7 +103,7 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "type":"text_general",
      "indexed":true,
      "stored":true },
-}' http://localhost:8983/solr/bioner-genetic/schema
+}' http://librairy.linkeddata.es/solr/bioner-genetic/schema
 
 
 curl -X POST -H 'Content-type:application/json' --data-binary '{
@@ -145,7 +145,7 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "type":"text_general",
      "indexed":true,
      "stored":true },
-}' http://localhost:8983/solr/bioner-diseases/schema
+}' http://librairy.linkeddata.es/solr/bioner-diseases/schema
 
 curl -X POST -H 'Content-type:application/json' --data-binary '{
   "add-field":{
@@ -178,7 +178,7 @@ curl -X POST -H 'Content-type:application/json' --data-binary '{
      "type":"text_general",
      "indexed":true,
      "stored":true },
-}' http://localhost:8983/solr/bioner-covid/schema
+}' http://librairy.linkeddata.es/solr/bioner-covid/schema
 
 
 echo "Schemas created!!!"
