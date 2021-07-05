@@ -32,7 +32,7 @@ def home():
 ##################################################################################################
 
 
-@app.route('/bio-nlp/entities', methods=['POST'])
+@app.route('/bio-ner/entities', methods=['POST'])
 @cross_origin(origin='*', headers=['Content-Type', 'Authorization'])
 def post_search_entities():
     if not request.json or not 'text' in request.json:

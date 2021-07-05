@@ -15,9 +15,10 @@ Solr/create_schemas_linkeddata.sh
 Solr/index_docs_linkeddata.sh
 
 # Models data
-models/Disease/pytorch_model.bin
-models/Chemical/pytorch_model.bin
-models/Gene/pytorch_model.bin
+models/Disease/*
+models/Chemical/*
+models/Gene/*
+
 
 # Distribution / packaging
 .Python
